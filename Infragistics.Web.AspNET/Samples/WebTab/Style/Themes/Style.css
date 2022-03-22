@@ -1,0 +1,24 @@
+﻿ #ctl00_OverviewPanel
+        {
+            margin-top: 25px;
+        }
+        #ctl00_ContentLive_UpdatePanel1
+        {
+            margin-top: 5px;
+            height: 190px !important;
+        }
+        .MainContent
+        {
+            background-image: url("/SamplesBrowser/SamplesCommon/aspnet/WebTab/Display/Themes/TreeBg.jpg");
+            background-position: 0 -100px;
+            border: 1px solid #CCCCCC;
+            height: 50px;
+            margin-bottom: 0px;
+            padding: 25px 10px;
+            width: 400px;
+        }
+        .topContent
+        {
+            float: left;
+            padding: 0 5px 0 0;
+        }

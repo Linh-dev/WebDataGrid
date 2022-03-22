@@ -1,0 +1,20 @@
+﻿.cdn-button
+{
+    float: left;
+    margin-top: 10px;
+}
+
+.cdn-log
+{
+    height: 250px;
+    overflow: auto;
+    width: 530px;
+    float: left;
+    padding: 3px 10px 10px 10px;
+    margin: 10px 10px 0px 0px;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px
+    -webkit-border-radius: 5px;
+}

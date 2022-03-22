@@ -1,0 +1,59 @@
+﻿.alt {display: none;}
+.pg1 {display: block; width: 55px; height: 72px; background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebDataMenu/Display/Templates/wdm_TemplatesPg1.png); background-position: 0 0; margin: 0px auto;}
+.pg1:hover {background-position: -55px 0;}
+.pg2 {display: block; width: 55px; height: 72px; background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebDataMenu/Display/Templates/wdm_TemplatesPg2.png); background-position: 0 0; margin: 0px auto;}
+.pg2:hover {background-position: -55px 0;}
+.pg3 {display: block; width: 55px; height: 72px; background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebDataMenu/Display/Templates/wdm_TemplatesPg3.png); background-position: 0 0; margin: 0px auto;}
+.pg3:hover {background-position: -55px 0;}
+.pg4 {display: block; width: 55px; height: 72px; background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebDataMenu/Display/Templates/wdm_TemplatesPg4.png); background-position: 0 0; margin: 0px auto;}
+.pg4:hover {background-position: -55px 0;}
+.pg5 {display: block; width: 55px; height: 72px; background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebDataMenu/Display/Templates/wdm_TemplatesPg5.png); background-position: 0 0; margin: 0px auto;}
+.pg5:hover {background-position: -55px 0;}
+.pg6 {display: block; width: 55px; height: 72px; background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebDataMenu/Display/Templates/wdm_TemplatesPg6.png); background-position: 0 0; margin: 0px auto;}
+.pg6:hover {background-position: -55px 0;}
+.pg7 {display: block; width: 55px; height: 72px; background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebDataMenu/Display/Templates/wdm_TemplatesPg7.png); background-position: 0 0; margin: 0px auto;}
+.pg7:hover {background-position: -55px 0;}
+.pg8 {display: block; width: 55px; height: 72px; background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebDataMenu/Display/Templates/wdm_TemplatesPg8.png); background-position: 0 0; margin: 0px auto;}
+.pg8:hover {background-position: -55px 0;}
+
+.prevArrow {
+    float: left; 
+    position: relative; 
+    top: 50%; 
+    padding-left: 43px; 
+    cursor: pointer;
+}
+
+.nextArrow {
+    float: left; 
+    position: relative; 
+    top: 50%; 
+    padding-left: 50px; 
+    cursor: pointer;
+}
+.pageHold {
+    float: left;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.footerTemplate {
+    vertical-align: middle;
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebDataMenu/Display/Templates/wdm_TemplatesFooter.png);
+    background-repeat: no-repeat;
+    height: 69px;
+    background-position: top;
+    margin: 0px auto;
+}
+.currentPage {
+    text-align: right;
+    margin: 0px;
+    padding: 20px 20px 0px 0px;
+    color: #666666;
+    font-weight: bold;
+}
+
+.main-content {
+    margin: -4px 0px 0px 0px;
+}

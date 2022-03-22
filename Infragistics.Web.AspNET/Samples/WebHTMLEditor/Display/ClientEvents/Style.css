@@ -1,0 +1,25 @@
+﻿        #mainSampleContainer #actionList LI
+        {
+            padding-top: 3px;
+        }
+        #mainSampleContainer .descriptionPanelHeader
+        {
+            padding: 5px 0px 1px 3px;
+            height: 28px;
+            font-weight: bold;
+            font-size: 9pt;
+            width: 100%;
+            color: #000;
+            background-repeat: repeat-x;
+            font-family: Lucida Sans;
+            background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebHtmlEditor/Display/ClientEvents/onyxBar.gif);
+            margin: 4px;
+        }
+        #mainSampleContainer a
+        {
+            color: black;
+        }
+		#Table1 table
+		{
+		  border-collapse:separate;
+		}

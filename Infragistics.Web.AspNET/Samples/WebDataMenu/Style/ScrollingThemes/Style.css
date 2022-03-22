@@ -1,0 +1,19 @@
+﻿table td
+{
+    height: 100px;
+    vertical-align: top;
+}
+.separation
+{
+    padding-left: 50px;
+}
+
+.fixedSamplesContainer p,
+.fixedSamplesContainer a,
+.fixedSamplesContainer label,
+.fixedSamplesContainer ol,
+.fixedSamplesContainer ol > li,
+.fixedSamplesContainer ul,
+.fixedSamplesContainer ul > li {
+    font-size: 12px;
+}

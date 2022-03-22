@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="Calculator" PresetDescription="Custom Preset Created 5/9/2007 4:21:24 PM" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" Width="400" Height="135">
+  <Gauges>
+    <igGaugeProp:SegmentedDigitalGauge Mode="FourteenSegment" InnerMargin="20, 15, 60, 15, Pixels" CornerExtent="10" Digits="7" Text="">
+      <FontBrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="15, 15, 15" />
+      </FontBrushElements>
+      <BrushElements>
+        <igGaugeProp:BrushElementGroup>
+          <BrushElements>
+            <igGaugeProp:MultiStopLinearGradientBrushElement Angle="90">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="15, 15, 15" />
+                <igGaugeProp:ColorStop Color="75, 75, 75" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopLinearGradientBrushElement>
+            <igGaugeProp:MultiStopLinearGradientBrushElement Angle="90" RelativeBoundsMeasure="Percent" RelativeBounds="3, 7, 94, 88">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="150, 150, 150" />
+                <igGaugeProp:ColorStop Color="45, 45, 45" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopLinearGradientBrushElement>
+            <igGaugeProp:MultiStopLinearGradientBrushElement Angle="90" RelativeBoundsMeasure="Percent" RelativeBounds="4, 12, 92, 78">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="215, 231, 214" />
+                <igGaugeProp:ColorStop Color="100, 132, 98" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopLinearGradientBrushElement>
+            <igGaugeProp:MultiStopLinearGradientBrushElement Angle="90" RelativeBoundsMeasure="Percent" RelativeBounds="4, 13, 92, 42">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="50, 255, 255, 255" />
+                <igGaugeProp:ColorStop Color="50, 255, 255, 255" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopLinearGradientBrushElement>
+          </BrushElements>
+        </igGaugeProp:BrushElementGroup>
+      </BrushElements>
+      <StrokeElement>
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="Silver" />
+        </BrushElements>
+      </StrokeElement>
+      <UnlitBrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="Transparent" />
+      </UnlitBrushElements>
+    </igGaugeProp:SegmentedDigitalGauge>
+    <igGaugeProp:SegmentedDigitalGauge Mode="FourteenSegment" Margin="40, 30, 30, 30, Pixels" Digits="9" Text="523.4">
+      <FontBrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="Black" />
+      </FontBrushElements>
+      <BrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="Transparent" />
+      </BrushElements>
+      <UnlitBrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="10, 0, 0, 0" />
+      </UnlitBrushElements>
+    </igGaugeProp:SegmentedDigitalGauge>
+  </Gauges>
+  <Annotations>
+    <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="6, 20, 0, 0">
+      <BrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="Transparent" />
+      </BrushElements>
+      <Label FormatString="M" Font="Arial, 8pt, style=Bold">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="50, 15, 15, 15" />
+        </BrushElements>
+      </Label>
+    </igGaugeProp:BoxAnnotation>
+    <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="6, 35, 0, 0">
+      <Label FormatString="C" Font="Arial, 8pt, style=Bold">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="50, 15, 15, 15" />
+        </BrushElements>
+      </Label>
+    </igGaugeProp:BoxAnnotation>
+  </Annotations>
+</igGauge:UltraGauge>

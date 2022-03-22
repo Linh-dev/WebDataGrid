@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="BasicSquare02" PresetDescription="Custom Preset Created 5/3/2007 11:56:00 AM" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" ForeColor="ControlLightLight" Width="250" Height="250">
+  <Gauges>
+    <igGaugeProp:RadialGauge>
+      <OverDial BoundsMeasure="Percent" Shape="Rectangular" CornerExtent="3">
+        <BrushElements>
+          <igGaugeProp:MultiStopLinearGradientBrushElement Angle="255" RelativeBoundsMeasure="Percent" RelativeBounds="4, 4, 92, 92">
+            <ColorStops>
+              <igGaugeProp:ColorStop Color="Transparent" />
+              <igGaugeProp:ColorStop Color="Transparent" Stop="0.5965517" />
+              <igGaugeProp:ColorStop Color="10, 255, 255, 255" Stop="0.6068966" />
+              <igGaugeProp:ColorStop Color="125, 255, 255, 255" Stop="1" />
+            </ColorStops>
+          </igGaugeProp:MultiStopLinearGradientBrushElement>
+        </BrushElements>
+      </OverDial>
+      <Scales>
+        <igGaugeProp:RadialGaugeScale EndAngle="405" StartAngle="135">
+          <MinorTickmarks EndWidth="1" EndExtent="69" Frequency="5" StartExtent="61">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="240, 240, 240" />
+            </BrushElements>
+            <StrokeElement>
+              <BrushElements>
+                <igGaugeProp:SolidFillBrushElement Color="135, 135, 135" />
+              </BrushElements>
+            </StrokeElement>
+          </MinorTickmarks>
+          <Ranges>
+            <igGaugeProp:RadialGaugeRange InnerExtentStart="60" InnerExtentEnd="60" EndValue="100" OuterExtent="70" StartValue="0">
+              <BrushElements>
+                <igGaugeProp:SolidFillBrushElement Color="20, 255, 255, 255" />
+              </BrushElements>
+              <Shadow>
+                <BrushElements>
+                  <igGaugeProp:SolidFillBrushElement />
+                </BrushElements>
+              </Shadow>
+            </igGaugeProp:RadialGaugeRange>
+          </Ranges>
+          <Markers>
+             <igGaugeProp:RadialGaugeNeedle MidWidth="3" Value="50" EndWidth="1" MidExtent="0" AllowDrag="True" EndExtent="62" Precision="1" StartWidth="3" WidthMeasure="Percent">
+              <Anchor RadiusMeasure="Percent" Radius="6">
+                <BrushElements>
+                  <igGaugeProp:SimpleGradientBrushElement EndColor="64, 64, 64" StartColor="Gainsboro" GradientStyle="BackwardDiagonal" />
+                </BrushElements>
+                <StrokeElement Thickness="2">
+                  <BrushElements>
+                    <igGaugeProp:RadialGradientBrushElement FocusScalesString="0, 0" CenterPointString="75, 25" SurroundColor="Gray" CenterColor="WhiteSmoke" />
+                  </BrushElements>
+                </StrokeElement>
+              </Anchor>
+              <BrushElements>
+                <igGaugeProp:SolidFillBrushElement Color="255, 61, 22" />
+              </BrushElements>
+              <Response />
+              <StrokeElement Thickness="0" />
+            </igGaugeProp:RadialGaugeNeedle>
+          </Markers>
+          <Axes>
+            <igGaugeProp:NumericAxis EndValue="100" />
+          </Axes>
+          <MajorTickmarks EndWidth="3" EndExtent="70" Frequency="10" StartExtent="60" StartWidth="3">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="189, 189, 189" />
+            </BrushElements>
+          </MajorTickmarks>
+          <Labels Orientation="Horizontal" SpanMaximum="18" Frequency="10" Extent="80" Font="Arial, 12px, style=Bold">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="White" />
+            </BrushElements>
+          </Labels>
+        </igGaugeProp:RadialGaugeScale>
+      </Scales>
+      <Dial CornerSplineTension="0" Expansion="0" StartAngle="180" Shape="Rectangular" InnerExtent="0" CornerExtent="10">
+        <BrushElements>
+          <igGaugeProp:BrushElementGroup>
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="32, 32, 32" />
+            </BrushElements>
+          </igGaugeProp:BrushElementGroup>
+        </BrushElements>
+        <StrokeElement Thickness="16">
+          <BrushElements>
+            <igGaugeProp:MultiStopLinearGradientBrushElement Angle="225">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="140, 140, 140" />
+                <igGaugeProp:ColorStop Color="178, 178, 178" Stop="0.2310345" />
+                <igGaugeProp:ColorStop Color="203, 203, 203" Stop="0.2793103" />
+                <igGaugeProp:ColorStop Color="150, 150, 150" Stop="0.4586207" />
+                <igGaugeProp:ColorStop Color="120, 120, 120" Stop="0.5" />
+                <igGaugeProp:ColorStop Color="140, 140, 140" Stop="0.7758621" />
+                <igGaugeProp:ColorStop Color="180, 180, 180" Stop="0.8482758" />
+                <igGaugeProp:ColorStop Color="Silver" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopLinearGradientBrushElement>
+          </BrushElements>
+        </StrokeElement>
+      </Dial>
+    </igGaugeProp:RadialGauge>
+  </Gauges>
+  <Annotations />
+  <Effects />
+</igGauge:UltraGauge>

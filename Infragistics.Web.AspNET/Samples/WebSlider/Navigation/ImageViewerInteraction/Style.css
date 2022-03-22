@@ -1,0 +1,18 @@
+﻿.igiv_PrevButtonArea
+{
+    display: none;
+    visibility: hidden;
+}
+.igiv_NextButtonArea
+{
+    display: none;
+    visibility: hidden;
+}
+.imageViewer *
+{
+    outline: 0;
+}
+.webslider td
+{
+    vertical-align: middle;    
+}

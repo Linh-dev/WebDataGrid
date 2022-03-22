@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutMe" xml:space="preserve">
+    <value>About Me:</value>
+  </data>
+  <data name="AboutMeEmptyMessage" xml:space="preserve">
+    <value>Your 'About Me' description cannot be empty.</value>
+  </data>
+  <data name="ChangePasswordText" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="EnterNewPasswordText" xml:space="preserve">
+    <value>Enter New Password:</value>
+  </data>
+  <data name="NewPasswordEmptyMessage" xml:space="preserve">
+    <value>The new password cannot be empty.</value>
+  </data>
+  <data name="NewPasswordMismatchMessage" xml:space="preserve">
+    <value>The new passwords do not match.</value>
+  </data>
+  <data name="OldPasswordEmptyMessage" xml:space="preserve">
+    <value>The old password is incorrect.</value>
+  </data>
+  <data name="OldPasswordText" xml:space="preserve">
+    <value>Old Password:</value>
+  </data>
+  <data name="ReenterNewPasswordText" xml:space="preserve">
+    <value>Reenter New Password:</value>
+  </data>
+  <data name="UpdateDescriptionButtonText" xml:space="preserve">
+    <value>Change 'About Me'</value>
+  </data>
+  <data name="UpdateDescriptionText" xml:space="preserve">
+    <value>Update your 'About me'</value>
+  </data>
+  <data name="WebButtonStyles_ASPNETButton" xml:space="preserve">
+    <value>ASP.NET Button</value>
+  </data>
+  <data name="WebButtonStyles_ASPNETDefault" xml:space="preserve">
+    <value>ASP.NET Default</value>
+  </data>
+  <data name="WebButtonStyles_Bottom" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="WebButtonStyles_BuiltIn" xml:space="preserve">
+    <value>Built in Presets of the Web Image button</value>
+  </data>
+  <data name="WebButtonStyles_ButtonDefault" xml:space="preserve">
+    <value>WebImage Button Default</value>
+  </data>
+  <data name="WebButtonStyles_CustomAppearance" xml:space="preserve">
+    <value>Custom appearance with normal borders</value>
+  </data>
+  <data name="WebButtonStyles_CustomAppearance2" xml:space="preserve">
+    <value>Custom appearance with RoundedCorners by-pixel-TDs</value>
+  </data>
+  <data name="WebButtonStyles_Description1" xml:space="preserve">
+    <value>This sample demonstrates the various styles of the WebImageButton.</value>
+  </data>
+  <data name="WebButtonStyles_Description2" xml:space="preserve">
+    <value>Try hovering, pressing and clicking each style to uncover the hidden 
+									characteristics of each button.</value>
+  </data>
+  <data name="WebButtonStyles_Go" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="WebButtonStyles_Header" xml:space="preserve">
+    <value>WebImageButton - Exploring Styles</value>
+  </data>
+  <data name="WebButtonStyles_Left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="WebButtonStyles_Office2003" xml:space="preserve">
+    <value>Office2003&lt;br /&gt;Toolbox&lt;br /&gt;Button</value>
+  </data>
+  <data name="WebButtonStyles_Popup" xml:space="preserve">
+    <value>Popup</value>
+  </data>
+  <data name="WebButtonStyles_Right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="WebButtonStyles_SendReceive" xml:space="preserve">
+    <value>Send/Re&lt;u&gt;c&lt;/u&gt;eive</value>
+  </data>
+  <data name="WebButtonStyles_Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="WebButtonStyles_Transparent" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="WebButtonStyles_UseBrowserDefaults" xml:space="preserve">
+    <value>User Browser Defaults</value>
+  </data>
+  <data name="WebButtonStyles_VisualStudio" xml:space="preserve">
+    <value>VisualStudio&lt;br /&gt;Toolbox&lt;br /&gt;Button</value>
+  </data>
+  <data name="WebButtonStyles_VisualStudio2" xml:space="preserve">
+    <value>VisualStudio&lt;br /&gt;Toolbox&lt;br /&gt;PopUp</value>
+  </data>
+  <data name="WebImageButton_Blur" xml:space="preserve">
+    <value>blur</value>
+  </data>
+  <data name="WebImageButton_ClearList" xml:space="preserve">
+    <value>Clear List</value>
+  </data>
+  <data name="WebImageButton_ClearListToolTip" xml:space="preserve">
+    <value>Click here to clear the list in the multi-line textbox.</value>
+  </data>
+  <data name="WebImageButton_Click1" xml:space="preserve">
+    <value>click by Mouse</value>
+  </data>
+  <data name="WebImageButton_Click2" xml:space="preserve">
+    <value>click by Space key</value>
+  </data>
+  <data name="WebImageButton_Click3" xml:space="preserve">
+    <value>click by Enter key</value>
+  </data>
+  <data name="WebImageButton_Click4" xml:space="preserve">
+    <value>click by AccessKey</value>
+  </data>
+  <data name="WebImageButton_Description" xml:space="preserve">
+    <value>&lt;P&gt;This sample demonstrates client side events using the Web Button.&amp;nbsp; The top 
+									two buttons are using the Microsoft XP Olive Theme Presets.&amp;nbsp;&amp;nbsp; The 
+									three buttons on the bottom are using the Microsoft XP&amp;nbsp;Blue Theme Presets.&lt;/P&gt;
+								&lt;P&gt;Try the following:&lt;/P&gt;
+								&lt;OL&gt;
+									&lt;LI&gt;
+										Click the up and down arrows next to our WebDateTimeEdit box.&amp;nbsp; Notice how 
+										the dates&amp;nbsp;moves up or down in 1 day increments.&lt;/LI&gt;
+									&lt;LI&gt;
+										Click the "Shift Selection Left" button to move the cursor within the 
+										WebDateTimeEdit box to the left.&lt;/LI&gt;
+									&lt;LI&gt;
+										Click the "Shift Selection Right" button to move the cursor within the 
+										WebDateTimeEdit box to the right.&lt;/LI&gt;
+									&lt;LI&gt;
+										Click the "Set Focus" button to select the contents in the TextBox.&amp;nbsp; 
+										Notice how the button changes as you hover and press the button.&lt;/LI&gt;
+									&lt;LI&gt;
+										Click the "Set Today" button to change the contents in the textbox to today's 
+										date.&lt;/LI&gt;
+									&lt;LI&gt;
+					Check some of the client event options checkboxes located to the right of the "Set Today" button.  This 
+										will allow the "Set Today" button to track various client events into the event tracking textbox. After selecting
+										some of the checkbox options, mouse over and click the "Set Today" button.&lt;/LI&gt;
+									&lt;LI&gt;
+										Click the "Clear List" button to clear the contents of the Output box.&lt;/LI&gt;&lt;/OL&gt;</value>
+  </data>
+  <data name="WebImageButton_DisabledState" xml:space="preserve">
+    <value>disabled state</value>
+  </data>
+  <data name="WebImageButton_Error1" xml:space="preserve">
+    <value>WebDateTimeEdit1 not found</value>
+  </data>
+  <data name="WebImageButton_Focus" xml:space="preserve">
+    <value>Focus/blur</value>
+  </data>
+  <data name="WebImageButton_FocusOnly" xml:space="preserve">
+    <value>focus</value>
+  </data>
+  <data name="WebImageButton_FocusState" xml:space="preserve">
+    <value>focus state</value>
+  </data>
+  <data name="WebImageButton_FocusToolTip" xml:space="preserve">
+    <value>Click here to view the focus/blur events of the Set Today Button.</value>
+  </data>
+  <data name="WebImageButton_Initialize" xml:space="preserve">
+    <value>initialize</value>
+  </data>
+  <data name="WebImageButton_Key" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="WebImageButton_KeyToolTip" xml:space="preserve">
+    <value>Click here to view the keys pressed of the Set Today Button.</value>
+  </data>
+  <data name="WebImageButton_Mouse" xml:space="preserve">
+    <value>Mouse</value>
+  </data>
+  <data name="WebImageButton_MouseDown" xml:space="preserve">
+    <value>mousedown</value>
+  </data>
+  <data name="WebImageButton_MouseOut" xml:space="preserve">
+    <value>mouseout</value>
+  </data>
+  <data name="WebImageButton_MouseOver" xml:space="preserve">
+    <value>mouseover</value>
+  </data>
+  <data name="WebImageButton_MouseOverFocusState" xml:space="preserve">
+    <value>mouse over focus state</value>
+  </data>
+  <data name="WebImageButton_MouseOverState" xml:space="preserve">
+    <value>mouse over state</value>
+  </data>
+  <data name="WebImageButton_MouseToolTip" xml:space="preserve">
+    <value>Click here to view the mouse movements of the Set Today Button.</value>
+  </data>
+  <data name="WebImageButton_MouseUp" xml:space="preserve">
+    <value>mouseup</value>
+  </data>
+  <data name="WebImageButton_NormalState" xml:space="preserve">
+    <value>normal state</value>
+  </data>
+  <data name="WebImageButton_Output" xml:space="preserve">
+    <value>Output of events for "Set Today" Button</value>
+  </data>
+  <data name="WebImageButton_Paint" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="WebImageButton_PaintToolTip" xml:space="preserve">
+    <value>check box to view paint element behind the Set Today Button.</value>
+  </data>
+  <data name="WebImageButton_PressedState" xml:space="preserve">
+    <value>pressed state</value>
+  </data>
+  <data name="WebImageButton_SelectLabel" xml:space="preserve">
+    <value>Select the Events for the "Set Today" Button</value>
+  </data>
+  <data name="WebImageButton_SetFocus" xml:space="preserve">
+    <value>Set Focus</value>
+  </data>
+  <data name="WebImageButton_SetFocusToolTip" xml:space="preserve">
+    <value>Click here to set the focus on the textbox above.</value>
+  </data>
+  <data name="WebImageButton_SetToday" xml:space="preserve">
+    <value>Set Today</value>
+  </data>
+  <data name="WebImageButton_SetTodayToolTip" xml:space="preserve">
+    <value>Click here to set the date in the textbox above to today's date.</value>
+  </data>
+  <data name="WebImageButton_ShiftSelectionLeft" xml:space="preserve">
+    <value>Shift Selection Left</value>
+  </data>
+  <data name="WebImageButton_ShiftSelectionLeftToolTip" xml:space="preserve">
+    <value>Click here to shift selection to the left in the Textbox above.</value>
+  </data>
+  <data name="WebImageButton_ShiftSelectionRight" xml:space="preserve">
+    <value>Shift Selection Right</value>
+  </data>
+  <data name="WebImageButton_ShiftSelectionRightToolTip" xml:space="preserve">
+    <value>Click here to shift selection to the right in the Textbox above.</value>
+  </data>
+  <data name="WebImageButton_Text" xml:space="preserve">
+    <value>text</value>
+  </data>
+  <data name="WebImageButton_Title" xml:space="preserve">
+    <value>WebImageButton - ClientSide Events</value>
+  </data>
+</root>

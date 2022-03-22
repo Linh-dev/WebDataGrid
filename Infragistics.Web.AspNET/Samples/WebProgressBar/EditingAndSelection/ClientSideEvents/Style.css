@@ -1,0 +1,11 @@
+﻿        a, a:hover, a:visited, a:link
+        {
+            color: #000000;
+            font-family: Verdana;
+            font-size: 10px;
+            text-decoration: none;
+        }
+        img
+        {
+            border: 0px;
+        }

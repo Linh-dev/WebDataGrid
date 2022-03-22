@@ -1,0 +1,55 @@
+﻿.halfTransparent
+{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    color: Black;
+    margin-top: -42px !important;
+}
+.opaque
+{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    margin-top: -42px !important;
+}
+.blackColor
+{
+    color: Black;
+}
+.width0
+{
+    width: 0px;
+}
+.thumb1
+{
+    margin-top: -26px;
+    margin-left: -4px;
+}
+.thumbUp
+{
+    margin-top: 2px;
+}
+.width148
+{
+    width: 148px;
+}
+.trackR
+{
+    height: 26px;
+    width: 149px;
+    border: 0px;
+    background: url(/samplesbrowser/samplescommon/aspnet/WebSlider/track148x25blue.gif) no-repeat;
+}
+.trackRValue1
+{
+    height: 100%;
+    background: url(/samplesbrowser/samplescommon/aspnet/WebSlider/track148x25red.gif) no-repeat;
+}
+.webslider_1, .webslider_2
+{
+    margin-bottom: 20px;
+}
+.webslider_1 td
+{
+    vertical-align: middle;
+}
+

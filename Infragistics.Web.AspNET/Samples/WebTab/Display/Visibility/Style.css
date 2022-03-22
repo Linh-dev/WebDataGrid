@@ -1,0 +1,49 @@
+﻿ .tabsInput
+        {
+            position: absolute;
+            left: 80px;
+            height: 19px;
+        }
+        .ig_FeatureBrowserControl
+        {
+            background-color: transparent !important;
+            display: block;
+            font-size: 11px !important;
+        }
+        #ctl00_OverviewPanel
+        {
+            margin-top: 25px;
+        }
+        .igtab_FeatureBrowserTHContent
+        {
+            background: #e0e0e0 url("../images/WebTab/bgWebTab.jpg") repeat-x 0 0;
+            height: 167px !important;
+            min-height: 167px !important;
+            padding: 0 0 0 5px;
+        }
+        .igtab_FeatureBrowserTHContentHolder
+        {
+            border: none !important;
+        }
+        .btnsBottom
+        {
+           float:left;
+           width:210px;
+           margin-right:20px;
+           background-image:url("/SamplesBrowser/SamplesCommon/aspnet/Common/TreeBg.jpg");
+           background-position:0px -200px;
+           border:1px solid #CCCCCC;
+           
+            padding:15px;
+            background-color:Gray;
+        }
+        .igte_FeatureBrowserEdit
+        {
+            background-color: #FFFFFF;
+            background-image: none;
+        }
+        .AButton
+        {
+            
+            width: 120px;
+        }

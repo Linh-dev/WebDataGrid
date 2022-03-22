@@ -1,0 +1,14 @@
+﻿.fixedSamplesContainer p,
+.fixedSamplesContainer a,
+.fixedSamplesContainer label,
+.fixedSamplesContainer ol,
+.fixedSamplesContainer ol > li,
+.fixedSamplesContainer ul,
+.fixedSamplesContainer ul > li {
+    font-size: 12px;
+}
+
+#sampleContainer 
+{
+    overflow: visible;
+}

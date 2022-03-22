@@ -1,0 +1,11 @@
+﻿.igdw_IGBodyContent
+{
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/Common/TreeBg.jpg);
+    background-repeat: no-repeat;
+}
+
+.label-dropdown { font-size: 12px; margin-bottom: 5px; }
+
+#sampleContainer, #sb-Extended-Box-outer > div > div {
+    overflow: visible !important;
+}

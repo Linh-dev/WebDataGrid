@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddCaption" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AddingNodeCaption" xml:space="preserve">
+    <value>Adding a New Node</value>
+  </data>
+  <data name="CaptionProductFamily" xml:space="preserve">
+    <value>Infragistics Product Family</value>
+  </data>
+  <data name="CheckBoxSelectionChanged" xml:space="preserve">
+    <value>CheckBox Selection Changed: </value>
+  </data>
+  <data name="ClientEventsDescription" xml:space="preserve">
+    <value>This sample shows how to subscribe to the client (JavaScript) events of the WebDataTree.
+When an event fires, a message is displayed for the menu item that triggered the event.</value>
+  </data>
+  <data name="ClientEventsTitle" xml:space="preserve">
+    <value>Client Side Events for the WebDataTree</value>
+  </data>
+  <data name="ControlInitialized" xml:space="preserve">
+    <value>Control initialized:</value>
+  </data>
+  <data name="ControlName" xml:space="preserve">
+    <value>WebDataTree</value>
+  </data>
+  <data name="DataVisualizationCaption" xml:space="preserve">
+    <value>Data Visualization Samples</value>
+  </data>
+  <data name="EnableCaption" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="EnableCheckBoxCaption" xml:space="preserve">
+    <value>Check Boxes</value>
+  </data>
+  <data name="EnableConnectorCaption" xml:space="preserve">
+    <value>Connector Lines</value>
+  </data>
+  <data name="EnterInRSSFeedCaption" xml:space="preserve">
+    <value>Enter in RSS Feed:</value>
+  </data>
+  <data name="LoadingNodesDescription" xml:space="preserve">
+    <value>This sample demonstrates how to use server side code to add a node. To add a new node select the a group and enter in its name.</value>
+  </data>
+  <data name="LoadingNodesTitle" xml:space="preserve">
+    <value>Programatically Add Nodes</value>
+  </data>
+  <data name="LoadOnDemandCaption" xml:space="preserve">
+    <value>Load On Demand</value>
+  </data>
+  <data name="LoadOnDemandDescription" xml:space="preserve">
+    <value>This sample shows how to build a hierarchical data source to the WebDataTree using the WebHierarchicalDataSource control. The load on demand behavior can be enabled to increase the performance of loading a large data set.</value>
+  </data>
+  <data name="LoadOnDemandTitle" xml:space="preserve">
+    <value> Load on Demand</value>
+  </data>
+  <data name="NodeClicked" xml:space="preserve">
+    <value>Node click: </value>
+  </data>
+  <data name="NodeCollapsed" xml:space="preserve">
+    <value>Node collapsed: </value>
+  </data>
+  <data name="NodeCollapsing" xml:space="preserve">
+    <value>Node collapsing: </value>
+  </data>
+  <data name="NodeDropped" xml:space="preserve">
+    <value>Node Dropped: </value>
+  </data>
+  <data name="NodeExpanded" xml:space="preserve">
+    <value>Node expanded: </value>
+  </data>
+  <data name="NodeExpanding" xml:space="preserve">
+    <value>Node expanding: </value>
+  </data>
+  <data name="NodeHovered" xml:space="preserve">
+    <value>Node hovered: </value>
+  </data>
+  <data name="NodeInteractionDescription" xml:space="preserve">
+    <value>This sample demonstrates how to node activation, selection, and editing works. Use the mouse or keyboard to select an item and hit F2 to edit it.</value>
+  </data>
+  <data name="NodeInteractionTitle" xml:space="preserve">
+    <value>Node Interaction (Activation, Selection, &amp; Editing)</value>
+  </data>
+  <data name="NodePopulated" xml:space="preserve">
+    <value>Node populated: </value>
+  </data>
+  <data name="NodePopulating" xml:space="preserve">
+    <value>Node populating: </value>
+  </data>
+  <data name="NodeSelection" xml:space="preserve">
+    <value>Selection Changed: </value>
+  </data>
+  <data name="NodeUnhovered" xml:space="preserve">
+    <value>Node unhovered: </value>
+  </data>
+  <data name="PropertyExplorerDescription" xml:space="preserve">
+    <value>This sample shows how to configure the display behavior of the tree. Select one or more of the properties to alter the behavior of the tree.</value>
+  </data>
+  <data name="PropertyExplorerTitle" xml:space="preserve">
+    <value>How to Configure the WebDataTree</value>
+  </data>
+  <data name="SampleDataBindingCaption" xml:space="preserve">
+    <value>My Books</value>
+  </data>
+  <data name="SampleDataBindingDescription" xml:space="preserve">
+    <value>Select an item in the drop down to change the data source used by the tree.</value>
+  </data>
+  <data name="SampleDataBindingTitle" xml:space="preserve">
+    <value>Data Binding</value>
+  </data>
+  <data name="ServerEventsDescription" xml:space="preserve">
+    <value>This sample shows how to subscribe to the server events of the WebDataTree. When an event fires, a postback will occur and a message will be displayed for the item that triggered the event.</value>
+  </data>
+  <data name="ServerEventsTitle" xml:space="preserve">
+    <value>Server Events for the WebDataTree</value>
+  </data>
+  <data name="StyleDescription" xml:space="preserve">
+    <value>The WebDataTree comes with a number of predefined style and can be customized by changing the defined CSS styles for the control.</value>
+  </data>
+  <data name="StyleTitlePartOne" xml:space="preserve">
+    <value>Application Styling Themes for WebDataTree (Part One)</value>
+  </data>
+  <data name="StyleTitlePartTwo" xml:space="preserve">
+    <value>Application Styling Themes for WebDataTree (Part Two)</value>
+  </data>
+  <data name="TemplateDescription" xml:space="preserve">
+    <value>This sample shows how to use templates to customize the look of tree items. Templates can be used for static and data bound tree items.</value>
+  </data>
+  <data name="TemplateTitle" xml:space="preserve">
+    <value>Using Templates to customize the WebDataTree</value>
+  </data>
+  <data name="TextChanged" xml:space="preserve">
+    <value>Text Changed: </value>
+  </data>
+  <data name="AnimationDuration" xml:space="preserve">
+    <value>Animation Duration:</value>
+  </data>
+  <data name="AnimationEquation" xml:space="preserve">
+    <value>Animation Equation:</value>
+  </data>
+  <data name="CheckboxMode" xml:space="preserve">
+    <value>Checkbox Mode:</value>
+  </data>
+  <data name="SelectionType" xml:space="preserve">
+    <value>Selection Type:</value>
+  </data>
+  <data name="DataBound" xml:space="preserve">
+    <value>Tree Data Bound.</value>
+  </data>
+  <data name="PropertyExplorerCaption" xml:space="preserve">
+    <value>WebDataTree Property Explorer</value>
+  </data>
+  <data name="ThemesDataBase" xml:space="preserve">
+    <value>~/App_Data/SampleData.xml</value>
+  </data>
+  <data name="LoadingNodesNews" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="LoadingNodesProgramming" xml:space="preserve">
+    <value>Programming</value>
+  </data>
+  <data name="LoadingNodesTechnology" xml:space="preserve">
+    <value>Technology</value>
+  </data>
+  <data name="ActivationChanged" xml:space="preserve">
+    <value>Activation Changed</value>
+  </data>
+  <data name="ActivationChanging" xml:space="preserve">
+    <value>Activation Changing</value>
+  </data>
+  <data name="SelectionChanged" xml:space="preserve">
+    <value>Selection Changed</value>
+  </data>
+  <data name="SelectionChanging" xml:space="preserve">
+    <value>Selection Changing</value>
+  </data>
+  <data name="EnableAutoChecking" xml:space="preserve">
+    <value>Enable Auto-Checking</value>
+  </data>
+  <data name="ClientEventsDisableHoverEvents" xml:space="preserve">
+    <value>Disable hover events.</value>
+  </data>
+  <data name="ManLoadOnDemandDesc" xml:space="preserve">
+    <value>This sample will show how to create your own Load On Demand  scenario using the WebDataTree.</value>
+  </data>
+  <data name="ManLoadOnDemandTitle" xml:space="preserve">
+    <value>Manual Load On Demand</value>
+  </data>
+  <data name="MultiSelectionDesc" xml:space="preserve">
+    <value>This sample show the WebDataTree with selection type set to multiple.  Use the Shift Key or the Ctrl Key to perform a multi-selection.</value>
+  </data>
+  <data name="MultiSelectionTitle" xml:space="preserve">
+    <value>Multi-Selection Mode</value>
+  </data>
+  <data name="DomainDataSourceDescription" xml:space="preserve">
+    <value>This sample shows how to bind the tree to DomainDataSource control</value>
+  </data>
+  <data name="DomainDataSourceTitle" xml:space="preserve">
+    <value>Data Binding to a DomainDataSource</value>
+  </data>
+  <data name="AlertAddNodesToArray" xml:space="preserve">
+    <value>You have to add nodes to the collection first.</value>
+  </data>
+  <data name="AlertEnterNodeText" xml:space="preserve">
+    <value>You have to enter node text.</value>
+  </data>
+  <data name="AlertSelectNodeToBeRemoved" xml:space="preserve">
+    <value>You have to select node to be removed.</value>
+  </data>
+  <data name="AlertSpecifyNodeName" xml:space="preserve">
+    <value>You have to specify a node name.</value>
+  </data>
+  <data name="DestinationNode" xml:space="preserve">
+    <value>Destination node</value>
+  </data>
+  <data name="NodeAdded" xml:space="preserve">
+    <value>Node Added</value>
+  </data>
+  <data name="NodeRemoved" xml:space="preserve">
+    <value>Node Removed</value>
+  </data>
+  <data name="SourceNode" xml:space="preserve">
+    <value>Source node</value>
+  </data>
+  <data name="AlertEnterCorrectIndex" xml:space="preserve">
+    <value>You have to fill in correct index.</value>
+  </data>
+  <data name="PleaseFillInIndex0" xml:space="preserve">
+    <value>Please fill in index 0</value>
+  </data>
+  <data name="PleaseFillInIndexBetween0and" xml:space="preserve">
+    <value>Please fill in index between 0 and {0}</value>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>Before</value>
+  </data>
+  <data name="ACDC" xml:space="preserve">
+    <value>AC/DC</value>
+  </data>
+  <data name="AddNewNode" xml:space="preserve">
+    <value>Enter node name and add it to the tree.</value>
+  </data>
+  <data name="AddNode" xml:space="preserve">
+    <value>Add node</value>
+  </data>
+  <data name="AddNodeToCollection" xml:space="preserve">
+    <value>Add node to collection</value>
+  </data>
+  <data name="AllowDrop" xml:space="preserve">
+    <value>Allow Drop</value>
+  </data>
+  <data name="Archive" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="BackUp" xml:space="preserve">
+    <value>BackUp</value>
+  </data>
+  <data name="BirthDay2009" xml:space="preserve">
+    <value>BirthDay2009</value>
+  </data>
+  <data name="BirthDay2010" xml:space="preserve">
+    <value>BirthDay2010</value>
+  </data>
+  <data name="CheckBox" xml:space="preserve">
+    <value>CheckBox</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="ClearImages" xml:space="preserve">
+    <value>Clear images</value>
+  </data>
+  <data name="ClientAPISample" xml:space="preserve">
+    <value>Using Client Side API</value>
+  </data>
+  <data name="ClientAPISampleDescription" xml:space="preserve">
+    <value>Client side API can be used to add and remove nodes. You can also insert nodes at a specified index.
+            By clicking "Add node to collection" you can add nodes in a virtual collection. 
+            Later this collection can be added to the tree, which will use the add range method.</value>
+  </data>
+  <data name="ClientAPISampleDescription2" xml:space="preserve">
+    <value>This sample shows how to use client side API to add, remove, insert and delete nodes</value>
+  </data>
+  <data name="ClientAPISampleDescription3" xml:space="preserve">
+    <value>Enter series of node names, add them to collection and add the collection to the tree:</value>
+  </data>
+  <data name="ClientAPISampleDescription4" xml:space="preserve">
+    <value>Select node, select index, enter node name and insert it into desired index:</value>
+  </data>
+  <data name="ClientEvents" xml:space="preserve">
+    <value>Client events</value>
+  </data>
+  <data name="ClientEventsSampleDescription" xml:space="preserve">
+    <value>This sample shows client events of drag and drop.</value>
+  </data>
+  <data name="ClientEventsSampleDescription1" xml:space="preserve">
+    <value>Drag and drop nodes to see what client events are fired:</value>
+  </data>
+  <data name="Computer" xml:space="preserve">
+    <value>Computer</value>
+  </data>
+  <data name="ConnectorLines" xml:space="preserve">
+    <value>Connector Lines</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="DelSelectedNode" xml:space="preserve">
+    <value>Delete selected node</value>
+  </data>
+  <data name="EnableDragDrop" xml:space="preserve">
+    <value>Enable Drag &amp; Drop</value>
+  </data>
+  <data name="EnterNodeName" xml:space="preserve">
+    <value>Enter node name and add it to the tree.</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Formula1" xml:space="preserve">
+    <value>Formula1</value>
+  </data>
+  <data name="FTP" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Index:</value>
+  </data>
+  <data name="Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="MultiTreeSample" xml:space="preserve">
+    <value>Multi Tree Sample</value>
+  </data>
+  <data name="MultiTreeSampleDescription" xml:space="preserve">
+    <value>This sample shows how to use drag and drop in multi-tree scenario.</value>
+  </data>
+  <data name="Music" xml:space="preserve">
+    <value>Music</value>
+  </data>
+  <data name="MyDocuments" xml:space="preserve">
+    <value>My Documents</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="NodeCollection" xml:space="preserve">
+    <value>Node collection:</value>
+  </data>
+  <data name="NodeName" xml:space="preserve">
+    <value>Node Name:</value>
+  </data>
+  <data name="number2009" xml:space="preserve">
+    <value>2009</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Pictures</value>
+  </data>
+  <data name="Rock" xml:space="preserve">
+    <value>Rock</value>
+  </data>
+  <data name="ServerEvents" xml:space="preserve">
+    <value>Server events</value>
+  </data>
+  <data name="ServerEventsSample" xml:space="preserve">
+    <value>Server Events for the WebDataTree</value>
+  </data>
+  <data name="ServerEventsSampleDescription" xml:space="preserve">
+    <value>This sample shows how to subscribe to the server events of the WebDataTree. When an event fires, a postback will occur and a message will be displayed for the item that triggered the event.</value>
+  </data>
+  <data name="SingleTree" xml:space="preserve">
+    <value>SingleTree</value>
+  </data>
+  <data name="SingleTreeDescription" xml:space="preserve">
+    <value>This sample shows how to use Drag and Drop in single Tree scenario.</value>
+  </data>
+  <data name="WebDataTree1" xml:space="preserve">
+    <value>WebDataTree1</value>
+  </data>
+  <data name="WebDataTree2" xml:space="preserve">
+    <value>WebDataTree2</value>
+  </data>
+  <data name="WhiteSnake" xml:space="preserve">
+    <value>WhiteSnake</value>
+  </data>
+  <data name="WRC" xml:space="preserve">
+    <value>WRC</value>
+  </data>
+  <data name="YMalmsteen" xml:space="preserve">
+    <value>Y.Malmsteen</value>
+  </data>
+  <data name="AddCollectionToTree" xml:space="preserve">
+    <value>Add collection to tree</value>
+  </data>
+  <data name="OutPutOfClientEvents" xml:space="preserve">
+    <value>Output of Client Events:</value>
+  </data>
+  <data name="WebDataTree_ClientBinding_Title" xml:space="preserve">
+    <value>Client-Side Binding</value>
+  </data>
+  <data name="ClientBinding_Description" xml:space="preserve">
+    <value>This sample demonstrates how to bind the WebDataTree on the client-side.</value>
+  </data>
+  <data name="AlertSelectNode" xml:space="preserve">
+    <value>You have to select a node first.</value>
+  </data>
+</root>

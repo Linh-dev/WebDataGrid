@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="Office2007Pie24" PresetDescription="Sets LOOK Only" PresetType="Appearance" />-->
+<igchart:UltraChart Tag="24">
+  <ColorModel ColorBegin="247, 150, 70" ModelStyle="Office2007Style" AlphaLevel="255">
+    <Skin ApplyRowWise="False">
+      <PEs>
+        <igchartprop:PaintElement FillGradientStyle="Vertical" ElementType="Gradient" Fill="229, 238, 255" FillStopColor="163, 196, 255" Stroke="74, 126, 187" />
+      </PEs>
+    </Skin>
+  </ColorModel>
+  <RadarChart SplineTension="0" />
+  <DoughnutChart3D>
+    <ChartText />
+  </DoughnutChart3D>
+  <Border CornerRadius="10" Color="134, 134, 134" />
+  <PieChart3D>
+    <ChartText />
+    <Labels Visible="False" LeaderLinesVisible="False" />
+  </PieChart3D>
+  <Effects>
+    <Effects>
+      <igchartprop:GradientEffect Style="Vertical" />
+      <igchartprop:StrokeEffect StrokeWidth="0" StrokeOpacity="255" />
+    </Effects>
+  </Effects>
+  <Legend Font="Calibri, 9.75pt, style=Bold" Visible="True" BorderThickness="0" FontColor="89, 89, 89" BackgroundColor="Transparent" />
+  <PieChart>
+    <ChartText />
+    <Labels Visible="False" LeaderLinesVisible="False" />
+  </PieChart>
+  <CompositeChart>
+    <Legends />
+    <Series />
+    <ChartLayers />
+    <ChartAreas />
+  </CompositeChart>
+  <GanttChart>
+    <LinkLineStyle EndStyle="ArrowAnchor" />
+    <CompletePercentagesPE Fill="Yellow" />
+    <OwnersLabelStyle Font="Microsoft Sans Serif, 7.8pt" />
+    <EmptyPercentagesPE Fill="White" />
+  </GanttChart>
+  <ColumnLineChart>
+    <Column SeriesSpacing="0">
+      <ChartText />
+    </Column>
+  </ColumnLineChart>
+  <Axis BackColor="255, 248, 220">
+    <X2 TickmarkInterval="10" LineThickness="1" TickmarkStyle="Smart">
+      <Labels VerticalAlign="Center" HorizontalAlign="Near" Font="Verdana, 7pt" FontColor="Gray" Orientation="Horizontal">
+        <SeriesLabels VerticalAlign="Center" HorizontalAlign="Near" Font="Verdana, 7pt" FontColor="Gray" FormatString="">
+          <Layout Behavior="Auto">
+            <BehaviorCollection />
+          </Layout>
+        </SeriesLabels>
+        <Layout Behavior="Auto">
+          <BehaviorCollection />
+        </Layout>
+      </Labels>
+    </X2>
+    <Z LineThickness="1" TickmarkStyle="Smart">
+      <Labels ItemFormatString="&lt;DATA_VALUE:00.##&gt;" VerticalAlign="Center" HorizontalAlign="Near" Font="Verdana, 7pt" FontColor="DimGray">
+        <SeriesLabels VerticalAlign="Center" HorizontalAlign="Near" Font="Verdana, 7pt" FontColor="DimGray" Orientation="Horizontal">
+          <Layout Behavior="Auto">
+            <BehaviorCollection />
+          </Layout>
+        </SeriesLabels>
+        <Layout Behavior="Auto">
+          <BehaviorCollection />
+        </Layout>
+      </Labels>
+    </Z>
+    <Z2 LineThickness="1" TickmarkStyle="Smart">
+      <Labels VerticalAlign="Center" HorizontalAlign="Near" Font="Verdana, 7pt" FontColor="Gray" Orientation="Horizontal">
+        <SeriesLabels VerticalAlign="Center" HorizontalAlign="Near" Font="Verdana, 7pt" FontColor="Gray">
+          <Layout Behavior="Auto">
+            <BehaviorCollection />
+          </Layout>
+        </SeriesLabels>
+        <Layout Behavior="Auto">
+          <BehaviorCollection />
+        </Layout>
+      </Labels>
+    </Z2>
+    <X LineColor="134, 134, 134" TickmarkInterval="10" LineThickness="1" Extent="20" TickmarkStyle="Smart">
+      <Labels VerticalAlign="Center" HorizontalAlign="Near" Font="Calibri, 9.75pt, style=Bold" FontColor="89, 89, 89" Orientation="Horizontal">
+        <SeriesLabels VerticalAlign="Center" HorizontalAlign="Near" Font="Verdana, 7pt" FontColor="DimGray" Visible="False" FormatString="" />
+        <Layout Behavior="Auto">
+          <BehaviorCollection />
+        </Layout>
+      </Labels>
+      <MajorGridLines Visible="False" />
+    </X>
+    <Y LineColor="134, 134, 134" TickmarkInterval="40" LineThickness="1" Extent="20" TickmarkStyle="Smart">
+      <Labels VerticalAlign="Center" Font="Calibri, 9.75pt, style=Bold" FontColor="89, 89, 89">
+        <SeriesLabels VerticalAlign="Center" Font="Verdana, 7pt" FontColor="DimGray" Orientation="Horizontal" FormatString="">
+          <Layout Behavior="Auto">
+            <BehaviorCollection />
+          </Layout>
+        </SeriesLabels>
+        <Layout Behavior="Auto">
+          <BehaviorCollection />
+        </Layout>
+      </Labels>
+      <MajorGridLines Color="134, 134, 134" />
+    </Y>
+    <Y2 TickmarkInterval="40" LineThickness="1" TickmarkStyle="Smart">
+      <Labels VerticalAlign="Center" HorizontalAlign="Near" Font="Verdana, 7pt" FontColor="Gray">
+        <SeriesLabels VerticalAlign="Center" HorizontalAlign="Near" Font="Verdana, 7pt" FontColor="Gray" Orientation="Horizontal" FormatString="">
+          <Layout Behavior="Auto">
+            <BehaviorCollection />
+          </Layout>
+        </SeriesLabels>
+        <Layout Behavior="Auto">
+          <BehaviorCollection />
+        </Layout>
+      </Labels>
+    </Y2>
+    <PE ElementType="None" Fill="255, 248, 220" />
+  </Axis>
+</igchart:UltraChart>

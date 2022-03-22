@@ -1,0 +1,73 @@
+﻿    .LogWindow{
+        background-color:#F4F4F4;
+        color:#333333;
+        font-family:calibri, verdana, arial;
+        font-size:12px;
+        width:400px;
+        height:200px;
+        line-height:15px;
+        overflow:auto;
+        border:1px solid #CCCCCC;
+    }
+    .EventTitle{
+        color:#0197C9;
+        font-weight:bold;
+    }
+    .LogEntry .Cancel{
+        color:red;
+        font-style:italic;
+    }
+    .EventDesc{
+    }
+    .LogEntry{
+        height:auto;
+    }
+    .EventConsole{
+        float:left;
+        width:400px;
+        font-family:calibri, verdana, arial;
+        font-size:12px;
+    }
+    .EventConsole #ClearEvents{
+        float:left;
+    }
+    .Splitters{
+        font-family:calibri, verdana, arial;
+        font-size:12px;
+        width:200px;
+        float:left;
+        margin-top:50px;
+        margin-left:10px;
+    }
+    .SplitterBar{
+        background-image:none;
+        background-color:#fafafa;
+        padding:1px 0px;
+    }
+    .SplitterBarHover{
+        padding:0px;
+        border:1px solid #f3f3f3;
+        border-width:1px 0px;
+       
+    }
+    .SplitterBarThickness{
+        height:8px;
+    }
+    .SplitterBar .Collapse{
+        /* use the following to dynamically show the collapse button */
+        /* visibility:hidden; */
+    }
+    .SplitterBar:hover .Collapse{
+        /* use the following to dynamically show the collapse button */
+        /* visibility:visible; */
+    }
+	.Sampleh4 
+	{
+		font-family:Verdana;
+		font-size:12px;
+		font-weight:bold;
+		margin-bottom:5px;
+		margin-top:25px;
+		
+		
+	}

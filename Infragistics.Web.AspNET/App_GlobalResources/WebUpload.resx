@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl_errorCode" xml:space="preserve">
+    <value>Error Code</value>
+  </data>
+  <data name="lbl_errorMessage" xml:space="preserve">
+    <value>Error Message</value>
+  </data>
+  <data name="lbl_errorType" xml:space="preserve">
+    <value>Error Type</value>
+  </data>
+  <data name="lbl_eventFired" xml:space="preserve">
+    <value>event fired</value>
+  </data>
+  <data name="lbl_eventFiredArgs" xml:space="preserve">
+    <value>event fired, with file arguments</value>
+  </data>
+  <data name="lbl_fileId" xml:space="preserve">
+    <value>File Id</value>
+  </data>
+  <data name="lbl_filePath" xml:space="preserve">
+    <value>File Path</value>
+  </data>
+  <data name="lbl_fileStatus" xml:space="preserve">
+    <value>File Status</value>
+  </data>
+  <data name="lbl_serverMessage" xml:space="preserve">
+    <value>Server Message</value>
+  </data>
+  <data name="lbl_status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lbl_totalSize" xml:space="preserve">
+    <value>Total Size</value>
+  </data>
+  <data name="lbl_uploadedBytes" xml:space="preserve">
+    <value>Uploaded Bytes</value>
+  </data>
+  <data name="txt_all" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="txt_allowed_files" xml:space="preserve">
+    <value>Allowed files</value>
+  </data>
+  <data name="txt_all_at_once" xml:space="preserve">
+    <value>All at once</value>
+  </data>
+  <data name="txt_auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="txt_auto_start_upload" xml:space="preserve">
+    <value>Auto Start Upload</value>
+  </data>
+  <data name="txt_average_speed" xml:space="preserve">
+    <value>Average Speed</value>
+  </data>
+  <data name="txt_bytes" xml:space="preserve">
+    <value>Bytes</value>
+  </data>
+  <data name="txt_decimal_display" xml:space="preserve">
+    <value>Decimal display</value>
+  </data>
+  <data name="txt_false" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="txt_file_ext_icon" xml:space="preserve">
+    <value>File Extension Icon</value>
+  </data>
+  <data name="txt_file_size_metric" xml:space="preserve">
+    <value>File Size Metric</value>
+  </data>
+  <data name="txt_gbytes" xml:space="preserve">
+    <value>GBytes</value>
+  </data>
+  <data name="txt_height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="txt_kbytes" xml:space="preserve">
+    <value>KBytes</value>
+  </data>
+  <data name="txt_max_sim_upload_files" xml:space="preserve">
+    <value>Max Simultaneous Uploads</value>
+  </data>
+  <data name="txt_max_upload_files" xml:space="preserve">
+    <value>Max Upload Files</value>
+  </data>
+  <data name="txt_mbytes" xml:space="preserve">
+    <value>MBytes</value>
+  </data>
+  <data name="txt_multiple_upload" xml:space="preserve">
+    <value>Multiple Upload</value>
+  </data>
+  <data name="txt_seconds" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="txt_select_theme" xml:space="preserve">
+    <value>Select Theme</value>
+  </data>
+  <data name="txt_single_upload" xml:space="preserve">
+    <value>Single Upload</value>
+  </data>
+  <data name="txt_single_upload_property" xml:space="preserve">
+    <value>Single Upload Property Explorer</value>
+  </data>
+  <data name="txt_size_restriction" xml:space="preserve">
+    <value>You cannot upload files larger than 1 MB</value>
+  </data>
+  <data name="txt_theme_roller" xml:space="preserve">
+    <value>Upload Theme Roller</value>
+  </data>
+  <data name="txt_time_elapsed" xml:space="preserve">
+    <value>Time Elapsed</value>
+  </data>
+  <data name="txt_time_left" xml:space="preserve">
+    <value>Time Left</value>
+  </data>
+  <data name="txt_to_be_uploaded" xml:space="preserve">
+    <value>To be uploaded</value>
+  </data>
+  <data name="txt_true" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="txt_unlimited" xml:space="preserve">
+    <value>Unlimited</value>
+  </data>
+  <data name="txt_uploaded" xml:space="preserve">
+    <value>Uploaded</value>
+  </data>
+  <data name="txt_uploaded_files" xml:space="preserve">
+    <value>Uploaded files</value>
+  </data>
+  <data name="txt_upload_progress_info" xml:space="preserve">
+    <value>igUpload Progress Information</value>
+  </data>
+  <data name="txt_width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="txt_client_events_info" xml:space="preserve">
+    <value>Client Events Info</value>
+  </data>
+  <data name="txt_multiple_upload_property" xml:space="preserve">
+    <value>Multiple Upload Property Explorer</value>
+  </data>
+  <data name="Error_Code_0" xml:space="preserve">
+    <value>File error occurs when getting file name from the request</value>
+  </data>
+  <data name="Error_Code_1" xml:space="preserve">
+    <value>MIME type validation failed</value>
+  </data>
+  <data name="Error_Code_10" xml:space="preserve">
+    <value>Error set when fileupload is cancelled on start uploading in event handler</value>
+  </data>
+  <data name="Error_Code_2" xml:space="preserve">
+    <value>File size exceeded</value>
+  </data>
+  <data name="Error_Code_3" xml:space="preserve">
+    <value>Temporary folder where file should be uploaded could not be found</value>
+  </data>
+  <data name="Error_Code_4" xml:space="preserve">
+    <value>Error while parsing request header</value>
+  </data>
+  <data name="Error_Code_5" xml:space="preserve">
+    <value>File does not exist with the specified key in the request</value>
+  </data>
+  <data name="Error_Code_6" xml:space="preserve">
+    <value>Error occurs when file saving fails</value>
+  </data>
+  <data name="Error_Code_7" xml:space="preserve">
+    <value>Error occurs when trying to write file content</value>
+  </data>
+  <data name="Error_Code_8" xml:space="preserve">
+    <value>Error occurred when trying to write file content for the first time</value>
+  </data>
+  <data name="Error_Code_9" xml:space="preserve">
+    <value>Error occurred when trying to delete file</value>
+  </data>
+  <data name="lbl_errorDescr" xml:space="preserve">
+    <value>Error Description</value>
+  </data>
+</root>

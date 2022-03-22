@@ -1,0 +1,14 @@
+﻿.options img
+{
+    float: left;
+    margin-right: 10px;
+}
+.options
+{
+    line-height: 61px;
+    margin-bottom: 40px;
+}
+.result td
+{
+    vertical-align: middle;
+}

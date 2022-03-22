@@ -1,0 +1,6 @@
+﻿/* Customize the WebDialogWindow Background */
+.igdw_IGBodyContentArea
+{
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebDataTree/EditingAndSelection/NodeInteraction/SampleBgNADV.jpg) !important;
+    background-repeat: no-repeat;
+}

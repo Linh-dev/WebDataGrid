@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Countries>
+  <Country CountryID="AR" CountryName="Argentina" Rating="0"  TimesRated="0" AverageRating ="0"></Country>
+  <Country CountryID="NG" CountryName="Nigeria" Rating="0"  TimesRated="0" AverageRating="0" ></Country>
+  <Country CountryID="KR" CountryName="Korea Republic" Rating="0"  TimesRated="0" AverageRating="0"></Country>
+  <Country CountryID="GR" CountryName="Greece" Rating="0"  TimesRated="0" AverageRating="0" ></Country>
+</Countries>

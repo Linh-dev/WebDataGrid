@@ -1,0 +1,37 @@
+﻿ /* Customize the WebDialogWindow Background */
+.igdw_IGBodyContent
+{
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/Common/TreeBg.jpg);
+    background-repeat: no-repeat;
+}
+.loginCaption
+{
+    position: relative;
+    width: 90px;
+    float: left;
+    font-weight: normal;
+    font-size: 13px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-right: 10px;
+}
+.loginContainer
+{
+    width: 300px;
+}
+.loginCommand
+{
+    position: relative;
+    float: right;
+    margin-right: 70px;
+}
+.loginControls
+{
+    width: 175px;
+}
+/* undo global styles applied by application to INPUT */
+input
+{
+	overflow: visible !important;
+	font-size: 12px !important;
+}

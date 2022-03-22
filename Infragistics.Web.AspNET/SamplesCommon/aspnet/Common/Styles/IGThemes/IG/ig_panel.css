@@ -1,0 +1,43 @@
+.igpnl_IGControl
+{
+	border:solid 1px #B1B1B1;
+}
+
+
+.igpnl_IGPanel
+{
+	background-color:White;
+	cursor:default;
+}
+
+
+.igpnl_IGHeaderExpanded
+{
+	background-position:bottom ;
+	background-image: url(images/gradient_1.png);
+	font-size:xx-small;
+	font-family: Verdana;
+	padding-top:3px;
+	padding-bottom:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.igpnl_IGHeaderCollapsed
+{
+}
+
+
+.igpnl_IGHeaderHover
+{
+	background-image: url(images/gradient_2.png);
+	color:White;
+}
+
+
+.igpnl_IGGroupBoxControl
+{
+}
+
+

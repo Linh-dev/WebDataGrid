@@ -1,0 +1,41 @@
+﻿        .halfTransparent
+		{
+			opacity: 0.5;
+			filter: alpha(opacity=50);
+			background: #C0E0C0;
+			color: Black;
+		}
+		.opaque
+		{
+			opacity: 1.0;
+			filter: alpha(opacity=100);
+		}
+		.floatLeft30
+		{
+			width: 30px;
+			margin-left: -50px;
+		}
+		.floatRight30
+		{
+			width: 30px;
+			margin-left: 0px;
+		}
+		.width90
+		{
+			width: 90px;
+			margin-left: -45px;
+		}
+		.float70
+		{
+			margin-left: -40px;
+			width: 70px;
+		}
+		.style1
+		{
+			height: 95%;
+			width: 93%;
+		}
+		.igsli_ValueLabel
+		{
+			width: 80px;
+		}

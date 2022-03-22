@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnimateToLabel" xml:space="preserve">
+    <value>Animate To</value>
+  </data>
+  <data name="AnimateTypeLabel" xml:space="preserve">
+    <value>Animation Type</value>
+  </data>
+  <data name="AnimationDurationLabel" xml:space="preserve">
+    <value>Animation Duration</value>
+  </data>
+  <data name="AnimationLabel" xml:space="preserve">
+    <value>Animation</value>
+  </data>
+  <data name="AnimationThresholdLabel" xml:space="preserve">
+    <value>Animation Threshold</value>
+  </data>
+  <data name="ClickDescription" xml:space="preserve">
+    <value>Click on WebProgressBar to animate</value>
+  </data>
+  <data name="ClientEventsAddImage" xml:space="preserve">
+    <value>+10</value>
+  </data>
+  <data name="ClientEventsButtonMinus10" xml:space="preserve">
+    <value>button clicked (-10).\n</value>
+  </data>
+  <data name="ClientEventsButtonPlus10" xml:space="preserve">
+    <value>button clicked (+10).\n</value>
+  </data>
+  <data name="ClientEventsControlInitialized" xml:space="preserve">
+    <value>control initialized.\n</value>
+  </data>
+  <data name="ClientEventsDescription" xml:space="preserve">
+    <value>This sample demonstrates how to interact and communicate with the WebProgressBar.</value>
+  </data>
+  <data name="ClientEventsLabel" xml:space="preserve">
+    <value>Clientside Events &amp; API</value>
+  </data>
+  <data name="ClientEventsMessage" xml:space="preserve">
+    <value>Interact with the control to see what events are activated</value>
+  </data>
+  <data name="ClientEventsMinusImage" xml:space="preserve">
+    <value>-10</value>
+  </data>
+  <data name="ClientEventsPageLabel" xml:space="preserve">
+    <value>Client Side Events for the WebProgressBar</value>
+  </data>
+  <data name="ClientEventsProgressChange" xml:space="preserve">
+    <value>progress changed event raised.\n</value>
+  </data>
+  <data name="ClientEventsProgressChanging" xml:space="preserve">
+    <value>progress changing event raised.\n</value>
+  </data>
+  <data name="ClientEventsSingleClick" xml:space="preserve">
+    <value>single click event raised.\n</value>
+  </data>
+  <data name="ControlName" xml:space="preserve">
+    <value>WebProgressBar</value>
+  </data>
+  <data name="EmbeddingDescription" xml:space="preserve">
+    <value>The WebProgressBar can be integrated with other controls to make a more dramatic impact on your users.</value>
+  </data>
+  <data name="EmbeddingLabel" xml:space="preserve">
+    <value>Embedding in the WebDataGrid</value>
+  </data>
+  <data name="FillDirectionLabel" xml:space="preserve">
+    <value>Fill Direction</value>
+  </data>
+  <data name="FillModeLabel" xml:space="preserve">
+    <value>Fill Mode</value>
+  </data>
+  <data name="LabelAllignmentLabel" xml:space="preserve">
+    <value>Label Allignment</value>
+  </data>
+  <data name="LabelFormatLabel" xml:space="preserve">
+    <value>Label Format</value>
+  </data>
+  <data name="MaximumLabel" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="MinimumLabel" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="OrientationLabel" xml:space="preserve">
+    <value>Orientation</value>
+  </data>
+  <data name="PropertiesLabel" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="PropertyExplorerDescription" xml:space="preserve">
+    <value>This sample shows how to configure the WebProgressBar to meet your needs.  You can select any of the properties below to adjust the control.  To see the WebProgressBar animate set the animate to value and click on the WebProgressBar.</value>
+  </data>
+  <data name="PropertyExplorerErrorMessage" xml:space="preserve">
+    <value>Please enter an Animate To value.</value>
+  </data>
+  <data name="PropertyExplorerLabel" xml:space="preserve">
+    <value>WebProgressBar Property Explorer</value>
+  </data>
+  <data name="PropertyExplorerPageLabel" xml:space="preserve">
+    <value>How to Configure the WebProgressBar</value>
+  </data>
+  <data name="SnapIntervalLabel" xml:space="preserve">
+    <value>Snap Interval</value>
+  </data>
+  <data name="StartValueLabel" xml:space="preserve">
+    <value>Starting Value</value>
+  </data>
+  <data name="ThemesDescription" xml:space="preserve">
+    <value>The WebProgressBar comes with a number of predefined styles and can be customized by changing the defined CSS styles for the control.</value>
+  </data>
+  <data name="ThemesLabel" xml:space="preserve">
+    <value>Application Styling Themes for WebProgressBar</value>
+  </data>
+  <data name="txt_max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="txt_min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="txt_min_max" xml:space="preserve">
+    <value>Min, Max</value>
+  </data>
+  <data name="txt_progress_percentage" xml:space="preserve">
+    <value>Progress Percentage</value>
+  </data>
+  <data name="txt_progress_value" xml:space="preserve">
+    <value>Progress Value</value>
+  </data>
+  <data name="txt_remaining_percentage" xml:space="preserve">
+    <value>Remaining Percentage</value>
+  </data>
+  <data name="txt_tooltip_preset" xml:space="preserve">
+    <value>Tooltip Preset</value>
+  </data>
+  <data name="WizardAddressLabel" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="WizardCityLabel" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="WizardCommentsLabel" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="WizardEmailLabel" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="WizardFaxLabel" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="WizardImage" xml:space="preserve">
+    <value>/SamplesBrowser/SamplesCommon/aspnet/WebProgressBar/Navigation/Wizard/eng/wpb_WizHeader.png</value>
+  </data>
+  <data name="WizardNameLabel" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="WizardPageDescription" xml:space="preserve">
+    <value>The WebProgressBar can be integrated with other controls to give indication of workflow.</value>
+  </data>
+  <data name="WizardPageLabel" xml:space="preserve">
+    <value>Workflow usage of the WebProgressBar</value>
+  </data>
+  <data name="WizardPassword2Label" xml:space="preserve">
+    <value>Re-type Password</value>
+  </data>
+  <data name="WizardPasswordLabel" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="WizardPhoneLabel" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="WizardPostalCodeLabel" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="WizardStateLabel" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="WizardStep0Description" xml:space="preserve">
+    <value>&lt;p&gt;Welcome to the Infragistics Setup Wizard!&lt;/p&gt;
+&lt;p&gt;Creating an account will only be three quick and easy steps.&lt;/p&gt;
+&lt;p&gt;To begin, please provide your Email Address and create a password. This will be needed in order to create your new account.&lt;/p&gt;</value>
+  </data>
+  <data name="WizardStep1" xml:space="preserve">
+    <value>Email &amp; Password</value>
+  </data>
+  <data name="WizardStep1Description" xml:space="preserve">
+    <value>&lt;p&gt;Great! Next, we'll just need a little more information about yourself. Please fill out the following fields to continue to Step 3.&lt;/p&gt;</value>
+  </data>
+  <data name="WizardStep2" xml:space="preserve">
+    <value>Name &amp; Address</value>
+  </data>
+  <data name="WizardStep2Description" xml:space="preserve">
+    <value>&lt;p&gt;We're almost there! Your new account is seconds away!&lt;/p&gt;
+&lt;p&gt;Please fill out the following fields which will help us in getting in contact with you should we ever need to.&lt;/p&gt;</value>
+  </data>
+  <data name="WizardStep3" xml:space="preserve">
+    <value>Contact Information</value>
+  </data>
+  <data name="WizardStep3Description" xml:space="preserve">
+    <value>&lt;p&gt;One more thing! Help us help you!&lt;/p&gt;
+&lt;p&gt;Before you go, please provide us with any feedback or comments that you think can help us better serve you! Thank you!&lt;/p&gt;</value>
+  </data>
+  <data name="WizardStep4" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="WizardStep4Description" xml:space="preserve">
+    <value>&lt;h3&gt;Signup Complete!&lt;/h3&gt;
+&lt;p&gt;You have successfully created your new Infragistics account! A confirmation email has been sent to you with the email address you have provided.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Your Infragistics Account Information:&lt;/b&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="WizardStep5" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+</root>

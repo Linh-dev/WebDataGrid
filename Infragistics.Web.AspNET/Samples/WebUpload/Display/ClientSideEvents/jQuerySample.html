@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>igUpload Client-side Events</title>
+    <link type="text/css" href="/SamplesCommon/jQuery/igRating/Common/style.css" rel="stylesheet" />
+
+    <link type="text/css" href="/SamplesBrowser/SamplesCommon/aspnet/Common/Styles/jquery/css/themes/infragistics/infragistics.theme.css" rel="stylesheet" />
+    <link type="text/css" href="/SamplesBrowser/SamplesCommon/aspnet/Common/Styles/jquery/css/structure/infragistics.css" rel="stylesheet" />
+
+	<script type="text/javascript" src="/SamplesBrowser/Scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="/SamplesBrowser/Scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/SamplesBrowser/SamplesCommon/aspnet/Common/Scripts/jquery/js/infragistics.js"></script>
+    <script type="text/javascript" language="javascript">
+        $(window).load(function () {
+            $("#igUpload1").igUpload({
+                mode: 'multiple',
+                progressUrl: "/samplesbrowser/IGUploadStatusHandler.ashx",
+                fileSelecting: function (e, args) {
+                    var message =
+                        "<div class='event-fired'>fileSelecting " +
+                            "event fired." +
+                        "</div>";
+                    showEvent(message);
+                },
+                fileSelected: function (e, args) {
+                    var message =
+                        "<div class='event-fired'>fileSelected " +
+                            "event fired, with file arguments:" +
+                        "</div>" +
+                        "<div class='event-args'>" +
+                            "File ID: " + args.fileId + "<br />" +
+                            "File Path: " + args.filePath +
+                        "</div>";
+                    showEvent(message);
+                },
+                fileUploading: function (e, args) {
+                    var message =
+                        "<div class='event-fired'>fileUploading " +
+                            "event fired, with file arguments:" +
+                        "</div>" +
+                        "<div class='event-args'>" +
+                            "File ID: " + args.fileId + "<br />" +
+                            "File Path: " + args.filePath + "<br />" +
+                            "File Status: " + args.fileStatus + "<br />" +
+                            "TotalSize: " + args.totalSize + "<br />" +
+                            "Uploaded Bytes: " + args.uploadedBytes +
+                        "</div>";
+                    showEvent(message);
+                },
+                fileUploaded: function (e, args) {
+                    var message =
+                        "<div class='event-fired'>fileUploaded " +
+                            "event fired, with file arguments:" +
+                        "</div>" +
+                        "<div class='event-args'>" +
+                            "File ID: " + args.fileId + "<br />" +
+                            "File Path: " + args.filePath + "<br />" +
+                            "TotalSize: " + args.totalSize +
+                        "</div>";
+                    showEvent(message);
+                },
+                fileUploadAborted: function (e, args) {
+                    var message =
+                        "<div class='event-fired'>fileUploadAborted " +
+                            "event fired, with file arguments:" +
+                        "</div>" +
+                        "<div class='event-args'>" +
+                            "File ID: " + args.fileId + "<br />" +
+                            "File Path: " + args.filePath + "<br />" +
+                            "File Status: " + args.status + "<br />" +
+                            "TotalSize: " + args.totalSize + "<br />" +
+                            "Uploaded Bytes: " + args.uploadedBytes +
+                        "</div>";
+                    showEvent(message);
+                },
+                cancelAllClicked: function (e, args) {
+                    var message =
+                        "<div class='event-fired'>cancelAllClicked " +
+                            "event fired." +
+                        "</div>";
+                    showEvent(message);
+                },
+                onError: function (e, args) {
+                    var errorDescr = getErrorDescr(args),
+                    message =
+                        "<div class='event-fired'>onError " +
+                            "event fired, with file arguments:" +
+                        "</div>" +
+                        "<div class='event-args'>" +
+                            "Error Code: " + args.errorCode + "<br />" +
+                            "Error Description: " + errorDescr + "<br />" +
+                            "Error Message: " + args.errorMessage + "<br />" +
+                            "Error Type: " + args.errorType + "<br />" +
+                            "Server Message: " + args.serverMessage +
+                        "</div>";
+                    showEvent(message);
+                }
+            });
+        });
+        function getErrorDescr(args) {
+            // Gets the type of the error, thrown from the server.
+            // All the codes are mapped with the error type.
+            switch (args.errorCode) {
+                case 0: return "File error occurs when getting file name from the request";
+                case 1: return "MIME type validation failed";
+                case 2: return "File size exceeded";
+                case 3: return "Temporary folder where file should be uploaded could not be found";
+                case 4: return "Error while parsing request header";
+                case 5: return "File does not exist with the specified key in the request";
+                case 6: return "Error occurs when file saving fails";
+                case 7: return "Error occurs when trying to write file content";
+                case 8: return "Error occurred when trying to write file content for the first time";
+                case 9: return "Error occurred when trying to delete file";
+                case 10: return "Error set when fileupload is cancelled on start uploading in event handler";
+            }
+        }
+        function showEvent(message) {
+            $("#eventsInfo").html($("#eventsInfo").html() + message).
+                            prop({ scrollTop: $("#eventsInfo").prop("scrollHeight") });
+        }
+    </script>
+    <style type="text/css">
+        .event-fired { font-weight: bold; margin: 5px 0; }
+        .event-args { padding-left: 20px; }
+        #eventsInfo { padding: 10px; height: 400px; overflow-y: scroll; }
+    </style>
+</head>
+<body class="samplePage">
+    <h1>igUpload Client-side Events</h1>
+    <div class="sampleContents">
+		<div class="sample-container">
+	        <p>igUpload Client-side Events</p>
+	        <div id="igUpload1"></div>
+        </div>
+        <p>Client events info</p>
+        <div class="sample-container" id="eventsInfo">
+        </div>
+    </div>
+</body>
+</html>

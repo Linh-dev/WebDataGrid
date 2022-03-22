@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="Zoning" PresetDescription="Custom Preset Created 5/3/2007 5:51:35 PM" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" Width="125" Height="300">
+  <Gauges>
+    <igGaugeProp:LinearGauge Orientation="Vertical" CornerExtent="5">
+      <Scales>
+        <igGaugeProp:LinearGaugeScale EndExtent="90" StartExtent="9">
+          <MinorTickmarks EndWidth="2" EndExtent="70" Frequency="5" StartExtent="30" StartWidth="2" />
+          <Markers>
+            <igGaugeProp:LinearGaugeNeedle MidWidth="15" MidExtent="99" Value="6" EndExtent="120" StartExtent="85" StartWidth="1">
+              <BrushElements>
+                <igGaugeProp:SimpleGradientBrushElement EndColor="Maroon" StartColor="Red" />
+              </BrushElements>
+              <Response />
+              <StrokeElement>
+                <BrushElements>
+                  <igGaugeProp:SolidFillBrushElement Color="64, 64, 64" />
+                </BrushElements>
+              </StrokeElement>
+            </igGaugeProp:LinearGaugeNeedle>
+          </Markers>
+          <MajorTickmarks EndWidth="4" EndExtent="80" Frequency="2.5" StartExtent="20" StartWidth="4">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement />
+            </BrushElements>
+          </MajorTickmarks>
+          <Axes>
+            <igGaugeProp:NumericAxis />
+          </Axes>
+          <Labels Frequency="20" Extent="50" Font="Arial, 12pt, style=Bold" ZPosition="AboveMarkers" />
+        </igGaugeProp:LinearGaugeScale>
+      </Scales>
+      <BrushElements>
+        <igGaugeProp:BrushElementGroup>
+          <BrushElements>
+            <igGaugeProp:MultiStopLinearGradientBrushElement Angle="90">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="254, 42, 0" />
+                <igGaugeProp:ColorStop Color="212, 254, 0" Stop="0.637931" />
+                <igGaugeProp:ColorStop Color="0, 118, 0" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopLinearGradientBrushElement>
+            <igGaugeProp:MultiStopLinearGradientBrushElement Angle="240" RelativeBoundsMeasure="Percent" RelativeBounds="0, 0, 100, 30">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="Transparent" />
+                <igGaugeProp:ColorStop Color="Transparent" Stop="0.3827586" />
+                <igGaugeProp:ColorStop Color="61, 254, 254, 254" Stop="0.4275862" />
+                <igGaugeProp:ColorStop Color="155, 255, 255, 255" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopLinearGradientBrushElement>
+          </BrushElements>
+        </igGaugeProp:BrushElementGroup>
+      </BrushElements>
+      <StrokeElement>
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement />
+        </BrushElements>
+      </StrokeElement>
+    </igGaugeProp:LinearGauge>
+  </Gauges>
+  <Annotations>
+    <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="2, -39, 100, 100">
+      <Label FormatString="SEVERE" Font="Franklin Gothic Medium, 13pt">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="100, 0, 0, 0" />
+        </BrushElements>
+      </Label>
+    </igGaugeProp:BoxAnnotation>
+    <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="0, -40, 100, 100">
+      <Label FormatString="SEVERE" Font="Franklin Gothic Medium, 13pt">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="White" />
+        </BrushElements>
+      </Label>
+    </igGaugeProp:BoxAnnotation>
+    <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="2, -19, 100, 100">
+      <Label FormatString="HIGH" Font="Franklin Gothic Medium, 13pt">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="100, 0, 0, 0" />
+        </BrushElements>
+      </Label>
+    </igGaugeProp:BoxAnnotation>
+    <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="0, -20, 100, 100">
+      <Label FormatString="HIGH" Font="Franklin Gothic Medium, 13pt">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="White" />
+        </BrushElements>
+      </Label>
+    </igGaugeProp:BoxAnnotation>
+    <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="2, 1, 100, 100">
+      <Label FormatString="ELEVATED" Font="Franklin Gothic Medium, 13pt">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="100, 0, 0, 0" />
+        </BrushElements>
+      </Label>
+    </igGaugeProp:BoxAnnotation>
+    <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="0, 0, 100, 100">
+      <Label FormatString="ELEVATED" Font="Franklin Gothic Medium, 13pt">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="White" />
+        </BrushElements>
+      </Label>
+    </igGaugeProp:BoxAnnotation>
+    <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="2, 21, 100, 100">
+      <Label FormatString="MODERATE" Font="Franklin Gothic Medium, 13pt">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="100, 0, 0, 0" />
+        </BrushElements>
+      </Label>
+    </igGaugeProp:BoxAnnotation>
+    <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="0, 20, 100, 100">
+      <Label FormatString="MODERATE" Font="Franklin Gothic Medium, 13pt">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="White" />
+        </BrushElements>
+      </Label>
+    </igGaugeProp:BoxAnnotation>
+    <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="2, 41, 100, 100">
+      <Label FormatString="LOW" Font="Franklin Gothic Medium, 13pt">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="100, 0, 0, 0" />
+        </BrushElements>
+      </Label>
+    </igGaugeProp:BoxAnnotation>
+    <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="0, 40, 100, 100">
+      <Label FormatString="LOW" Font="Franklin Gothic Medium, 13pt">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="White" />
+        </BrushElements>
+      </Label>
+    </igGaugeProp:BoxAnnotation>
+  </Annotations>
+  <Effects />
+</igGauge:UltraGauge>

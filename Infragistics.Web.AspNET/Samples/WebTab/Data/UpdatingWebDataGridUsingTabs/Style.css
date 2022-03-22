@@ -1,0 +1,16 @@
+﻿        .MainContent{float: left;}
+        .ProductDetailTab_Content div {padding: 10px 0px 10px 2px;}
+       .tabsInput {position: absolute; left:80px; height: 19px;}
+        .ig_FeatureBrowserControl{background-color:transparent !important; display:block; font-size:11px !important; border:none !important;}
+        #ctl00_OverviewPanel{margin-top:25px;}  
+         .ProductDetailTab_Content{padding:7px 0 0 11px;}
+        .igtab_FeatureBrowserTHContentHolder{border:1px solid #bbb !important;}
+        .igtab_FeatureBrowserTHHolder{background:none !important; top:1px;}
+        .igtab_FeatureBrowserTHTab{border-bottom:1px solid #bbb !important;}
+       .btnsBottom{display:block; margin:10px 0 0 0;}
+       .igtab_FeatureBrowserTHImage  {padding:0 5px;vertical-align:middle;}
+       .igte_FeatureBrowserEdit{background-color:#FFFFFF;background-image:none;}
+       .igtab_FeatureBrowserTHText{padding:0 5px 0 0;}
+       .tabsInput {position: absolute; left:115px; height: 18px; width:200px; margin-top:-2px;}
+       .LabelHidden{ display: none; }
+       .LabelShow{ display: block; margin-left: 102px }

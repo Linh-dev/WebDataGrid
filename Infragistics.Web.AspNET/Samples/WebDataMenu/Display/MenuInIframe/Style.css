@@ -1,0 +1,112 @@
+﻿#container
+{
+    padding: 0 0 0 6px;
+}
+.mainTable
+{
+    border: 0px;
+    height: 100%;
+    width: 100%;
+}
+.MainContent
+{
+    margin: 5px 0px 3px 0;
+}
+.ig_FeatureBrowserControl
+{
+    background-color: transparent !important;
+}
+#ctl00_OverviewPanel
+{
+    margin-top: 25px;
+}
+.PE_RightContent
+{
+    float: left;
+    margin: 0;
+    height: 100%;
+}
+.PE_RightContent table
+{
+    border: 0;
+    width: 274px;
+}
+.PE_RightContent td
+{
+    height: 28px;
+    padding: 0 0 0 5px;
+}
+.tableLeftTd
+{
+    text-align: right;
+}
+.bgTdLight
+{
+    background-color: #F4F9F2;
+}
+.bgTdDark
+{
+    background-color: #E7F5D2;
+}
+.ClientTabs
+{
+    padding: 0 5px 0 0;
+    background-color: Transparent;
+}
+.borderGreen
+{
+    vertical-align: top;
+    background-color: #F4F9F2;
+    width: 200px;
+}
+.mainTdLeft
+{
+    vertical-align: top;
+}
+.igdw_IGBodyContentArea
+{
+    vertical-align: top;
+    background-color: White;
+    background-image: url("/SamplesBrowser/SamplesCommon/aspnet/Common/TreeBg.jpg");
+    background-repeat: no-repeat;
+}
+        
+.igtab_FeatureBrowserTHContentHolder
+{
+    width: 298px;
+}
+.igtab_FeatureBrowserTHContent
+{
+    padding: 3px 5px 5px 5px;
+}
+.igtab_FeatureBrowserTHHolder
+{
+    width: 300px;
+}
+        
+.formItemsHolder
+{
+    padding: 0;
+    margin: 0;
+    background: white;
+    list-style-type : none;
+}
+.formItemsHolder li
+{
+    font-size: inherit;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+        
+.formItemsHolder .lbl
+{
+    display: block;
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+        
+#ctl00_ContentLive_WebDialogWindow1
+{
+    position: static !important;
+}

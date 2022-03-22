@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="FourteenSegmentGreen" PresetDescription="Fourteen Segment Green" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" Width="250" Height="100">
+  <Gauges>
+    <igGaugeProp:SegmentedDigitalGauge Mode="FourteenSegment" DigitSpacing="6" BoundsMeasure="Percent" Digits="4" Text="2.AB*/">
+      <FontBrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="PaleGreen" />
+      </FontBrushElements>
+      <BrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="Black" />
+      </BrushElements>
+      <StrokeElement>
+        <BrushElements />
+      </StrokeElement>
+      <UnlitBrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="100, 10, 100, 10" />
+      </UnlitBrushElements>
+    </igGaugeProp:SegmentedDigitalGauge>
+  </Gauges>
+  <Annotations />
+  <Effects />
+</igGauge:UltraGauge>

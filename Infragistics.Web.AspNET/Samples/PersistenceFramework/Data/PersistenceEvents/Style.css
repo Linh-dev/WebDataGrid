@@ -1,0 +1,49 @@
+﻿.ListOfEvents UL
+{
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 0px;
+    color:#666666;
+            
+}
+.ListOfEvents LI
+{
+    margin-bottom: 5px;
+    font-size:13px;
+            
+}
+
+.button
+{
+    margin: 10px 0;
+}
+
+.normal-events
+{
+    font-size: 11px;
+}
+
+.highlighted-events
+{
+    width: 100%;
+    background-color: #696969;
+    color: #ffffff;     
+}
+
+.bottom-events
+{
+    margin-bottom: 10px;        
+}
+
+.controlPanelEvent
+{
+    height: 200px !important;    
+}
+
+.lbl-status
+{
+    margin: 10px 5px;
+    color: #235F75;
+    font-weight: bold;
+}

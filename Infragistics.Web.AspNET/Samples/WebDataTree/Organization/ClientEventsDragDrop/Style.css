@@ -1,0 +1,34 @@
+﻿.BackgroundImage
+{
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/Common/TreeBg.jpg);
+    background-repeat: no-repeat;
+}
+.TreeBackgroundImage
+{
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebDataTree/Organization/ClientEventsDragDrop/DragImage.png);
+    background-repeat: no-repeat;
+    background-position:top-left;
+           
+}
+.panelBackground
+{
+    background-color: #F7F7F7;
+	border: 1px solid #EEEEEE;
+	border-top: 0px;
+	padding: 10px;
+	padding-top: 0px;
+	margin-bottom: 5px;
+	line-height: 12px;
+}
+.addPanel
+{
+    background-color: #F2F5F2;
+	border: 1px solid #EEEEEE;
+	border-top: 10px;
+	padding: 10px;
+	padding-top: 3px;
+	margin-bottom: 5px;
+	line-height: 12px;
+
+}
+        

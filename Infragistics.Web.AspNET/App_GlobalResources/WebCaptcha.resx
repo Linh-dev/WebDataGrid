@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlName" xml:space="preserve">
+    <value>WebCaptcha</value>
+  </data>
+  <data name="PropertyExplorerAudio" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="PropertyExplorerBackgroundColor" xml:space="preserve">
+    <value>Background Color</value>
+  </data>
+  <data name="PropertyExplorerBackgroundNoise" xml:space="preserve">
+    <value>Background Noise</value>
+  </data>
+  <data name="PropertyExplorerCaptchaMode" xml:space="preserve">
+    <value>Captcha – this is the default protection mode. In this mode the validation is done by comparing the inserted text and the randomly generated characters, word/s, or an answer to a predefined question.</value>
+  </data>
+  <data name="PropertyExplorerCaseSensitivity" xml:space="preserve">
+    <value>Enable Case Sensitivity</value>
+  </data>
+  <data name="PropertyExplorerCharacters0" xml:space="preserve">
+    <value>3 characters</value>
+  </data>
+  <data name="PropertyExplorerCharacters1" xml:space="preserve">
+    <value>4 characters</value>
+  </data>
+  <data name="PropertyExplorerCharacters2" xml:space="preserve">
+    <value>5 characters</value>
+  </data>
+  <data name="PropertyExplorerCharacters3" xml:space="preserve">
+    <value>6 characters</value>
+  </data>
+  <data name="PropertyExplorerCharacters4" xml:space="preserve">
+    <value>7 characters</value>
+  </data>
+  <data name="PropertyExplorerCharacters5" xml:space="preserve">
+    <value>8 characters</value>
+  </data>
+  <data name="PropertyExplorerColor0" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="PropertyExplorerColor1" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="PropertyExplorerColor2" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="PropertyExplorerColor3" xml:space="preserve">
+    <value>Grey</value>
+  </data>
+  <data name="PropertyExplorerColor4" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="PropertyExplorerColor5" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="PropertyExplorerDescription" xml:space="preserve">
+    <value>This sample shows how to configure the WebCaptcha to meet your needs. You can select any of the properties below to adjust the control.</value>
+  </data>
+  <data name="PropertyExplorerDictionaryMode" xml:space="preserve">
+    <value>Dictionary Mode</value>
+  </data>
+  <data name="PropertyExplorerEdit" xml:space="preserve">
+    <value>Edit the invisible text box</value>
+  </data>
+  <data name="PropertyExplorerEnable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="PropertyExplorerFontWarp" xml:space="preserve">
+    <value>Font Warping</value>
+  </data>
+  <data name="PropertyExplorerFormSubmition" xml:space="preserve">
+    <value>Form Submitted Successfully!</value>
+  </data>
+  <data name="PropertyExplorerInvisibleMode" xml:space="preserve">
+    <value>Invisible Input Field – in this mode the control renders an invisible input element and if any editing is performed to this field, it is assumed this has been done by a bot and the validation will fail.</value>
+  </data>
+  <data name="PropertyExplorerLinesNoise" xml:space="preserve">
+    <value>Lines Noise</value>
+  </data>
+  <data name="PropertyExplorerLoading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="PropertyExplorerProtectionMode" xml:space="preserve">
+    <value>Protection Mode</value>
+  </data>
+  <data name="PropertyExplorerProtectionModes" xml:space="preserve">
+    <value>Protection Modes</value>
+  </data>
+  <data name="PropertyExplorerQAFilePath" xml:space="preserve">
+    <value>/SamplesBrowser/SamplesCommon/aspnet/WebCaptcha/Display/PropertyExplorer/LogicalQuestionsAndAnswers.txt</value>
+  </data>
+  <data name="PropertyExplorerRandomFonts" xml:space="preserve">
+    <value>Enable Random Fonts</value>
+  </data>
+  <data name="PropertyExplorerRefresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="PropertyExplorerRotationNoise" xml:space="preserve">
+    <value>Rotation Noise</value>
+  </data>
+  <data name="PropertyExplorerSeconds0" xml:space="preserve">
+    <value>3 seconds</value>
+  </data>
+  <data name="PropertyExplorerSeconds1" xml:space="preserve">
+    <value>5 seconds</value>
+  </data>
+  <data name="PropertyExplorerSeconds2" xml:space="preserve">
+    <value>7 seconds</value>
+  </data>
+  <data name="PropertyExplorerSeconds3" xml:space="preserve">
+    <value>9 seconds</value>
+  </data>
+  <data name="PropertyExplorerSeconds4" xml:space="preserve">
+    <value>11 seconds</value>
+  </data>
+  <data name="PropertyExplorerSeconds5" xml:space="preserve">
+    <value>13 seconds</value>
+  </data>
+  <data name="PropertyExplorerSubmit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="PropertyExplorerTextColor" xml:space="preserve">
+    <value>Text Color</value>
+  </data>
+  <data name="PropertyExplorerTextLength" xml:space="preserve">
+    <value>Text Length</value>
+  </data>
+  <data name="PropertyExplorerTimeout" xml:space="preserve">
+    <value>Minimum Timeout</value>
+  </data>
+  <data name="PropertyExplorerTimeoutMode" xml:space="preserve">
+    <value>Form Submission Timeout – in this mode the control will count the seconds defined by the FormSubmissionTimeoutSeconds property. If the form is submitted before these seconds pass, the validation will fail.</value>
+  </data>
+  <data name="PropertyExplorerTitle" xml:space="preserve">
+    <value>How to Configure WebCaptcha</value>
+  </data>
+  <data name="PropertyExplorerUniqueChars" xml:space="preserve">
+    <value>Enable Unique Chars</value>
+  </data>
+  <data name="ScenarioAddYourComment" xml:space="preserve">
+    <value>Add Your Comment</value>
+  </data>
+  <data name="ScenarioAllReplies" xml:space="preserve">
+    <value>All Replies</value>
+  </data>
+  <data name="ScenarioComment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="ScenarioDescription" xml:space="preserve">
+    <value>This sample shows how to use WebCaptcha as Comment Validator inside an UpdatePanel. </value>
+  </data>
+  <data name="ScenarioErrorMessage" xml:space="preserve">
+    <value>Code doesn't match image!</value>
+  </data>
+  <data name="ScenarioName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ScenarioNullText" xml:space="preserve">
+    <value>write text from image</value>
+  </data>
+  <data name="ScenarioPostYourComment" xml:space="preserve">
+    <value>Post Your comment</value>
+  </data>
+  <data name="ScenarioTitle" xml:space="preserve">
+    <value>WebCaptcha as Comment Validator</value>
+  </data>
+  <data name="ThemesDescription" xml:space="preserve">
+    <value>The WebCaptcha comes with a number of predefined styles and can be customized by changing the defined CSS styles for the control.</value>
+  </data>
+  <data name="ThemesTitle" xml:space="preserve">
+    <value>Application Styling Themes for WebCaptcha</value>
+  </data>
+</root>

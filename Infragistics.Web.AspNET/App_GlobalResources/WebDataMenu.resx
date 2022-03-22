@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddressCaption" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="AnimationDuration" xml:space="preserve">
+    <value>Animation Duration:</value>
+  </data>
+  <data name="AnimationEquation" xml:space="preserve">
+    <value>Animation Equation:</value>
+  </data>
+  <data name="AnimationType" xml:space="preserve">
+    <value>Animation Type:</value>
+  </data>
+  <data name="ClientEventClicked" xml:space="preserve">
+    <value>clicked</value>
+  </data>
+  <data name="ClientEventCollapsed" xml:space="preserve">
+    <value>collapsed</value>
+  </data>
+  <data name="ClientEventCollapsing" xml:space="preserve">
+    <value>collapsing</value>
+  </data>
+  <data name="ClientEventExpanded" xml:space="preserve">
+    <value>expanded</value>
+  </data>
+  <data name="ClientEventExpanding" xml:space="preserve">
+    <value>expanding</value>
+  </data>
+  <data name="ClientEventHovered" xml:space="preserve">
+    <value>hovered</value>
+  </data>
+  <data name="ClientEventIsSelected" xml:space="preserve">
+    <value>iselected</value>
+  </data>
+  <data name="ClientEventIsSelecting" xml:space="preserve">
+    <value>iselecting</value>
+  </data>
+  <data name="ClientEventKeyPress" xml:space="preserve">
+    <value>keypress</value>
+  </data>
+  <data name="ClientEventUnhovered" xml:space="preserve">
+    <value>Unhovered</value>
+  </data>
+  <data name="ClientSideEventsDescription" xml:space="preserve">
+    <value>This sample shows how to subscribe to the client (JavaScript) events of the WebDataMenu. When an event fires, a message is displayed for the menu item that triggered the event.</value>
+  </data>
+  <data name="ClientSideEventsTitle" xml:space="preserve">
+    <value>Client Side Events for the WebDataMenu</value>
+  </data>
+  <data name="ContextMenuDescription" xml:space="preserve">
+    <value>This sample shows how to use the WebDataMenu as a context menu for tree nodes. To display the context menu click on one of the tree nodes. The context menu allows you to edit or Expand/Collapse a node.</value>
+  </data>
+  <data name="ContextMenuEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ContextMenuExpand" xml:space="preserve">
+    <value>Expand/Collapse</value>
+  </data>
+  <data name="ContextMenuTitle" xml:space="preserve">
+    <value>How to Build a Context Menu</value>
+  </data>
+  <data name="ControlName" xml:space="preserve">
+    <value>WebDataMenu</value>
+  </data>
+  <data name="DataAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="DataASPNet" xml:space="preserve">
+    <value>ASP.NET 2010</value>
+  </data>
+  <data name="DataBooks" xml:space="preserve">
+    <value>BOOKS</value>
+  </data>
+  <data name="DataHelp" xml:space="preserve">
+    <value>HELP</value>
+  </data>
+  <data name="DataIGLife" xml:space="preserve">
+    <value>IG Life</value>
+  </data>
+  <data name="DataIndex" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="DataInfragisticsTimes" xml:space="preserve">
+    <value>Infragistics Times</value>
+  </data>
+  <data name="DataPages" xml:space="preserve">
+    <value>PAGES</value>
+  </data>
+  <data name="DataSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="DataSilverlight" xml:space="preserve">
+    <value>Silverlight 2</value>
+  </data>
+  <data name="ExpandDirection" xml:space="preserve">
+    <value>Expand Direction:</value>
+  </data>
+  <data name="HierarchicalDataBindingDescription" xml:space="preserve">
+    <value>This sample shows how to build a hierarchical data source to the WebDataMenu using the WebHierarchicalDataSource control.</value>
+  </data>
+  <data name="HierarchicalDataBindingTitle" xml:space="preserve">
+    <value>DataBinding Hierarchical Data</value>
+  </data>
+  <data name="HorizontalCaption" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="ItemClickedCaption" xml:space="preserve">
+    <value>Item Clicked:</value>
+  </data>
+  <data name="ItemCollapsedCaption" xml:space="preserve">
+    <value>Item Collapsed:</value>
+  </data>
+  <data name="ItemExpandedCaption" xml:space="preserve">
+    <value>Item Expanded:</value>
+  </data>
+  <data name="ItemSelectedCaption" xml:space="preserve">
+    <value>Item Selected:</value>
+  </data>
+  <data name="MenuitemFile" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="OffSetX" xml:space="preserve">
+    <value>Menu Offset X:</value>
+  </data>
+  <data name="OffSetY" xml:space="preserve">
+    <value>Menu Offset Y:</value>
+  </data>
+  <data name="OrientationCaption" xml:space="preserve">
+    <value>Orientation:</value>
+  </data>
+  <data name="PropertyExplorerCaption" xml:space="preserve">
+    <value>WebDataMenu Property Explorer</value>
+  </data>
+  <data name="PropertyExplorerDescription" xml:space="preserve">
+    <value>This sample shows how to configure the display behavior of the menu. Select one or more of the properties to alter the behavior of the menu.</value>
+  </data>
+  <data name="PropertyExplorerTitle" xml:space="preserve">
+    <value>How to Configure the WebDataMenu</value>
+  </data>
+  <data name="SampleDataBindingCaption" xml:space="preserve">
+    <value>Infragistics Community Site</value>
+  </data>
+  <data name="SampleDataBindingDescription" xml:space="preserve">
+    <value>Select an item in the drop down to change the data source used by the menu.</value>
+  </data>
+  <data name="SampleDataBindingTitle" xml:space="preserve">
+    <value>Data Binding</value>
+  </data>
+  <data name="SelectAllPages" xml:space="preserve">
+    <value>Select All Pages</value>
+  </data>
+  <data name="ServerEventDescription" xml:space="preserve">
+    <value>This sample shows how to subscribe to the server events of the WebDataMenu. When an event fires, a postback will occur and a message will be displayed for the item that triggered the event.</value>
+  </data>
+  <data name="ServerEventTitle" xml:space="preserve">
+    <value>Server Events for the WebDataMenu</value>
+  </data>
+  <data name="StyleDescription" xml:space="preserve">
+    <value>The WebDataMenu comes with a number of predefined styles and can be customized by changing the defined CSS styles for the control.</value>
+  </data>
+  <data name="StyleTitlePartOne" xml:space="preserve">
+    <value>How to Style the WebDataMenu (Part One)</value>
+  </data>
+  <data name="StyleTitlePartTwo" xml:space="preserve">
+    <value>How to Style the WebDataMenu (Part Two)</value>
+  </data>
+  <data name="TemplateDescription" xml:space="preserve">
+    <value>This sample shows how to use templates to customize the look of menu items. Click on the pages menu and select a page to display it.</value>
+  </data>
+  <data name="TemplateTitle" xml:space="preserve">
+    <value>Using Templates to customize the WebDataMenu</value>
+  </data>
+  <data name="VerticalCaption" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="DataBound" xml:space="preserve">
+    <value>Menu Data Bound.</value>
+  </data>
+  <data name="RetailSalesCaption" xml:space="preserve">
+    <value>Retail Sales</value>
+  </data>
+  <data name="VerticalMenuDescription" xml:space="preserve">
+    <value>This sample shows how to build a multi level vertical menu using the WebDataMenu control.</value>
+  </data>
+  <data name="VerticalMenuTitle" xml:space="preserve">
+    <value>Building a Vertical Tree</value>
+  </data>
+  <data name="ContextMenuDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ContextMenuExplore" xml:space="preserve">
+    <value>Explore</value>
+  </data>
+  <data name="ContextMenuNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="ContextMenuSendTo" xml:space="preserve">
+    <value>Send to</value>
+  </data>
+  <data name="TemplatePage" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="SamplesDataBase" xml:space="preserve">
+    <value>~/App_Data/SampleData.xml</value>
+  </data>
+  <data name="DataMenuPath" xml:space="preserve">
+    <value>~/App_Data/MenuData.xml</value>
+  </data>
+  <data name="HierarchicalDataBindingDefaultURL" xml:space="preserve">
+    <value>http://community.infragistics.com</value>
+  </data>
+  <data name="MenuInSplitter_Description" xml:space="preserve">
+    <value>You can scroll through the root menus and submenus to see how the scrolling of WebDataMenu is working. Try resizing the panes to see how the WebDataMenu is dynamically resized.</value>
+  </data>
+  <data name="MenuInSplitter_Title" xml:space="preserve">
+    <value>Menu In Splitter</value>
+  </data>
+  <data name="MenuScrolling_Clicked" xml:space="preserve">
+    <value>You have clicked:</value>
+  </data>
+  <data name="MenuScrolling_Description" xml:space="preserve">
+    <value>This sample demonstrates how to use WebDataMenu scrolling feature. The vertical menu has fixed height of 200px defined in GroupSettings. The horizontal menu has fixed Width of 600px. 
+        When you have a fixed area, where you want to place your WebDataMenu control, you are able to set the width/height in the GroupSettings object.
+        This way if you have lots of items scrolling will be automatically shown.</value>
+  </data>
+  <data name="MenuScrolling_Horizontal" xml:space="preserve">
+    <value>Horizontal Menu</value>
+  </data>
+  <data name="MenuScrolling_Title" xml:space="preserve">
+    <value>Menu Scrolling</value>
+  </data>
+  <data name="MenuScrolling_Vertical" xml:space="preserve">
+    <value>Vertical Menu</value>
+  </data>
+  <data name="ScrollingDataSource" xml:space="preserve">
+    <value>~/App_Data/xml/en/MenuScrollingData.xml</value>
+  </data>
+  <data name="MenuInIFrame_Description" xml:space="preserve">
+    <value>In this sample we have WebDataMenu in Iframe with Enabled Scrolling. You can scroll through the menu items and submenus to see how scrolling buttons appear when the content becomes bigger than the iframe size. We have both horizontal and vertical submenus set.</value>
+  </data>
+  <data name="MenuInIFrame_Title" xml:space="preserve">
+    <value>Menu In IFrame</value>
+  </data>
+  <data name="MenuScrollingTheme_Description" xml:space="preserve">
+    <value>The WebDataMenu Scrolling comes with a number of predefined styles and can be customized by changing the defined CSS styles for the control.</value>
+  </data>
+  <data name="MenuScrollingTheme_Title" xml:space="preserve">
+    <value>WebDataMenu Scrolling Styles</value>
+  </data>
+  <data name="MenuInIFrame_Description2" xml:space="preserve">
+    <value>When Auto is selected, there is no height and width set to GroupSettings in the WebDataMenu. When different value is choosen for width/height, the value is set as height for the vertical menu and as width for the horizontal menu.</value>
+  </data>
+  <data name="MenuInIFrame_DropDownLabel" xml:space="preserve">
+    <value>Select Width and Height value for the menu from the dropdown:</value>
+  </data>
+  <data name="WebDataMenuScrollingThemesDataFile" xml:space="preserve">
+    <value>~/App_Data/xml/en/MenuScrollingDataSimple.xml</value>
+  </data>
+  <data name="MenuScrollingTheme2_Title" xml:space="preserve">
+    <value>WebDataMenu Scrolling Styles Page 2</value>
+  </data>
+  <data name="MenuScrollingContexMenu_Description" xml:space="preserve">
+    <value>This sample demonstrates using of context datamenu with scrolling enabled. You can right-click on desired item from the WebDataTree.</value>
+  </data>
+  <data name="MenuScrollingContextMenu_Title" xml:space="preserve">
+    <value>Context Menu Scrolling</value>
+  </data>
+  <data name="MenuInFrame_EnableScrolling" xml:space="preserve">
+    <value>Enable scrolling</value>
+  </data>
+  <data name="IEMenu_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="IEMenu_CommandBar" xml:space="preserve">
+    <value>Command Bar</value>
+  </data>
+  <data name="IEMenu_Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="IEMenu_Encoding" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="IEMenu_ExplorerBars" xml:space="preserve">
+    <value>Explorer Bars</value>
+  </data>
+  <data name="IEMenu_Favourites" xml:space="preserve">
+    <value>Favourites</value>
+  </data>
+  <data name="IEMenu_FavouritesBar" xml:space="preserve">
+    <value>Favourites Bar</value>
+  </data>
+  <data name="IEMenu_Feeds" xml:space="preserve">
+    <value>Feeds</value>
+  </data>
+  <data name="IEMenu_Froward" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="IEMenu_GoTo" xml:space="preserve">
+    <value>Go To</value>
+  </data>
+  <data name="IEMenu_History" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="IEMenu_HomePage" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="IEMenu_Larger" xml:space="preserve">
+    <value>Larger</value>
+  </data>
+  <data name="IEMenu_Largest" xml:space="preserve">
+    <value>Largest</value>
+  </data>
+  <data name="IEMenu_LockTheToolbars" xml:space="preserve">
+    <value>Lock the Toolbars</value>
+  </data>
+  <data name="IEMenu_Medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="IEMenu_MenuBar" xml:space="preserve">
+    <value>Manu Bar</value>
+  </data>
+  <data name="IEMenu_QuickTabs" xml:space="preserve">
+    <value>Quick Tabs</value>
+  </data>
+  <data name="IEMenu_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="IEMenu_Smaler" xml:space="preserve">
+    <value>Smaller</value>
+  </data>
+  <data name="IEMenu_Smalest" xml:space="preserve">
+    <value>Smallest</value>
+  </data>
+  <data name="IEMenu_StatusBar" xml:space="preserve">
+    <value>Status Bar</value>
+  </data>
+  <data name="IEMenu_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="IEMenu_TextSize" xml:space="preserve">
+    <value>Text Size</value>
+  </data>
+  <data name="IEMenu_Toolbars" xml:space="preserve">
+    <value>Toolbars</value>
+  </data>
+  <data name="IEMenu_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="IEMenu_ZoomIn" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="IEMenu_ZoomOut" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+  <data name="Encoding_Arabic1" xml:space="preserve">
+    <value>Arabic (ASMO 708)</value>
+  </data>
+  <data name="Encoding_Arabic2" xml:space="preserve">
+    <value>Arabic (DOS)</value>
+  </data>
+  <data name="Encoding_Arabic3" xml:space="preserve">
+    <value>Arabic (ISO)</value>
+  </data>
+  <data name="Encoding_Arabic4" xml:space="preserve">
+    <value>Arabic (Windows)</value>
+  </data>
+  <data name="Encoding_Baltic1" xml:space="preserve">
+    <value>Baltic (ISO)</value>
+  </data>
+  <data name="Encoding_Baltic2" xml:space="preserve">
+    <value>Baltic (Windows)</value>
+  </data>
+  <data name="Encoding_CE1" xml:space="preserve">
+    <value>Central European (DOS)</value>
+  </data>
+  <data name="Encoding_CE2" xml:space="preserve">
+    <value>Central European (ISO)</value>
+  </data>
+  <data name="Encoding_CE3" xml:space="preserve">
+    <value>Central European (Windows)</value>
+  </data>
+  <data name="Encoding_Chinese1" xml:space="preserve">
+    <value>Chinese Simplified (GB18030)</value>
+  </data>
+  <data name="Encoding_Chinese2" xml:space="preserve">
+    <value>Chinese Simplified (GB2312)</value>
+  </data>
+  <data name="Encoding_Chinese3" xml:space="preserve">
+    <value>Chinese Simplified (HZ)</value>
+  </data>
+  <data name="Encoding_Chinese4" xml:space="preserve">
+    <value>Chinese Traditional (Big5)</value>
+  </data>
+  <data name="Encoding_Cyrilic1" xml:space="preserve">
+    <value>Cyrilic (DOS)</value>
+  </data>
+  <data name="Encoding_Cyrilic2" xml:space="preserve">
+    <value>Cyrilic (ISO)</value>
+  </data>
+  <data name="Encoding_Cyrilic3" xml:space="preserve">
+    <value>Cyrilic (KOI8-R)</value>
+  </data>
+  <data name="Encoding_Cyrilic4" xml:space="preserve">
+    <value>Cyrilic (KOI8-U)</value>
+  </data>
+  <data name="Encoding_Greek1" xml:space="preserve">
+    <value>Greek (ISO)</value>
+  </data>
+  <data name="Encoding_Greek2" xml:space="preserve">
+    <value>Greek (Windows)</value>
+  </data>
+  <data name="Encoding_Hebrew1" xml:space="preserve">
+    <value>Hebrew (DOS)</value>
+  </data>
+  <data name="Encoding_Hebrew2" xml:space="preserve">
+    <value>Hebrew (ISO-Logical)</value>
+  </data>
+  <data name="Encoding_Hebrew3" xml:space="preserve">
+    <value>Hebrew (ISO-Visual)</value>
+  </data>
+  <data name="Encoding_Hebrew4" xml:space="preserve">
+    <value>Hebrew (Windows)</value>
+  </data>
+  <data name="Encoding_JP1" xml:space="preserve">
+    <value>Japanese (Auto-Select)</value>
+  </data>
+  <data name="Encoding_JP2" xml:space="preserve">
+    <value>Japanese (EUC)</value>
+  </data>
+  <data name="Encoding_JP3" xml:space="preserve">
+    <value>Japanese (Shift-JIS)</value>
+  </data>
+  <data name="Encoding_Korean" xml:space="preserve">
+    <value>Korean</value>
+  </data>
+  <data name="Encoding_Thai" xml:space="preserve">
+    <value>Thai (Windows)</value>
+  </data>
+  <data name="Encoding_Turtish1" xml:space="preserve">
+    <value>Turkish (Windows)</value>
+  </data>
+  <data name="Encoding_Turtish2" xml:space="preserve">
+    <value>Turkish (ISO)</value>
+  </data>
+  <data name="Encoding_UserDefined" xml:space="preserve">
+    <value>User Defined</value>
+  </data>
+  <data name="Encoding_Vietnamese" xml:space="preserve">
+    <value>Vietnamese (Windows)</value>
+  </data>
+  <data name="IEMenu_AutoSelect" xml:space="preserve">
+    <value>Auto-Select</value>
+  </data>
+  <data name="IEMenu_CaretBrowsing" xml:space="preserve">
+    <value>Caret Browsing</value>
+  </data>
+  <data name="IEMenu_CyrilicWindows" xml:space="preserve">
+    <value>Cyrilic (Windows)</value>
+  </data>
+  <data name="IEMenu_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="IEMenu_LeftToRight" xml:space="preserve">
+    <value>Left-To-Right Document</value>
+  </data>
+  <data name="IEMenu_More" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="IEMenu_NoStyle" xml:space="preserve">
+    <value>No Style</value>
+  </data>
+  <data name="IEMenu_RightToLeft" xml:space="preserve">
+    <value>Right-To-Left Document</value>
+  </data>
+  <data name="IEMenu_Style" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="IEMenu_WesternEuropean" xml:space="preserve">
+    <value>Western European (UTF-8)</value>
+  </data>
+  <data name="IEMenu_WesternEuropeanISO" xml:space="preserve">
+    <value>Western European (ISO)</value>
+  </data>
+  <data name="IEMenu_WesternEuropeanWindows" xml:space="preserve">
+    <value>Western European (Windows)</value>
+  </data>
+  <data name="MenuInIFrame_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="MenuInIFrame_Big" xml:space="preserve">
+    <value>Big</value>
+  </data>
+  <data name="MenuInIFrame_FrameSize" xml:space="preserve">
+    <value>Frame Size:</value>
+  </data>
+  <data name="MenuInIFrame_HeightWidth" xml:space="preserve">
+    <value>Height/Width:</value>
+  </data>
+  <data name="MenuInIFrame_Horizontal" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="MenuInIFrame_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="MenuInIFrame_Orientation" xml:space="preserve">
+    <value>Orientation:</value>
+  </data>
+  <data name="MenuInIFrame_Small" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="MenuInIFrame_Vertical" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="WinMenu_Title" xml:space="preserve">
+    <value>Desktop and Web menu</value>
+  </data>
+  <data name="WinMenu_WebMenu" xml:space="preserve">
+    <value>Web Menu</value>
+  </data>
+  <data name="WinMenu_WinMenu" xml:space="preserve">
+    <value>Windows Menu</value>
+  </data>
+  <data name="WinMenu_Description" xml:space="preserve">
+    <value>In this sample we have WindowsMenu and Webmenu. Try hovering both of the menus to see that in first case you have to click to open the item, as in WebMenu case item is opened when hovered.</value>
+  </data>
+  <data name="MenuInIFrame_ScrollingSpeed" xml:space="preserve">
+    <value>Scrolling Speed:</value>
+  </data>
+  <data name="MenuInIFrame_Speed_Fast" xml:space="preserve">
+    <value>Fast</value>
+  </data>
+  <data name="MenuInIFrame_Speed_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="MenuInIFrame_Speed_Slow" xml:space="preserve">
+    <value>Slow</value>
+  </data>
+  <data name="MenuInIFrame_Speed_VeryFast" xml:space="preserve">
+    <value>Very Fast</value>
+  </data>
+  <data name="MenuInIFrame_Speed_VerySlow" xml:space="preserve">
+    <value>Very Slow</value>
+  </data>
+  <data name="MenuInIFrame_Description3" xml:space="preserve">
+    <value>If you click on the scroll button while you are over it, scrolling will accelerate automatically </value>
+  </data>
+  <data name="MenuInIFrame_ScrollingLabel_Text" xml:space="preserve">
+    <value>WebDataMenu ActivateOnHover is set to false, so that you can use the frame scrollbars</value>
+  </data>
+  <data name="SubMenuOffsetX" xml:space="preserve">
+    <value>Sub Menu Offset X:</value>
+  </data>
+  <data name="SubMenuOffsetY" xml:space="preserve">
+    <value>Sub Menu Offset Y:</value>
+  </data>
+</root>

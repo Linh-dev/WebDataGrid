@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Countries>
+  <Country CountryID="ES" CountryName="Spain" Rating="0"  TimesRated="0" AverageRating="0" ></Country>
+  <Country CountryID="CH" CountryName="Switzerland" Rating="0" TimesRated="0" AverageRating="0" ></Country>
+  <Country CountryID="HN" CountryName="Honduras" Rating="0" TimesRated="0" AverageRating="0"></Country>
+  <Country CountryID="CL" CountryName="Chile" Rating="0" TimesRated="0" AverageRating="0" ></Country>
+</Countries>

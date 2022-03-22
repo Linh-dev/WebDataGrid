@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="RadioStation" PresetDescription="Custom Preset Created 5/9/2007 2:13:49 PM" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" Width="400" Height="135">
+  <Gauges>
+    <igGaugeProp:LinearGauge CornerExtent="15">
+      <BrushElements>
+        <igGaugeProp:BrushElementGroup>
+          <BrushElements>
+            <igGaugeProp:SimpleGradientBrushElement EndColor="Black" StartColor="64, 64, 64" />
+            <igGaugeProp:SimpleGradientBrushElement EndColor="Gray" StartColor="White" RelativeBoundsMeasure="Percent" RelativeBounds="3, 10, 94, 80" />
+            <igGaugeProp:SimpleGradientBrushElement EndColor="40, 255, 255, 255" StartColor="120, 255, 255, 255" RelativeBoundsMeasure="Percent" RelativeBounds="1, 3, 98, 50" />
+          </BrushElements>
+        </igGaugeProp:BrushElementGroup>
+      </BrushElements>
+      <StrokeElement Thickness="0" />
+    </igGaugeProp:LinearGauge>
+    <igGaugeProp:SegmentedDigitalGauge Mode="FourteenSegment" Margin="30, 35, 30, 35, Pixels" Digits="11" Text="FM :103.5 KTU">
+      <FontBrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="232, 0, 38" />
+      </FontBrushElements>
+      <UnlitBrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="Transparent" />
+      </UnlitBrushElements>
+    </igGaugeProp:SegmentedDigitalGauge>
+  </Gauges>
+</igGauge:UltraGauge>

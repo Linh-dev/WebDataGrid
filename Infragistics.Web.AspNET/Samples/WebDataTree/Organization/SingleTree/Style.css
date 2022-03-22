@@ -1,0 +1,28 @@
+﻿.BackgroundImage
+{
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/Common/TreeBg.jpg);
+    background-repeat: no-repeat   ;
+    margin-top:40px;
+           
+                   
+}
+.TreeBackgroundImage
+{
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebDataTree/Organization/SingleTree/DragImageB.png);
+    background-repeat: no-repeat   ;
+    background-position:left 5px;
+                             
+}
+.boxBackground
+{
+    background-color: #F7F7F7;
+	border: 1px solid #EEEEEE;
+	padding: 10px;
+	line-height: 12px;
+	text-align:left;
+	width:300px;
+}
+
+.BackgroundImage .ig_IGControl {
+    overflow:hidden!important;
+}

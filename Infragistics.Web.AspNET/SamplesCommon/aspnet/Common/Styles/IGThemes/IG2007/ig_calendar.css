@@ -1,0 +1,91 @@
+.igcal_IG2007Control
+{
+	background-color:#77B9E5;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/header.gif);
+	border-color: LightGrey;
+}
+
+
+.igcal_IG2007Calendar
+{
+}
+
+
+.igcal_IG2007DOW
+{
+	background-color:White;
+	font-size:xx-small;
+	border-width:0px;
+	border-bottom:solid 1px #9AC6FF;
+	padding:5px 0px 0px 0px;
+}
+
+
+.igcal_IG2007Day
+{
+	background-color:White;
+	font-size:xx-small;
+	border-width:0px;
+}
+
+
+.igcal_IG2007NextPrev
+{
+	background-color:Transparent;
+}
+
+
+.igcal_IG2007Footer
+{
+	background-color:Gainsboro;
+	border-top:solid 0px Gainsboro;
+	padding-top:5px;
+	text-align:center;
+}
+
+
+.igcal_IG2007Header
+{
+	background-color:Transparent;
+	font-size:10px;
+	height: 16px;
+}
+
+
+.igcal_IG2007DropDown
+{
+}
+
+
+.igcal_IG2007WeekendDay
+{
+}
+
+
+.igcal_IG2007OtherMonthDay
+{
+	color:#B3B3B3;
+}
+
+
+.igcal_IG2007WeekendDayMajor
+{
+}
+
+
+.igcal_IG2007TodayDay
+{
+	border:solid 1px #A4D7F8;
+}
+
+
+.igcal_IG2007SelectedDay
+{
+	background-color:#699BC9;
+	background-image:none;
+	color:White;
+}
+
+

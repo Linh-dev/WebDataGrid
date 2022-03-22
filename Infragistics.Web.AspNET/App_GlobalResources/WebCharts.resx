@@ -1,0 +1,2299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlphaLevels_Description" xml:space="preserve">
+    <value>The Alpha Level property allows you to change the transparency of the chart. The Alpha values range from 0 (completely transparent) to 255 (completely opaque). The UltraWebChart chart types Alpha Level defaults to either 150, or 255 depending on the chart type.</value>
+  </data>
+  <data name="AlphaLevels_Header" xml:space="preserve">
+    <value>Controlling the Charts AlphaLevel</value>
+  </data>
+  <data name="AlphaLevels_Label" xml:space="preserve">
+    <value>Alpha Level:</value>
+  </data>
+  <data name="Area_Description1" xml:space="preserve">
+    <value>An Area Chart emphasizes the amount of change over a period of time or compares multiple items. An area chart also shows the relationship of parts to a whole by displaying the total of the plotted values.</value>
+  </data>
+  <data name="Area_Description2" xml:space="preserve">
+    <value>An area chart is a form of line chart, but the area between the horizontal (X) axis and the line connecting the data markers is filled with color. This makes it easy to see where the points encompassed by the different data series overlap.</value>
+  </data>
+  <data name="Area_Header" xml:space="preserve">
+    <value>Area Charts</value>
+  </data>
+  <data name="Area3D_Description1" xml:space="preserve">
+    <value>An Area Chart emphasizes the amount of change over a period of time or compares multiple items. An area chart also shows the relationship of parts to a whole by displaying the total of the plotted values.&lt;/P&gt; &lt;P&gt;An area chart is a form of line chart, but the area between the horizontal (X) axis and the line connecting the data markers is filled with color. This makes it easy to see where the points encompassed by the different data series overlap.</value>
+  </data>
+  <data name="Area3D_Description2" xml:space="preserve">
+    <value>The 3D area chart provides an extra dimension for plotting data by comparing values along two axes.</value>
+  </data>
+  <data name="Area3D_Header" xml:space="preserve">
+    <value>3D Area Charts</value>
+  </data>
+  <data name="AreaChartStyles_Description1" xml:space="preserve">
+    <value>The Area Chart exposes a number of special appearance properties that let you control the look of this specific chart type.&amp;nbsp; In addition to the normal styling control the chart give you to change colors and fonts, you can control Area chart specific features such as the style used to draw the line, start caps and end caps, as well as the display of midpoint anchors.</value>
+  </data>
+  <data name="AreaChartStyles_Header" xml:space="preserve">
+    <value>Area Chart Styles</value>
+  </data>
+  <data name="AreaChartStyles_Label1" xml:space="preserve">
+    <value>Draw Style</value>
+  </data>
+  <data name="AreaChartStyles_Label2" xml:space="preserve">
+    <value>Start Cap Style</value>
+  </data>
+  <data name="AreaChartStyles_Label3" xml:space="preserve">
+    <value>End Cap Style</value>
+  </data>
+  <data name="AreaChartStyles_Label4" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="AreaChartStyles_Label5" xml:space="preserve">
+    <value>Show Midpoint Anchors</value>
+  </data>
+  <data name="AreaChartStyles_Label6" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="AreaSplineHybrid_Description1" xml:space="preserve">
+    <value>A&amp;nbsp;Spline Chart&amp;nbsp;is a form of area chart. It has all the features and characteristics of an area chart, with the added feature of spline interpolation and smoothing for improved presentation of data.</value>
+  </data>
+  <data name="AreaSplineHybrid_Description2" xml:space="preserve">
+    <value>The Spline/Area chart combines the color fill of the Area Chart with the spline interpolation and smoothing of the Spline Chart.</value>
+  </data>
+  <data name="AreaSplineHybrid_Header" xml:space="preserve">
+    <value>Spline Area Chart</value>
+  </data>
+  <data name="AxisLabelLayout_Description1" xml:space="preserve">
+    <value>Infragistics UltraChart provides an algorithm to resize and rearrange axis labels in order to ensure that they never overlap, and that they are arranged as legibly as possible.</value>
+  </data>
+  <data name="AxisLabelLayout_Description2" xml:space="preserve">
+    <value>Additionally, an API is provided to allow application developers to design their 
+							own rules for axis label layout. For example, if an application wanted labels 
+							to automatically wrap but never rotate, this could be done using the 	LayoutBehaviors collection. Developers can even write custom Layout behaviors deriving from a base class, and add them to this collection.</value>
+  </data>
+  <data name="AxisLabelLayout_Description3" xml:space="preserve">
+    <value>Try changing the chart axis extent. You will observe the axis labels dynamically adjusting to the available space.</value>
+  </data>
+  <data name="AxisLabelLayout_Description4" xml:space="preserve">
+    <value>Then, try changing the layout mode in the DropDownLists to UseCollection. You 	will then observe a slightly different layout algorithm from the default. The 
+							source code for this form contains code for setting up the Behaviors collection to build this algorithm.</value>
+  </data>
+  <data name="AxisLabelLayout_Header" xml:space="preserve">
+    <value>Axis Label Layout</value>
+  </data>
+  <data name="AxisLabelLayout_Label1" xml:space="preserve">
+    <value>Adjust the axis layout behavior:</value>
+  </data>
+  <data name="AxisLabelLayout_Label2" xml:space="preserve">
+    <value>X Axis Labels Behavior</value>
+  </data>
+  <data name="AxisLabelLayout_Label3" xml:space="preserve">
+    <value>X Series Label Behavior</value>
+  </data>
+  <data name="AxisLabelLayout_Label4" xml:space="preserve">
+    <value>Y Axis Label Behavior</value>
+  </data>
+  <data name="AxisLabelLayout_Label5" xml:space="preserve">
+    <value>X Axis Extent</value>
+  </data>
+  <data name="AxisLabelLayout_Label6" xml:space="preserve">
+    <value>Y Axis Extent</value>
+  </data>
+  <data name="AxisMargins_Description1" xml:space="preserve">
+    <value>The UltraWebChart includes the ability to adjust the margins of all four default 
+							axis (X, X2, Y, Y2) using the Margin object found under each axis.&amp;nbsp; The 
+							Margin object contains two objects, the Near and Far object which corrospond to 
+							the Near&amp;nbsp;axis (or the axis closes to zero) and the fax axis (the axis 
+							furthest from zero)&amp;nbsp;.&amp;nbsp; You can set the Near or Far objects MarginType and Value properties. The MarginType property accepts a value from the Location enumereation and controls how the chart will treat the value of the Value property.</value>
+  </data>
+  <data name="AxisMargins_Description2" xml:space="preserve">
+    <value>This sample allows you to adjust the Near and Far margins for both the X and Y axis. Simply modify the values of the TextBox's and click the Update Chart button to see the changes on the axis margins.</value>
+  </data>
+  <data name="AxisMargins_Header" xml:space="preserve">
+    <value>Axis Margins</value>
+  </data>
+  <data name="AxisMargins_Label1" xml:space="preserve">
+    <value>Adjust the axis magins:</value>
+  </data>
+  <data name="AxisMargins_Label2" xml:space="preserve">
+    <value>Near X Axis</value>
+  </data>
+  <data name="AxisMargins_Label3" xml:space="preserve">
+    <value>Far X Axis</value>
+  </data>
+  <data name="AxisMargins_Label4" xml:space="preserve">
+    <value>Near Y Axis</value>
+  </data>
+  <data name="AxisMargins_Label5" xml:space="preserve">
+    <value>Far Y Axis</value>
+  </data>
+  <data name="AxisMargins_Label6" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="AxisScrolling_Description1" xml:space="preserve">
+    <value>Viewing large charts can be difficult in compact user interfaces, so the 
+							UltraWebChart gives you the option of adding scrollbars to the X and Y axis of 
+							the chart.&amp;nbsp; When the EnableScrollbar property is&amp;nbsp;set to True, the 
+							UltraWebChart will scale the chart image to increase its size, and automatically add scrollbar elements to the chart. The user can use the scrollbars to navigate the chart area.</value>
+  </data>
+  <data name="AxisScrolling_Description2" xml:space="preserve">
+    <value>This sample allows you to view the chart with, or without the scrollbars. To enable the scrollbars, simply check the Enable Scrollbars checkbox. When the scrollbars are enabled, you will see the bars on the X and Y axis of the chart and can use the to manuever through the chart data.</value>
+  </data>
+  <data name="AxisScrolling_Header" xml:space="preserve">
+    <value>Axis Scrollbars</value>
+  </data>
+  <data name="AxisScrolling_Label1" xml:space="preserve">
+    <value>Enable Scrollbars</value>
+  </data>
+  <data name="AxisTickmarks_Description1" xml:space="preserve">
+    <value>The UltraWebChart support several different Axis Tick Styles which you can use to best place ticks on a chart axis. The TickmarkStyle property on each axis (X, X2, Y, Y2, Z, Z2) gives you control over how that specific axis will generate and place its tickmarks.</value>
+  </data>
+  <data name="AxisTickmarks_Description2" xml:space="preserve">
+    <value>Data Interval</value>
+  </data>
+  <data name="AxisTickmarks_Description3" xml:space="preserve">
+    <value>The Data Interval tick&amp;nbsp;style tells the chart that it should position tickmarks and labels at each data point in the chart. You can alter the interval at which the chart will place a tick by adjusting the TickInterval property.</value>
+  </data>
+  <data name="AxisTickmarks_Description4" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="AxisTickmarks_Description5" xml:space="preserve">
+    <value>The Percentage tick style tells the chart it should position ticks and labels at a predefined data value percentage (place a tick every N% along the axis). Note that the Percentage tick style will only work with Numeric axis.</value>
+  </data>
+  <data name="AxisTickmarks_Description6" xml:space="preserve">
+    <value>Smart</value>
+  </data>
+  <data name="AxisTickmarks_Description7" xml:space="preserve">
+    <value>The Smart tick style tells the chart to use an internal algorithm to intelligently spaces placed the ticks so as to increase the visual fidelity of the axis.</value>
+  </data>
+  <data name="AxisTickmarks_Description8" xml:space="preserve">
+    <value>This sample allows you to change the tick style of the chart. By selecting a Tickmark Style from you will change the method by which the chart draws the tick marks, as well as enabling the tick interval textboxes, depending on your tickmark style selection. You can&amp;nbsp;alter the tick interval by changing the value of the Tick Interval and the Percentage Interval textboxes and clicking the Update Interval button.</value>
+  </data>
+  <data name="AxisTickmarks_Header" xml:space="preserve">
+    <value>Axis Tickmarks</value>
+  </data>
+  <data name="AxisTickmarks_Label1" xml:space="preserve">
+    <value>Tickmark Style</value>
+  </data>
+  <data name="AxisTickmarks_Label2" xml:space="preserve">
+    <value>Tick Interval</value>
+  </data>
+  <data name="AxisTickmarks_Label3" xml:space="preserve">
+    <value>Percent Interval</value>
+  </data>
+  <data name="AxisTickmarks_Label4" xml:space="preserve">
+    <value>Update Interval</value>
+  </data>
+  <data name="AxisVisibility_Description1" xml:space="preserve">
+    <value>In certain charting scenarios you need to be able to control the visibility of the axis of the chart.  The UltraWebChart allows this through a Visible property on each available axis (X, X2, Y, Y2).</value>
+  </data>
+  <data name="AxisVisibility_Description2" xml:space="preserve">
+    <value>This sample allows you to manipulate the visibility of the X and Y axis of the chart.  Simply check the X Axis Visible or YAxis Visible checkbox to show or hide the indicated axis from the chart.</value>
+  </data>
+  <data name="AxisVisibility_Header" xml:space="preserve">
+    <value>Axis Visibility</value>
+  </data>
+  <data name="AxisVisibility_Label1" xml:space="preserve">
+    <value>Make X Axis Visible</value>
+  </data>
+  <data name="AxisVisibility_Label2" xml:space="preserve">
+    <value>Make Y Axis Visible</value>
+  </data>
+  <data name="BackgroundImage_Description" xml:space="preserve">
+    <value>The UltraWebChart allows you to insert background images behind the render chart to provide a more aesthetically pleasing chart. Images can be tiled, stretched or centered in the chart control.</value>
+  </data>
+  <data name="BackgroundImage_Header" xml:space="preserve">
+    <value>Adding a Chart Background Image</value>
+  </data>
+  <data name="BackgroundImage_Label" xml:space="preserve">
+    <value>Image Fit Style:</value>
+  </data>
+  <data name="BarChart_Description1" xml:space="preserve">
+    <value>A Bar Chart&amp;nbsp;shows the changes in a data series over time or compares multiple items. Types of items are arranged vertically and data values are plotted horizontally to emphasize variation over time.</value>
+  </data>
+  <data name="BarChart_Header" xml:space="preserve">
+    <value>Bar Charts</value>
+  </data>
+  <data name="BarChartStyles_Description1" xml:space="preserve">
+    <value>The Bar Chart exposes a number of special appearance properties that let you control the look of this specific chart type.&amp;nbsp; In addition to the normal styling control the chart give you to change colors and fonts, you can control&amp;nbsp;Bar chart specific features such as the bar spacing or series spacing.</value>
+  </data>
+  <data name="BarChartStyles_Header" xml:space="preserve">
+    <value>Bar Chart Styles</value>
+  </data>
+  <data name="BarChartStyles_Label1" xml:space="preserve">
+    <value>Bar Spacing</value>
+  </data>
+  <data name="BarChartStyles_Label2" xml:space="preserve">
+    <value>Series Spacing</value>
+  </data>
+  <data name="BarChartStyles_Label3" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="BasicAnnotations_Description1" xml:space="preserve">
+    <value>The UltraWebChart allows you to easily add annotations to your charts. The control includes five different annotation types to give you an easy out-of-the box solution to adding annotations to your chart:</value>
+  </data>
+  <data name="BasicAnnotations_Description2" xml:space="preserve">
+    <value>Box Annotation</value>
+  </data>
+  <data name="BasicAnnotations_Description3" xml:space="preserve">
+    <value>Callout Annotation</value>
+  </data>
+  <data name="BasicAnnotations_Description4" xml:space="preserve">
+    <value>Ellipse Annotation</value>
+  </data>
+  <data name="BasicAnnotations_Description5" xml:space="preserve">
+    <value>Line Annotation</value>
+  </data>
+  <data name="BasicAnnotations_Description6" xml:space="preserve">
+    <value>In addition to the five included annotations, you can add your own custom 
+							annotations to the chart. See the Custom Annotation samples for information on creating custom annotations.</value>
+  </data>
+  <data name="BasicAnnotations_Header" xml:space="preserve">
+    <value>Basic Annotations</value>
+  </data>
+  <data name="BasicAnnotations_Label1" xml:space="preserve">
+    <value>Adjust annotation visibility:</value>
+  </data>
+  <data name="BasicAnnotations_Label2" xml:space="preserve">
+    <value>Line Annotation</value>
+  </data>
+  <data name="BasicAnnotations_Label3" xml:space="preserve">
+    <value>Box Annotation</value>
+  </data>
+  <data name="BasicAnnotations_Label4" xml:space="preserve">
+    <value>Ellipse Annotation</value>
+  </data>
+  <data name="BasicAnnotations_Label5" xml:space="preserve">
+    <value>Callout Annotation</value>
+  </data>
+  <data name="BasicAnnotations_Label6" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="BoxChart_Description1" xml:space="preserve">
+    <value>Box Charts, also known as Box and Whisker Charts, are used to illustrate distribution of numeric data points in groups. These charts illustrate the total range of distribution, along with the range within which most points fall, in each group.</value>
+  </data>
+  <data name="BoxChart_Header" xml:space="preserve">
+    <value>Box Charts</value>
+  </data>
+  <data name="Bubble3D_Description" xml:space="preserve">
+    <value>A 3D Bubble Chart enhances the functionality of a 3D Point Chart by adding a fourth numeric dimension; that being the radius of each bubble.  This additional dimension is typically, but not always, used to express the magnitude or importance of a data point.</value>
+  </data>
+  <data name="Bubble3D_Header" xml:space="preserve">
+    <value>3D Bubble Charts</value>
+  </data>
+  <data name="BubbleChart_Description1" xml:space="preserve">
+    <value>A Bubble Chart&amp;nbsp;is actually a type 
+of scatter chart. The x and y coordinates of the data marker (the bubble) are 
+determined by two data values. The size of the data marker indicates the value 
+of a third variable.</value>
+  </data>
+  <data name="BubbleChart_Header" xml:space="preserve">
+    <value>Bubble Charts</value>
+  </data>
+  <data name="BubbleChartStyles_Description1" xml:space="preserve">
+    <value>The Bubble Chart exposes a number of special appearance properties that let you control the look of this specific chart type.&amp;nbsp; In addition to the normal styling control the chart gives you to change colors and fonts, you can control Bubble chart specific features such as the Bubble shape, or SortByRadius.</value>
+  </data>
+  <data name="BubbleChartStyles_Description2" xml:space="preserve">
+    <value>The BubbleShape property gives developers four different bubble shapes to choose from:</value>
+  </data>
+  <data name="BubbleChartStyles_Description3" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="BubbleChartStyles_Description4" xml:space="preserve">
+    <value>Inverted Triangle</value>
+  </data>
+  <data name="BubbleChartStyles_Description5" xml:space="preserve">
+    <value>Square</value>
+  </data>
+  <data name="BubbleChartStyles_Description6" xml:space="preserve">
+    <value>Triangle</value>
+  </data>
+  <data name="BubbleChartStyles_Description7" xml:space="preserve">
+    <value>The SortByRadius property gives you control over the order that the chart draws each bubble.  Bubble charts can become problematic when larger data values (which cause larger bubbles) are plotted over a smaller bubble, hiding the smaller bubble from view.  The SortByRadius property attempts to solve this problem by allowing you to specify the order which bubbles are sorted.</value>
+  </data>
+  <data name="BubbleChartStyles_Header" xml:space="preserve">
+    <value>Bubble Chart Styles</value>
+  </data>
+  <data name="BubbleChartStyles_Label1" xml:space="preserve">
+    <value>Bubble Shape</value>
+  </data>
+  <data name="BubbleChartStyles_Label2" xml:space="preserve">
+    <value>Sort By Radius</value>
+  </data>
+  <data name="CandleChart_Description1" xml:space="preserve">
+    <value>Doji, or Japanese Candle Charts, are used extensively in the investment trading industry. These charts are easy to use and integrate into the existing charting systems as the data required to create them is the same as that of more commonly used charts, such as bar and column. These charts consist of visual elements called as candles. Each candle is further made up of two parts: the body and wick. The length of the body shows the difference in the open and close of the session while the color of it shows whether the open was higher or lower than the close. The wick part determines the highest and lowest price on which a particular investment was traded during a session, as shown in the image.</value>
+  </data>
+  <data name="CandleChart_Description2" xml:space="preserve">
+    <value>Candle charts provide earlier indications of market turn than traditional charts, as they can send out reversal signals in a few sessions, rather than the weeks often needed for a bar chart reversal signal. Thus, market turns with candle charts will frequently be in advance of traditional indicators.</value>
+  </data>
+  <data name="CandleChart_Header" xml:space="preserve">
+    <value>Candle Charts</value>
+  </data>
+  <data name="CandleChartColors_Description1" xml:space="preserve">
+    <value>The UltraWinCharts Candle chart type include several distinct elements unique to the Candle chart type such as Negative Range, Positive Range, Volume and Wick. The Candle property exposes a number of properties unique to these elements of the Candle chart to give you complete control over these elements. This sample shows you how you can easily provide unique colors for each of the major elements in the Candle chart.</value>
+  </data>
+  <data name="CandleChartColors_Header" xml:space="preserve">
+    <value>Candle Chart Colors</value>
+  </data>
+  <data name="CandleChartVisibility_Description1" xml:space="preserve">
+    <value>The Candle chart type included a number of specialized elements that allow you to view information that is specific to the Candle chart type, including High/Low values, Opening/Closing values and the Volume. The chart type exposes properties which allow you to control whether these specific elements of the Candle chart will be shown, or hidden.</value>
+  </data>
+  <data name="CandleChartVisibility_Header" xml:space="preserve">
+    <value>Candle Chart Data Visibility</value>
+  </data>
+  <data name="CandleChartVisibility_Label1" xml:space="preserve">
+    <value>High/Low Visible</value>
+  </data>
+  <data name="CandleChartVisibility_Label2" xml:space="preserve">
+    <value>Open/Close Visible</value>
+  </data>
+  <data name="CandleChartVisibility_Label3" xml:space="preserve">
+    <value>Volume Visible</value>
+  </data>
+  <data name="ChartCSOM_Description1" xml:space="preserve">
+    <value>The UltraWebChart control includes a rich client-side event model (CSOM) that enables you to take advantage of power client scripting languages.&amp;nbsp;</value>
+  </data>
+  <data name="ChartCSOM_Description2" xml:space="preserve">
+    <value>This sample allows you to view the available client side events and enable them 
+							using the checkboxes in the sample.&amp;nbsp; When an events checkbox is checked, a 
+							notification will be created when the event is raised and the notification and 
+							information about the events arguments will be displayed in the box below the 
+							chart.&amp;nbsp; You can clear the event notifications using the Clear Event button 
+							below the box.</value>
+  </data>
+  <data name="ChartCSOM_Header" xml:space="preserve">
+    <value>Client-Side Object Model</value>
+  </data>
+  <data name="ChartCSOM_Label1" xml:space="preserve">
+    <value>Chart Scroll</value>
+  </data>
+  <data name="ChartCSOM_Label2" xml:space="preserve">
+    <value>Crosshair Move</value>
+  </data>
+  <data name="ChartCSOM_Label3" xml:space="preserve">
+    <value>Hide Tooltip</value>
+  </data>
+  <data name="ChartCSOM_Label4" xml:space="preserve">
+    <value>Hide Crosshair</value>
+  </data>
+  <data name="ChartCSOM_Label5" xml:space="preserve">
+    <value>Mouse Click</value>
+  </data>
+  <data name="ChartCSOM_Label6" xml:space="preserve">
+    <value>Mouse Out</value>
+  </data>
+  <data name="ChartCSOM_Label7" xml:space="preserve">
+    <value>Mouse Over</value>
+  </data>
+  <data name="ChartCSOM_Label8" xml:space="preserve">
+    <value>Show Crosshair</value>
+  </data>
+  <data name="ChartCSOM_Label9" xml:space="preserve">
+    <value>Show Tooltip</value>
+  </data>
+  <data name="ChartCSOM_Btn1" xml:space="preserve">
+    <value>Clear Events</value>
+  </data>
+  <data name="ChartNullHandling_Description1" xml:space="preserve">
+    <value>There are times when the data bound to the chart will contain Null values.&amp;nbsp; 
+Certain&amp;nbsp;chart types in the&amp;nbsp;UltraWebChart include a NullHandling property that helps you tell the chart how to handle null values when rendering 
+the chart.&amp;nbsp; The control allows you to specify four different methods for 
+handling null data values:</value>
+  </data>
+  <data name="ChartNullHandling_Description2" xml:space="preserve">
+    <value>Don't Plot</value>
+  </data>
+  <data name="ChartNullHandling_Description3" xml:space="preserve">
+    <value>This option tells the chart not to plot data points whose value is null</value>
+  </data>
+  <data name="ChartNullHandling_Description4" xml:space="preserve">
+    <value>InterpolateCustom</value>
+  </data>
+  <data name="ChartNullHandling_Description5" xml:space="preserve">
+    <value>The InterpolateValues event is raised for custom interpolation of null 
+values.&amp;nbsp; This option&amp;nbsp;allows you to add your own interpolation logic 
+to the chart.</value>
+  </data>
+  <data name="ChartNullHandling_Description6" xml:space="preserve">
+    <value>InterpolateSimple</value>
+  </data>
+  <data name="ChartNullHandling_Description7" xml:space="preserve">
+    <value>Simple Interpolation is used to plot the null value.&amp;nbsp; The chart will determine the average value of null data points neighboring data points use the resulting value&amp;nbsp;as the plot point.&amp;nbsp;</value>
+  </data>
+  <data name="ChartNullHandling_Description8" xml:space="preserve">
+    <value>Zero</value>
+  </data>
+  <data name="ChartNullHandling_Description9" xml:space="preserve">
+    <value>This option tells the chart to treat data points with null values as a data point with a zero value</value>
+  </data>
+  <data name="ChartNullHandling_Header" xml:space="preserve">
+    <value>Null Data Handling</value>
+  </data>
+  <data name="ChartNullHandling_Label1" xml:space="preserve">
+    <value>Select a Null Handling option:</value>
+  </data>
+  <data name="ColorModel_Description1" xml:space="preserve">
+    <value>The UltraWebChart uses a concept called a ColorModel to determine the colors that the chart will use when rendered. The control includes a number of useful ColorModels which allow you to control how the chart will choose colors to use when rendering the chart, and you can also create a completely custom ColorModel by using the CustomSkin or CustomRandom ColorModels.</value>
+  </data>
+  <data name="ColorModel_Description10" xml:space="preserve">
+    <value>&lt;STRONG&gt;Office2007Style &lt;/STRONG&gt;Colors are generated with varying saturation around the ColorStart property, creating charts which can be colored like those in Microsoft Excel 2007.</value>
+  </data>
+  <data name="ColorModel_Description2" xml:space="preserve">
+    <value>&lt;STRONG&gt;LinearRandom &lt;/STRONG&gt;Random colors are chosen from ColorStart to ColorEnd</value>
+  </data>
+  <data name="ColorModel_Description3" xml:space="preserve">
+    <value>&lt;STRONG&gt;PureRandom &lt;/STRONG&gt;Colors are chosen on a random basis</value>
+  </data>
+  <data name="ColorModel_Description4" xml:space="preserve">
+    <value>&lt;STRONG&gt;Wireframe &lt;/STRONG&gt;Draw the outline of chart objects only with no fill color</value>
+  </data>
+  <data name="ColorModel_Description5" xml:space="preserve">
+    <value>&lt;STRONG&gt;CustomLinear &lt;/STRONG&gt;Use the CustomPalette property to retrieve colors in order, with repeat</value>
+  </data>
+  <data name="ColorModel_Description6" xml:space="preserve">
+    <value>&lt;STRONG&gt;CustomRandom &lt;/STRONG&gt;Use the CustomPalette property to retrieve colors on a random basis</value>
+  </data>
+  <data name="ColorModel_Description7" xml:space="preserve">
+    <value>&lt;STRONG&gt;CustomSkin &lt;/STRONG&gt;Use the PaintElement property to retrieve colors and Paint Elements. This color model will work for 2D charts only. This is not available for 3D chart types.</value>
+  </data>
+  <data name="ColorModel_Description8" xml:space="preserve">
+    <value>&lt;STRONG&gt;DataValueCustomLinear &lt;/STRONG&gt;Use the CustomPalette property to retrieve colors for each primitive (shape) in the chart, based on the underlying data values.</value>
+  </data>
+  <data name="ColorModel_Description9" xml:space="preserve">
+    <value>&lt;STRONG&gt;DataValueLinearRange &lt;/STRONG&gt;Use the ColorBegin and ColorEnd properties to specify two ends of a color spectrum. Each primitive (shape) in the chart will be assigned a color between ColorBegin and ColorEnd, based on the underlying data values.</value>
+  </data>
+  <data name="ColorModel_Header" xml:space="preserve">
+    <value>Changing the Chart ColorModel</value>
+  </data>
+  <data name="ColorModel_Label1" xml:space="preserve">
+    <value>Color Model Style:</value>
+  </data>
+  <data name="ColumnChart_Header" xml:space="preserve">
+    <value>Column Charts</value>
+  </data>
+  <data name="ColumnChart_Label1" xml:space="preserve">
+    <value>A Column Chart&amp;nbsp;shows the changes in a data series over time or compares multiple items. Types of items are arranged horizontally and data values are plotted vertically to emphasize variation over time.</value>
+  </data>
+  <data name="ColumnChartStyles_Description1" xml:space="preserve">
+    <value>The Column chart type provides you with a wide variety of options to give you great control over the appearance of your column chart. As with all of the UltraWinChart chart types, you can completely customize the charts colors, add background images, or effects such as gradients. This sample demonstrates using the Bar Spacing property, which is specific to the Column Chart, to control the spacing placed between the bars of the column chart.</value>
+  </data>
+  <data name="ColumnChartStyles_Header" xml:space="preserve">
+    <value>Column Chart Styles</value>
+  </data>
+  <data name="ColumnChartStyles_Label1" xml:space="preserve">
+    <value>Bar Spacing</value>
+  </data>
+  <data name="ColumnChartStyles_Label2" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="ColumnLineHybrid_Description1" xml:space="preserve">
+    <value>A column chart illustrates comparisons among items or shows data changes over a period of time. Values are organized vertically and data is categorized horizontally. A line chart shows trends in data at equal intervals.</value>
+  </data>
+  <data name="ColumnLineHybrid_Description2" xml:space="preserve">
+    <value>The Column Line Chart&amp;nbsp;combines both types of charts, showing both categorized proportions and trends.</value>
+  </data>
+  <data name="ColumnLineHybrid_Header" xml:space="preserve">
+    <value>Column/Line Hybrid Charts</value>
+  </data>
+  <data name="CompositeChartDataBinding_Description1" xml:space="preserve">
+    <value>Because each chart layer can be tied to a unique series of data, it is quite simple
+ to use multiple data sources to generate the data for different chart layers.&amp;nbsp;
+ This sample demonstrates binding the chart layers of a&amp;nbsp;composite chart to different external data sources.</value>
+  </data>
+  <data name="CompositeChartDataBinding_Description2" xml:space="preserve">
+    <value>The chart below contains two ChartAreas, each with a column chart layer.&amp;nbsp; The series data is retrieved using two queries which access the Northwind Database.</value>
+  </data>
+  <data name="CompositeChartDataBinding_Header" xml:space="preserve">
+    <value>Composite Chart Data Binding</value>
+  </data>
+  <data name="CompositeChartDataBinding_Label1" xml:space="preserve">
+    <value>Number of Orders per Employee:</value>
+  </data>
+  <data name="CompositeChartDataBinding_Label2" xml:space="preserve">
+    <value>Number of Products per Category:</value>
+  </data>
+  <data name="CompositeChartDataSeries_Description1" xml:space="preserve">
+    <value>The&amp;nbsp;UltraWebChart uses Series&amp;nbsp;objects to control the shape of data being bound to a&amp;nbsp;Chart Layer.&amp;nbsp; Series objects are simply objects that define the structure and behavior&amp;nbsp;for a specific type of data.&amp;nbsp; Since each chart type has its own axis requirements, the UltraWebChart includes six different types of Series objects which accommodate the necessary data structure requirements for all of the included chart types.</value>
+  </data>
+  <data name="CompositeChartDataSeries_Description2" xml:space="preserve">
+    <value>XYZSeries</value>
+  </data>
+  <data name="CompositeChartDataSeries_Description3" xml:space="preserve">
+    <value>XYSeries</value>
+  </data>
+  <data name="CompositeChartDataSeries_Description4" xml:space="preserve">
+    <value>NumericTimeSeries</value>
+  </data>
+  <data name="CompositeChartDataSeries_Description5" xml:space="preserve">
+    <value>NumericSeries</value>
+  </data>
+  <data name="CompositeChartDataSeries_Description6" xml:space="preserve">
+    <value>CandleSeries</value>
+  </data>
+  <data name="CompositeChartDataSeries_Description7" xml:space="preserve">
+    <value>GanttSeries</value>
+  </data>
+  <data name="CompositeChartDataSeries_Description8" xml:space="preserve">
+    <value>This sample demonstrates the different types of data series and which series types should be used with the different chart types available in a Composite Chart.&amp;nbsp; To use the sample, simply select a series type from the first dropdown list.&amp;nbsp; The&amp;nbsp;second dropdown list will then be populated with the chart types which consume that series type.&amp;nbsp; Change to the chart type of your choice and the red labels will display the axis requirements for that chart type.</value>
+  </data>
+  <data name="CompositeChartDataSeries_Header" xml:space="preserve">
+    <value>Composite Chart Data Series Types</value>
+  </data>
+  <data name="CompositeChartDataSeries_Label1" xml:space="preserve">
+    <value>Series Type:</value>
+  </data>
+  <data name="CompositeChartDataSeries_Label2" xml:space="preserve">
+    <value>Chart Type:</value>
+  </data>
+  <data name="CompositeChartDataSeries_Label3" xml:space="preserve">
+    <value>X SetLabelAxisType:</value>
+  </data>
+  <data name="CompositeChartDataSeries_Label4" xml:space="preserve">
+    <value>Axis:</value>
+  </data>
+  <data name="CompositeChartDataSeries_Label5" xml:space="preserve">
+    <value>Y SetLabelAxisType:</value>
+  </data>
+  <data name="CompositeChartDataSeries_Label6" xml:space="preserve">
+    <value>Y2 SetLabelAxisType:</value>
+  </data>
+  <data name="CompositeChartDataSeries_Label7" xml:space="preserve">
+    <value>X AxisDataType:</value>
+  </data>
+  <data name="CompositeChartDataSeries_Label8" xml:space="preserve">
+    <value>Y AxisDataType:</value>
+  </data>
+  <data name="CompositeChartDataSeries_Label9" xml:space="preserve">
+    <value>Y2 AxisDataType:</value>
+  </data>
+  <data name="CompositeChartLayers_Description1" xml:space="preserve">
+    <value>This sample demonstrates the use of Chart Layers in the ChartLayers collection of&amp;nbsp;the&amp;nbsp;Composite Chart.&amp;nbsp; In a composite chart, each individual chart type is contained in a single layer in the chart.&amp;nbsp; These layers can be overlaid over&amp;nbsp;above or below other chart layers inside of a Chart Area (see the Chart Area sample for more information on chart area).</value>
+  </data>
+  <data name="CompositeChartLayers_Description2" xml:space="preserve">
+    <value>Below is a single WebChart control with two chart areas.&amp;nbsp; The two chart contains a total of four chart layers: an area chart layer, a line chart layer, a spline chart layer, and a spline area chart layer.&amp;nbsp; Changing the values in the dropdown lists will move the chart layers to the selected chart area.</value>
+  </data>
+  <data name="CompositeChartLayers_Header" xml:space="preserve">
+    <value>Composite Chart Layers</value>
+  </data>
+  <data name="CompositeChartLayers_Label1" xml:space="preserve">
+    <value>Move a chart layer from one chart area to another by selecting the area for the chart from the dropdown list:</value>
+  </data>
+  <data name="CompositeChartLayers_Label2" xml:space="preserve">
+    <value>Area Chart:</value>
+  </data>
+  <data name="CompositeChartLayers_Label3" xml:space="preserve">
+    <value>Line Chart:</value>
+  </data>
+  <data name="CompositeChartLayers_Label4" xml:space="preserve">
+    <value>Spline Chart:</value>
+  </data>
+  <data name="CompositeChartLayers_Label5" xml:space="preserve">
+    <value>Spline Area Chart:</value>
+  </data>
+  <data name="CompositeChartLegends_Description1" xml:space="preserve">
+    <value>This sample demonstrates the use of Legends in Composite Chart.&amp;nbsp; Legends in composite chart can be positioned anywhere on the chart, contain rounded corners, and use a PaintElement for a background.&amp;nbsp; They can also consume and display legend information one or more chart layers.</value>
+  </data>
+  <data name="CompositeChartLegends_Description2" xml:space="preserve">
+    <value>This sample demonstrates manipulating some of the legend properties in a composite chart.&amp;nbsp; The composite chart contains three Chart Layers (Column, Scatter and Line) all displayed in a single Chart Area.&amp;nbsp; The checkboxes allow you to show or hide from the chart legend data form the individual chart layers.&amp;nbsp; You can also position the legend using the Position dropdown list, and alter the legends Border and Fill colors.</value>
+  </data>
+  <data name="CompositeChartLegends_Header" xml:space="preserve">
+    <value>Composite Chart Legends</value>
+  </data>
+  <data name="CompositeChartLegends_Label1" xml:space="preserve">
+    <value>Column Chart Legend</value>
+  </data>
+  <data name="CompositeChartLegends_Label2" xml:space="preserve">
+    <value>Scatter Chart Legend</value>
+  </data>
+  <data name="CompositeChartLegends_Label3" xml:space="preserve">
+    <value>Line Chart Legend</value>
+  </data>
+  <data name="CompositeChartLegends_Label4" xml:space="preserve">
+    <value>Position:</value>
+  </data>
+  <data name="CompositeChartLegends_Label5" xml:space="preserve">
+    <value>Fill Color:</value>
+  </data>
+  <data name="CompositeChartLegends_Label6" xml:space="preserve">
+    <value>Border Color:</value>
+  </data>
+  <data name="ConcentricDoughnut_Description1" xml:space="preserve">
+    <value>The Concentric property of the Doughnut chart allows you to specify if the chart should display concentric doughnut charts in the doughnut chart.</value>
+  </data>
+  <data name="ConcentricDoughnut_Header" xml:space="preserve">
+    <value>Pie/Doughnut Concentric Data Display</value>
+  </data>
+  <data name="ConcentricDoughnut_Label1" xml:space="preserve">
+    <value>Concentric Spacing</value>
+  </data>
+  <data name="ConcentricDoughnut_Label2" xml:space="preserve">
+    <value>Inner Radius</value>
+  </data>
+  <data name="ConcentricDoughnut_Label3" xml:space="preserve">
+    <value>Show Legend</value>
+  </data>
+  <data name="Cone3D_Description1" xml:space="preserve">
+    <value>A 3D Cone Chart is a type of Pyramid Chart with an enhanced 3D look; the 3D Cone Chart is functionally equivalent to its 2-Dimensional counterpart.</value>
+  </data>
+  <data name="Cone3D_Header" xml:space="preserve">
+    <value>3D Cone Charts</value>
+  </data>
+  <data name="CrossHairs_Description" xml:space="preserve">
+    <value>WebChart provides a crosshair to aid the user in examining the chart data.  To enable the crosshair, set the EnableCrossHair property to True.  Use the CrossHairColor property at design-time to change its color.</value>
+  </data>
+  <data name="CrossHairs_Header" xml:space="preserve">
+    <value>Enabling Crosshairs on a Chart</value>
+  </data>
+  <data name="CrossHairs_Label" xml:space="preserve">
+    <value>Enable Crosshair</value>
+  </data>
+  <data name="CustomAnnotations_Description1" xml:space="preserve">
+    <value>The UltraWebChart makes is easy to add annotations to your chart images.
+							You can choose from five included annotation shapes, or easily create your own 
+							custom annotations.&amp;nbsp; To learn more about the included annotation shapes, 
+							please see the Simple Annotations sample.</value>
+  </data>
+  <data name="CustomAnnotations_Description2" xml:space="preserve">
+    <value>This sample demonstrates how you can easily add a custom annotation shape to your 
+							chart.&amp;nbsp; To do this you simply create a class that implements the 
+							IAnnotation interface, and then use the RenderAnnotation method to define and 
+							output your annotation shape.&amp;nbsp; In the sample a custom arrow-shaped 
+							annotation is created and added to the chart.</value>
+  </data>
+  <data name="CustomAnnotations_Header" xml:space="preserve">
+    <value>Custom Annotations</value>
+  </data>
+  <data name="CustomizedFileName_Description1" xml:space="preserve">
+    <value>This sample demonstrates how you can customize the filename the chart control 
+uses when saving chart images.&amp;nbsp; By default, the Chart uses a special filename containing a sequence indicator #SEQNUM(100).&amp;nbsp; This indicator tells the chart to increment an internal counter each time a new chart is generated and use that as part of the chart filename.&amp;nbsp; The indicator also tells the chart the maximum number of times the counter should increment before 
+starting over from 1.&amp;nbsp; When the counter resets, the chart will over-write any existing chart files with the same name.</value>
+  </data>
+  <data name="CustomizedFileName_Description2" xml:space="preserve">
+    <value>While it is recommended that you simply use the default chart filename, you can customize the filename is needed.&amp;nbsp; The sample lets you customize the default filename, or replace the filename entirely with a Date/Time stamp, or a GUID.</value>
+  </data>
+  <data name="CustomizedFileName_Description3" xml:space="preserve">
+    <value>To view the new file name, right click on the chart and select properties.</value>
+  </data>
+  <data name="CustomizedFileName_Header" xml:space="preserve">
+    <value>Configuring the chart images filename</value>
+  </data>
+  <data name="CustomTooltips_Header" xml:space="preserve">
+    <value>Creating and Using Custom Tooltips</value>
+  </data>
+  <data name="CustomTooltips_Description_1" xml:space="preserve">
+    <value>While simple text tooltips are included in the UltraWebChart control, there may be scenarios where you need to create customized tooltips to display an image, or which use application logic to alter the tooltip text based on the charts data.  The UltraWebChart makes creating custom tooltips simple by exposing the IRenderLabel interface.  By implementing this interface you can create a custom tooltip label for your chart.</value>
+  </data>
+  <data name="CustomTooltips_Description_2" xml:space="preserve">
+    <value>This sample shows a custom tooltip that utilizes application logic to alter the tooltip text.  Based on the value of the current datapoint in the chart, the tooltip is appended with an extra text indication that informs the user of the value is Very High, High, Medium, Low or Negative.</value>
+  </data>
+  <data name="CustomTooltips_CheckBox_1" xml:space="preserve">
+    <value>Use Custom Tooltips</value>
+  </data>
+  <data name="Cylinder3DBar_Description1" xml:space="preserve">
+    <value>A Bar Chart shows the changes in a data series over time or compares multiple items. Types of items are arranged vertically and data values are plotted horizontally to emphasize variation over time.</value>
+  </data>
+  <data name="Cylinder3DBar_Description2" xml:space="preserve">
+    <value>A Column Chart shows the changes in a data series over time or compares multiple items. Types of items are arranged horizontally and data values are plotted vertically to emphasize variation over time.</value>
+  </data>
+  <data name="Cylinder3DBar_Header" xml:space="preserve">
+    <value>Cylinder 3D Bar Charts</value>
+  </data>
+  <data name="DataPointLabels_Header" xml:space="preserve">
+    <value>Adding Data Point Labels</value>
+  </data>
+  <data name="DataPointLabels_Description_1" xml:space="preserve">
+    <value>Among the labels available in the chart, one of the most useful is the data point label.  Data point labels allow you to place a label directly on each plotted data point giving you the ability to inform users of the exact value of a data point and other information.  Data point labels behave much like other labels in the chart, with the ability to greatly customize the information they contain, as well as their style.</value>
+  </data>
+  <data name="DataPointLabels_Description_2" xml:space="preserve">
+    <value>This sample demonstrates a chart with and without data point labels.</value>
+  </data>
+  <data name="DataPointLabels_CheckBox_1" xml:space="preserve">
+    <value>Show data values on chart</value>
+  </data>
+  <data name="DataSeriesVisibility_Description1" xml:space="preserve">
+    <value>This sample demonstrates the use of the new Visible property available off of each Series Object.</value>
+  </data>
+  <data name="DataSeriesVisibility_Description2" xml:space="preserve">
+    <value>Toggle the check boxes to turn on and off each of the different series.</value>
+  </data>
+  <data name="DataSeriesVisibility_Description3" xml:space="preserve">
+    <value>&lt;STRONG&gt;Note:&lt;/STRONG&gt; This sample uses the WebAsyncRefreshPanel control, to allow the WebChart to redraw itself, as you check and uncheck the checkboxes, without causing a full postback.</value>
+  </data>
+  <data name="DataSeriesVisibility_Header" xml:space="preserve">
+    <value>Data Series Visibility</value>
+  </data>
+  <data name="DataSeriesVisibility_Label1" xml:space="preserve">
+    <value>Change the Visible Series:</value>
+  </data>
+  <data name="DataSeriesVisibility_Label2" xml:space="preserve">
+    <value>Yahoo Series Visibility</value>
+  </data>
+  <data name="DataSeriesVisibility_Label3" xml:space="preserve">
+    <value>Google Series Visibility</value>
+  </data>
+  <data name="DataSeriesVisibility_Label4" xml:space="preserve">
+    <value>Microsoft Series Visibility</value>
+  </data>
+  <data name="DataSeriesVisibility_Label5" xml:space="preserve">
+    <value>Dell Series Visibility</value>
+  </data>
+  <data name="Doughnut3D_Description1" xml:space="preserve">
+    <value>A Doughnut Chart&amp;nbsp;is a form of pie chart. Like a pie chart, a doughnut chart shows the size of items that make up a data series proportional to the total of the items in the series.</value>
+  </data>
+  <data name="Doughnut3D_Header" xml:space="preserve">
+    <value>3D Doughnut Charts</value>
+  </data>
+  <data name="DoughnutChart_Description1" xml:space="preserve">
+    <value>A Doughnut Chart&amp;nbsp;is a form of pie chart. Like a pie chart, a doughnut chart shows the size of items that make up a data series proportional to the total of the items in the series.</value>
+  </data>
+  <data name="DoughnutChart_Header" xml:space="preserve">
+    <value>Doughnut Charts</value>
+  </data>
+  <data name="EmptyDataStyle_Description1" xml:space="preserve">
+    <value>As shown in the Null Data Handling sample, the&amp;nbsp;UltraWebChart provides you the ability to control how&amp;nbsp;your chart will&amp;nbsp;plot null values.&amp;nbsp; The control also gives you a&amp;nbsp;special appearance object so you can control the visual appearance of null values plotted in the chart.&amp;nbsp;&amp;nbsp;The EmptyStyle appearance allows you to control various setting like the text that should be displayed for Null data, or if the Null data point should be included in the Legend.</value>
+  </data>
+  <data name="EmptyDataStyle_Description2" xml:space="preserve">
+    <value>This sample lets you see how you can use the EmptyStyle object to control the visual appearance of Null data values in the chart.</value>
+  </data>
+  <data name="EmptyDataStyle_Header" xml:space="preserve">
+    <value>Empty Data Display</value>
+  </data>
+  <data name="EmptyDataStyle_Label1" xml:space="preserve">
+    <value>Show in Legend</value>
+  </data>
+  <data name="EmptyDataStyle_Label2" xml:space="preserve">
+    <value>Enable Point</value>
+  </data>
+  <data name="EmptyDataStyle_Label3" xml:space="preserve">
+    <value>Enable PE</value>
+  </data>
+  <data name="EmptyDataStyle_Label4" xml:space="preserve">
+    <value>Enable LineStyle</value>
+  </data>
+  <data name="EmptyDataStyle_Label5" xml:space="preserve">
+    <value>Empty Text:</value>
+  </data>
+  <data name="EmptyDataStyle_Label6" xml:space="preserve">
+    <value>Legend Style:</value>
+  </data>
+  <data name="EmptyDataStyle_Label7" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="FileSystemDeployment_Description1" xml:space="preserve">
+    <value>This sample demonstrates the FileSystem method of Chart deployment.&amp;nbsp; This method simply saves the chart image to the web server hard disk.</value>
+  </data>
+  <data name="FileSystemDeployment_Header" xml:space="preserve">
+    <value>FileSystem Deployment Option</value>
+  </data>
+  <data name="FileSystemDeployment_Label1" xml:space="preserve">
+    <value>Figure: Sample image address URL when using the FileSystem&lt;br /&gt;</value>
+  </data>
+  <data name="Funnel3D_Description1" xml:space="preserve">
+    <value>A 3D Funnel Chart is a type of Funnel Chart with an enhanced 3D look; the 3D Funnel Chart is functionally equivalent to its 2-Dimensional counterpart.</value>
+  </data>
+  <data name="Funnel3D_Header" xml:space="preserve">
+    <value>Funnel Charts</value>
+  </data>
+  <data name="FunnelChart_Description1" xml:space="preserve">
+    <value>A Funnel Chart is a type of chart which displays quantities as percentages of a whole, much like a Pie Chart. Funnel Charts are commonly used to display quantitative data in relation to stages of a process; for example, one funnel chart might display expenses on a product from the manufacturing stage to the actual sale of that product.</value>
+  </data>
+  <data name="FunnelChart_Header" xml:space="preserve">
+    <value>Funnel Charts</value>
+  </data>
+  <data name="FunnelStyles_Description1" xml:space="preserve">
+    <value>The UltraWebCharts Funnel Chart exposes a number of special appearance properties that let you control the look of this specific chart type.  In addition to the normal styling control the chart give you to change colors and fonts, you can control Funnel chart specific features such as the axis layout, data sort direction and slice spacing.</value>
+  </data>
+  <data name="FunnelStyles_Header" xml:space="preserve">
+    <value>Funnel Chart Styles</value>
+  </data>
+  <data name="FunnelStyles_Label1" xml:space="preserve">
+    <value>Axis Layout</value>
+  </data>
+  <data name="FunnelStyles_Label2" xml:space="preserve">
+    <value>Sort Style</value>
+  </data>
+  <data name="FunnelStyles_Label3" xml:space="preserve">
+    <value>Maximum Radius</value>
+  </data>
+  <data name="FunnelStyles_Label4" xml:space="preserve">
+    <value>Minimum Radius</value>
+  </data>
+  <data name="FunnelStyles_Label5" xml:space="preserve">
+    <value>Spacing</value>
+  </data>
+  <data name="GanttChart_Description1" xml:space="preserve">
+    <value>A Gantt Chart&amp;nbsp;shows "floating" bars, each of which portray defined start and end times. Gantt charts are most often used in project management, where each bar represents a different task to be accomplished.</value>
+  </data>
+  <data name="GanttChart_Description2" xml:space="preserve">
+    <value>This architecture allows the application developer to extend the chart easily and with maximum flexibility. The Chart layers framework allows an application developer to slide a custom layer in the existing "deck" of layers.</value>
+  </data>
+  <data name="GanttChart_Header" xml:space="preserve">
+    <value>Gantt Charts</value>
+  </data>
+  <data name="GanttChartStyles_Description1" xml:space="preserve">
+    <value>The UltraWebCharts Gantt chart type includes a number of elements unique to the Gantt chart type, including Complete 
+Percentage, data point links, and data point owners. The chart type exposes 
+several properties that give you control over the visibility of these unique 
+elements of the chart. The chart type also includes many properties which allow 
+you to control the style of the chart. This sample demonstrates how you can show 
+or hide various elements of the Gantt chart type, and use the Item and Series 
+spacing properties to alter the appearance of the chart type.</value>
+  </data>
+  <data name="GanttChartStyles_Header" xml:space="preserve">
+    <value>Gantt Chart Data</value>
+  </data>
+  <data name="GanttChartStyles_Label1" xml:space="preserve">
+    <value>Show Complete</value>
+  </data>
+  <data name="GanttChartStyles_Label2" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="GanttChartStyles_Label3" xml:space="preserve">
+    <value>Show Links</value>
+  </data>
+  <data name="GanttChartStyles_Label4" xml:space="preserve">
+    <value>Show Owners</value>
+  </data>
+  <data name="GanttChartStyles_Label5" xml:space="preserve">
+    <value>Item Spacing</value>
+  </data>
+  <data name="GanttChartStyles_Label6" xml:space="preserve">
+    <value>Series Spacing</value>
+  </data>
+  <data name="GanttChartStyles_Label7" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="GaugeCustomChartLayers_Description1" xml:space="preserve">
+    <value>The UltraWebChart uses an extremely flexible layering architecture to render charts.&amp;nbsp; This architecture exposes API's that you can use to inject your own custom logic so as to affect how the chart layers render, or even inject your own layers.&amp;nbsp; Using these API's you&amp;nbsp;have the power to greatly customize the rendering of the chart.</value>
+  </data>
+  <data name="GaugeCustomChartLayers_Description2" xml:space="preserve">
+    <value>This sample demonstrates how you can use the&amp;nbsp;UltraWebChart API's to inject a custom layer into the chart which&amp;nbsp;will render as a Gauge.&amp;nbsp; Although a Gauge chart is not included as a in-box chart type, this sample show how you can use a&amp;nbsp;custom GaugeLayer class which implements the ILayer interface to create a Gauge chart.&amp;nbsp; Before the chart renders, the sample adds the custom Gauge layer to its Layers collection, then uses the UserLayerIndex to indicate to the chart that the Gauge should be draw.</value>
+  </data>
+  <data name="GaugeCustomChartLayers_Header" xml:space="preserve">
+    <value>Custom Chart Layers - Gauge</value>
+  </data>
+  <data name="GaugeCustomChartLayers_Label1" xml:space="preserve">
+    <value>ABC Corporate Metrics</value>
+  </data>
+  <data name="GaugeCustomChartLayers_Label2" xml:space="preserve">
+    <value>Change the Gauge skin:</value>
+  </data>
+  <data name="GaugeCustomChartLayers_Label3" xml:space="preserve">
+    <value>Dial Skin:</value>
+  </data>
+  <data name="GaugeCustomChartLayers_Label4" xml:space="preserve">
+    <value>Floor</value>
+  </data>
+  <data name="GaugeCustomChartLayers_Label5" xml:space="preserve">
+    <value>Ceiling</value>
+  </data>
+  <data name="GaugeCustomChartLayers_Label6" xml:space="preserve">
+    <value>Profit&amp;nbsp;targets for bonus payouts:</value>
+  </data>
+  <data name="GridLines_Title" xml:space="preserve">
+    <value>Adding Gridlines to a Chart</value>
+  </data>
+  <data name="GridLines_Header" xml:space="preserve">
+    <value>The UltraWebChart allows you to add gridlines to the chart in order to improve the readability of the chart for your users. Each axis includes Major and Minor gridlines that you can enable or disable.</value>
+  </data>
+  <data name="GridLines_Label1" xml:space="preserve">
+    <value>X Axis Major Gridlines</value>
+  </data>
+  <data name="GridLines_Label2" xml:space="preserve">
+    <value>X Axis Minor Gridlines</value>
+  </data>
+  <data name="GridLines_Label3" xml:space="preserve">
+    <value>Y Axis Major Gridlines</value>
+  </data>
+  <data name="GridLines_Label4" xml:space="preserve">
+    <value>Y Axis Minor Gridlines</value>
+  </data>
+  <data name="Heatmap_Description1" xml:space="preserve">
+    <value>A Heat Map Chart&amp;nbsp;shows the relationship between data items by using gradually changing shades of color. Heat map charts are commonly used in financial analysis to show which stocks are rising, which are falling, and the amount and rate of change between them.</value>
+  </data>
+  <data name="Heatmap_Header" xml:space="preserve">
+    <value>Heatmap Charts</value>
+  </data>
+  <data name="HeatmapStyle_Description1" xml:space="preserve">
+    <value>The Heatmap chart type in the UltraWebChart control uses several unique properties to give you control over the style of the chart.  This sample demonstrates how you can use the RenderQuality property to adjust the quality which the Heatmap chart is drawn.  The higher the quality, the slower the map will be rendered.</value>
+  </data>
+  <data name="HeatmapStyle_Header" xml:space="preserve">
+    <value>Heatmap Chart Styles</value>
+  </data>
+  <data name="HeatmapStyle_Label1" xml:space="preserve">
+    <value>Render Quality:</value>
+  </data>
+  <data name="Histogram_Header" xml:space="preserve">
+    <value>Histogram Charts</value>
+  </data>
+  <data name="Histogram_Description_1" xml:space="preserve">
+    <value>Histogram is a special kind of column chart used to count instances of data having the same value. The Histogram chart layer can optionally draw a normal distribution curve fitting your data as either a line or area chart.</value>
+  </data>
+  <data name="Histogram_Description_2" xml:space="preserve">
+    <value>The Histogram shown here depicts Life Expectancy for Unisex Single Life Insurance products in the United States, based on the Mortality Table published by the IRS. The Histogram chart has been bound to a DataTable containing insurance claims records, and it counts the number of claims falling into each age group. The histogram can count for individual, discrete integer values or ranges based on what is set on the X Axis TickmarkInterval property.</value>
+  </data>
+  <data name="Histogram_Description_3" xml:space="preserve">
+    <value>Try turning ON and OFF the Column Chart and the Normal Distribution Curve.</value>
+  </data>
+  <data name="Histogram_Description_4" xml:space="preserve">
+    <value>Try turning ON and OFF the Fill for the Normal Distribution Curve, which makes it appear as if it were an Area Chart.</value>
+  </data>
+  <data name="Histogram_Description_5" xml:space="preserve">
+    <value>Modify the Tickmark Interval on the X-Axis to see what effect that has on the Age Group ranges displayed by the Histogram.</value>
+  </data>
+  <data name="Histogram_Label_1" xml:space="preserve">
+    <value>Life Expectancy - U.S. Single Life</value>
+  </data>
+  <data name="Histogram_Label_2" xml:space="preserve">
+    <value>Claims per Thousand</value>
+  </data>
+  <data name="Histogram_Label_3" xml:space="preserve">
+    <value>Histogram Properties</value>
+  </data>
+  <data name="Histogram_Label_4" xml:space="preserve">
+    <value>Show Columns</value>
+  </data>
+  <data name="Histogram_Label_5" xml:space="preserve">
+    <value>Show Curve</value>
+  </data>
+  <data name="Histogram_Label_6" xml:space="preserve">
+    <value>Fill Curve</value>
+  </data>
+  <data name="Histogram_Label_7" xml:space="preserve">
+    <value>X-Axis Tickmarks</value>
+  </data>
+  <data name="Histogram_Label_8" xml:space="preserve">
+    <value>Years of Age (x)</value>
+  </data>
+  <data name="Histogram_Label_9" xml:space="preserve">
+    <value>Mortalities per Thousand (at Age X)</value>
+  </data>
+  <data name="LabelRotation_Header" xml:space="preserve">
+    <value>Rotating Data Labels</value>
+  </data>
+  <data name="LabelRotation_Description_1" xml:space="preserve">
+    <value>The UltraWebChart allows you to customize item labels through two properties.  The TextOrientation property contains several predefined orientations you can choose.  The OrientationAngle property, which when combined with the Custom Text Orientation option, allows you to specify the angle at which you would like to position the item labels. You can also flip the text vertically by using the Flip property.</value>
+  </data>
+  <data name="LabelRotation_TableData_1" xml:space="preserve">
+    <value>Text Orientation</value>
+  </data>
+  <data name="LabelRotation_TableData_2" xml:space="preserve">
+    <value>Orientation Angle</value>
+  </data>
+  <data name="LabelRotation_TableData_3" xml:space="preserve">
+    <value>Flip Labels</value>
+  </data>
+  <data name="LabelRotation_Button_1" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="LineChart_Description1" xml:space="preserve">
+    <value>A Line Chart&amp;nbsp;emphasizes the amount of change over a period of time or compares multiple items. Data points are plotted in series using evenly-spaced intervals and connected with a line to emphasize the relationships between the points.</value>
+  </data>
+  <data name="LineChart_Header" xml:space="preserve">
+    <value>Line Charts</value>
+  </data>
+  <data name="LineChartStyles_Description1" xml:space="preserve">
+    <value>Standard charts allow you to set an appearance applied across all lines. With the introduction of the LineAppearance collection, you can now specify an appearance for each line.</value>
+  </data>
+  <data name="LineChartStyles_Description2" xml:space="preserve">
+    <value>This sample allows you to modify a LineAppearance object for each line. Each tab is associated with a corresponding line in the chart.</value>
+  </data>
+  <data name="LineChartStyles_Header" xml:space="preserve">
+    <value>Line Chart Styles</value>
+  </data>
+  <data name="LineChartStyles_Label1" xml:space="preserve">
+    <value>Draw Style</value>
+  </data>
+  <data name="LineChartStyles_Label2" xml:space="preserve">
+    <value>Start Style</value>
+  </data>
+  <data name="LineChartStyles_Label3" xml:space="preserve">
+    <value>End Style</value>
+  </data>
+  <data name="LineChartStyles_Label4" xml:space="preserve">
+    <value>MidPointAnchors</value>
+  </data>
+  <data name="LineChartStyles_Label5" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="LineChartStyles_Label6" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="LineChartStyles_Label7" xml:space="preserve">
+    <value>Make Changes</value>
+  </data>
+  <data name="LineScatterHybrid_Description1" xml:space="preserve">
+    <value>A Scatter Chart&amp;nbsp;is used either to show the relationship among the items in several distinct series of data, or to plot two sets of values as one series of x/y coordinates. A scatter chart draws attention to uneven intervals or clusters of data. This type of chart is often used to plot scientific data, and can highlight the deviation of collected data from predicted results.</value>
+  </data>
+  <data name="LineScatterHybrid_Description2" xml:space="preserve">
+    <value>A Line Chart shows trends in changing data values at equal intervals.</value>
+  </data>
+  <data name="LineScatterHybrid_Description3" xml:space="preserve">
+    <value>The Scatter Line chart combines both types of charts, showing both individual values and trends.</value>
+  </data>
+  <data name="LineScatterHybrid_Header" xml:space="preserve">
+    <value>Line Scatter Charts</value>
+  </data>
+  <data name="MapCustomChartLayers_Description1" xml:space="preserve">
+    <value>The UltraWebChart uses an extremely flexible layering architecture to render charts.&amp;nbsp; This architecture exposes API's that you can use to inject your own custom logic so as to affect how the chart layers render, or even inject your own layers.&amp;nbsp; Using these API's you&amp;nbsp;have the power to greatly customize the rendering of the chart.</value>
+  </data>
+  <data name="MapCustomChartLayers_Description2" xml:space="preserve">
+    <value>This sample demonstrates how you can use the&amp;nbsp;UltraWebChart API's to inject a custom layer into the chart which&amp;nbsp;will render as a Map.&amp;nbsp; Although a Map chart is not included as a in-box chart type, this sample show how you can use a&amp;nbsp;custom GaugeLayer class which implements the ILayer interface to create a Gauge chart.&amp;nbsp; Before the chart renders, the sample adds the custom Gauge layer to its Layers collection, then uses the UserLayerIndex to indicate to the chart that the Gauge should be draw.</value>
+  </data>
+  <data name="MapCustomChartLayers_Header" xml:space="preserve">
+    <value>Custom Chart Layers - Map</value>
+  </data>
+  <data name="MapCustomChartLayers_Label1" xml:space="preserve">
+    <value>ABC Corporate Metrics</value>
+  </data>
+  <data name="MinMaxRange_Description1" xml:space="preserve">
+    <value>The UltraWebChart allows you to add restrictions to the range of data an axis can display.  This sample allows you to change the values of the RangeType, RangeMin and RangeMax properties for the chart's Y axis.  By default, the RangeType property is set to Automatic, meaning the chart will automatically determine an appropriate range for the axis by examining the chart's bound data.  By changing the RangeType property to Custom, you can specify minimum and/or maximum range values for the axis.</value>
+  </data>
+  <data name="MinMaxRange_Header" xml:space="preserve">
+    <value>Minimum/Maximum Axis Values</value>
+  </data>
+  <data name="MinMaxRange_Label1" xml:space="preserve">
+    <value>Range Type</value>
+  </data>
+  <data name="MinMaxRange_Label2" xml:space="preserve">
+    <value>Range Min</value>
+  </data>
+  <data name="MinMaxRange_Label3" xml:space="preserve">
+    <value>Range Max</value>
+  </data>
+  <data name="MinMaxRange2_Description1" xml:space="preserve">
+    <value>The UltraWebChart makes it easy for you to control the minimum and maximum data values the chart should plot.  The chart's Data object includes properties which allow you to tell the chart to limit the data it plots from the data source to a specific minimum and/or maximum value range.</value>
+  </data>
+  <data name="MinMaxRange2_Description2" xml:space="preserve">
+    <value>This sample lets you view how the Data Filtering works by enabling the UseMinMax property and specifying Minimum and Maximum data values.  This chart will use these properties to restrict the values from the data source it plots.</value>
+  </data>
+  <data name="MinMaxRange2_Header" xml:space="preserve">
+    <value>Minimum and Maximum Data Values</value>
+  </data>
+  <data name="MinMaxRange2_Label1" xml:space="preserve">
+    <value>Use Min/Max</value>
+  </data>
+  <data name="MinMaxRange2_Label2" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="MinMaxRange2_Label3" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="MultipleAxes_Description1" xml:space="preserve">
+    <value>The UltraWebChart allows you complete control over the customization of the chart, including the creation and placement of axis.  This sample demonstrates how you can add multiple axes to the chart.  The chart contains a single Chart Area and four Chart Layers.  The chart also contains four separate vertical (Y) axes and a single horizontal (X) axis.  The UltraWebChart allows you to assign which axes each Chart Layer should use to plot its data.</value>
+  </data>
+  <data name="MultipleAxes_Description2" xml:space="preserve">
+    <value>Additionally, because each chart layer is assigned a separate axis, you can also control the look and behavior of each axis independently.  As shown in the sample below, each axis has been drawn using a different color.  The sample also shows that each chart layer has plotted its data using a corresponding color to make reading the chart simple.</value>
+  </data>
+  <data name="MultipleAxes_Header" xml:space="preserve">
+    <value>Multiple Axes in Composite Charts</value>
+  </data>
+  <data name="NumericAxes_Description1" xml:space="preserve">
+    <value>This sample demonstrates some of the features of numeric axes in Infragistics UltraChart.</value>
+  </data>
+  <data name="NumericAxes_Header" xml:space="preserve">
+    <value>Numeric Axes</value>
+  </data>
+  <data name="NumericAxes_Label1" xml:space="preserve">
+    <value>Numeric Axis Type:</value>
+  </data>
+  <data name="NumericAxes_Label2" xml:space="preserve">
+    <value>Log Base:</value>
+  </data>
+  <data name="Office2007_Description" xml:space="preserve">
+    <value>The UltraWebChart allows you to change the chart's appearance to any of the Office 2007 Styles.</value>
+  </data>
+  <data name="Office2007_Header" xml:space="preserve">
+    <value>Office 2007 Style</value>
+  </data>
+  <data name="Office2007_Label" xml:space="preserve">
+    <value>Show All Presets (&lt;i&gt;note: this will show presets&lt;br /&gt; modeled and named after the Office 2007 styles&lt;/i&gt;)</value>
+  </data>
+  <data name="OthersCategoryDisplay_Description1" xml:space="preserve">
+    <value>Pie charts allow you to group smaller data ranges into a custom category called the "Others" category.  Using the Others category can reduce the clutter in a Pie chart that includes a large number of smaller data values.</value>
+  </data>
+  <data name="OthersCategoryDisplay_Description2" xml:space="preserve">
+    <value>Properties are also provided which allow you to control the Others category, including the percentage threshold the chart will use to determine if a slice gets included in the Others category, as well as a property with allows you to provide a custom Item label for the Others category.</value>
+  </data>
+  <data name="OthersCategoryDisplay_Header" xml:space="preserve">
+    <value>Pie/Doughnut &amp;quot;Others&amp;quot; Category Display</value>
+  </data>
+  <data name="OthersCategoryDisplay_Label1" xml:space="preserve">
+    <value>Others Category Percent</value>
+  </data>
+  <data name="OthersCategoryDisplay_Label2" xml:space="preserve">
+    <value>Others Category Text</value>
+  </data>
+  <data name="OthersCategoryDisplay_Label3" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="Pareto_Description1" xml:space="preserve">
+    <value>Pareto Charts are column charts sorted by value (greatest to smallest), and accompanied by a line which shows the running total as a percentage of the set. The Y-axis shows the data values which correspond to the columns, and the Y2-axis shows the percentage values which correspond to the line.</value>
+  </data>
+  <data name="Pareto_Description2" xml:space="preserve">
+    <value>Note: to display the Y2 axis, set the UltraChart.Axis.Y2.Visible property to True.</value>
+  </data>
+  <data name="Pareto_Description3" xml:space="preserve">
+    <value>This chart is used in quality control, and is most commonly meant to illustrate the "80/20 rule." For example, "80% of problems can usually be tracked to 20% of sources," or, "80% of sales come from 20% of products."</value>
+  </data>
+  <data name="Pareto_Header" xml:space="preserve">
+    <value>Pareto Charts</value>
+  </data>
+  <data name="Pie3D_Description1" xml:space="preserve">
+    <value>A Pie Chart&amp;nbsp;shows the size of items that make up a data series proportional to the total of the items in the series. 
+A pie chart always shows a single data series, and is useful for determining 
+which item or items in the series is (are) most significant.</value>
+  </data>
+  <data name="Pie3D_Header" xml:space="preserve">
+    <value>3D Pie Charts</value>
+  </data>
+  <data name="PieChart_Description1" xml:space="preserve">
+    <value>A Pie Chart&amp;nbsp;shows the size of items that make up a data series proportional to the total of the items in the series. A pie chart always shows a single data series, and is useful for determining which item or items in the series is (are) most significant.</value>
+  </data>
+  <data name="PieChart_Header" xml:space="preserve">
+    <value>Pie Charts</value>
+  </data>
+  <data name="PieLabels_Description1" xml:space="preserve">
+    <value>The Pie chart type in the UltraWebChart control provides you with a wide variety of properties you can use to control the style of your Pie chart labels. This sample shows you how you can use several of these properties to control the look of the labels in your pie chart.</value>
+  </data>
+  <data name="PieLabels_Header" xml:space="preserve">
+    <value>Pie/Doughnut Labels</value>
+  </data>
+  <data name="PieLabels_Label1" xml:space="preserve">
+    <value>Show Leader Lines</value>
+  </data>
+  <data name="PieLabels_Label2" xml:space="preserve">
+    <value>Draw Style</value>
+  </data>
+  <data name="PieLabels_Label3" xml:space="preserve">
+    <value>Line End Style</value>
+  </data>
+  <data name="PieLabels_Label4" xml:space="preserve">
+    <value>Line Thickness</value>
+  </data>
+  <data name="PieLabels_Label5" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="PieSliceBreaks_Description1" xml:space="preserve">
+    <value>To emphasize a particular slice, or to increase the overall clarity of the chart, the Pie Chart provides various options for breaking slices away from the center of the pie.</value>
+  </data>
+  <data name="PieSliceBreaks_Description2" xml:space="preserve">
+    <value>Try toggling the checkboxes on this web form to demonstrate the properties which are provided.  Then, try entering an integer in the "Slice Number" field and clicking "Break" or "Unbreak" to test the functionality of the BreakSlice method.</value>
+  </data>
+  <data name="PieSliceBreaks_Header" xml:space="preserve">
+    <value>Pie/Doughnut Slice Breaks</value>
+  </data>
+  <data name="PieSliceBreaks_Label1" xml:space="preserve">
+    <value>Break All Slices</value>
+  </data>
+  <data name="PieSliceBreaks_Label2" xml:space="preserve">
+    <value>Break Alternating Slices</value>
+  </data>
+  <data name="PieSliceBreaks_Label3" xml:space="preserve">
+    <value>'Break "Others" Slice'</value>
+  </data>
+  <data name="PieSliceBreaks_Label4" xml:space="preserve">
+    <value>Break Specific Slice:</value>
+  </data>
+  <data name="PieSliceBreaks_Label5" xml:space="preserve">
+    <value>Slice Number:</value>
+  </data>
+  <data name="PieSliceBreaks_Label6" xml:space="preserve">
+    <value>Break</value>
+  </data>
+  <data name="PieSliceBreaks_Label7" xml:space="preserve">
+    <value>Unbreak</value>
+  </data>
+  <data name="Point3D_Description1" xml:space="preserve">
+    <value>A 3D Point Chart is a type of Scatter Chart used to show the relationship among three points in three numeric dimensions (X, Y and Z).  This type of chart draws attention to patterns and anomalies in whatever three numeric dimensions are being plotted.</value>
+  </data>
+  <data name="Point3D_Header" xml:space="preserve">
+    <value>3D Point Charts</value>
+  </data>
+  <data name="Polar_Description1" xml:space="preserve">
+    <value>The Polar Chart&amp;nbsp;is a two dimensional data representation drawn using linear and radial axes. In the simplest case, it charts a double {angle, radial-distance} representing the distance from the center of the chart and angle of orientation. Other variations are special cases of this intrinsic representation.</value>
+  </data>
+  <data name="Polar_Description2" xml:space="preserve">
+    <value>For example, points represented by {angle, radial-distance} can be connected to join lines and points connected with line and spline-interpolated for estimating missing values. Another special case allows grouping points together to make the chart show three forms of data: {group, angle, radial-distance}. The data plotted as a group can be plotted as scatter points on the radial axes, or points in the group can be joined together to form a series. These intrinsic characteristics make the polar chart effectively a scatter chart with radial mappings.</value>
+  </data>
+  <data name="Polar_Header" xml:space="preserve">
+    <value>Polar Charts</value>
+  </data>
+  <data name="PrintChartOnClient_Description1" xml:space="preserve">
+    <value>This sample demonstrates how to print the chart image on the client using JavaScript.  Click on the button below to print the chart.</value>
+  </data>
+  <data name="PrintChartOnClient_Header" xml:space="preserve">
+    <value>Print Chart on Client</value>
+  </data>
+  <data name="PrintChartOnClient_Label1" xml:space="preserve">
+    <value>print the chart</value>
+  </data>
+  <data name="Probability_Description" xml:space="preserve">
+    <value>A Probability Chart is a modified Scatter Chart which is typically used to plot a level of probability (Y) against a variable (X). The major difference between a Probability Chart and Scatter Chart is that in a Probability Chart, the Y-axis scale uses a Gaussian distribution (AKA Normal distribution) algorithm.</value>
+  </data>
+  <data name="Probability_Header" xml:space="preserve">
+    <value>Probability Charts</value>
+  </data>
+  <data name="Pyramid3D_Description1" xml:space="preserve">
+    <value>A 3D Pyramid Chart is a type of Pyramid Chart with an enhanced 3D look; the 3D Pyramid Chart is functionally equivalent to its 2-Dimensional counterpart.</value>
+  </data>
+  <data name="Pyramid3D_Header" xml:space="preserve">
+    <value>Pyramid 3D Charts</value>
+  </data>
+  <data name="PyramidChart_Description1" xml:space="preserve">
+    <value>A Pyramid Chart is a type of chart which displays quantities as percentages of a whole, much like a Pie Chart. Pyramid Charts are commonly used to display quantitative data in relation to stages of a process; for example, one pyramid chart might display expenses on a product from the manufacturing stage to the actual sale of that product.</value>
+  </data>
+  <data name="PyramidChart_Header" xml:space="preserve">
+    <value>Pyramid Charts</value>
+  </data>
+  <data name="Radar_Description1" xml:space="preserve">
+    <value>In a Radar Chart, each category has its own value axis radiating from the center point. Lines connect all the values in the same series. Radar charts, also called spider charts, are best used to show multiple variables, such as ratings for different areas, performance levels for various divisions or individuals, 
+or progress in a project or other activity. A radar chart compares the 
+aggregate values of a number of data series.</value>
+  </data>
+  <data name="Radar_Header" xml:space="preserve">
+    <value>Radar Charts</value>
+  </data>
+  <data name="RenderFormats_Description1" xml:space="preserve">
+    <value>This sample demonstrates the different formats the UltraWebChart can render to, including Image, SVG or Flash formats.&amp;nbsp; If the Image format is selected, the chart can be saved as several different Image formats.&amp;nbsp; By default the chart images will be saved as PNG format images.</value>
+  </data>
+  <data name="RenderFormats_Header" xml:space="preserve">
+    <value>Available Render Formats</value>
+  </data>
+  <data name="RenderFormats_Label1" xml:space="preserve">
+    <value>Render Format:</value>
+  </data>
+  <data name="RenderFormats_Label2" xml:space="preserve">
+    <value>Image Format:</value>
+  </data>
+  <data name="ScatterChart_Description1" xml:space="preserve">
+    <value>A Scatter Chart&amp;nbsp;is used either to 
+show the relationship among the items in several distinct series of data, or to 
+plot two sets of values as one series of x/y coordinates. A scatter chart draws 
+attention to uneven intervals or clusters of data. This type of chart is often 
+used to plot scientific data, and can highlight the deviation of collected data 
+from predicted results.</value>
+  </data>
+  <data name="ScatterChart_Header" xml:space="preserve">
+    <value>Scatter Charts</value>
+  </data>
+  <data name="SeriesLabelRotation_Header" xml:space="preserve">
+    <value>Rotating Series Labels</value>
+  </data>
+  <data name="SeriesLabelRotation_Description_1" xml:space="preserve">
+    <value>The UltraWebChart allows you to control the orientation of series labels through two properties, the TextOrientation property, which contains several predefined orientations you can choose, and the OrientationAngle property, which when combined with a the Custom Text Orientation option, allows you to specify the specific angle you would like to position the series labels. You can also flip the text vertically by using the Flip property.</value>
+  </data>
+  <data name="SeriesLabelRotation_TableData_1" xml:space="preserve">
+    <value>Text Orientation</value>
+  </data>
+  <data name="SeriesLabelRotation_TableData_2" xml:space="preserve">
+    <value>Orientation Angle</value>
+  </data>
+  <data name="SeriesLabelRotation_TableData_3" xml:space="preserve">
+    <value>Flip Labels</value>
+  </data>
+  <data name="SeriesLabelRotation_Button_1" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="SessionDeployment_Description1" xml:space="preserve">
+    <value>The Session deployment option utilizes the ASP.NET Session objects to temporarily store the chart image in memory on the web server before sending it to the requesting browser.  This option keeps you from having to grant Write access to the ASp.NET worker process since the chart is simply stored in memory.</value>
+  </data>
+  <data name="SessionDeployment_Description2" xml:space="preserve">
+    <value>As shown in the image below, when using the Session method of deployment, the image source for the Chart image becomes another web page, called ImagePipe.aspx. Once the chart is created and stored in session, you use the SecureImagePipe control to render the chart image to the client.&amp;nbsp; The SecureImagePipe control simply streams the image from the web servers Session to the browser through the ImagePipe.aspx web page.</value>
+  </data>
+  <data name="SessionDeployment_Header" xml:space="preserve">
+    <value>Session Deployment Option</value>
+  </data>
+  <data name="SessionDeployment_Label1" xml:space="preserve">
+    <value>Figure: Sample image address URL when using the Session&lt;br /&gt;deployment option of the UltraWebChart</value>
+  </data>
+  <data name="SimpleTooltips_Header" xml:space="preserve">
+    <value>Adding Tooltips to a Chart</value>
+  </data>
+  <data name="SimpleTooltips_Description_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SimpleTooltips_Description_2" xml:space="preserve">
+    <value>In this tooltip, the customized format sting is "My Data: 
+							&lt;DATA_VALUE:$#0.00&gt;"</value>
+  </data>
+  <data name="SimpleTooltips_TableData_1" xml:space="preserve">
+    <value>Show Tooltips:</value>
+  </data>
+  <data name="SimpleTooltips_TableData_2" xml:space="preserve">
+    <value>Format String:</value>
+  </data>
+  <data name="Sizing_Description1" xml:space="preserve">
+    <value>This sample demonstrates how the chart can be resized.  If the RenderingType is set to Flash or Svg, then percentage height and width values can be used.  Note that percentage height and width settings are not valid when the RenderingType is set to Image, since images will become distorted when scaled to something other than the pixel size of the image file.</value>
+  </data>
+  <data name="Sizing_Description2" xml:space="preserve">
+    <value>Try setting the Width and Height to 50%, and resizing the window when the RenderingType is set to Flash or Svg.  The chart will resize dynamically to fit its container.</value>
+  </data>
+  <data name="Sizing_Header" xml:space="preserve">
+    <value>Sizing</value>
+  </data>
+  <data name="Sizing_Label1" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+  <data name="Sizing_Label2" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="Sizing_Label3" xml:space="preserve">
+    <value>UnitType:</value>
+  </data>
+  <data name="Sizing_Label4" xml:space="preserve">
+    <value>RenderingType:</value>
+  </data>
+  <data name="SplineChart_Description1" xml:space="preserve">
+    <value>A spline chart is a form of line chart. It has all the features and characteristics of a line chart, with the added feature of spline interpolation and smoothing for improved presentation of data.  A Line Chart emphasizes the amount of change over a period of time or compares multiple items. Data points are plotted in series using evenly-spaced intervals and connected with a line to emphasize the relationships between the points.</value>
+  </data>
+  <data name="SplineChart_Header" xml:space="preserve">
+    <value>Spline Charts</value>
+  </data>
+  <data name="SplineChartStyles_Description1" xml:space="preserve">
+    <value>Standard charts allow you to set a SplineTension that is applied across all lines.  With the introduction of the LineAppearance collection, you can now specify a SplineTension for each line.</value>
+  </data>
+  <data name="SplineChartStyles_Description2" xml:space="preserve">
+    <value>This sample allows you to specify a SplineTension for each line on the chart, independent of the other lines SplineTension. Each tab is associated with a corresponding line in the chart. Modify the input controls on the tabs and press the button to modify the chart.</value>
+  </data>
+  <data name="SplineChartStyles_Header" xml:space="preserve">
+    <value>Spline Chart Styles</value>
+  </data>
+  <data name="SplineChartStyles_Label1" xml:space="preserve">
+    <value>Spline Tension</value>
+  </data>
+  <data name="Stacked3DBar_Description1" xml:space="preserve">
+    <value>A Bar Chart shows the changes in a data series over time or compares multiple items. Types of items are arranged vertically and data values are plotted horizontally to emphasize variation over time.</value>
+  </data>
+  <data name="Stacked3DBar_Description2" xml:space="preserve">
+    <value>A Column Chart shows the changes in a data series over time or compares multiple items. Types of items are arranged horizontally and data values are plotted vertically to emphasize variation over time.</value>
+  </data>
+  <data name="Stacked3DBar_Description3" xml:space="preserve">
+    <value>In a stacked 100% bar or column chart, the columns or bars reach a total of 100% of the axis range at each point.</value>
+  </data>
+  <data name="Stacked3DBar_Header" xml:space="preserve">
+    <value>Stacked 3D Bar Chart</value>
+  </data>
+  <data name="StackedAreaChart_Description1" xml:space="preserve">
+    <value>A Stacked Area Chart&amp;nbsp;is an area chart in which areas do not overlap, because they are cumulative at each point. In a stacked 100% area chart, the areas reach a total of 100% of the axis range at each point.</value>
+  </data>
+  <data name="StackedAreaChart_Description2" xml:space="preserve">
+    <value>An area chart is a form of line chart, but the area between the horizontal (X) axis and the line connecting the data markers is filled with color. This makes it easy to see where the points encompassed by the different data series overlap.</value>
+  </data>
+  <data name="StackedAreaChart_Header" xml:space="preserve">
+    <value>Stacked Area Chart</value>
+  </data>
+  <data name="StackedBarChart_Description1" xml:space="preserve">
+    <value>A Bar Chart shows the changes in a data series over time or compares multiple items. Types of items are arranged vertically and data values are plotted horizontally to emphasize variation over time.&lt;/P&gt;In a stacked 100%&amp;nbsp;bar chart, the&amp;nbsp;bars reach a total of 100% of the axis range at each point.</value>
+  </data>
+  <data name="StackedBarChart_Header" xml:space="preserve">
+    <value>Stacked Bar Charts</value>
+  </data>
+  <data name="StackedColumn_Description1" xml:space="preserve">
+    <value>A Column Chart&amp;nbsp;shows the changes in a data series over time or compares multiple items. Types of items are arranged horizontally and data values are plotted vertically to emphasize variation over time.&lt;/P&gt;In a stacked 100% line chart, the&amp;nbsp;columns reach a total of 100% of the axis range at each point.</value>
+  </data>
+  <data name="StackedColumn_Header" xml:space="preserve">
+    <value>Stacked Column Charts</value>
+  </data>
+  <data name="StackedCylinder3DBar_Description1" xml:space="preserve">
+    <value>A Bar Chart shows the changes in a data series over time or compares multiple items. Types of items are arranged vertically and data values are plotted horizontally to emphasize variation over time.</value>
+  </data>
+  <data name="StackedCylinder3DBar_Description2" xml:space="preserve">
+    <value>A Column Chart shows the changes in a data series over time or compares multiple items. Types of items are arranged horizontally and data values are plotted vertically to emphasize variation over time.</value>
+  </data>
+  <data name="StackedCylinder3DBar_Description3" xml:space="preserve">
+    <value>In a stacked 100% bar or column chart, the columns or bars reach a total of 100% of the axis range at each point.</value>
+  </data>
+  <data name="StackedCylinder3DBar_Header" xml:space="preserve">
+    <value>Stacked Cylinder 3D Bar Charts</value>
+  </data>
+  <data name="StackedLineChart_Description1" xml:space="preserve">
+    <value>A Stacked Line Chart&amp;nbsp;is a line chart in which lines do not intersect, because they are cumulative at each point. In a stacked 100% line chart, the lines reach a total of 100% of the axis range at each point.</value>
+  </data>
+  <data name="StackedLineChart_Header" xml:space="preserve">
+    <value>Stacked Line Charts</value>
+  </data>
+  <data name="StackedSplineAreaChart_Description1" xml:space="preserve">
+    <value>A Stack Area Chart&amp;nbsp;is an area chart in which areas do not overlap, because they are cumulative at each point. In a stacked 100% area chart, the areas reach a total of 100% of the axis range at each point.</value>
+  </data>
+  <data name="StackedSplineAreaChart_Description2" xml:space="preserve">
+    <value>An area chart is a form of line chart, but the area between the horizontal (X) axis and the line connecting the data markers is filled with color. This makes it easy to see where the points encompassed by the different data series overlap.</value>
+  </data>
+  <data name="StackedSplineAreaChart_Description3" xml:space="preserve">
+    <value>A stacked spline area chart is different from a stacked area chart because it uses spline tension to connect points in each line.</value>
+  </data>
+  <data name="StackedSplineAreaChart_Header" xml:space="preserve">
+    <value>Stacked Spline Area Charts</value>
+  </data>
+  <data name="StackedSplineChart_Description1" xml:space="preserve">
+    <value>A Stacked Line Chart&amp;nbsp;is a line chart in which lines do not intersect, because they are cumulative at each point. In a stacked 100% line chart, the lines reach a total of 100% of the axis range at each point.</value>
+  </data>
+  <data name="StackedSplineChart_Description2" xml:space="preserve">
+    <value>A Stacked Spline Chart&amp;nbsp;is different from a stacked line chart because it uses spline tension to connect points in each line.</value>
+  </data>
+  <data name="StackedSplineChart_Header" xml:space="preserve">
+    <value>Stacked Spline Charts</value>
+  </data>
+  <data name="StepAreaChart_Description1" xml:space="preserve">
+    <value>A Step Area Chart&amp;nbsp;is a special form of Area Chart which is useful for displaying changing numeric values over a period of time. The (horizontal) X-axis in a Step Area Chart represents a period of time, and values are plotted on the (vertical) Y-axis at constant or irregular time intervals.</value>
+  </data>
+  <data name="StepAreaChart_Description2" xml:space="preserve">
+    <value>Step Area charts are similar to Step Line charts, except in a Step Area chart the area occupied by the data series is filled in with color.</value>
+  </data>
+  <data name="StepAreaChart_Description3" xml:space="preserve">
+    <value>Step Area charts are useful for plotting figures which change periodically or at unknown intervals, such as bank balances or mortgage rates.</value>
+  </data>
+  <data name="StepAreaChart_Header" xml:space="preserve">
+    <value>Step Area Charts</value>
+  </data>
+  <data name="StepLineChart_Description1" xml:space="preserve">
+    <value>A Step Line Chart&amp;nbsp;is a special form of Line Chart which is useful for displaying changing numeric values over a period of time. The (horizontal) X-axis in a Step Line Chart represents a period of time, and values are plotted on the (vertical) Y-axis at constant or irregular time intervals.</value>
+  </data>
+  <data name="StepLineChart_Description2" xml:space="preserve">
+    <value>Step Line charts are useful for plotting figures which change periodically or at unknown intervals, such as bank balances or mortgage rates.</value>
+  </data>
+  <data name="StepLineChart_Header" xml:space="preserve">
+    <value>Step Line Charts</value>
+  </data>
+  <data name="StripLines_Description1" xml:space="preserve">
+    <value>Striplines are narrow rectangular bands or "stripes" that appear at a periodic interval behind graphic chart elements. They apply to 2-D chart types only, and do not apply to heat map charts.</value>
+  </data>
+  <data name="StripLines_Description2" xml:space="preserve">
+    <value>Developers can activate striplines on a single axis by retrieving the appropriate AxisAppearance object and setting the StripLines Visible property to True. The effect of turning on striplines for multiple axes is undefined.</value>
+  </data>
+  <data name="StripLines_Description3" xml:space="preserve">
+    <value>Strip lines will be orthogonal to their parent axis, and appear behind every Nth data element as specified by the Interval property.</value>
+  </data>
+  <data name="StripLines_Header" xml:space="preserve">
+    <value>Creating Strip Lines</value>
+  </data>
+  <data name="SwapRowsColumns_Description1" xml:space="preserve">
+    <value>Many times the data required by a chart type requires that you invert the rows and columns in your data source.&amp;nbsp; The UltraWebChart makes this easy by providing you with the SwapRowsandColumns property which will automatically invert the row and column data in the data source bound to the chart.</value>
+  </data>
+  <data name="SwapRowsColumns_Description2" xml:space="preserve">
+    <value>To view the SwapRowsAndColumns property simply check the checkbox.&amp;nbsp; Notice the web grid below the chart allows you to view the data being bound to the chart.</value>
+  </data>
+  <data name="SwapRowsColumns_Header" xml:space="preserve">
+    <value>Swap Rows And Columns</value>
+  </data>
+  <data name="SwapRowsColumns_Label1" xml:space="preserve">
+    <value>Swap Rows and Columns</value>
+  </data>
+  <data name="ThreeDBarChart_Description1" xml:space="preserve">
+    <value>A Bar Chart shows the changes in a data series over time or compares multiple items. Types of items are arranged vertically and data values are plotted horizontally to emphasize variation over time.</value>
+  </data>
+  <data name="ThreeDBarChart_Description2" xml:space="preserve">
+    <value>A Column Chart shows the changes in a data series over time or compares multiple items. Types of items are arranged horizontally and data values are plotted vertically to emphasize variation over time.</value>
+  </data>
+  <data name="ThreeDBarChart_Header" xml:space="preserve">
+    <value>3D Bar Charts</value>
+  </data>
+  <data name="ThreeDConcentricDoughnut_Description1" xml:space="preserve">
+    <value>The Concentric property of the Doughnut chart allows you to specify if the chart should display concentric doughnut charts in the doughnut chart.</value>
+  </data>
+  <data name="ThreeDConcentricDoughnut_Header" xml:space="preserve">
+    <value>Pie/Doughnut Concentric Data Display</value>
+  </data>
+  <data name="ThreeDHeatmap_Description1" xml:space="preserve">
+    <value>A Heat Map Chart&amp;nbsp;shows the relationship between data items by using gradually changing shades of color. Heat map charts are commonly used in financial analysis to show which stocks are rising, which are falling, and the amount and rate of change between them.</value>
+  </data>
+  <data name="ThreeDHeatmap_Header" xml:space="preserve">
+    <value>3D Heatmap Charts</value>
+  </data>
+  <data name="ThreeDLineChart_Description1" xml:space="preserve">
+    <value>A 3D&amp;nbsp;Line Chart&amp;nbsp;emphasizes the amount of change over a period of time or compares multiple items. Data points are plotted in series using evenly-spaced intervals and connected with a line to emphasize the relationships between the points.</value>
+  </data>
+  <data name="ThreeDLineChart_Header" xml:space="preserve">
+    <value>3D Line Charts</value>
+  </data>
+  <data name="ThreeDRotation_AxisRotation" xml:space="preserve">
+    <value>Axis Rotation:</value>
+  </data>
+  <data name="ThreeDRotation_Description1" xml:space="preserve">
+    <value>The UltraWebChart allows 3D charts to be rotated in any direction of their axes 
+							by simply setting the X, Y or Z Rotation properties.</value>
+  </data>
+  <data name="ThreeDRotation_Description2" xml:space="preserve">
+    <value>This sample allows you to rotate the 3D Cylinder chart by entering new values 
+							in the textboxes and clicking the Update Chart button.&amp;nbsp; You can enter a 
+							value from 0 to 360 to rotate the axis in any direction.&amp;nbsp; The Axis 
+							Rotation image demonstrates the direction each axis will rotate when you adjust 
+							its rotation.</value>
+  </data>
+  <data name="ThreeDRotation_Header" xml:space="preserve">
+    <value>3D Chart Rotation</value>
+  </data>
+  <data name="ThreeDRotation_UpdateChart" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="ThreeDRotation_XRotation" xml:space="preserve">
+    <value>X Rotation</value>
+  </data>
+  <data name="ThreeDRotation_YRotation" xml:space="preserve">
+    <value>Y Rotation</value>
+  </data>
+  <data name="ThreeDRotation_ZRotation" xml:space="preserve">
+    <value>Z Rotation</value>
+  </data>
+  <data name="ThreeDScaling_ChartScale" xml:space="preserve">
+    <value>Chart Scale:</value>
+  </data>
+  <data name="ThreeDScaling_Description1" xml:space="preserve">
+    <value>The UltraWebCharts 3D charts include a Scale property which allows you to adjust 
+							the scale of the chart.&amp;nbsp; Adjusting the scale moves the chart back and 
+							forth along the horizontal plane, making the chart appear larger or smaller 
+							inside of the chart control.</value>
+  </data>
+  <data name="ThreeDScaling_Description2" xml:space="preserve">
+    <value>This sample allows you change the charts default scale percentage of 65%.&amp;nbsp; 
+							Simply enter a scale value and click the Update Chart button.</value>
+  </data>
+  <data name="ThreeDScaling_Header" xml:space="preserve">
+    <value>3D Chart Scaling</value>
+  </data>
+  <data name="ThreeDScaling_UpdateChart" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="ThreeDSplineArea_Description1" xml:space="preserve">
+    <value>A 3D Spline Area Chart is a form of area chart. It has all the features and characteristics of an area chart, with the added feature of spline interpolation and smoothing for improved presentation of data.&lt;br /&gt;
+The 3D Spline Area Chart combines the color fill of the Area Chart with the spline interpolation and smoothing of the Spline Chart.</value>
+  </data>
+  <data name="ThreeDSplineArea_Header" xml:space="preserve">
+    <value>3D Spline Area Charts</value>
+  </data>
+  <data name="ThreeDSplineChart_Description1" xml:space="preserve">
+    <value>A 3D Spline Chart is a form of line chart. It has all the features and characteristics of a line chart, with the added feature of spline interpolation and smoothing for improved presentation of data.</value>
+  </data>
+  <data name="ThreeDSplineChart_Header" xml:space="preserve">
+    <value>3D Spline Charts</value>
+  </data>
+  <data name="Titles_Description1" xml:space="preserve">
+    <value>The UltraWebChat includes four separate chart titles which you can use to provide a title for your chart.&amp;nbsp; The Titles expose a variety of styling properties that allow you to adjust the font family, size, color, weight, visibility&amp;nbsp;and many other options.&amp;nbsp; You can also adjust the alignment of each title by using the TitleAlignment property.</value>
+  </data>
+  <data name="Titles_Description2" xml:space="preserve">
+    <value>This sample allows you to change the text of each title as well as adjusting the title alignment and the title font.&amp;nbsp; Note that although in the sample, the alignment and font size is applied to each title, the chart does allow you to configure these properties for each title independently.</value>
+  </data>
+  <data name="Titles_Header" xml:space="preserve">
+    <value>Changing Chart Titles</value>
+  </data>
+  <data name="Titles_Label1" xml:space="preserve">
+    <value>Left Title</value>
+  </data>
+  <data name="Titles_Label2" xml:space="preserve">
+    <value>Right Title</value>
+  </data>
+  <data name="Titles_Label3" xml:space="preserve">
+    <value>Top Title</value>
+  </data>
+  <data name="Titles_Label4" xml:space="preserve">
+    <value>Bottom Title</value>
+  </data>
+  <data name="Titles_Label5" xml:space="preserve">
+    <value>Title Alignment</value>
+  </data>
+  <data name="Titles_Label6" xml:space="preserve">
+    <value>Title Font Size</value>
+  </data>
+  <data name="Tracking_Description1" xml:space="preserve">
+    <value>Data Hot Tracking is a feature of the UltraWebChart that allow you to give your users a more effective interface by highlighting the data their mouse cursor is currently positioned over.&lt;br /&gt;&lt;br /&gt;Currently, Data Hot Tracking for the UltraWebChart is only available when the Deployment Scenario is set to Flash.</value>
+  </data>
+  <data name="Tracking_Description2" xml:space="preserve">
+    <value>Note: Click on the chart to give focus to the chart, then you will see the hot tracking effect on the chart.</value>
+  </data>
+  <data name="Tracking_Header" xml:space="preserve">
+    <value>Adding Hot Tracking to the UltrawebChart</value>
+  </data>
+  <data name="Tracking_Label" xml:space="preserve">
+    <value>Hot Tracking Enabled</value>
+  </data>
+  <data name="VisualEffects_Description1" xml:space="preserve">
+    <value>The UltraWebChart has several different effects that can be applied to it to change the appearance of the chart.</value>
+  </data>
+  <data name="VisualEffects_Description2" xml:space="preserve">
+    <value>This sample allows you to change work with the different effects that are available on the chart. Choose between the effects by changing the selected checkboxes and clicking the button to update the chart.</value>
+  </data>
+  <data name="VisualEffects_Header" xml:space="preserve">
+    <value>Visual Effects</value>
+  </data>
+  <data name="VisualEffects_Label1" xml:space="preserve">
+    <value>Enable/Disable Visual Effects:</value>
+  </data>
+  <data name="VisualEffects_Label2" xml:space="preserve">
+    <value>Gradient</value>
+  </data>
+  <data name="VisualEffects_Label3" xml:space="preserve">
+    <value>Shadow</value>
+  </data>
+  <data name="VisualEffects_Label4" xml:space="preserve">
+    <value>Texture</value>
+  </data>
+  <data name="VisualEffects_Label5" xml:space="preserve">
+    <value>3D Effect</value>
+  </data>
+  <data name="XX2YY2_Description1" xml:space="preserve">
+    <value>The standards 2D charts in the UltraWebChart&amp;nbsp;use 4 axes, X, X2, Y and Y2. 3D charts also use a Z and Z2 axis. Each axis can be configured independently, allowing you to change the colors, tick styles, margins, labels, gridlines, strip lines, visibility&amp;nbsp;and many other axis properties of each axis to fit your exact need.</value>
+  </data>
+  <data name="XX2YY2_Description2" xml:space="preserve">
+    <value>This sample simply allows you to view the each axis in the 2D chart.&amp;nbsp; Each checkbox controls the visibility of a different axis.</value>
+  </data>
+  <data name="XX2YY2_Header" xml:space="preserve">
+    <value>X, X2, Y, Y2 Axis</value>
+  </data>
+  <data name="XX2YY2_Label1" xml:space="preserve">
+    <value>Show X Axis</value>
+  </data>
+  <data name="XX2YY2_Label2" xml:space="preserve">
+    <value>Show X2 Axis</value>
+  </data>
+  <data name="XX2YY2_Label3" xml:space="preserve">
+    <value>Show Y Axis</value>
+  </data>
+  <data name="XX2YY2_Label4" xml:space="preserve">
+    <value>Show Y2 Axis</value>
+  </data>
+  <data name="ZeroAxisAlignment_Description1" xml:space="preserve">
+    <value>Normally the chart axes use the data bound to the chart to determine the range needed for each axes.&amp;nbsp; However, there may be times when your data does not include zero values, but you want your charts axis to start with a zero tick.&amp;nbsp; In this case you can use the charts ZeroAligned property to force an axis to begin its range with zero.</value>
+  </data>
+  <data name="ZeroAxisAlignment_Description2" xml:space="preserve">
+    <value>The sample below demonstrates data bound to the grid which does not include zero values.&amp;nbsp; By default the Y axis uses the smallest value (in this case 10) as the starting point for the axis value.&amp;nbsp; By enabling the ZeroAligned property on the chart using the checkbox, you will see that the Y axis now begin with a zero value and the chart has plotted the bound data accordingly.</value>
+  </data>
+  <data name="ZeroAxisAlignment_Header" xml:space="preserve">
+    <value>Zero Axis Alignment</value>
+  </data>
+  <data name="ZeroAxisAlignment_Label1" xml:space="preserve">
+    <value>Zero Align Y Axis Data</value>
+  </data>
+  <data name="AreaFill_3DChart" xml:space="preserve">
+    <value>3D Chart</value>
+  </data>
+  <data name="AreaFill_Description_1" xml:space="preserve">
+    <value>The UltraWebChart allows you to change the chart area fill.</value>
+  </data>
+  <data name="AreaFill_FillColor" xml:space="preserve">
+    <value>Chart Area Fill Color:</value>
+  </data>
+  <data name="AreaFill_Title" xml:space="preserve">
+    <value>Chart Area Fill</value>
+  </data>
+  <data name="DrawItem_Description_1" xml:space="preserve">
+    <value>The UltraChart raises an event called ChartDrawItem each time an item is being drawn to the chart surface. Application developers can use this event to examine or manipulate primitives.</value>
+  </data>
+  <data name="DrawItem_Description_2" xml:space="preserve">
+    <value>In the example, Y-axis labels are colored differently depending on their values (the values less than 100 are blue – the rest are red).</value>
+  </data>
+  <data name="DrawItem_Title" xml:space="preserve">
+    <value>ChartDrawItem Event</value>
+  </data>
+  <data name="FillScene_Description_1" xml:space="preserve">
+    <value>The UltraChart raises an event called FillSceneGraph before its graphics primitives are rendered to the chart surface. Application developers can use this event to examine or manipulate primitives, or to add new ones to the SceneGraph.</value>
+  </data>
+  <data name="FillScene_Description_2" xml:space="preserve">
+    <value>In this example, custom Line and Text primitives are added to indicate a target value for the data set.</value>
+  </data>
+  <data name="FillScene_Title" xml:space="preserve">
+    <value>FillSceneGraph Event</value>
+  </data>
+  <data name="TreeMapTypes_Description_1" xml:space="preserve">
+    <value>The TreeMap includes three TreeMapTypes to choose from: Rectangular (default), Circular, and Rings. Select one of the three types from the ComboBox to set the TreeMapType property.</value>
+  </data>
+  <data name="TreeMapTypes_EmptyChartText" xml:space="preserve">
+    <value>Data Not Available. Please call UltraChart.Data.DataBind() after setting valid Data.DataSource</value>
+  </data>
+  <data name="TreeMapTypes_Header" xml:space="preserve">
+    <value>Specifying the TreeMapType</value>
+  </data>
+  <data name="TreeMapTypes_TreeMapType" xml:space="preserve">
+    <value>TreeMapType:</value>
+  </data>
+  <data name="TreeMap_Description_1" xml:space="preserve">
+    <value>This sample demonstrates how to implement a basic Tree Map Chart. A simple five-column DataTable is defined in the Page_Load event and filled with sample data. The UltraChart's DataSource property is then set to the DataTable.</value>
+  </data>
+  <data name="TreeMap_Header" xml:space="preserve">
+    <value>Getting Started with the TreeMap</value>
+  </data>
+  <data name="TreeMap_Title" xml:space="preserve">
+    <value>Tree Map Chart</value>
+  </data>
+  <data name="TreeMapFileSystem_Description_1" xml:space="preserve">
+    <value>Using the TreeMap to display the file system (the sample uses random values for the folder size).</value>
+  </data>
+  <data name="TreeMapFileSystem_Folder" xml:space="preserve">
+    <value>Folder:</value>
+  </data>
+  <data name="TreeMapFileSystem_Header" xml:space="preserve">
+    <value>File System Tree Map</value>
+  </data>
+  <data name="TreeMapFileSystem_Levels" xml:space="preserve">
+    <value>Levels:</value>
+  </data>
+  <data name="TreeMapFileSystem_Title" xml:space="preserve">
+    <value>Untitled Page</value>
+  </data>
+  <data name="TreeMapFileSystem_UpdateChart" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="CustomizedFileName_Label1" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="CustomizedFileName_Label2" xml:space="preserve">
+    <value>Use Date/Time Stamp</value>
+  </data>
+  <data name="CustomizedFileName_Label3" xml:space="preserve">
+    <value>Use GUID</value>
+  </data>
+  <data name="Histogram_Title" xml:space="preserve">
+    <value>Histogram</value>
+  </data>
+  <data name="LegendLocation_Description_1" xml:space="preserve">
+    <value>In standard 3D charts, the UltraWebChart gives you the power to control the position of the chart legend, allowing you to place it on the Top, Bottom, Left, or Right side of the chart area.</value>
+  </data>
+  <data name="LegendLocation_Description_2" xml:space="preserve">
+    <value>This sample allows you to enable the visibility of the chart, and select its location within the chart area.</value>
+  </data>
+  <data name="LegendLocation_Header" xml:space="preserve">
+    <value>Setting the Legend Position</value>
+  </data>
+  <data name="LegendLocation_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="LegendLocation_ShowChartLegend" xml:space="preserve">
+    <value>Show Chart Legend</value>
+  </data>
+  <data name="Pie3DStyles_Header" xml:space="preserve">
+    <value>3D Pie and Doughnut Styles</value>
+  </data>
+  <data name="Pie3DStyles_PieThickness" xml:space="preserve">
+    <value>Pie Thickness</value>
+  </data>
+  <data name="Pie3DStyles_RadiusFactor" xml:space="preserve">
+    <value>Radius Factor</value>
+  </data>
+  <data name="Pie3DStyles_StartAngle" xml:space="preserve">
+    <value>Start Angle</value>
+  </data>
+  <data name="Pie3DStyles_UpdateChart" xml:space="preserve">
+    <value>Update Chart</value>
+  </data>
+  <data name="TreeMapTypes_ChooseOne" xml:space="preserve">
+    <value>-- Choose One --</value>
+  </data>
+  <data name="LineChartStyles_Monday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="LineChartStyles_Tuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="LineChartStyles_Wednesday" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="Gallery_3DArea" xml:space="preserve">
+    <value>3D Area Chart</value>
+  </data>
+  <data name="Gallery_3DBubble" xml:space="preserve">
+    <value>3D Bubble Chart</value>
+  </data>
+  <data name="Gallery_3DCone" xml:space="preserve">
+    <value>3D Cone Chart</value>
+  </data>
+  <data name="Gallery_3DFunnel" xml:space="preserve">
+    <value>3D Funnel Chart</value>
+  </data>
+  <data name="Gallery_3DHeatMap" xml:space="preserve">
+    <value>3D Heat Map Chart</value>
+  </data>
+  <data name="Gallery_3DLine" xml:space="preserve">
+    <value>3D Line Chart</value>
+  </data>
+  <data name="Gallery_3DPoint" xml:space="preserve">
+    <value>3D Point Chart</value>
+  </data>
+  <data name="Gallery_3DPyramid" xml:space="preserve">
+    <value>3D Pyramid Chart</value>
+  </data>
+  <data name="Gallery_3DSpline" xml:space="preserve">
+    <value>3D Spline Chart</value>
+  </data>
+  <data name="Gallery_3DSplineArea" xml:space="preserve">
+    <value>3D Spline Area Chart</value>
+  </data>
+  <data name="Gallery_Area" xml:space="preserve">
+    <value>Area Charts</value>
+  </data>
+  <data name="Gallery_AreaSingular" xml:space="preserve">
+    <value>Area Chart</value>
+  </data>
+  <data name="Gallery_AreaSpline" xml:space="preserve">
+    <value>Area/Spline Chart</value>
+  </data>
+  <data name="Gallery_Bar" xml:space="preserve">
+    <value>Bar Chart</value>
+  </data>
+  <data name="Gallery_BarColumn" xml:space="preserve">
+    <value>Bar and Column Charts</value>
+  </data>
+  <data name="Gallery_BoxWhisker" xml:space="preserve">
+    <value>Box/Whisker Chart</value>
+  </data>
+  <data name="Gallery_Bubble" xml:space="preserve">
+    <value>Bubble Chart</value>
+  </data>
+  <data name="Gallery_BubbleScatter" xml:space="preserve">
+    <value>Bubble and Scatter Charts</value>
+  </data>
+  <data name="Gallery_Candle" xml:space="preserve">
+    <value>Candle Chart</value>
+  </data>
+  <data name="Gallery_Column" xml:space="preserve">
+    <value>Column Chart</value>
+  </data>
+  <data name="Gallery_ConcentricDoughnut" xml:space="preserve">
+    <value>Concentric Doughnut Chart</value>
+  </data>
+  <data name="Gallery_CylinderBar" xml:space="preserve">
+    <value>Cylinder Bar Chart</value>
+  </data>
+  <data name="Gallery_CylinderColumn" xml:space="preserve">
+    <value>Cylinder Column Chart</value>
+  </data>
+  <data name="Gallery_Doughnut" xml:space="preserve">
+    <value>Doughnut Chart</value>
+  </data>
+  <data name="Gallery_Financial" xml:space="preserve">
+    <value>Financial Charts</value>
+  </data>
+  <data name="Gallery_Funnel" xml:space="preserve">
+    <value>Funnel Chart</value>
+  </data>
+  <data name="Gallery_FunnelPyramid" xml:space="preserve">
+    <value>Funnel and Pyramid Charts</value>
+  </data>
+  <data name="Gallery_Gantt" xml:space="preserve">
+    <value>Gantt Charts</value>
+  </data>
+  <data name="Gallery_GanttSingular" xml:space="preserve">
+    <value>Gantt Chart</value>
+  </data>
+  <data name="Gallery_Heatmap" xml:space="preserve">
+    <value>Heatmap Charts</value>
+  </data>
+  <data name="Gallery_HeatmapSingular" xml:space="preserve">
+    <value>Heatmap Chart</value>
+  </data>
+  <data name="Gallery_Line" xml:space="preserve">
+    <value>Line Chart</value>
+  </data>
+  <data name="Gallery_LineScatter" xml:space="preserve">
+    <value>Line/Scatter Chart</value>
+  </data>
+  <data name="Gallery_LineSpline" xml:space="preserve">
+    <value>Line and Spline Charts</value>
+  </data>
+  <data name="Gallery_Pareto" xml:space="preserve">
+    <value>Pareto Chart</value>
+  </data>
+  <data name="Gallery_Pie" xml:space="preserve">
+    <value>Pie Chart</value>
+  </data>
+  <data name="Gallery_PieDoughnut" xml:space="preserve">
+    <value>Pie and Doughnut Charts</value>
+  </data>
+  <data name="Gallery_Polar" xml:space="preserve">
+    <value>Polar Chart</value>
+  </data>
+  <data name="Gallery_Probability" xml:space="preserve">
+    <value>Probability Chart</value>
+  </data>
+  <data name="Gallery_Pyramid" xml:space="preserve">
+    <value>Pyramid Chart</value>
+  </data>
+  <data name="Gallery_Radar" xml:space="preserve">
+    <value>Radar Chart</value>
+  </data>
+  <data name="Gallery_Scatter" xml:space="preserve">
+    <value>Scatter Chart</value>
+  </data>
+  <data name="Gallery_Scientific" xml:space="preserve">
+    <value>Scientific Charts</value>
+  </data>
+  <data name="Gallery_Spline" xml:space="preserve">
+    <value>Spline Chart</value>
+  </data>
+  <data name="Gallery_StackedArea" xml:space="preserve">
+    <value>Stacked Area Chart</value>
+  </data>
+  <data name="Gallery_StackedBar" xml:space="preserve">
+    <value>Stacked Bar Chart</value>
+  </data>
+  <data name="Gallery_StackedColumn" xml:space="preserve">
+    <value>Stacked Column Chart</value>
+  </data>
+  <data name="Gallery_StackedCylinderBar" xml:space="preserve">
+    <value>Stacked Cylinder Bar Chart</value>
+  </data>
+  <data name="Gallery_StackedCylinderColumn" xml:space="preserve">
+    <value>Stacked Cylinder Column Chart</value>
+  </data>
+  <data name="Gallery_StackedLine" xml:space="preserve">
+    <value>Stacked Line Chart</value>
+  </data>
+  <data name="Gallery_StackedSpline" xml:space="preserve">
+    <value>Stacked Spline Chart</value>
+  </data>
+  <data name="Gallery_Statistical" xml:space="preserve">
+    <value>Statistical Charts</value>
+  </data>
+  <data name="Gallery_StepArea" xml:space="preserve">
+    <value>Step Area Chart</value>
+  </data>
+  <data name="Gallery_StepLine" xml:space="preserve">
+    <value>Step Line Chart</value>
+  </data>
+  <data name="CandleChartColors_NegativeRangeColor" xml:space="preserve">
+    <value>Negative Range Color</value>
+  </data>
+  <data name="CandleChartColors_PositiveRangeColor" xml:space="preserve">
+    <value>Positive Range Color</value>
+  </data>
+  <data name="CandleChartColors_VolumeColor" xml:space="preserve">
+    <value>Volume Color</value>
+  </data>
+  <data name="CandleChartColors_WickColor" xml:space="preserve">
+    <value>Wick Color</value>
+  </data>
+  <data name="CandleChartColors_WickThickness" xml:space="preserve">
+    <value>Wick Thickness</value>
+  </data>
+  <data name="CustomizedFileName_Update" xml:space="preserve">
+    <value>Change Filename</value>
+  </data>
+  <data name="SplineChartStyles_Monday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="SplineChartStyles_Tuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="SplineChartStyles_Wednesday" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="Sizing_Error" xml:space="preserve">
+    <value>&lt;span style='color:red;font-size:medium'&gt;Image RenderingType only supports Pixel Width and Height.&lt;/span&gt;</value>
+  </data>
+  <data name="CustomAnnotations_Label" xml:space="preserve">
+    <value>Default Text</value>
+  </data>
+  <data name="Pie3DStyles_PieThickness_Error" xml:space="preserve">
+    <value>Pie Thickness has range between 0 and 40</value>
+  </data>
+  <data name="Pie3DStyles_RadiusFactor_Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Pie3DStyles_StartAngle_Error" xml:space="preserve">
+    <value>Start angle has range between 0 and 360</value>
+  </data>
+  <data name="ClientSide_Column" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="ClientSide_ColumnLabel" xml:space="preserve">
+    <value>Column Label</value>
+  </data>
+  <data name="ClientSide_Row" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="ClientSide_RowLabel" xml:space="preserve">
+    <value>Row Label</value>
+  </data>
+  <data name="ClientSide_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="ClientSide_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="CorrectUnitValidationMessage" xml:space="preserve">
+    <value>Image type chart cannot have percentage width and height.</value>
+  </data>
+  <data name="ValidationError_TextBox5" xml:space="preserve">
+    <value>Enter Numeric Data in Font Size</value>
+  </data>
+  <data name="Tooltip_High" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="Tooltip_Low" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="Tooltip_Medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="Tooltip_Negative" xml:space="preserve">
+    <value>Negative</value>
+  </data>
+  <data name="Tooltip_VeryHigh" xml:space="preserve">
+    <value>Very High</value>
+  </data>
+  <data name="MapLabel1" xml:space="preserve">
+    <value>Alabama</value>
+  </data>
+  <data name="MapLabel10" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="MapLabel11" xml:space="preserve">
+    <value>Hawaii</value>
+  </data>
+  <data name="MapLabel12" xml:space="preserve">
+    <value>Idaho</value>
+  </data>
+  <data name="MapLabel13" xml:space="preserve">
+    <value>Illinois</value>
+  </data>
+  <data name="MapLabel14" xml:space="preserve">
+    <value>Indiana</value>
+  </data>
+  <data name="MapLabel15" xml:space="preserve">
+    <value>Iowa</value>
+  </data>
+  <data name="MapLabel16" xml:space="preserve">
+    <value>Kansas</value>
+  </data>
+  <data name="MapLabel17" xml:space="preserve">
+    <value>Kentucky</value>
+  </data>
+  <data name="MapLabel18" xml:space="preserve">
+    <value>Louisiana</value>
+  </data>
+  <data name="MapLabel19" xml:space="preserve">
+    <value>Maine</value>
+  </data>
+  <data name="MapLabel2" xml:space="preserve">
+    <value>Alaska</value>
+  </data>
+  <data name="MapLabel20" xml:space="preserve">
+    <value>Maryland</value>
+  </data>
+  <data name="MapLabel21" xml:space="preserve">
+    <value>Massachusetts</value>
+  </data>
+  <data name="MapLabel22" xml:space="preserve">
+    <value>Michigan</value>
+  </data>
+  <data name="MapLabel23" xml:space="preserve">
+    <value>Minnesota</value>
+  </data>
+  <data name="MapLabel24" xml:space="preserve">
+    <value>Mississippi</value>
+  </data>
+  <data name="MapLabel25" xml:space="preserve">
+    <value>Missouri</value>
+  </data>
+  <data name="MapLabel26" xml:space="preserve">
+    <value>Montana</value>
+  </data>
+  <data name="MapLabel27" xml:space="preserve">
+    <value>Nebraska</value>
+  </data>
+  <data name="MapLabel28" xml:space="preserve">
+    <value>Nevada</value>
+  </data>
+  <data name="MapLabel29" xml:space="preserve">
+    <value>New Hampshire</value>
+  </data>
+  <data name="MapLabel30" xml:space="preserve">
+    <value>New Jersey</value>
+  </data>
+  <data name="MapLabel31" xml:space="preserve">
+    <value>New Mexico</value>
+  </data>
+  <data name="MapLabel32" xml:space="preserve">
+    <value>New York</value>
+  </data>
+  <data name="MapLabel33" xml:space="preserve">
+    <value>North Carolina</value>
+  </data>
+  <data name="MapLabel34" xml:space="preserve">
+    <value>North Dakota</value>
+  </data>
+  <data name="MapLabel35" xml:space="preserve">
+    <value>Ohio</value>
+  </data>
+  <data name="MapLabel36" xml:space="preserve">
+    <value>Oklahoma</value>
+  </data>
+  <data name="MapLabel37" xml:space="preserve">
+    <value>Oregon</value>
+  </data>
+  <data name="MapLabel38" xml:space="preserve">
+    <value>Pennsylvania</value>
+  </data>
+  <data name="MapLabel39" xml:space="preserve">
+    <value>Rhode Island</value>
+  </data>
+  <data name="MapLabel4" xml:space="preserve">
+    <value>Arkansas</value>
+  </data>
+  <data name="MapLabel40" xml:space="preserve">
+    <value>South Carolina</value>
+  </data>
+  <data name="MapLabel41" xml:space="preserve">
+    <value>South Dakota</value>
+  </data>
+  <data name="MapLabel42" xml:space="preserve">
+    <value>Tennessee</value>
+  </data>
+  <data name="MapLabel43" xml:space="preserve">
+    <value>Texas</value>
+  </data>
+  <data name="MapLabel44" xml:space="preserve">
+    <value>Utah</value>
+  </data>
+  <data name="MapLabel45" xml:space="preserve">
+    <value>Vermont</value>
+  </data>
+  <data name="MapLabel46" xml:space="preserve">
+    <value>Virginia</value>
+  </data>
+  <data name="MapLabel47" xml:space="preserve">
+    <value>Washington</value>
+  </data>
+  <data name="MapLabel48" xml:space="preserve">
+    <value>West Virginia</value>
+  </data>
+  <data name="MapLabel49" xml:space="preserve">
+    <value>Wisconsin</value>
+  </data>
+  <data name="MapLabel5" xml:space="preserve">
+    <value>California</value>
+  </data>
+  <data name="MapLabel50" xml:space="preserve">
+    <value>Wyoming</value>
+  </data>
+  <data name="MapLabel6" xml:space="preserve">
+    <value>Colorado</value>
+  </data>
+  <data name="MapLabel7" xml:space="preserve">
+    <value>Connecticut</value>
+  </data>
+  <data name="MapLabel8" xml:space="preserve">
+    <value>Delaware</value>
+  </data>
+  <data name="MapLabel9" xml:space="preserve">
+    <value>Florida</value>
+  </data>
+  <data name="MapLabel3" xml:space="preserve">
+    <value>Arizona</value>
+  </data>
+  <data name="LabelExpense" xml:space="preserve">
+    <value>Expense</value>
+  </data>
+</root>

@@ -1,0 +1,217 @@
+﻿.ighg_IG2007ExpandButton
+{
+	cursor: pointer;
+	cursor: hand;
+	padding-left: 5px;
+}
+
+TBODY>TR>TD.ighg_IG2007ExpandableArea
+{
+	padding: 0px 0px 0px 25px;
+}
+
+.ighg_IG2007ExpansionColumn
+{
+	width: 25px;
+	padding: 0 !important;
+}
+
+.ighg_IG2007ExpansionColumnHeader
+{
+	width: 25px;	
+	border-color: #A0C3DE #5593C3 #5593C3 #A0C3DE;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.ighg_IG2007ExpansionColumnFooter
+{
+	width: 25px;
+}
+
+/* START -- GroupBy CSS Classes */
+.ighg_IG2007GroupIndentHeaderCell
+{
+}
+
+TBODY>TR.ighg_IG2007GroupedRow>TD
+{
+	background: #EEEEEE url(images/ighg_GroupedRowBg.png) repeat-x;
+}
+
+
+TBODY>TR>TD.ighg_IG2007GroupIndentCell
+{
+	border-right: 1px solid #D8D8D8;
+}
+
+.ighg_IG2007GroupArea
+{
+	background: #EEEEEE url(images/ighg_GroupAreaBg.png) repeat-x;
+	border-bottom: 1px solid #999999;
+	padding: 10px;
+	color: #333333;
+}
+
+.ighg_IG2007GroupedColumn
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnBg.png) repeat-x;
+	height: 16px;
+	padding: 3px 5px 0px 10px;
+}
+.ighg_IG2007GroupedColumnRightEdgeEnd
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnRightEdgeEndBg.gif) no-repeat;		
+	width: 10px;
+	height: 16px;
+	padding-top: 3px;
+}
+.ighg_IG2007GroupedColumnRightEdge
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnRightEdgeBg.png) no-repeat;
+	width: 10px;
+	height: 16px;
+	padding-top: 3px;
+}
+
+.ighg_IG2007GroupedColumnLeftEdge
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnLeftEdgeBg.gif) no-repeat;
+	width: 9px;
+	height: 16px;
+	padding-top: 3px;
+}
+
+.ighg_IG2007GroupedBand
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedBandBg.png) repeat-x;
+	border-left: 1px solid #FF9900;
+	height: 16px;
+	padding: 3px 0px 0px 10px;
+}
+.ighg_IG2007GroupedBandRightEdge
+{		
+	display: inline-block;
+	background: url(images/ighg_GroupedBandBg.png) repeat-x;
+	border-right: 1px solid #FF9900;
+	width: 10px;
+	height: 16px;
+	padding: 3px 0px 0px 0px;
+}
+
+.ighg_IG2007ColumnGroupingTopDragIndicator
+{
+	background-image:url(images/ighg_TopDragIndicator.gif);
+	background-repeat: no-repeat;
+	width:5px; 
+	height:3px;
+	z-index: 100;
+}
+
+.ighg_IG2007ColumnGroupingMiddleDragIndicator
+{
+      background-image:url(images/ighg_MiddleDragIndicator.gif);
+      background-repeat: repeat-y;
+      background-position: center;
+      width:3px; 
+}
+
+.ighg_IG2007ColumnGroupingBottomDragIndicator
+{
+      background-image:url(images/ighg_BottomDragIndicator.gif);
+      background-repeat: no-repeat;
+      width:5px; 
+      height:3px;
+      position: absolute;
+      z-index: 100;   
+}
+/* END -- GroupBy CSS Classes */
+
+/********************/
+/**  Cell Merging  **/
+/********************/
+/*Any future change please port it to WHDG*/
+
+tbody>tr>td.igg_MergedCellVisible
+{
+    color : Black;
+}
+
+tbody>tr>td.ighg_IG2007MergedCell /*tbody>tr>td.ighg_IG2007MergedCellAlt*/
+{
+    color: White;
+    background-color: White;
+    
+    border-top-width: 0;
+    border-left: 1px dotted #d8d8d8;
+    border-right: 1px dotted #d8d8d8;
+}
+
+tbody>tr>td.ighg_IG2007MergedCellTop /*tbody>tr>td.ighg_IG2007MergedCellAltTop*/
+{
+    color: Black;
+    border-top: 1px solid #d8d8d8;
+}
+
+tbody>tr>td.ighg_IG2007MergedCell.igg_SelectedCell /*tbody>tr>td.ighg_IG2007MergedCellAlt.igg_SelectedCell*/
+{
+    color: Black;
+    background-color: #b4daf3;
+    
+    border-top: 1px solid #afaeae;
+    border-left: 1px dotted #afaeae;
+    border-right: 1px dotted #afaeae;
+}
+
+
+tbody>tr>td.ighg_IG2007MergedCellTop.igg_SelectedCell /*tbody>tr>td.ighg_IG2007MergedCellAltTop.igg_SelectedCell*/
+{
+    color: Black;
+    border-top: 1px solid #afaeae;
+}
+
+tbody>tr>td.ighg_IG2007MergedCellExpanded
+{
+    color: Black;    
+}
+
+tbody > tr.igg_UpdatedRow td.ighg_IG2007MergedCell
+{
+    color: #666666;
+    font-style: italic;
+}
+
+tbody > tr.igg_UpdatedRow td.ighg_IG2007MergedCellTop.igg_SelectedCell
+{
+    color: black;
+    font-style: italic;
+}
+
+tbody > tr.igg_UpdatedRow td.ighg_IG2007MergedCellTop
+{
+    color: #666666;
+    font-style: italic;
+}
+
+tbody > tr.igg_UpdatedRow td.ighg_IG2007MergedCellTop.igg_SelectedCell
+{
+    color: black;
+    font-style: italic;
+}
+
+tbody>tr>td.ighg_IG2007MergedCellVisible
+{
+    color: black;
+}
+
+tbody>tr>td.igg_ActiveCell
+{
+    color: #000;
+}
+    
+@media print{.ighg_IG2007Control, .ighg_IG2007Control div{width:auto !important; height:auto !important; overflow: visible !important;}}

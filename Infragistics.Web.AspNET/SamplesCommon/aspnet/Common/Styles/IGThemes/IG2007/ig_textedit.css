@@ -1,0 +1,80 @@
+.igtxt_IG2007EditWithButtons
+{
+	background-color:White;
+	font-family: Verdana;
+	font-size:10px;
+	line-height:1px;
+	height:20px;
+	width:130px;
+	border:solid 1px Gainsboro;
+}
+
+
+.igtxt_IG2007Edit
+{
+	background-color:White;
+	border:solid 1px Gainsboro;
+	outline:0;
+}
+
+.igtxt_IG2007TextArea
+{
+	background-color:White;
+	border:solid 1px Gainsboro;
+	font-family:arial;
+	font-size:12px;
+	outline:0;
+}
+
+.igtxt_IG2007EditInContainer
+{
+	background-color:White;
+	border-width:0px;
+	margin:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	outline:0;
+}
+
+.igtxt_IG2007Focus
+{
+	border-color:#C0C080;
+}
+
+.igtxt_IG2007ButtonSize
+{
+	width:15px;
+	height:100%;
+}
+
+.igtxt_IG2007Button
+{
+	background-color:White;
+	line-height:normal;
+	border:solid 1px White;
+}
+
+.igtxt_IG2007ButtonFocus
+{
+	background-color:#F0F0B0;
+}
+
+.igtxt_IG2007ButtonHover
+{
+	background-color:#ABC1DE;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igtxt_IG2007ButtonPressed
+{
+	background-color:#FFA738;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igtxt_IG2007ButtonDisabled
+{
+	background-color:#EAF2FB;
+	border:solid 1px White;
+}

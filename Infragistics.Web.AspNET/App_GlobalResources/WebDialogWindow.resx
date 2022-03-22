@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Client_Side_Events_CheckBox_1" xml:space="preserve">
+    <value>Cancel Button Events</value>
+  </data>
+  <data name="Client_Side_Events_CheckBox_2" xml:space="preserve">
+    <value>PostBack On Button Events</value>
+  </data>
+  <data name="Client_Side_Events_CheckBox_3" xml:space="preserve">
+    <value>Moving: keep top 50..400</value>
+  </data>
+  <data name="Client_Side_Events_CheckBox_4" xml:space="preserve">
+    <value>Moved: keep left 10..300</value>
+  </data>
+  <data name="Client_Side_Events_CheckBox_5" xml:space="preserve">
+    <value>Resizing: keep width 150..400</value>
+  </data>
+  <data name="Client_Side_Events_CheckBox_6" xml:space="preserve">
+    <value>Resized: keep height 100..300</value>
+  </data>
+  <data name="Client_Side_Events_CheckBox_7" xml:space="preserve">
+    <value>Show Resizing Events</value>
+  </data>
+  <data name="Client_Side_Events_CheckBox_8" xml:space="preserve">
+    <value>Show Moving Events</value>
+  </data>
+  <data name="Client_Side_Events_Description_1" xml:space="preserve">
+    <value>Client events fired by the WebDialogWindow.</value>
+  </data>
+  <data name="Client_Side_Events_Description_2" xml:space="preserve">
+    <value>The WebDialogWindow offers a variety of client side events which can be handled by client code. The following example allows you to explore those events.</value>
+  </data>
+  <data name="Client_Side_Events_Description_3" xml:space="preserve">
+    <value>This is the content of the WebDialogWindow.</value>
+  </data>
+  <data name="Client_Side_Events_Description_4" xml:space="preserve">
+    <value>Output of Client Events:</value>
+  </data>
+  <data name="Client_Side_Events_Status_1" xml:space="preserve">
+    <value>Window state Changing.</value>
+  </data>
+  <data name="Client_Side_Events_Status_2" xml:space="preserve">
+    <value>Action was canceled.</value>
+  </data>
+  <data name="Client_Side_Events_Status_3" xml:space="preserve">
+    <value>Moving.</value>
+  </data>
+  <data name="Client_Side_Events_Status_4" xml:space="preserve">
+    <value>new</value>
+  </data>
+  <data name="Client_Side_Events_Status_5" xml:space="preserve">
+    <value>old</value>
+  </data>
+  <data name="Client_Side_Events_Status_6" xml:space="preserve">
+    <value>Moved.</value>
+  </data>
+  <data name="Client_Side_Events_Status_7" xml:space="preserve">
+    <value>Action can be canceled or modified.</value>
+  </data>
+  <data name="Client_Side_Events_Status_8" xml:space="preserve">
+    <value>Action can be canceled.</value>
+  </data>
+  <data name="Client_Side_Events_Status_9" xml:space="preserve">
+    <value>Window State Changed. Postback can be triggered.</value>
+  </data>
+  <data name="Client_Side_Events_Status_10" xml:space="preserve">
+    <value>Resizing.</value>
+  </data>
+  <data name="Client_Side_Events_Status_11" xml:space="preserve">
+    <value>Size new:</value>
+  </data>
+  <data name="Client_Side_Events_Status_12" xml:space="preserve">
+    <value>Resized.</value>
+  </data>
+  <data name="Client_Side_Events_Dialog" xml:space="preserve">
+    <value>Dialog Caption</value>
+  </data>
+  <data name="Configuring_Header_Description_1" xml:space="preserve">
+    <value>How to change the appearance of the WebDialogWindow header.</value>
+  </data>
+  <data name="Configuring_Header_Description_2" xml:space="preserve">
+    <value>The WebDialogWindow exposes a Header property which allows control over the header style and the buttons that are presented to the user. By default, only the close button is displayed.</value>
+  </data>
+  <data name="Configuring_Header_Description_3" xml:space="preserve">
+    <value>This sample demonstrates how to enable the minimize and maximize buttons on the header.</value>
+  </data>
+  <data name="Configuring_Header_Description_4" xml:space="preserve">
+    <value>This dialog window can be minimized and maximized.</value>
+  </data>
+  <data name="Confirmation_Dialog_Description_1" xml:space="preserve">
+    <value>How to present a confirmation dialog to the user.</value>
+  </data>
+  <data name="Confirmation_Dialog_Description_2" xml:space="preserve">
+    <value>The WebDialogWindow can be easily used to present an attractive confirmation dialog to the user. This example asks the user to confirm that they want the timer to be reset.</value>
+  </data>
+  <data name="Confirmation_Dialog_Description_3" xml:space="preserve">
+    <value>The original WindowState of the dialog set to Hidden so that the dialog is not displayed to the user. Client code then modifies the windowState to display the dialog.</value>
+  </data>
+  <data name="Confirmation_Dialog_Description_4" xml:space="preserve">
+    <value>Current Time:</value>
+  </data>
+  <data name="Confirmation_Dialog_Description_5" xml:space="preserve">
+    <value>Are you sure you wish to reset the clock?</value>
+  </data>
+  <data name="Positioning_Dialog_Description_1" xml:space="preserve">
+    <value>How to control and change the position of the WebDialogWindow.</value>
+  </data>
+  <data name="Positioning_Dialog_Description_2" xml:space="preserve">
+    <value>The WebDialogWindow exposes both server side properties and client send methods to specify the location of the Dialog in the browser window.  The InitialLocation property specifies where the dialog appears when not in the closed state.</value>
+  </data>
+  <data name="Positioning_Dialog_Description_3" xml:space="preserve">
+    <value>This sample demonstrates how the InitialLocation property can be used to specify that the dialog should initially appear in the center of the browser window.  It also exercises the client side API to manipulate the position of the window.</value>
+  </data>
+  <data name="Positioning_Dialog_Command_1" xml:space="preserve">
+    <value>Move Left</value>
+  </data>
+  <data name="Positioning_Dialog_Command_2" xml:space="preserve">
+    <value>Move Right</value>
+  </data>
+  <data name="Positioning_Dialog_Command_3" xml:space="preserve">
+    <value>After initially appearing in the center of the browser window, the buttons below will adjust the position of this WebDialogWindow via the client side API.</value>
+  </data>
+  <data name="Confirmation_Dialog_Reset_Title" xml:space="preserve">
+    <value>Confirmation Dialog</value>
+  </data>
+  <data name="Client_Side_Events_Tooltip_1" xml:space="preserve">
+    <value>Show Dialog</value>
+  </data>
+  <data name="Client_Side_Events_Tooltip_2" xml:space="preserve">
+    <value>Clear Events</value>
+  </data>
+  <data name="Confirmation_Dialog_Tooltip_1" xml:space="preserve">
+    <value>Clock</value>
+  </data>
+  <data name="Confirmation_Dialog_Tooltip_2" xml:space="preserve">
+    <value>Reset Time</value>
+  </data>
+  <data name="Confirmation_Dialog_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Confirmation_Dialog_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ControlName" xml:space="preserve">
+    <value>WebDialogWindow</value>
+  </data>
+  <data name="ClientSideEvents_ClearEventsImage" xml:space="preserve">
+    <value>/SamplesBrowser/SamplesCommon/aspnet/WebDialogWindow/EditingAndSelection/ClientEvents/eng/ClearEvents.png</value>
+  </data>
+  <data name="ClientSideEvents_ShowDialogImage" xml:space="preserve">
+    <value>/SamplesBrowser/SamplesCommon/aspnet/WebDialogWindow/EditingAndSelection/ClientEvents/eng/ShowDialog.png</value>
+  </data>
+  <data name="ConfirmationDialog_NoImage" xml:space="preserve">
+    <value>/SamplesBrowser/SamplesCommon/aspnet/WebDialogWindow/Display/ConfirmationDialog/eng/NoBtn.jpg</value>
+  </data>
+  <data name="ConfirmationDialog_ResetImage" xml:space="preserve">
+    <value>/SamplesBrowser/SamplesCommon/aspnet/WebDialogWindow/Display/ConfirmationDialog/eng/ResetBtn.jpg</value>
+  </data>
+  <data name="ConfirmationDialog_YesImage" xml:space="preserve">
+    <value>/SamplesBrowser/SamplesCommon/aspnet/WebDialogWindow/Display/ConfirmationDialog/eng/YesBtn.jpg</value>
+  </data>
+  <data name="Resizable_Dialog_showDialog" xml:space="preserve">
+    <value>Show Dialog</value>
+  </data>
+  <data name="Resizable_Dialog_submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+</root>

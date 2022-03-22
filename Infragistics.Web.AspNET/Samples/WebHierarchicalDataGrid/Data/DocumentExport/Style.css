@@ -1,0 +1,47 @@
+﻿  fieldset
+        {
+            margin: 5px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #CCCCCC;
+        }
+        .fldOptions
+        {
+            display: block;
+            float: left;
+            height: 75px;
+            margin-top: 0;
+            margin-right: 10px;
+        }
+        
+        .chkBoxesHolder span
+        {
+            display: block;
+            margin-left: 5px;
+        }
+        
+        .lblFileName
+        {
+            margin-left: 5px;
+        }
+        .txtFileName
+        {
+            margin-left: 11px;
+            width: 445px;
+        }
+        .btnExport
+        {
+            background: url("/SamplesBrowser/SamplesCommon/aspnet/Common/ControlIcons/sm/WebGrid.png") top left no-repeat;
+        }
+        
+        .icoExporter
+        {
+            background: url("/SamplesBrowser/SamplesCommon/aspnet/Common/ControlIcons/sm/DocumentExporter.png") no-repeat scroll 3px 0 transparent;
+            padding-left: 23px;
+        }
+        
+        .icoWebDataGrids
+        {
+            background: url("/SamplesBrowser/SamplesCommon/aspnet/Common/ControlIcons/sm/WebGrid.png") no-repeat scroll 3px 0 transparent;
+            padding-left: 23px;
+        }

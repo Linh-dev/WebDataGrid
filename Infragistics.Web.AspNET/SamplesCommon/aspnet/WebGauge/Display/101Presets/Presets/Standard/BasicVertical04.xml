@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="BasicVertical04" PresetDescription="Custom Preset Created 5/3/2007 5:50:46 PM" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" Width="100" Height="250">
+  <Gauges>
+    <igGaugeProp:LinearGauge Orientation="Vertical" CornerExtent="3">
+      <Scales>
+        <igGaugeProp:LinearGaugeScale EndExtent="90" StartExtent="11" OuterExtent="50" InnerExtent="10">
+          <MinorTickmarks EndExtent="40" Frequency="12.5" StartExtent="20">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="135, 135, 135" />
+            </BrushElements>
+            <StrokeElement Color="Gray" />
+          </MinorTickmarks>
+          <BrushElements>
+            <igGaugeProp:MultiStopLinearGradientBrushElement>
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="135, 135, 135" />
+                <igGaugeProp:ColorStop Color="60, 60, 60" Stop="0.5448276" />
+                <igGaugeProp:ColorStop Color="135, 135, 135" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopLinearGradientBrushElement>
+          </BrushElements>
+          <Markers>
+            <igGaugeProp:LinearGaugeBarMarker SegmentSpan="1" Value="65" StartExtent="0" OuterExtent="100" InnerExtent="0">
+              <BrushElements>
+                <igGaugeProp:SimpleGradientBrushElement EndColor="Maroon" StartColor="255, 61, 22" GradientStyle="Horizontal" />
+              </BrushElements>
+              <Response />
+              <StrokeElement Thickness="3">
+                <BrushElements>
+                  <igGaugeProp:SimpleGradientBrushElement EndColor="DarkRed" StartColor="Red" GradientStyle="Horizontal" />
+                </BrushElements>
+              </StrokeElement>
+            </igGaugeProp:LinearGaugeBarMarker>
+          </Markers>
+          <MajorTickmarks PreTerminal="25" PostInitial="25" EndExtent="48" Frequency="25" StartExtent="12">
+            <BrushElements>
+              <igGaugeProp:SimpleGradientBrushElement EndColor="Gray" StartColor="LightGray" />
+            </BrushElements>
+            <StrokeElement Color="DarkGray" />
+          </MajorTickmarks>
+          <Axes>
+            <igGaugeProp:NumericAxis EndValue="100" />
+          </Axes>
+          <StrokeElement Thickness="3">
+            <BrushElements>
+              <igGaugeProp:MultiStopLinearGradientBrushElement Angle="360">
+                <ColorStops>
+                  <igGaugeProp:ColorStop Color="90, 90, 90" />
+                  <igGaugeProp:ColorStop Color="180, 180, 180" Stop="0.5285714" />
+                  <igGaugeProp:ColorStop Color="135, 135, 135" Stop="1" />
+                </ColorStops>
+              </igGaugeProp:MultiStopLinearGradientBrushElement>
+            </BrushElements>
+          </StrokeElement>
+          <Labels Frequency="50" Extent="65" Font="Trebuchet MS, 12pt, style=Bold">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="Silver" />
+            </BrushElements>
+          </Labels>
+        </igGaugeProp:LinearGaugeScale>
+      </Scales>
+      <BrushElements>
+        <igGaugeProp:BrushElementGroup>
+          <BrushElements>
+            <igGaugeProp:SolidFillBrushElement Color="32, 32, 32" />
+          </BrushElements>
+        </igGaugeProp:BrushElementGroup>
+      </BrushElements>
+      <StrokeElement Thickness="10">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement />
+        </BrushElements>
+      </StrokeElement>
+    </igGaugeProp:LinearGauge>
+  </Gauges>
+  <Annotations />
+  <Effects />
+</igGauge:UltraGauge>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="BasicWhiteVertical02" PresetDescription="Custom Preset Created 5/15/2007 11:55:06 AM" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" Width="100" Height="250">
+  <Gauges>
+    <igGaugeProp:LinearGauge Orientation="Vertical" CornerExtent="10">
+      <Scales>
+        <igGaugeProp:LinearGaugeScale EndExtent="90" StartExtent="10" OuterExtent="90" InnerExtent="70">
+          <MinorTickmarks EndWidth="2" EndExtent="63" Frequency="12.5" StartExtent="58" StartWidth="2">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="135, 135, 135" />
+            </BrushElements>
+          </MinorTickmarks>
+          <BrushElements>
+            <igGaugeProp:SolidFillBrushElement />
+          </BrushElements>
+          <Markers>
+            <igGaugeProp:LinearGaugeNeedle MidWidth="3" EndWidth="3" MidExtent="75" Value="41" EndExtent="75" StartExtent="45" StartWidth="3">
+              <BrushElements>
+                <igGaugeProp:SolidFillBrushElement Color="White" />
+              </BrushElements>
+              <Response />
+              <StrokeElement Thickness="2">
+                <BrushElements>
+                  <igGaugeProp:SimpleGradientBrushElement EndColor="DarkRed" StartColor="Red" />
+                </BrushElements>
+              </StrokeElement>
+            </igGaugeProp:LinearGaugeNeedle>
+            <igGaugeProp:LinearGaugeNeedle MidWidth="15" EndWidth="15" MidExtent="85" Value="70" EndExtent="85" StartExtent="70" StartWidth="0">
+              <BrushElements>
+                <igGaugeProp:SolidFillBrushElement Color="Transparent" />
+              </BrushElements>
+              <Response />
+              <StrokeElement Thickness="3">
+                <BrushElements>
+                  <igGaugeProp:SimpleGradientBrushElement EndColor="147, 0, 0" StartColor="248, 0, 0" />
+                </BrushElements>
+              </StrokeElement>
+            </igGaugeProp:LinearGaugeNeedle>
+          </Markers>
+          <MajorTickmarks EndWidth="2" EndExtent="70" Frequency="50" StartExtent="50" StartWidth="2">
+            <BrushElements>
+              <igGaugeProp:SimpleGradientBrushElement EndColor="Gray" StartColor="LightGray" GradientStyle="BackwardDiagonal" />
+            </BrushElements>
+          </MajorTickmarks>
+          <Axes>
+            <igGaugeProp:NumericAxis EndValue="100" />
+          </Axes>
+          <Labels Frequency="50" Extent="25" Font="Trebuchet MS, 12pt, style=Bold">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="Gray" />
+            </BrushElements>
+          </Labels>
+        </igGaugeProp:LinearGaugeScale>
+      </Scales>
+      <BrushElements>
+        <igGaugeProp:BrushElementGroup>
+          <BrushElements>
+            <igGaugeProp:MultiStopLinearGradientBrushElement Angle="120">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="225, 225, 225" />
+                <igGaugeProp:ColorStop Color="White" Stop="0.320855618" />
+                <igGaugeProp:ColorStop Color="240, 240, 240" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopLinearGradientBrushElement>
+            <igGaugeProp:MultiStopRadialGradientBrushElement FocusScalesString="0, 0" CenterPointString="0, 100" RelativeBoundsMeasure="Percent" RelativeBounds="-5, 30, 80, 80">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="Transparent" />
+                <igGaugeProp:ColorStop Color="Transparent" Stop="0.1724138" />
+                <igGaugeProp:ColorStop Color="100, 255, 255, 255" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopRadialGradientBrushElement>
+          </BrushElements>
+        </igGaugeProp:BrushElementGroup>
+      </BrushElements>
+      <StrokeElement>
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="LightGray" />
+        </BrushElements>
+      </StrokeElement>
+    </igGaugeProp:LinearGauge>
+  </Gauges>
+</igGauge:UltraGauge>

@@ -1,0 +1,53 @@
+﻿.export-pdf-xps-sample fieldset
+{
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+}
+.export-pdf-xps-sample fieldset label
+{
+    display: block;
+    margin-bottom: 3px;
+}
+        
+.export-pdf-xps-sample fieldset input
+{
+    margin-bottom: 5px;
+}
+        
+.export-pdf-xps-sample .column-one
+{
+    float:left;
+    width:50%;
+}
+        
+.export-pdf-xps-sample .column-one
+{
+    clear:both;
+}
+
+.export-pdf-xps-sample .buttonConteiner
+{
+    float: left;
+    height: 71px;
+    position: relative;
+}
+
+.export-pdf-xps-sample .buttonConteiner input
+{
+    position: relative;
+    margin-top: 25px ;
+    clear: both;
+}
+
+.export-pdf-xps-sample .export-fieldset
+{
+    width: 316px;
+    float: left;
+}
+
+.export-pdf-xps-sample .export-fieldset select
+{
+    width: 117px;
+}

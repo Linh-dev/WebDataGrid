@@ -1,0 +1,89 @@
+.igmn_IG2007Control
+{
+	background-color:#E3EFFF;
+	background-image: url(images/groupbyheader.gif);
+	border-color:WhiteSmoke;
+}
+
+
+.igmn_IG2007Island
+{
+	background-color:White;
+	background-repeat:repeat-y;
+	background-position:left ;
+	background-image: url(images/buttonbg.png);
+	border:solid 1px #E1E1E1;
+}
+
+
+.igmn_IG2007Item
+{
+	background-color:Transparent;
+	background-image:none;
+	border:solid 1px Transparent;
+	padding-top:5px;
+	padding-bottom:5px;
+	cursor:hand;
+}
+
+
+.igmn_IG2007Leaf
+{
+}
+
+
+.igmn_IG2007Parent
+{
+}
+
+
+.igmn_IG2007TopLevelLeaf
+{
+}
+
+
+.igmn_IG2007TopLevelParent
+{
+}
+
+
+.igmn_IG2007Header
+{
+}
+
+
+.igmn_IG2007Separator
+{
+}
+
+
+.igmn_IG2007Hover
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border:solid 1px #699BC9;
+	color:White;
+}
+
+
+.igmn_IG2007TopLevelHover
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border:solid 1px #699BC9;
+}
+
+
+.igmn_IG2007TopSelected
+{
+}
+
+
+.igmn_IG2007Disabled
+{
+	font-size:x-small;
+	font-family: Verdana;
+	color:#D2D2D2;
+}
+
+

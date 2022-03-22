@@ -1,0 +1,43 @@
+.igpnl_IG2007Control
+{
+	border:solid 1px #DCDCDC;
+}
+
+
+.igpnl_IG2007Panel
+{
+	background-color:White;
+	cursor:default;
+}
+
+
+.igpnl_IG2007HeaderExpanded
+{
+	background-position:bottom ;
+	background-image: url(images/header.gif);
+	font-size:xx-small;
+	font-family: Verdana;
+	padding-top:3px;
+	padding-bottom:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.igpnl_IG2007HeaderCollapsed
+{
+}
+
+
+.igpnl_IG2007HeaderHover
+{
+	background-image: url(images/header_hover.gif);
+	color:White;
+}
+
+
+.igpnl_IG2007GroupBoxControl
+{
+}
+
+

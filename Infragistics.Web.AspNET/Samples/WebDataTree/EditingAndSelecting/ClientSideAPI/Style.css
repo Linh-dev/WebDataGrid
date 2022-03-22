@@ -1,0 +1,39 @@
+﻿.BackgroundImage
+{
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/Common/TreeBg.jpg);
+    background-repeat: no-repeat;
+}
+
+p, br { margin:5px 0;padding:0 }
+.panelBackground, .controlPanel
+{
+    background-color: #F7F7F7;
+	border: 1px solid #EEEEEE;
+	padding:0 10px 10px;
+	margin-bottom: 5px;
+	line-height: 12px;
+}
+
+fieldset { border:none; padding:0; padding-left:10px; margin:0 0 5px 0; border:none; }
+legend { padding:0; margin:0 0 5px 0; white-space:normal!important; }
+button {cursor:pointer}
+button img {width:16px; height:16px; margin-right:5px;}
+
+.rightPanel {display:inline; float:left; width:293px; margin-left:75px; margin-top:25px; height:auto;}
+                
+
+.buttonsHolder { margin-top:10px; text-align:right }
+
+
+#newNodeButton { width:116px }
+#addToArrayButton, #addArrayToTreeButton{width:233px}
+
+#eventList { width:206px }
+#selectIndexLabel{ display:block;width:321px;margin-top:5px; margin-bottom:15px; }
+#ctl00_ctl00_rightPodContentPlaceHolder_MainContent_newNodeTextBox, #ctl00_ctl00_rightPodContentPlaceHolder_MainContent_arrayTextBox { width:222px; }
+#ctl00_ctl00_rightPodContentPlaceHolder_MainContent_insertTextBox { width:222px;margin-bottom:10px; }
+#ctl00_ctl00_rightPodContentPlaceHolder_MainContent_indexTextBox { width:222px; }
+#ctl00_ctl00_rightPodContentPlaceHolder_MainContent_BottomPanel { padding-top:10px; }
+.labe { width:100px; float:left;}
+
+#deleteButton { *width:160px }

@@ -1,0 +1,40 @@
+#Table2 .footer
+{
+	font-size: 8pt;
+	color: #666666;
+	font-family: Verdana, helvetica, tahoma;
+}
+#Table2 .tdHeader
+{
+	font-size: 8pt;
+	color: #333333;
+	font-family: Verdana, Helvetica, Tahoma;
+}
+
+#Table2 .border
+{
+	background-position: right bottom;
+	background-image: url(/SampleBrowser_v2/images/sampleBorders.gif);
+	background-repeat: repeat-y;
+}
+
+#Table2 BODY
+{
+	font-size: 8pt;
+	font-family: Verdana, Helvetica, Tahoma;
+}
+
+#Table2 .headers {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #333333; FONT-FAMILY: Verdana, Tahoma, Arial
+}
+#Table2 .blackText {
+	COLOR: #000000; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+
+#Table2 .boldIt {
+	FONT-WEIGHT: bold
+}
+#Table2 .underlineTD {
+	BORDER-BOTTOM: #333333 1px solid
+}
+

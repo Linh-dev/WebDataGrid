@@ -1,0 +1,62 @@
+.igtr_IG2007Control
+{
+	border-width:0px;
+	color:Black;
+}
+
+
+.igtr_IG2007Island
+{
+}
+
+
+.igtr_IG2007Node
+{
+	cursor:hand;
+	color:Black;
+}
+
+
+.igtr_IG2007Parent
+{
+	cursor:hand;
+}
+
+
+.igtr_IG2007Leaf
+{
+	cursor:hand;
+}
+
+
+.igtr_IG2007Edit
+{
+}
+
+
+.igtr_IG2007Root
+{
+	font-weight:bold;
+	color:#74B8E4;
+}
+
+
+.igtr_IG2007Hover
+{
+	color:#74B8E4;
+	text-decoration:underline;
+}
+
+
+.igtr_IG2007Selected
+{
+	background-color:WhiteSmoke;
+	font-weight:bold;
+	color:#74B8E4;
+}
+
+
+.igtr_IG2007Disabled
+{
+	color:#DADEE8;
+}

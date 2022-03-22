@@ -1,0 +1,18 @@
+﻿.ListOfEvents UL
+{
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 0px;
+    color:#666666;
+}
+.ListOfEvents LI
+{
+    margin-bottom: 5px;
+    font-size:13px;   
+}
+
+.igeb_ItemImage {
+    margin-top: 4px;
+    margin-right: 5px;
+}

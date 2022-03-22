@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="SevenSegmentYellow" PresetDescription="Seven Segment Yellow" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" Width="250" Height="100">
+  <Gauges>
+    <igGaugeProp:SegmentedDigitalGauge DigitSpacing="6" BoundsMeasure="Percent" Digits="4" Text="0.123">
+      <FontBrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="PaleGoldenrod" />
+      </FontBrushElements>
+      <BrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="DarkKhaki" />
+      </BrushElements>
+      <StrokeElement>
+        <BrushElements />
+      </StrokeElement>
+      <UnlitBrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="10, 10, 10, 10" />
+      </UnlitBrushElements>
+    </igGaugeProp:SegmentedDigitalGauge>
+  </Gauges>
+  <Annotations />
+  <Effects />
+</igGauge:UltraGauge>

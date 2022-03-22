@@ -1,0 +1,4 @@
+﻿#mainSampleContainer .dialog-window { position: static !important; }
+#mainSampleContainer .left { float: left; }
+#mainSampleContainer .right { float: right; }
+#mainSampleContainer .clear { clear: both; }

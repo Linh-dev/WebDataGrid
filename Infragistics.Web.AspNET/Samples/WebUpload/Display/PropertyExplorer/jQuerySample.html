@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Basic Functionality</title>
+    <link type="text/css" href="/SamplesCommon/jQuery/igRating/Common/style.css" rel="stylesheet" />
+
+    <link type="text/css" href="/SamplesBrowser/SamplesCommon/aspnet/Common/Styles/jquery/css/themes/infragistics/infragistics.theme.css" rel="stylesheet" />
+    <link type="text/css" href="/SamplesBrowser/SamplesCommon/aspnet/Common/Styles/jquery/css/structure/infragistics.css" rel="stylesheet" />
+
+	<script type="text/javascript" src="/SamplesBrowser/Scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="/SamplesBrowser/Scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/SamplesBrowser/SamplesCommon/aspnet/Common/Scripts/jquery/js/infragistics.js"></script>
+
+    <script type="text/javascript" language="javascript">
+        $(window).load(function () {
+            $("#igUpload1").igUpload({
+                progressUrl: "/samplesbrowser/IGUploadStatusHandler.ashx",
+                onError: function (e, args) {
+                    showAlert(args, 1);
+                }
+            });
+            $("#autoStart1").change(function () {
+                var isAutoStart = ($(this).val() === 'true') ? true : false;
+                $("#igUpload1").igUpload('option', 'autostartupload', isAutoStart);
+            });
+            $("#feIcon1").change(function () {
+                var hasIcon = ($(this).val() === 'true') ? true : false;
+                $("#igUpload1").igUpload('option', 'showFileExtensionIcon', hasIcon);
+            });
+            $("#fzMetric1").change(function () {
+                var fileSizeMetric = $(this).val();
+                $("#igUpload1").igUpload('option', 'fileSizeMetric', fileSizeMetric);
+                if (fileSizeMetric === 'bytes') {
+                    $("#decimal1").val(0).prop('disabled', true);
+                    $("#igUpload1").igUpload('option', 'fileSizeDecimalDisplay', 0);
+                } else {
+                    $("#decimal1").prop('disabled', false);
+                }
+            });
+            $("#decimal1").change(function () {
+                var decimalDisplay = parseInt($(this).val(), 10);
+                $("#igUpload1").igUpload('option', 'fileSizeDecimalDisplay', decimalDisplay);
+            });
+            $("#allowedFiles1").change(function () {
+                var allowedExt = $(this).val(),
+                    arrExt = [];
+                arrExt[0] = allowedExt;
+                $("#igUpload1").igUpload('option', 'allowedExtensions', arrExt);
+            });
+
+
+            $("#igUpload2").igUpload({
+                mode: 'multiple',
+                progressUrl: "/samplesbrowser/IGUploadStatusHandler.ashx",
+                maxSimultaneousFilesUploads: 1,
+                onError: function (e, args) {
+                    showAlert(args, 2);
+                }
+            });
+            $("#maxFiles").change(function () {
+                var maxFiles = parseInt($(this).val(), 10);
+                $("#igUpload2").igUpload('option', 'maxUploadedFiles', maxFiles);
+            });
+            $("#maxSimFiles").change(function () {
+                var maxSimFiles = parseInt($(this).val(), 10);
+                alert(maxSimFiles);
+                $("#igUpload2").igUpload('option', 'maxSimultaneousFilesUploads', maxSimFiles);
+            });
+            $("#width2").change(function () {
+                var newWidth = $(this).val();
+                $("#igUpload2").igUpload('option', 'width', newWidth);
+            });
+            $("#height2").change(function () {
+                var newHeight = $(this).val();
+                $("#igUpload2").igUpload('option', 'height', newHeight);
+            });
+        });
+        function showAlert(args, index) {
+            $("#message" + index).html(args.errorMessage).stop(true, true).fadeIn(500).delay(3000).fadeOut(500);
+        }
+    </script>
+    <style type="text/css">
+        .sampleContents label { width: 180px; display: block; float:left; }
+        .sampleContents select { width: 90px; }
+        .sampleContents .resized-upload-container {min-width: 500px; }
+    </style>
+</head>
+<body class="samplePage">
+    <div class="sampleContents">
+		<div class="sample-container resized-upload-container">
+	        <p>Single Upload Property Explorer</p>
+	        <div id="igUpload1"></div>
+            <div style="margin: 10px 0;">
+                <label>Auto Start Upload</label>
+                <select id="autoStart1">
+                    <option value="false">False</option>
+                    <option value="true">True</option>
+                </select>
+            </div>
+            <div style="margin: 10px 0;">
+                <label>File Extension Icon</label>
+                <select id="feIcon1">
+                    <option value="true">True</option>
+                    <option value="false">False</option>
+                </select>
+            </div>
+            <div style="margin: 10px 0;">
+                <label>File Size Metric</label>
+                <select id="fzMetric1">
+                    <option value="auto">Auto</option>
+                    <option value="bytes">Bytes</option>
+                    <option value="kbytes">Kbytes</option>
+                    <option value="mbytes">Mbytes</option>
+                    <option value="gbytes">Gbytes</option>
+                </select>
+            </div>
+            <div style="margin: 10px 0;">
+                <label>Decimal display</label>
+                <select id="decimal1">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2" selected >2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </div>
+            <div style="margin: 10px 0;">
+                <label>Allowed files</label>
+                <select id="allowedFiles1">
+                    <option value="">All</option>
+                    <option value="jpg">.jpg</option>
+                    <option value="exe">.exe</option>
+                    <option value="txt">.txt</option>
+                </select>
+            </div>
+            <div id="message1" style="color: #FF0000; font-weight: bold;"></div>
+        </div>
+        <div class="sample-container resized-upload-container">
+	        <p>Multiple Upload Property Explorer</p>
+	        <div id="igUpload2"></div>
+            <div style="margin: 10px 0;">
+                <label>Max Upload Files</label>
+                <select id="maxFiles">
+                    <option value="-1">Unlimited</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </div>
+            <div style="margin: 10px 0;">
+                <label>Max Simultaneous Uploads</label>
+                <select id="maxSimFiles">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+            </div>
+            <div style="margin: 10px 0;">
+                <label>Width</label>
+                <select id="width2">
+                    <option value="">Auto</option>
+                    <option value="400">400</option>
+                    <option value="500">500</option>
+                </select>
+            </div>
+            <div style="margin: 10px 0;">
+                <label>Height</label>
+                <select id="height2">
+                    <option value="">Auto</option>
+                    <option value="300">300</option>
+                    <option value="600">600</option>
+                </select>
+            </div>
+            <div id="message2" style="color: #FF0000; font-weight: bold;"></div>
+        </div>
+    </div>
+</body>
+</html>

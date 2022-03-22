@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MenuData>
+  <Scrolling>
+    <Menu ID="WebDataTree" Value="WebDataTree" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/WebDataTree.png">
+      <Menu ID="Property Explorer" Value="Property Explorer"></Menu>
+      <Menu ID="Samples" Value="Samples">
+        <Menu ID="Sample1" Value="Sample1"></Menu>
+        <Menu ID="Sample2" Value="Sample2"></Menu>
+        <Menu ID="Sample3" Value="Sample3"></Menu>
+        <Menu ID="Sample4" Value="Sample4"></Menu>
+      </Menu>
+      <Menu ID="Styles" Value="Styles">
+        <Menu ID="Default" Value="Default"></Menu>
+        <Menu ID="Appletini" Value="Appletini"></Menu>
+        <Menu ID="Caribbean" Value="Caribbean"></Menu>
+        <Menu ID="Claymation" Value="Claymation"></Menu>
+        <Menu ID="ElectricBue" Value="ElectricBlue"></Menu>
+        <Menu ID="Harvest" Value="Harvest"></Menu>
+        <Menu ID="LucidDream" Value="LucidDream"></Menu>
+        <Menu ID="Nautilus" Value="Nautilus"></Menu>
+        <Menu ID="Office2007Black" Value="Office2007Black"></Menu>
+        <Menu ID="Office2007Blue" Value="Office2007Blue"></Menu>
+        <Menu ID="Office2007Silver" Value="Office2007Siler"></Menu>
+        <Menu ID="OfficeBlue" Value="OfficeBlue"></Menu>
+        <Menu ID="Pear" Value="Pear"></Menu>
+        <Menu ID="RedPlanet" Value="RedPlanet"></Menu>
+        <Menu ID="RubberBlack" Value="RubberBlack"></Menu>
+        <Menu ID="Trendy" Value="Trendy"></Menu>
+        <Menu ID="Windows7" Value="Windows7"></Menu>
+      </Menu>
+    </Menu>
+    <Menu ID="WebDataGrid" Value="WebDataGrid" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/WebGrid.png">
+      <Menu ID="Property Explorer" Value="Property Explorer"></Menu>
+      <Menu ID="Samples" Value="Samples">
+        <Menu ID="Sample1" Value="Sample1"></Menu>
+        <Menu ID="Sample2" Value="Sample2"></Menu>
+        <Menu ID="Sample3" Value="Sample3"></Menu>
+        <Menu ID="Sample4" Value="Sample4"></Menu>
+      </Menu>
+      <Menu ID="Styles" Value="Styles">
+        <Menu ID="Default" Value="Default"></Menu>
+        <Menu ID="Appletini" Value="Appletini"></Menu>
+        <Menu ID="Caribbean" Value="Caribbean"></Menu>
+        <Menu ID="Claymation" Value="Claymation"></Menu>
+        <Menu ID="ElectricBue" Value="ElectricBlue"></Menu>
+        <Menu ID="Harvest" Value="Harvest"></Menu>
+        <Menu ID="LucidDream" Value="LucidDream"></Menu>
+        <Menu ID="Nautilus" Value="Nautilus"></Menu>
+        <Menu ID="Office2007Black" Value="Office2007Black"></Menu>
+        <Menu ID="Office2007Blue" Value="Office2007Blue"></Menu>
+        <Menu ID="Office2007Silver" Value="Office2007Siler"></Menu>
+        <Menu ID="OfficeBlue" Value="OfficeBlue"></Menu>
+        <Menu ID="Pear" Value="Pear"></Menu>
+        <Menu ID="RedPlanet" Value="RedPlanet"></Menu>
+        <Menu ID="RubberBlack" Value="RubberBlack"></Menu>
+        <Menu ID="Trendy" Value="Trendy"></Menu>
+        <Menu ID="Windows7" Value="Windows7"></Menu>
+      </Menu>
+    </Menu>
+    <Menu ID="WebHierarchicalDataGrid" Value="WebHierarchicalDataGrid" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/WebHierarchicalDataGrid.png">
+      <Menu ID="Property Explorer" Value="Property Explorer"></Menu>
+      <Menu ID="Samples" Value="Samples">
+        <Menu ID="Sample1" Value="Sample1"></Menu>
+        <Menu ID="Sample2" Value="Sample2"></Menu>
+        <Menu ID="Sample3" Value="Sample3"></Menu>
+        <Menu ID="Sample4" Value="Sample4"></Menu>
+      </Menu>
+      <Menu ID="Styles" Value="Styles">
+        <Menu ID="Default" Value="Default"></Menu>
+        <Menu ID="Appletini" Value="Appletini"></Menu>
+        <Menu ID="Caribbean" Value="Caribbean"></Menu>
+        <Menu ID="Claymation" Value="Claymation"></Menu>
+        <Menu ID="ElectricBue" Value="ElectricBlue"></Menu>
+        <Menu ID="Harvest" Value="Harvest"></Menu>
+        <Menu ID="LucidDream" Value="LucidDream"></Menu>
+        <Menu ID="Nautilus" Value="Nautilus"></Menu>
+        <Menu ID="Office2007Black" Value="Office2007Black"></Menu>
+        <Menu ID="Office2007Blue" Value="Office2007Blue"></Menu>
+        <Menu ID="Office2007Silver" Value="Office2007Siler"></Menu>
+        <Menu ID="OfficeBlue" Value="OfficeBlue"></Menu>
+        <Menu ID="Pear" Value="Pear"></Menu>
+        <Menu ID="RedPlanet" Value="RedPlanet"></Menu>
+        <Menu ID="RubberBlack" Value="RubberBlack"></Menu>
+        <Menu ID="Trendy" Value="Trendy"></Menu>
+        <Menu ID="Windows7" Value="Windows7"></Menu>
+      </Menu>
+    </Menu>
+    <Menu ID="WebDatePicker" Value="WebDatePicker" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/WebDateChooser.png">
+      <Menu ID="Property Explorer" Value="Property Explorer"></Menu>
+      <Menu ID="Samples" Value="Samples">
+        <Menu ID="Sample1" Value="Sample1"></Menu>
+        <Menu ID="Sample2" Value="Sample2"></Menu>
+        <Menu ID="Sample3" Value="Sample3"></Menu>
+        <Menu ID="Sample4" Value="Sample4"></Menu>
+      </Menu>
+      <Menu ID="Styles" Value="Styles">
+        <Menu ID="Default" Value="Default"></Menu>
+        <Menu ID="Appletini" Value="Appletini"></Menu>
+        <Menu ID="Caribbean" Value="Caribbean"></Menu>
+        <Menu ID="Claymation" Value="Claymation"></Menu>
+        <Menu ID="ElectricBue" Value="ElectricBlue"></Menu>
+        <Menu ID="Harvest" Value="Harvest"></Menu>
+        <Menu ID="LucidDream" Value="LucidDream"></Menu>
+        <Menu ID="Nautilus" Value="Nautilus"></Menu>
+        <Menu ID="Office2007Black" Value="Office2007Black"></Menu>
+        <Menu ID="Office2007Blue" Value="Office2007Blue"></Menu>
+        <Menu ID="Office2007Silver" Value="Office2007Siler"></Menu>
+        <Menu ID="OfficeBlue" Value="OfficeBlue"></Menu>
+        <Menu ID="Pear" Value="Pear"></Menu>
+        <Menu ID="RedPlanet" Value="RedPlanet"></Menu>
+        <Menu ID="RubberBlack" Value="RubberBlack"></Menu>
+        <Menu ID="Trendy" Value="Trendy"></Menu>
+        <Menu ID="Windows7" Value="Windows7"></Menu>
+      </Menu>
+    </Menu>
+    <Menu ID="WebMonthCalendar" Value="WebMonthCalendar" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/WebMonthView.png">
+      <Menu ID="Property Explorer" Value="Property Explorer"></Menu>
+      <Menu ID="Samples" Value="Samples">
+        <Menu ID="Sample1" Value="Sample1"></Menu>
+        <Menu ID="Sample2" Value="Sample2"></Menu>
+        <Menu ID="Sample3" Value="Sample3"></Menu>
+        <Menu ID="Sample4" Value="Sample4"></Menu>
+      </Menu>
+      <Menu ID="Styles" Value="Styles">
+        <Menu ID="Default" Value="Default"></Menu>
+        <Menu ID="Appletini" Value="Appletini"></Menu>
+        <Menu ID="Caribbean" Value="Caribbean"></Menu>
+        <Menu ID="Claymation" Value="Claymation"></Menu>
+        <Menu ID="ElectricBue" Value="ElectricBlue"></Menu>
+        <Menu ID="Harvest" Value="Harvest"></Menu>
+        <Menu ID="LucidDream" Value="LucidDream"></Menu>
+        <Menu ID="Nautilus" Value="Nautilus"></Menu>
+        <Menu ID="Office2007Black" Value="Office2007Black"></Menu>
+        <Menu ID="Office2007Blue" Value="Office2007Blue"></Menu>
+        <Menu ID="Office2007Silver" Value="Office2007Siler"></Menu>
+        <Menu ID="OfficeBlue" Value="OfficeBlue"></Menu>
+        <Menu ID="Pear" Value="Pear"></Menu>
+        <Menu ID="RedPlanet" Value="RedPlanet"></Menu>
+        <Menu ID="RubberBlack" Value="RubberBlack"></Menu>
+        <Menu ID="Trendy" Value="Trendy"></Menu>
+        <Menu ID="Windows7" Value="Windows7"></Menu>
+      </Menu>
+    </Menu>
+    <Menu ID="WebExplorerBar" Value="WebExplorerBar" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/WebExplorerBar.png">
+      <Menu ID="Property Explorer" Value="Property Explorer"></Menu>
+      <Menu ID="Samples" Value="Samples">
+        <Menu ID="Sample1" Value="Sample1"></Menu>
+        <Menu ID="Sample2" Value="Sample2"></Menu>
+        <Menu ID="Sample3" Value="Sample3"></Menu>
+        <Menu ID="Sample4" Value="Sample4"></Menu>
+      </Menu>
+      <Menu ID="Styles" Value="Styles">
+        <Menu ID="Default" Value="Default"></Menu>
+        <Menu ID="Appletini" Value="Appletini"></Menu>
+        <Menu ID="Caribbean" Value="Caribbean"></Menu>
+        <Menu ID="Claymation" Value="Claymation"></Menu>
+        <Menu ID="ElectricBue" Value="ElectricBlue"></Menu>
+        <Menu ID="Harvest" Value="Harvest"></Menu>
+        <Menu ID="LucidDream" Value="LucidDream"></Menu>
+        <Menu ID="Nautilus" Value="Nautilus"></Menu>
+        <Menu ID="Office2007Black" Value="Office2007Black"></Menu>
+        <Menu ID="Office2007Blue" Value="Office2007Blue"></Menu>
+        <Menu ID="Office2007Silver" Value="Office2007Siler"></Menu>
+        <Menu ID="OfficeBlue" Value="OfficeBlue"></Menu>
+        <Menu ID="Pear" Value="Pear"></Menu>
+        <Menu ID="RedPlanet" Value="RedPlanet"></Menu>
+        <Menu ID="RubberBlack" Value="RubberBlack"></Menu>
+        <Menu ID="Trendy" Value="Trendy"></Menu>
+        <Menu ID="Windows7" Value="Windows7"></Menu>
+      </Menu>
+    </Menu>
+    <Menu ID="WebTab" Value="WebTab" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/WebTab.png">
+      <Menu ID="Property Explorer" Value="Property Explorer"></Menu>
+      <Menu ID="Samples" Value="Samples">
+        <Menu ID="Sample1" Value="Sample1"></Menu>
+        <Menu ID="Sample2" Value="Sample2"></Menu>
+        <Menu ID="Sample3" Value="Sample3"></Menu>
+        <Menu ID="Sample4" Value="Sample4"></Menu>
+      </Menu>
+      <Menu ID="Styles" Value="Styles">
+        <Menu ID="Default" Value="Default"></Menu>
+        <Menu ID="Appletini" Value="Appletini"></Menu>
+        <Menu ID="Caribbean" Value="Caribbean"></Menu>
+        <Menu ID="Claymation" Value="Claymation"></Menu>
+        <Menu ID="ElectricBue" Value="ElectricBlue"></Menu>
+        <Menu ID="Harvest" Value="Harvest"></Menu>
+        <Menu ID="LucidDream" Value="LucidDream"></Menu>
+        <Menu ID="Nautilus" Value="Nautilus"></Menu>
+        <Menu ID="Office2007Black" Value="Office2007Black"></Menu>
+        <Menu ID="Office2007Blue" Value="Office2007Blue"></Menu>
+        <Menu ID="Office2007Silver" Value="Office2007Siler"></Menu>
+        <Menu ID="OfficeBlue" Value="OfficeBlue"></Menu>
+        <Menu ID="Pear" Value="Pear"></Menu>
+        <Menu ID="RedPlanet" Value="RedPlanet"></Menu>
+        <Menu ID="RubberBlack" Value="RubberBlack"></Menu>
+        <Menu ID="Trendy" Value="Trendy"></Menu>
+        <Menu ID="Windows7" Value="Windows7"></Menu>
+      </Menu>
+    </Menu>
+    <Menu ID="WebProgressBar" Value="WebProgressBar" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/WebProgressBar.png">
+      <Menu ID="Property Explorer" Value="Property Explorer"></Menu>
+      <Menu ID="Samples" Value="Samples">
+        <Menu ID="Sample1" Value="Sample1"></Menu>
+        <Menu ID="Sample2" Value="Sample2"></Menu>
+        <Menu ID="Sample3" Value="Sample3"></Menu>
+        <Menu ID="Sample4" Value="Sample4"></Menu>
+      </Menu>
+      <Menu ID="Styles" Value="Styles">
+        <Menu ID="Default" Value="Default"></Menu>
+        <Menu ID="Appletini" Value="Appletini"></Menu>
+        <Menu ID="Caribbean" Value="Caribbean"></Menu>
+        <Menu ID="Claymation" Value="Claymation"></Menu>
+        <Menu ID="ElectricBue" Value="ElectricBlue"></Menu>
+        <Menu ID="Harvest" Value="Harvest"></Menu>
+        <Menu ID="LucidDream" Value="LucidDream"></Menu>
+        <Menu ID="Nautilus" Value="Nautilus"></Menu>
+        <Menu ID="Office2007Black" Value="Office2007Black"></Menu>
+        <Menu ID="Office2007Blue" Value="Office2007Blue"></Menu>
+        <Menu ID="Office2007Silver" Value="Office2007Siler"></Menu>
+        <Menu ID="OfficeBlue" Value="OfficeBlue"></Menu>
+        <Menu ID="Pear" Value="Pear"></Menu>
+        <Menu ID="RedPlanet" Value="RedPlanet"></Menu>
+        <Menu ID="RubberBlack" Value="RubberBlack"></Menu>
+        <Menu ID="Trendy" Value="Trendy"></Menu>
+        <Menu ID="Windows7" Value="Windows7"></Menu>
+      </Menu>
+    </Menu>
+    <Menu ID="WebDropDown" Value="WebDropDown" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/WebDropDown.png">
+      <Menu ID="Property Explorer" Value="Property Explorer"></Menu>
+      <Menu ID="Samples" Value="Samples">
+        <Menu ID="Sample1" Value="Sample1"></Menu>
+        <Menu ID="Sample2" Value="Sample2"></Menu>
+        <Menu ID="Sample3" Value="Sample3"></Menu>
+        <Menu ID="Sample4" Value="Sample4"></Menu>
+      </Menu>
+      <Menu ID="Styles" Value="Styles">
+        <Menu ID="Default" Value="Default"></Menu>
+        <Menu ID="Appletini" Value="Appletini"></Menu>
+        <Menu ID="Caribbean" Value="Caribbean"></Menu>
+        <Menu ID="Claymation" Value="Claymation"></Menu>
+        <Menu ID="ElectricBue" Value="ElectricBlue"></Menu>
+        <Menu ID="Harvest" Value="Harvest"></Menu>
+        <Menu ID="LucidDream" Value="LucidDream"></Menu>
+        <Menu ID="Nautilus" Value="Nautilus"></Menu>
+        <Menu ID="Office2007Black" Value="Office2007Black"></Menu>
+        <Menu ID="Office2007Blue" Value="Office2007Blue"></Menu>
+        <Menu ID="Office2007Silver" Value="Office2007Siler"></Menu>
+        <Menu ID="OfficeBlue" Value="OfficeBlue"></Menu>
+        <Menu ID="Pear" Value="Pear"></Menu>
+        <Menu ID="RedPlanet" Value="RedPlanet"></Menu>
+        <Menu ID="RubberBlack" Value="RubberBlack"></Menu>
+        <Menu ID="Trendy" Value="Trendy"></Menu>
+        <Menu ID="Windows7" Value="Windows7"></Menu>
+      </Menu>
+    </Menu>
+    <Menu ID="WebCaptcha" Value="WebCaptcha" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/WebCaptcha.png">
+      <Menu ID="Property Explorer" Value="Property Explorer"></Menu>
+      <Menu ID="Samples" Value="Samples">
+        <Menu ID="Sample1" Value="Sample1"></Menu>
+        <Menu ID="Sample2" Value="Sample2"></Menu>
+        <Menu ID="Sample3" Value="Sample3"></Menu>
+        <Menu ID="Sample4" Value="Sample4"></Menu>
+      </Menu>
+      <Menu ID="Styles" Value="Styles">
+        <Menu ID="Default" Value="Default"></Menu>
+        <Menu ID="Appletini" Value="Appletini"></Menu>
+        <Menu ID="Caribbean" Value="Caribbean"></Menu>
+        <Menu ID="Claymation" Value="Claymation"></Menu>
+        <Menu ID="ElectricBue" Value="ElectricBlue"></Menu>
+        <Menu ID="Harvest" Value="Harvest"></Menu>
+        <Menu ID="LucidDream" Value="LucidDream"></Menu>
+        <Menu ID="Nautilus" Value="Nautilus"></Menu>
+        <Menu ID="Office2007Black" Value="Office2007Black"></Menu>
+        <Menu ID="Office2007Blue" Value="Office2007Blue"></Menu>
+        <Menu ID="Office2007Silver" Value="Office2007Siler"></Menu>
+        <Menu ID="OfficeBlue" Value="OfficeBlue"></Menu>
+        <Menu ID="Pear" Value="Pear"></Menu>
+        <Menu ID="RedPlanet" Value="RedPlanet"></Menu>
+        <Menu ID="RubberBlack" Value="RubberBlack"></Menu>
+        <Menu ID="Trendy" Value="Trendy"></Menu>
+        <Menu ID="Windows7" Value="Windows7"></Menu>
+      </Menu>
+    </Menu>
+    <Menu ID="WebDialogWindow" Value="WebDialogWindow" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/WebDialogWindow.png">
+      <Menu ID="Property Explorer" Value="Property Explorer"></Menu>
+      <Menu ID="Samples" Value="Samples">
+        <Menu ID="Sample1" Value="Sample1"></Menu>
+        <Menu ID="Sample2" Value="Sample2"></Menu>
+        <Menu ID="Sample3" Value="Sample3"></Menu>
+        <Menu ID="Sample4" Value="Sample4"></Menu>
+      </Menu>
+      <Menu ID="Styles" Value="Styles">
+        <Menu ID="Default" Value="Default"></Menu>
+        <Menu ID="Appletini" Value="Appletini"></Menu>
+        <Menu ID="Caribbean" Value="Caribbean"></Menu>
+        <Menu ID="Claymation" Value="Claymation"></Menu>
+        <Menu ID="ElectricBue" Value="ElectricBlue"></Menu>
+        <Menu ID="Harvest" Value="Harvest"></Menu>
+        <Menu ID="LucidDream" Value="LucidDream"></Menu>
+        <Menu ID="Nautilus" Value="Nautilus"></Menu>
+        <Menu ID="Office2007Black" Value="Office2007Black"></Menu>
+        <Menu ID="Office2007Blue" Value="Office2007Blue"></Menu>
+        <Menu ID="Office2007Silver" Value="Office2007Siler"></Menu>
+        <Menu ID="OfficeBlue" Value="OfficeBlue"></Menu>
+        <Menu ID="Pear" Value="Pear"></Menu>
+        <Menu ID="RedPlanet" Value="RedPlanet"></Menu>
+        <Menu ID="RubberBlack" Value="RubberBlack"></Menu>
+        <Menu ID="Trendy" Value="Trendy"></Menu>
+        <Menu ID="Windows7" Value="Windows7"></Menu>
+      </Menu>
+    </Menu>
+    <Menu ID="WebButtons" Value="WebButtons" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/WebButtons.png">
+      <Menu ID="Property Explorer" Value="Property Explorer"></Menu>
+      <Menu ID="Samples" Value="Samples">
+        <Menu ID="Sample1" Value="Sample1"></Menu>
+        <Menu ID="Sample2" Value="Sample2"></Menu>
+        <Menu ID="Sample3" Value="Sample3"></Menu>
+        <Menu ID="Sample4" Value="Sample4"></Menu>
+      </Menu>
+      <Menu ID="Styles" Value="Styles">
+        <Menu ID="Default" Value="Default"></Menu>
+        <Menu ID="Appletini" Value="Appletini"></Menu>
+        <Menu ID="Caribbean" Value="Caribbean"></Menu>
+        <Menu ID="Claymation" Value="Claymation"></Menu>
+        <Menu ID="ElectricBue" Value="ElectricBlue"></Menu>
+        <Menu ID="Harvest" Value="Harvest"></Menu>
+        <Menu ID="LucidDream" Value="LucidDream"></Menu>
+        <Menu ID="Nautilus" Value="Nautilus"></Menu>
+        <Menu ID="Office2007Black" Value="Office2007Black"></Menu>
+        <Menu ID="Office2007Blue" Value="Office2007Blue"></Menu>
+        <Menu ID="Office2007Silver" Value="Office2007Siler"></Menu>
+        <Menu ID="OfficeBlue" Value="OfficeBlue"></Menu>
+        <Menu ID="Pear" Value="Pear"></Menu>
+        <Menu ID="RedPlanet" Value="RedPlanet"></Menu>
+        <Menu ID="RubberBlack" Value="RubberBlack"></Menu>
+        <Menu ID="Trendy" Value="Trendy"></Menu>
+        <Menu ID="Windows7" Value="Windows7"></Menu>
+      </Menu>
+    </Menu>
+  </Scrolling>
+  <WinMenu>
+    <Menu ID="File" Value="File">
+        <Menu ID="New" Value="New">
+            <Menu ID="Word Document" Value="Word Document"></Menu>
+            <Menu ID="Excel Sheet" Value="Excel Sheet"></Menu>
+            <Menu ID="PDF Document" Value="PDF Document"></Menu>
+            <Menu ID="HTML File" Value="HTML File"></Menu>
+            <Menu ID="XML File" Value="XML File"></Menu>
+            <Menu ID="JPG File" Value="JPG File"></Menu>
+            <Menu ID="BitMap" Value="BitMap"></Menu>
+            <Menu ID="PNG File" Value="PNG File"></Menu>
+            <Menu ID="TXT File" Value="TXT File"></Menu>
+            <Menu ID="Project..." Value="Project..."></Menu>
+            <Menu ID="Web Site..." Value="Web Site..."></Menu>
+            <Menu ID="Team Project..." Value="Team Project..."></Menu>
+            <Menu ID="File..." Value="File..."></Menu>
+        </Menu>
+        <Menu ID="Open" Value="Open">
+            <Menu ID="Analisys Services Database..." Value="Analisys Services Database..."></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Project/ Solution..." Value="Project/ Solution..."></Menu>
+            <Menu ID="Web Site..." Value="Web Site..."></Menu>
+            <Menu ID="Team Project..." Value="Team Project..."></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Word Document" Value="Word Document"></Menu>
+            <Menu ID="Excel Sheet" Value="Excel Sheet"></Menu>
+            <Menu ID="PDF Document" Value="PDF Document"></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="File..." Value="File..."></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Default Browser" Value="Default Browser"></Menu>
+            <Menu ID="Mozilla Firefox" Value="Mozilla Firefox"></Menu>
+            <Menu ID="Safari" Value="Safari"></Menu>
+            <Menu ID="Chrome" Value="Chrome"></Menu>
+            <Menu ID="Opera" Value="Opera"></Menu>
+            <Menu ID="Internet Explorer 8" Value="Internet Explorer 8"></Menu>
+            <Menu ID="Internet Explorer 7" Value="Internet Explorer 7"></Menu>
+            <Menu ID="Internet Explorer 6" Value="Internet Explorer 6"></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Document1" Value="Document1"></Menu>
+            <Menu ID="Document2" Value="Document2"></Menu>
+            <Menu ID="Document3" Value="Document3"></Menu>
+            <Menu ID="Document4" Value="Document4"></Menu>
+            <Menu ID="Document5" Value="Document5"></Menu>
+            <Menu ID="Document6" Value="Document6"></Menu>
+            <Menu ID="Document7" Value="Document7"></Menu>
+            <Menu ID="Document8" Value="Document8"></Menu>
+            <Menu ID="Document9" Value="Document9"></Menu>
+        </Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Add" Value="Add">
+            <Menu ID="New Project..." Value="New Project..."></Menu>
+            <Menu ID="New Web Site..." Value="New Web Site..."></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Existing Project" Value="Existing Project"></Menu>
+            <Menu ID="Existing Web Site" Value="Existing Web Site"></Menu>
+        </Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Close" Value="Close"></Menu>
+        <Menu ID="Close Solution" Value="Close Solution" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/File/close_solution.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Save" Value="Save"  Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/File/save.png"></Menu>
+        <Menu ID="Save As..." Value="Save As..."></Menu>
+        <Menu ID="Advanced Save Options..." Value="Advanced Save Options..."></Menu>
+        <Menu ID="Save All" Value="Save All"  Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/File/save_all.png"></Menu>
+        <Menu ID="Export Template..." Value="Export Template..."></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Source Control" Value="Source Control">
+            <Menu ID="Get Latest Version" Value="Get Latest Version" Enabled="false"></Menu>
+            <Menu ID="Get Specific Version" Value="Get Specific Version" Enabled="false"></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Check Out For Edit..." Value="Check Out For Edit..." Enabled="false"></Menu>
+            <Menu ID="Lock..." Value="Lock..."></Menu>
+            <Menu ID="Undo Pending Changes..." Value="Undo Pending Changes..."></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Check In..." Value="Check In..."></Menu>
+            <Menu ID="Resume Conflict Resolution..." Value="Resume Conflict Resolution..."></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Shelve Pending Changes..." Value="Shelve Pending Changes..."></Menu>
+            <Menu ID="Unshelve Pending Changes..." Value="Unshelve Pending Changes..."></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="View History" Value="View History" Enabled="false"></Menu>
+            <Menu ID="Compare..." Value="Compare..." Enabled="false"></Menu>
+            <Menu ID="Annotate" Value="Annotate" Enabled="false"></Menu>
+            <Menu ID="Alert On Change..." Value="Alert On Change..." Enabled="false"></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Label" Value="Label">
+                <Menu ID="Apply Label" Value="Apply Label" Enabled="false"></Menu>
+                <Menu ID="Find Label" Value="Find Label"></Menu>
+            </Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Refresh Status" Value="Refresh Status"></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Open From Source Control..." Value="Open From Source Control..."></Menu>
+            <Menu ID="Add Project from Source Control" Value="Add Project from Source Control"></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Workspaces..." Value="Workspaces..."></Menu>
+            <Menu ID="Change Source Control" Value="Change Source Control"></Menu>
+        </Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="View in Browser" Value="View in Browser" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/File/view_in_browser.png"></Menu>
+        <Menu ID="Browse With..." Value="Browse With..."></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Page Setup..." Value="Page Setup..." Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/File/page_setup.png"></Menu>
+        <Menu ID="Print..." Value="Print..." Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/File/print.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Recent Files" Value="Recent Files"></Menu>
+        <Menu ID="Recent Projects" Value="Recent Projects"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Exit" Value="Exit"></Menu>
+    </Menu>
+    <Menu ID="Edit" Value="Edit">
+        <Menu ID="Undo" Value="Undo" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Edit/undo.png"></Menu>
+        <Menu ID="Redo" Value="Redo" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Edit/redo.png"></Menu>
+        <Menu ID="Undo Last Global Action" Value="Undo Last Global Action" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Edit/undo_global.png"></Menu>
+        <Menu ID="Redo Last Global Action" Value="Redo Last Global Action" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Edit/redo_global.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Cut" Value="Cut" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Edit/cut.png"></Menu>
+        <Menu ID="Copy" Value="Copy" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Edit/copy.png">"</Menu>
+        <Menu ID="Paste" Value="Paste" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Edit/paste.png"></Menu>
+        <Menu ID="Cycle Clipboard Ring" Value="Cycle Clipboard Ring"></Menu>
+        <Menu ID="Paste Alternate" Value="Paste Alternate"></Menu>
+        <Menu ID="Delete" Value="Delete" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Edit/delete.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Select All" Value="Select All"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Find And Replace" Value="Find And Replace">
+            <Menu ID="Quick Find" Value="Quick Find" Enabled="False"></Menu>
+            <Menu ID="Quick Replace" Value="Quick Replace" Enabled="False"></Menu>
+            <Menu ID="Find in Files" Value="Find in Files"></Menu>
+            <Menu ID="Replace in Files" Value="Replace in Files"></Menu>
+            <Menu ID="Find Symbol" Value="Find Symbol"></Menu>
+        </Menu>
+        <Menu ID="Go To..." Value="Go To..."></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Insert File As Text" Value="Insert File As Text"></Menu>
+        <Menu ID="Advanced" Value="Advanced">
+            <Menu ID="Format Selection" Value="Format Selection"></Menu>
+        </Menu>
+        <Menu ID="Bookmarks" Value="Bookmarks">
+            <Menu ID="Toggle Bookmark" Value="Toggle Bookmark"></Menu>
+            <Menu ID="Enable All Bookmarks" Value="Enable All Bookmarks"></Menu>
+            <Menu ID="Enable Bookmark" Value="Enable Bookmark"></Menu>
+            <Menu ID="Previous Bookmark" Value="Previous Bookmark" Enabled="False"></Menu>
+            <Menu ID="Next Bookmark" Value="Next Bookmark" Enabled="False"></Menu>
+            <Menu ID="Clear Bookmarks" Value="Clear Bookmarks" Enabled="False"></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Previous Bookmark in Folder" Value="Previous Bookmark in Folder" Enabled="False"></Menu>
+            <Menu ID="Next Bookmark in Folder" Value="Next Bookmark in Folder" Enabled="False"></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Previous Bookmark in Document" Value="Previous Bookmark in Document" Enabled="False"></Menu>
+            <Menu ID="Next Bookmark in Document" Value="Next Bookmark in Document" Enabled="False"></Menu>
+            <Menu ID="Clear All Bookmarks in Document" Value="Clear All Bookmarks in Document" Enabled="False"></Menu>
+            <Menu ID="Enable All Bookmarks in Document" Value="Enable All Bookmarks in Document" Enabled="False"></Menu>
+        </Menu>
+        <Menu ID="Outlining" Value="Outlining"></Menu>
+        <Menu ID="IntelliSense" Value="IntelliSense"></Menu>
+    </Menu>
+    <Menu ID="View" Value="View">
+        <Menu ID="Ruler And Grid" Value="Ruler And Grid">
+            <Menu ID="Show Ruler" Value="Show Ruler"></Menu>
+            <Menu ID="Show Grid" Value="Show Grid"></Menu>
+            <Menu ID="Snap to Grid..." Value="Snap to Grid..."></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Customize..." Value="Customize..."></Menu>
+        </Menu>
+        <Menu ID="Visual Aids" Value="Visual Aids">
+            <Menu ID="Show" Value="Show"></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Block Selection" Value="Block Selection"></Menu>
+            <Menu ID="Visible Borders" Value="Visible Borders"></Menu>
+            <Menu ID="Empty Containers" Value="Empty Containers"></Menu>
+            <Menu ID="Margins and Padding" Value="Margins and Padding"></Menu>
+            <Menu ID="ASP.NET Non-visual Controls" Value="ASP.NET Non-visual Controls"></Menu>
+            <Menu ID="Template Region Labels" Value="Template Region Labels"></Menu>
+        </Menu>
+        <Menu ID="Formatting Marks" Value="Formatting Marks">
+            <Menu ID="Show" Value="Show"></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Tag Marks" Value="Tag Marks"></Menu>
+            <Menu ID="Paragraph Marks" Value="Paragraph Marks"></Menu>
+            <Menu ID="Line Breaks" Value="Line Breaks"></Menu>
+            <Menu ID="Spaces" Value="Spaces"></Menu>
+            <Menu ID="Comments" Value="Comments"></Menu>
+            <Menu ID="Script Blocks" Value="Script Blocks"></Menu>
+            <Menu ID="Positioned Absolute" Value="Positioned Absolute"></Menu>
+            <Menu ID="Aligned Elements" Value="Aligned Elements"></Menu>
+            <Menu ID="Hidden From Fields" Value="Hidden From Fields"></Menu>
+        </Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Code" Value="Code" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/code.png"></Menu>
+        <Menu ID="Designer" Value="Designer" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/designer.png"></Menu>
+        <Menu ID="Markup" Value="Markup"></Menu>
+        <Menu ID="Component Designer" Value="Component Designer"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Synchronize Views" Value="Synchronize Views" Enabled="False"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Server Explorer" Value="Server Explorer" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/server_explorer.png"></Menu>
+        <Menu ID="Solution Explorer" Value="Solution Explorer" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/solution_explorer.png"></Menu>
+        <Menu ID="Team Explorer" Value="Team Explorer" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/team_explorer.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="CSS Properties" Value="CSS Properties" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/css_properties.png"></Menu>
+        <Menu ID="Manage Styles" Value="Manage Styles" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/manage_styles.png"></Menu>
+        <Menu ID="Apply Styles" Value="Apply Styles" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/apply_styles.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Class View" Value="Class View" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/class_view.png"></Menu>
+        <Menu ID="Code Definition Window" Value="Code Definition Window" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/code_definition.png"></Menu>
+        <Menu ID="Object Browser" Value="Object Browser" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/object_browser.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Error List" Value="Error List" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/error_list.png"></Menu>
+        <Menu ID="Output" Value="Output" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/output.png"></Menu>
+        <Menu ID="Properties Window" Value="Properties Window" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/properties_window.png"></Menu>
+        <Menu ID="Task List" Value="Task List" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/task_list.png"></Menu>
+        <Menu ID="Toolbox" Value="Toolbox" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/toolbox.png"></Menu>
+        <Menu ID="Find Results" Value="Find Results">
+            <Menu ID="Find Results 1" Value="Find Results 1"></Menu>
+            <Menu ID="Find Results 2" Value="Find Results 2"></Menu>
+            <Menu ID="Find Symbol Results" Value="Find Symbol Results"></Menu>
+        </Menu>
+        <Menu ID="Other Windows" Value="Other Windows">
+            <Menu ID="Call Browser" Value="Call Browser"></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Bookmark Window" Value="Bookmark Window"></Menu>
+            <Menu ID="Command Window" Value="Command Window"></Menu>
+            <Menu ID="Document Outline" Value="Document Outline"></Menu>
+            <Menu ID="Object Test Bench" Value="Object Test Bench"></Menu>
+            <Menu ID="Property Manager" Value="Property Manager"></Menu>
+            <Menu ID="Resource View" Value="Resource View"></Menu>
+            <Menu ID="History" Value="History"></Menu>
+            <Menu ID="Source Control Explorer" Value="Source Control Explorer"></Menu>
+            <Menu ID="Pending Changes" Value="Pending Changes"></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Macro Explorer" Value="Macro Explorer"></Menu>
+            <Menu ID="Child Start Page" Value="Child Start Page"></Menu>
+            <Menu ID="Web Browser" Value="Web Browser"></Menu>
+        </Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Toolbars" Value="Toolbars">
+            <Menu ID="Build" Value="Build"></Menu>
+            <Menu ID="Class Designer" Value="Class Designer"></Menu>
+            <Menu ID="Crystal Reports - Insert" Value="Crystal Reports - Insert"></Menu>
+            <Menu ID="Crystal Reports - Main" Value="Crystal Reports - Main"></Menu>
+            <Menu ID="Data Design" Value="Data Design"></Menu>
+            <Menu ID="Database Diagram" Value="Database Diagram"></Menu>
+            <Menu ID="Debug" Value="Debug"></Menu>
+            <Menu ID="Debug Location" Value="Debug Location"></Menu>
+            <Menu ID="Dialog Editor" Value="Dialog Editor"></Menu>
+            <Menu ID="Formatting" Value="Formatting"></Menu>
+            <Menu ID="Help" Value="Help"></Menu>
+            <Menu ID="HTML Source Editing" Value="HTML Source Editing"></Menu>
+            <Menu ID="Image Editor" Value="Image Editor"></Menu>
+            <Menu ID="Layout" Value="Layout"></Menu>
+            <Menu ID="Microsoft Office Excel 2003" Value="Microsoft Office Excel 2003"></Menu>
+            <Menu ID="Microsoft Office Excel 2007" Value="Microsoft Office Excel 2007"></Menu>
+            <Menu ID="Microsoft Office Word 2003" Value="Microsoft Office Word 2003"></Menu>
+            <Menu ID="Microsoft Office Word 2007" Value="Microsoft Office Word 2007"></Menu>
+            <Menu ID="Query Designer" Value="Query Designer"></Menu>
+            <Menu ID="Report" Value="Report"></Menu>
+            <Menu ID="Report Borders" Value="Report Borders"></Menu>
+            <Menu ID="Report Formatting" Value="Report Formatting"></Menu>
+            <Menu ID="Source Control" Value="Source Control"></Menu>
+            <Menu ID="Source Control - Team Foundation" Value="Source Control - Team Foundation"></Menu>
+            <Menu ID="Standard" Value="Standard"></Menu>
+            <Menu ID="Style Application" Value="Style Application"></Menu>
+            <Menu ID="Table Designer" Value="Table Designer"></Menu>
+            <Menu ID="Test Tools" Value="Test Tools"></Menu>
+            <Menu ID="Test Editor" Value="Test Editor"></Menu>
+            <Menu ID="View Designer" Value="View Designer"></Menu>
+            <Menu ID="Work Item Tracking - Query View" Value="Work Item Tracking - Query View"></Menu>
+            <Menu ID="Work Item Tracking - Results View" Value="Work Item Tracking - Results View"></Menu>
+            <Menu ID="Workflow" Value="Workflow"></Menu>
+            <Menu ID="XML Editor" Value="XML Editor"></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Customize" Value="Customize"></Menu>
+        </Menu>
+        <Menu ID="Full Screen" Value="Full Screen" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/full_screen.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Navigate Backward" Value="Navigate Backward" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/navigate_backward.png"></Menu>
+        <Menu ID="Navigate Forward" Enabled="False" Value="Navigate Forward" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/navigate_forward.png"></Menu>
+        <Menu ID="Next Task" Value="Next Task"></Menu>
+        <Menu ID="Previous Task" Value="Previous Task"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Property Pages" Value="Property Pages" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/View/property_pages.png">"</Menu>
+    </Menu>
+    <Menu ID="Build" Value="Build">
+        <Menu ID="Build Solution" Value="Build Solution" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Build/build_solution.png"></Menu>
+        <Menu ID="Rebuild Solution" Value="Rebuild Solution"></Menu>
+        <Menu ID="Clean Solution" Value="Clean Solution"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Build Web Site" Value="Build Web Site" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Build/build_website.png"></Menu>
+        <Menu ID="Rebuild Web Site" Value="Rebuild Web Site"></Menu>
+        <Menu ID="Clean Selection" Value="Clean Selection" Enabled="False"></Menu>
+        <Menu ID="Publish Web Site" Value="Publish Web Site"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Build Page" Value="Build Page"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Queue New Build..." Value="Queue New Build..." Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Build/queue_new.png"></Menu>
+        <Menu ID="New Build Definition..." Value="New Build Definition..." Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Build/new_build_definition.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Manage Build Agents..." Value="Manage Build Agents..." Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Build/manage_build_agents.png"></Menu>
+        <Menu ID="Manage Build Qualities" Value="Manage Build Qualities" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Build/manage_build_qualities.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Batch Build..." Value="Batch Build..."></Menu>
+        <Menu ID="Configuration Manager..." Value="Configuration Manager..."></Menu>
+    </Menu>
+    <Menu ID="Tools" Value="Tools">
+        <Menu ID="Check Accessibility" Value="Check Accessibility" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Tools/check_accessibility.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Generate Local Resource" Value="Generate Local Resource"  Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Tools/generate_local.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Process Editor" Value="Process Editor">
+            <Menu ID="Work Item Types" Value="Work Item Types">
+                <Menu ID="Open WIT from Server" Value="Open WIT from Server"></Menu>
+                <Menu ID="Open WIT from File" Value="Open WIT from File"></Menu>
+                <Menu ID="Import WIT" Value="Import WIT"></Menu>
+                <Menu ID="Export WIT" Value="Export WIT"></Menu>
+            </Menu>
+            <Menu ID="Process Templates" Value="Process Templates">
+                <Menu ID="Open Process Template" Value="Open Process Template"></Menu>
+            </Menu>
+            <Menu ID="Global List" Value="Global List">
+                <Menu ID="Open Global List from File" Value="Open Global List from File"></Menu>
+                <Menu ID="Open Global List from Server" Value="Open Global List from Server"></Menu>
+                <Menu ID="Import Global List" Value="Import Global List"></Menu>
+                <Menu ID="Export Global List" Value="Export Global List"></Menu>
+            </Menu>
+            <Menu ID="Work Item Field Explorer" Value="Work Item Field Explorer"></Menu>
+        </Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Attach To Process" Value="Attach To Process" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Tools/attach_to_process.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Device Security Manager" Value="Device Security Manager" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Tools/device_security_manager.png"></Menu>
+        <Menu ID="Connect To Device" Value="Connect To Device"  Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Tools/connect_to_device.png"></Menu>
+        <Menu ID="Device Emulator Manager" Value="Device Emulator Manager"  Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Tools/device_emulator.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Connect To Database..." Value="Connect To Database..." Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Tools/connect_to_database.png"></Menu>
+        <Menu ID="Connect To Server..." Value="Connect To Server..." Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Tools/connect_to_server.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Connect To Team Foundation Server..." Value="Connect To Team Foundation Server..." Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Tools/connect_to_tfs.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Code Snippets Manager..." Value="Code Snippets Manager..." Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Tools/code_snippets.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Choose Toolbox Items..." Value="Choose Toolbox Items..."></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Add-in Manager..." Value="Add-in Manager..."></Menu>
+        <Menu ID="Macros" Value="Macros">
+            <Menu ID="Run Temporary Macro" Value="Run Temporary Macro"></Menu>
+            <Menu ID="Record Temporary Macro" Value="Record Temporary Macro"></Menu>
+            <Menu ID="Save Temporary Macro" Value="Save Temporary Macro"></Menu>
+            <Menu ID="Cancel Recording" Value="Cancel Recording"  Enabled="False"></Menu>
+            <Menu ID="[Separator]" Value="[Separator]"></Menu>
+            <Menu ID="Macro Explorer" Value="Macro Explorer"></Menu>
+            <Menu ID="Macros IDE..." Value="Macros IDE..."></Menu>
+            <Menu ID="Load Macro Project.." Value="Load Macro Project.."></Menu>
+            <Menu ID="Unload Macro Project" Value="Unload Macro Project"  Enabled="False"></Menu>
+            <Menu ID="New Macro Project..." Value="New Macro Project..."></Menu>
+        </Menu>
+        <Menu ID="Child Find More Extensions..." Value="Child Find More Extensions..."></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Create GUID" Value="Create GUID"></Menu>
+        <Menu ID="Dotfuscator Community Edition" Value="Dotfuscator Community Edition"></Menu>
+        <Menu ID="WCF Service Configuration Editor" Value="WCF Service Configuration Editor"></Menu>
+        <Menu ID="External Tools..." Value="External Tools..."></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Import And Export Settings..." Value="Import And Export Settings..."></Menu>
+        <Menu ID="Customize..." Value="Customize..."></Menu>
+        <Menu ID="Options..." Value="Options..."></Menu>
+    </Menu>
+    <Menu ID="Window" Value="Window">
+        <Menu ID="New Window" Value="New Window"  Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Window/new_window.png"></Menu>
+        <Menu ID="Split" Value="Split"  Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Window/split.png" Enabled="False"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Floating" Value="Floating" Enabled="False"></Menu>
+        <Menu ID="Dockable" Value="Dockable" Enabled="False"></Menu>
+        <Menu ID="Tabbed Document" Value="Tabbed Document" Enabled="False"></Menu>
+        <Menu ID="Auto Hide" Value="Auto Hide" Enabled="False"></Menu>
+        <Menu ID="Hide" Value="Hide" Enabled="False"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Auto Hide All" Value="Auto Hide All"></Menu>
+        <Menu ID="New Horizontal Tab Group" Value="New Horizontal Tab Group" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Window/new_horizontal.png"></Menu>
+        <Menu ID="New Vertical Tab Group" Value="New Vertical Tab Group" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Window/new_vertical.png">"</Menu>
+        <Menu ID="Close All Documents" Value="Close All Documents"  Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Window/close_all.png"></Menu>
+        <Menu ID="Reset Windows Layout" Value="Reset Windows Layout"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Document 1" Value="Document 1"></Menu>
+        <Menu ID="Document 2" Value="Document 2"></Menu>
+        <Menu ID="Document 3" Value="Document 3"></Menu>
+        <Menu ID="Document 4" Value="Document 4"></Menu>
+        <Menu ID="Document 5" Value="Document 5"></Menu>
+        <Menu ID="Document 6" Value="Document 6"></Menu>
+        <Menu ID="Document 7" Value="Document 7"></Menu>
+        <Menu ID="Document 8" Value="Document 8"></Menu>
+        <Menu ID="Document 9" Value="Document 9"></Menu>
+        <Menu ID="Document 10" Value="Document 10"></Menu>
+        <Menu ID="Document 11" Value="Document 11"></Menu>
+        <Menu ID="Document 12" Value="Document 12"></Menu>
+        <Menu ID="Document 13" Value="Document 13"></Menu>
+        <Menu ID="Document 14" Value="Document 14"></Menu>
+        <Menu ID="Document 15" Value="Document 15"></Menu>
+        <Menu ID="Document 16" Value="Document 16"></Menu>
+        <Menu ID="Document 17" Value="Document 17"></Menu>
+        <Menu ID="Document 18" Value="Document 18"></Menu>
+        <Menu ID="Document 19" Value="Document 19"></Menu>
+        <Menu ID="Document 20" Value="Document 20"></Menu>
+        <Menu ID="Document 21" Value="Document 21"></Menu>
+        <Menu ID="Document 22" Value="Document 22"></Menu>
+        <Menu ID="Document 23" Value="Document 23"></Menu>
+        <Menu ID="Document 24" Value="Document 24"></Menu>
+        <Menu ID="Document 25" Value="Document 25"></Menu>
+        <Menu ID="Document 26" Value="Document 26"></Menu>
+        <Menu ID="Document 27" Value="Document 27"></Menu>
+        <Menu ID="Document 28" Value="Document 28"></Menu>
+        <Menu ID="Document 29" Value="Document 29"></Menu>
+        <Menu ID="Document 30" Value="Document 30"></Menu>
+        <Menu ID="Document 31" Value="Document 31"></Menu>
+        <Menu ID="Document 32" Value="Document 32"></Menu>
+        <Menu ID="Document 33" Value="Document 33"></Menu>
+        <Menu ID="Document 34" Value="Document 34"></Menu>
+        <Menu ID="Document 35" Value="Document 35"></Menu>
+        <Menu ID="Document 36" Value="Document 36"></Menu>
+        <Menu ID="Document 37" Value="Document 37"></Menu>
+        <Menu ID="Document 38" Value="Document 38"></Menu>
+        <Menu ID="Document 39" Value="Document 39"></Menu>
+        <Menu ID="Windows..." Value="Windows..."></Menu>
+    </Menu>
+    <Menu ID="Help" Value="Help">
+        <Menu ID="View Help" Value="View Help"  Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Help/how_do_I.png"></Menu>
+        <Menu ID="Search" Value="Search" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Help/search.png"></Menu>
+        <Menu ID="Contents" Value="Contents" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Help/contents.png"></Menu>
+        <Menu ID="Index" Value="Index" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Help/index.png"></Menu>
+        <Menu ID="Help Favourites" Value="Help Favourites" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Help/help_favourites.png"></Menu>
+        <Menu ID="Dynamic Help" Value="Dynamic Help" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Help/dynamic_help.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Team Project Process Guidance" Value="Team Project Process Guidance" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Help/team_project.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]" ></Menu>
+        <Menu ID="Index Results" Value="Index Results" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Help/index_results.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="MSDN Forums" Value="MSDN Forums" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Help/msdn_forums.png"></Menu>
+        <Menu ID="Report a Bug" Value="Report a Bug" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Help/report_bug.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Samples" Value="Samples" ></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="Customer Feedback Options..." Value="Customer Feedback Options..."></Menu>
+        <Menu ID="Register Product" Value="Register Product"></Menu>
+        <Menu ID="Check for Updates" Value="Check for Updates"></Menu>
+        <Menu ID="Technical Support" Value="Technical Support" Target="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Desktop/Help/technical_support.png"></Menu>
+        <Menu ID="[Separator]" Value="[Separator]"></Menu>
+        <Menu ID="About" Value="About"></Menu>
+
+    </Menu>
+</WinMenu>
+<WebMenu>
+    <Menu ID="FOOTWEAR" Value="FOOTWEAR">
+        <Menu ID="Astro Trainers" Value="Astro Trainers"></Menu>
+        <Menu ID="Outdoor Footwear" Value="Outdoor Footwear"></Menu>
+        <Menu ID="Baby Shoes" Value="Baby Shoes"></Menu>
+        <Menu ID="Reebok Classic Trainers" Value="Reebok Classic Trainers"></Menu>
+        <Menu ID="Basketball Shoes" Value="Basketball Shoes"></Menu>
+        <Menu ID="Running Shoes" Value="Running Shoes"></Menu>
+        <Menu ID="Sandals And Flip Flops" Value="Sandals And Flip Flops"></Menu>
+        <Menu ID="Canvas Shoes" Value="Canvas Shoes"></Menu>
+        <Menu ID="Shoes" Value="Shoes"></Menu>
+        <Menu ID="Football Boots" Value="Football Boots"></Menu>
+        <Menu ID="Skate Shoes" Value="Skate Shoes"></Menu>
+        <Menu ID="Golf Shoes" Value="Golf Shoes"></Menu>
+        <Menu ID="Trainers" Value="Trainers"></Menu>
+        <Menu ID="Last Few Pairs" Value="Last Few Pairs"></Menu>
+        <Menu ID="SALE" Value="SALE"></Menu>
+        <Menu ID="Indoor And Court Trainers" Value="Indoor And Court Trainers"></Menu>
+    </Menu>
+    <Menu ID="CLOTHING" Value="CLOTHING">
+        <Menu ID="Three Quarter Pants" Value="Three Quarter Pants"></Menu>
+        <Menu ID="Shorts" Value="Shorts"></Menu>
+        <Menu ID="Base Layer And Compression" Value="Base Layer And Compression"></Menu>
+        <Menu ID="Skirts And Dresses" Value="Skirts And Dresses"></Menu>
+        <Menu ID="Bikinis And Tankinis" Value="Bikinis And Tankinis"></Menu>
+        <Menu ID="Socks" Value="Socks"></Menu>
+        <Menu ID="Hoodies" Value="Hoodies"></Menu>
+        <Menu ID="Tracksuits" Value="Tracksuits"></Menu>
+        <Menu ID="Jackets And Coats" Value="FJackets And Coatsile"></Menu>
+        <Menu ID="Trousers And Bottoms" Value="Trousers And Bottoms"></Menu>
+        <Menu ID="Jeans" Value="Jeans"></Menu>
+        <Menu ID="T Shirts" Value="T Shirts"></Menu>
+        <Menu ID="Kids Character" Value="Kids Character"></Menu>
+        <Menu ID="Clothing Vests" Value="Clothing Vests"></Menu>
+        <Menu ID="Knitwear And Sweats" Value="Knitwear And Sweats"></Menu>
+        <Menu ID="Women's Fitness" Value="Women's Fitness"></Menu>
+        <Menu ID="Men's Underwear" Value="Men's Underwear"></Menu>
+        <Menu ID="Women's Underwear" Value="Women's Underwear"></Menu>
+        <Menu ID="Outdoor Clothing" Value="Outdoor Clothing"></Menu>
+        <Menu ID="Zip Tops" Value="Zip Tops"></Menu>
+        <Menu ID="Polo Shirts" Value="Polo Shirts"></Menu>
+        <Menu ID="SALE" Value="SALE"></Menu>
+        <Menu ID="Shirts" Value="Shirts"></Menu>
+    </Menu>
+    <Menu ID="FOOTBALL SHIRTS" Value="FOOTBALL SHIRTS">
+        <Menu ID="Premier League Teams" Value="Premier League Teams"></Menu>
+        <Menu ID="International Teams" Value="International Teams"></Menu>
+        <Menu ID="Championship Teams" Value="Championship Teams"></Menu>
+        <Menu ID="New Season Kits" Value="New Season Kits"></Menu>
+        <Menu ID="European And World Clubs" Value="European And World Clubs"></Menu>
+        <Menu ID="Nike Team Kits" Value="Nike Team Kits"></Menu>
+        <Menu ID="Scottish Premier League Teams" Value="Scottish Premier League Teams"></Menu>
+        <Menu ID="Uhlsport Team Kits" Value="Uhlsport Team Kits"></Menu>
+        <Menu ID="England Champions League" Value="England Champions League"></Menu>
+        <Menu ID="Scotland Premiership" Value="Scotland Premiership"></Menu>
+        <Menu ID="SALE" Value="SALE"></Menu>
+    </Menu>
+    <Menu ID="ACCESSORIES" Value="ACCESSORIES">
+        <Menu ID="Back Packs" Value="Back Packs"></Menu>
+        <Menu ID="Football Boot Bags" Value="Football Boot Bags"></Menu>
+        <Menu ID="Bikes" Value="Bikes"></Menu>
+        <Menu ID="Sippers" Value="Sippers"></Menu>
+        <Menu ID="Socks" Value="Socks"></Menu>
+        <Menu ID="Gifts And Toys" Value="Gifts And Toys"></Menu>
+        <Menu ID="Sports Nutrition" Value="Sports Nutrition"></Menu>
+        <Menu ID="Gloves Hats And Scarves" Value="Gloves Hats And Scarves"></Menu>
+        <Menu ID="Men's Underwear" Value="Men's Underwear"></Menu>
+        <Menu ID="Wallets" Value="Wallets"></Menu>
+        <Menu ID="Hold Alls" Value="Hold Alls"></Menu>
+        <Menu ID="Water Bottles" Value="Water Bottles"></Menu>
+        <Menu ID="Ladies Bags" Value="Ladies Bags"></Menu>
+        <Menu ID="Women’s Underwear" Value="Women’s Underwear"></Menu>
+        <Menu ID="Outdoor Equipment" Value="Outdoor Equipment"></Menu>
+        <Menu ID="SALE" Value="SALE"></Menu>
+        <Menu ID="Other Accessories" Value="Other Accessories"></Menu>
+    </Menu>
+    <Menu ID="SPORTS" Value="SPORTS">
+        <Menu ID="Badminton" Value="Badminton"></Menu>
+        <Menu ID="Martial Arts" Value="Martial Arts"></Menu>
+        <Menu ID="Basketball" Value="Basketball"></Menu>
+        <Menu ID="Racquetball" Value="Racquetball"></Menu>
+        <Menu ID="Boxing" Value="Boxing"></Menu>
+        <Menu ID="Rugby" Value="Rugby"></Menu>
+        <Menu ID="Cricket" Value="Cricket"></Menu>
+        <Menu ID="Running" Value="Running"></Menu>
+        <Menu ID="Cycling" Value="Cycling"></Menu>
+        <Menu ID="Skate" Value="Skate"></Menu>
+        <Menu ID="Darts" Value="Darts"></Menu>
+        <Menu ID="Ski And Snowboard" Value="Ski And Snowboard"></Menu>
+        <Menu ID="Fishing" Value="Fishing"></Menu>
+        <Menu ID="Snooker And Pool" Value="Snooker And Pool"></Menu>
+        <Menu ID="Fitness And Exercise Equipment" Value="Fitness And Exercise Equipment"></Menu>
+        <Menu ID="Squash" Value="Squash"></Menu>
+        <Menu ID="Football" Value="Football"></Menu>
+        <Menu ID="Swimming" Value="Swimming"></Menu>
+        <Menu ID="Games" Value="Games"></Menu>
+        <Menu ID="Table Tennis" Value="Table Tennis"></Menu>
+        <Menu ID="Tennis" Value="Tennis"></Menu>
+        <Menu ID="Hockey" Value="Hockey"></Menu>
+        <Menu ID="Water Sports" Value="Water Sports"></Menu>
+    </Menu>
+    <Menu ID="BRANDS" Value="BRANDS">
+        <Menu ID="Adidas" Value="Adidas"></Menu>
+        <Menu ID="Lonsdale" Value="Lonsdale"></Menu>
+        <Menu ID="Airwalk" Value="Airwalk"></Menu>
+        <Menu ID="Nike" Value="Nike"></Menu>
+        <Menu ID="Asics" Value="Asics"></Menu>
+        <Menu ID="No Fear" Value="No Fear"></Menu>
+        <Menu ID="Crocs" Value="Crocs"></Menu>
+        <Menu ID="Ocean Pacific" Value="Ocean Pacific"></Menu>
+        <Menu ID="Dunlop" Value="Dunlop"></Menu>
+        <Menu ID="Puma" Value="Puma"></Menu>
+        <Menu ID="Everlast" Value="Everlast"></Menu>
+        <Menu ID="Reebok" Value="Reebok"></Menu>
+        <Menu ID="Skechers" Value="Skechers"></Menu>
+        <Menu ID="Golddiqqa" Value="Golddiqqa"></Menu>
+        <Menu ID="Slazenger" Value="Slazenger"></Menu>
+        <Menu ID="Kangol" Value="Kangol"></Menu>
+        <Menu ID="Umbro" Value="Umbro"></Menu>
+        <Menu ID="Karrimor" Value="Karrimor"></Menu>
+        <Menu ID="LA Gear" Value="LA Gear"></Menu>
+        <Menu ID="All Brands" Value="All Brands"></Menu>
+    </Menu>
+    <Menu ID="PROMOTIONS" Value="PROMOTIONS">
+        <Menu ID="80% Off Nike Footwear" Value="80% Off Nike Footwear"></Menu>
+        <Menu ID="Back To School" Value="Back To School"></Menu>
+        <Menu ID="Crazy Offers" Value="Crazy Offers"></Menu>
+        <Menu ID="England Shirts From £10" Value="England Shirts From £10"></Menu>
+        <Menu ID="Most Wanted" Value="Most Wanted"></Menu>
+        <Menu ID="MYiD Boot Personalization" Value="MYiD Boot Personalization"></Menu>
+        <Menu ID="New Season Kits" Value="New Season Kits"></Menu>
+        <Menu ID="Nike, Adidas And Puma Tees" Value="Nike, Adidas And Puma Tees"></Menu>
+        <Menu ID="Nike Team Kits" Value="Nike Team Kits"></Menu>
+        <Menu ID="Offers Of The Week" Value="Offers Of The Week"></Menu>
+        <Menu ID="Uhlsport Team Kits" Value="Uhlsport Team Kits"></Menu>
+        <Menu ID="Wales RFU Shirts For €10" Value="Wales RFU Shirts For €10"></Menu>
+    </Menu>
+</WebMenu>
+</MenuData>

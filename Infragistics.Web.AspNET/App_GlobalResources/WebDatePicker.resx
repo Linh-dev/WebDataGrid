@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChangeMonthToDateClickedLabel" xml:space="preserve">
+    <value>Change month to date clicked</value>
+  </data>
+  <data name="ClientEventsLabel" xml:space="preserve">
+    <value>Clientside Events &amp; API</value>
+  </data>
+  <data name="ClientEventsMessage" xml:space="preserve">
+    <value>Interact with the control to see what events are activated</value>
+  </data>
+  <data name="ControlName" xml:space="preserve">
+    <value>WebDatePicker</value>
+  </data>
+  <data name="EditModeLabel" xml:space="preserve">
+    <value>Edit Mode:</value>
+  </data>
+  <data name="EnableMonthDropDownLabel" xml:space="preserve">
+    <value>Enable month dropdown</value>
+  </data>
+  <data name="EnableWeekNumbersLabel" xml:space="preserve">
+    <value>Enable week numbers</value>
+  </data>
+  <data name="EnableYearDropDownLabel" xml:space="preserve">
+    <value>Enable year dropdown</value>
+  </data>
+  <data name="FirstDayOfWeekLabel" xml:space="preserve">
+    <value>First Day of the Week:</value>
+  </data>
+  <data name="HideOtherMonthDaysLabel" xml:space="preserve">
+    <value>Hide days for other months</value>
+  </data>
+  <data name="LocalizationCultureLabel" xml:space="preserve">
+    <value>Select Culture:</value>
+  </data>
+  <data name="LocalizationOptionDE_DE" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="LocalizationOptionEN_GB" xml:space="preserve">
+    <value>English (GB)</value>
+  </data>
+  <data name="LocalizationOptionEN_US" xml:space="preserve">
+    <value>English (US)</value>
+  </data>
+  <data name="LocalizationOptionES_MX" xml:space="preserve">
+    <value>Spanish (Mexican)</value>
+  </data>
+  <data name="LocalizationOptionJP_JP" xml:space="preserve">
+    <value>Japanese</value>
+  </data>
+  <data name="LocalizationOptionUK_UA" xml:space="preserve">
+    <value>Ukrainian (Ukraine)</value>
+  </data>
+  <data name="NullableLabel" xml:space="preserve">
+    <value>Nullable</value>
+  </data>
+  <data name="NullTextLabel" xml:space="preserve">
+    <value>Null Text:</value>
+  </data>
+  <data name="OpenCalendarOnFocusLabel" xml:space="preserve">
+    <value>Open calendar on focus</value>
+  </data>
+  <data name="PromptCharLabel" xml:space="preserve">
+    <value>Prompt Char:</value>
+  </data>
+  <data name="PropertyExplorerLabel" xml:space="preserve">
+    <value>WebDatePicker Property Explorer</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_AlwaysInEditMode" xml:space="preserve">
+    <value>Always In Edit Mode:</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_CustomButtonDisplay" xml:space="preserve">
+    <value>Custom Button Display:</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_CustomButtonDisplay_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_CustomButtonDisplay_OnLeft" xml:space="preserve">
+    <value>On Left</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_CustomButtonDisplay_OnRight" xml:space="preserve">
+    <value>On Right</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_Description" xml:space="preserve">
+    <value>This sample demonstrates how to configure the different properties of the WebDatePicker Control.</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_Disable" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_EditMode" xml:space="preserve">
+    <value>Edit Mode:</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_EditModeFormat" xml:space="preserve">
+    <value>Display Mode Format:</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_EditMode_CalendarOnly" xml:space="preserve">
+    <value>Calendar Only</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_EditMode_KeyboardAndCalendar" xml:space="preserve">
+    <value>Keyboard And Calendar</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_Enable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_EnableWeekNumbers" xml:space="preserve">
+    <value>Enable Week Numbers:</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_Title" xml:space="preserve">
+    <value>WebDatePicker - Basic</value>
+  </data>
+  <data name="WebDatePicker_ClientInteraction_CalendarClosed" xml:space="preserve">
+    <value>Calendar Closed</value>
+  </data>
+  <data name="WebDatePicker_ClientInteraction_CalendarOpened" xml:space="preserve">
+    <value>Calendar Opened</value>
+  </data>
+  <data name="WebDatePicker_ClientInteraction_CustomButtonClick" xml:space="preserve">
+    <value>Custom Button Clicked</value>
+  </data>
+  <data name="WebDatePicker_ClientInteraction_Description" xml:space="preserve">
+    <value>This sample demonstrates how to interact with the client side events of the WebDatePicker.</value>
+  </data>
+  <data name="WebDatePicker_ClientInteraction_KeyDown" xml:space="preserve">
+    <value>Key Down</value>
+  </data>
+  <data name="WebDatePicker_ClientInteraction_Title" xml:space="preserve">
+    <value>WebDatePicker - Client Interaction</value>
+  </data>
+  <data name="WebDatePicker_ClientInteraction_ValueChanged" xml:space="preserve">
+    <value>Value Changed</value>
+  </data>
+  <data name="WebDatePicker_DataEntry_Description" xml:space="preserve">
+    <value>This sample demonstrates how to use a WebDatePicker in a data entry scenario.</value>
+  </data>
+  <data name="WebDatePicker_DataEntry_EndLabel" xml:space="preserve">
+    <value>Select End Date</value>
+  </data>
+  <data name="WebDatePicker_DataEntry_StartLabel" xml:space="preserve">
+    <value>Select Start Date</value>
+  </data>
+  <data name="WebDatePicker_DataEntry_Title" xml:space="preserve">
+    <value>WebDatePicker - Data Entry</value>
+  </data>
+  <data name="WebDatePicker_Filtering_ButtonText" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="WebDatePicker_Filtering_Description" xml:space="preserve">
+    <value>This sample demonstrates how to use a WebDatePicker control to filter another control on the same page (WebDataGrid).</value>
+  </data>
+  <data name="WebDatePicker_Filtering_FromLabel" xml:space="preserve">
+    <value>From Order Date:</value>
+  </data>
+  <data name="WebDatePicker_Filtering_Title" xml:space="preserve">
+    <value>WebDatePicker - Filtering Data By Selected Dates</value>
+  </data>
+  <data name="WebDatePicker_Filtering_ToLabel" xml:space="preserve">
+    <value>To Order Date:</value>
+  </data>
+  <data name="WebDatePicker_Localization_Description" xml:space="preserve">
+    <value>This sample demonstrates how to use localization with a WebDatePicker</value>
+  </data>
+  <data name="WebDatePicker_Localization_Title" xml:space="preserve">
+    <value>WebDatePicker - Localization</value>
+  </data>
+  <data name="WebDatePicker_Styles_Description" xml:space="preserve">
+    <value>This sample demonstrates how to use a WebDatePicker with the built-in style sets.</value>
+  </data>
+  <data name="WebDatePicker_Styles_Style_1" xml:space="preserve">
+    <value>Lucid Dream</value>
+  </data>
+  <data name="WebDatePicker_Styles_Style_10" xml:space="preserve">
+    <value>Appletini</value>
+  </data>
+  <data name="WebDatePicker_Styles_Style_11" xml:space="preserve">
+    <value>Pear</value>
+  </data>
+  <data name="WebDatePicker_Styles_Style_12" xml:space="preserve">
+    <value>RedPlanet</value>
+  </data>
+  <data name="WebDatePicker_Styles_Style_13" xml:space="preserve">
+    <value>RubberBlack</value>
+  </data>
+  <data name="WebDatePicker_Styles_Style_14" xml:space="preserve">
+    <value>Trendy</value>
+  </data>
+  <data name="WebDatePicker_Styles_Style_2" xml:space="preserve">
+    <value>Caribbean</value>
+  </data>
+  <data name="WebDatePicker_Styles_Style_3" xml:space="preserve">
+    <value>Claymation</value>
+  </data>
+  <data name="WebDatePicker_Styles_Style_4" xml:space="preserve">
+    <value>Electric Blue</value>
+  </data>
+  <data name="WebDatePicker_Styles_Style_5" xml:space="preserve">
+    <value>Harvest</value>
+  </data>
+  <data name="WebDatePicker_Styles_Style_6" xml:space="preserve">
+    <value>Nautilus</value>
+  </data>
+  <data name="WebDatePicker_Styles_Style_7" xml:space="preserve">
+    <value>Office2007 Black</value>
+  </data>
+  <data name="WebDatePicker_Styles_Style_8" xml:space="preserve">
+    <value>Office2007 Blue</value>
+  </data>
+  <data name="WebDatePicker_Styles_Style_9" xml:space="preserve">
+    <value>Office2007 Silver</value>
+  </data>
+  <data name="WebDatePicker_Styles_Title" xml:space="preserve">
+    <value>WebDatePicker - Styling</value>
+  </data>
+  <data name="WebDatePicker_Validation_CompareValidator_ErrMsg" xml:space="preserve">
+    <value>Dates Must Match</value>
+  </data>
+  <data name="WebDatePicker_Validation_Description" xml:space="preserve">
+    <value>This sample demonstrates how to use the WebDatePicker control in conjuction with the ASP.NET Validator controls</value>
+  </data>
+  <data name="WebDatePicker_Validation_SubmitButton" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="WebDatePicker_Validation_Title" xml:space="preserve">
+    <value>WebDatePicker - Using ASP.NET Validators</value>
+  </data>
+  <data name="WebDatePicker_Validation_RequiredFieldErrMsg" xml:space="preserve">
+    <value>Please select a date</value>
+  </data>
+  <data name="WebDatePicker_ClientInteraction_Blur" xml:space="preserve">
+    <value>Blur</value>
+  </data>
+  <data name="WebDatePicker_ClientInteraction_InvalidValueEntered" xml:space="preserve">
+    <value>Invalid Value Entered</value>
+  </data>
+  <data name="WebDatePicker_ClientInteraction_KeyUp" xml:space="preserve">
+    <value>Key Up</value>
+  </data>
+  <data name="WebDatePicker_ClientInteraction_MouseDown" xml:space="preserve">
+    <value>Mouse Down</value>
+  </data>
+  <data name="WebDatePicker_ClientInteraction_MouseUp" xml:space="preserve">
+    <value>Mouse Up</value>
+  </data>
+  <data name="WebDatePicker_ClientInteraction_TextChanged" xml:space="preserve">
+    <value>Text Changed</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_DateFormat" xml:space="preserve">
+    <value>dd/MMM/yyyy</value>
+  </data>
+  <data name="WebDatePicker_CalendarPropertyExplorer_NullTextDefault" xml:space="preserve">
+    <value>Please enter a date.</value>
+  </data>
+  <data name="WebDatePicker_DataEntry_DisplayModeFormat" xml:space="preserve">
+    <value>MMM d, yyyy</value>
+  </data>
+</root>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="BasicHorizontal09" PresetDescription="Custom Preset Created 5/3/2007 5:49:06 PM" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" Width="400" Height="100">
+  <Gauges>
+    <igGaugeProp:LinearGauge CornerExtent="10">
+      <Scales>
+        <igGaugeProp:LinearGaugeScale EndExtent="90" StartExtent="25">
+          <MinorTickmarks EndExtent="55" Frequency="0.2" StartExtent="45">
+            <StrokeElement Color="135, 135, 135" />
+          </MinorTickmarks>
+          <Markers>
+            <igGaugeProp:LinearGaugeBarMarker BulbSpan="35" SegmentSpan="1" Value="58" StartExtent="-15">
+              <BrushElements>
+                <igGaugeProp:SimpleGradientBrushElement EndColor="200, 178, 34, 34" StartColor="200, 255, 0, 0" GradientStyle="Horizontal" />
+              </BrushElements>
+              <Response />
+            </igGaugeProp:LinearGaugeBarMarker>
+          </Markers>
+          <MajorTickmarks EndWidth="2" EndExtent="60" StartExtent="40" StartWidth="2">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="White" />
+            </BrushElements>
+            <StrokeElement Color="DimGray" />
+          </MajorTickmarks>
+          <Axes>
+            <igGaugeProp:NumericAxis EndValue="100" TickmarkInterval="20" />
+          </Axes>
+          <Labels Extent="25" Font="Segoe UI, 10pt" ZPosition="AboveMarkers">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="White" />
+            </BrushElements>
+            <Shadow Depth="2">
+              <BrushElements>
+                <igGaugeProp:SolidFillBrushElement />
+              </BrushElements>
+            </Shadow>
+          </Labels>
+        </igGaugeProp:LinearGaugeScale>
+        <igGaugeProp:LinearGaugeScale EndExtent="98" StartExtent="2" OuterExtent="95" InnerExtent="50">
+          <BrushElements>
+            <igGaugeProp:SimpleGradientBrushElement EndColor="20, 255, 255, 255" StartColor="100, 255, 255, 255" />
+          </BrushElements>
+        </igGaugeProp:LinearGaugeScale>
+      </Scales>
+      <BrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="15, 15, 15" />
+      </BrushElements>
+      <StrokeElement Thickness="0" />
+    </igGaugeProp:LinearGauge>
+  </Gauges>
+  <Annotations />
+  <Effects />
+</igGauge:UltraGauge>

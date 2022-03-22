@@ -1,0 +1,25 @@
+﻿.OptionPanel
+{
+    width: 770px;
+    padding: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.date-picker-box
+{
+    width: 100%;
+    height: 250px;
+    padding: 20px; 
+    margin-top: 45px;    
+}
+
+/* undo global border-collapse:collapse, that breaks rendering of button under Office2007 themes */
+.date-picker-box TABLE
+{
+	border-collapse: separate;
+}
+
+#sampleContainer, #sb-Extended-Box-outer > div> div {
+    overflow: visible !important;
+}

@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>igUpload Progress Information</title>
+    <link type="text/css" href="/SamplesCommon/jQuery/igRating/Common/style.css" rel="stylesheet" />
+
+    <link type="text/css" href="/SamplesBrowser/SamplesCommon/aspnet/Common/Styles/jquery/css/themes/infragistics/infragistics.theme.css" rel="stylesheet" />
+    <link type="text/css" href="/SamplesBrowser/SamplesCommon/aspnet/Common/Styles/jquery/css/structure/infragistics.css" rel="stylesheet" />
+
+	<script type="text/javascript" src="/SamplesBrowser/Scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="/SamplesBrowser/Scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/SamplesBrowser/SamplesCommon/aspnet/Common/Scripts/jquery/js/infragistics.js"></script>
+
+    <script type="text/javascript" language="javascript">
+        var timeOutID;
+        function startTimer() {
+            var currCount = parseInt($('#timeElapsed').html(), 10);
+            $('#timeElapsed').html(currCount + 1);
+            timeOutID = setTimeout('startTimer()', 1000);
+        }
+        function areAllFilesUploaded() {
+            var uploadInfo = $("#igUpload1").igUpload('getFileInfoData');
+            return uploadInfo.countTotalFiles === uploadInfo.countUploadingFiles;
+        }
+        function refreshProgressInformation() {
+            var uploadInfo = $("#igUpload1").igUpload('getFileInfoData'),
+                timeElapsed = parseInt($('#timeElapsed').html(), 10),
+                uploadSpeed;
+
+            if (timeElapsed === 0) {
+                uploadSpeed = 0;
+            } else {
+                uploadSpeed = Math.round(uploadInfo.fileSizeUploaded / (1024 * timeElapsed));
+            }
+
+            $("#uploadedFiles").html(uploadInfo.countUploadingFiles);
+            $("#uploaded").html(Math.round(uploadInfo.fileSizeUploaded / 1024));
+            $("#toUpload").html(Math.round((uploadInfo.fileSizeTotal - uploadInfo.fileSizeUploaded) / 1024));
+            $("#speed").html(uploadSpeed);
+            if (uploadSpeed === 0) {
+                $("#timeLeft").html(0);
+            } else {
+                $("#timeLeft").html(Math.round((uploadInfo.fileSizeTotal - uploadInfo.fileSizeUploaded) / (1024 * uploadSpeed)));
+            }
+        }
+        $(window).load(function () {
+            $("#error").css("display", "none");
+            $("#igUpload1").igUpload({
+                mode: 'multiple',
+                maxUploadedFiles: 5,
+                maxSimultaneousFilesUploads: 2,
+                progressUrl: "/samplesbrowser/IGUploadStatusHandler.ashx",
+                fileUploading: function (e, args) {
+                    if ($("#hdnStartTimer").val() === 'false') {
+                        $("#hdnStartTimer").val('true');
+                        startTimer();
+                    }
+                    refreshProgressInformation();
+                },
+                fileUploaded: function (e, args) {
+                    refreshProgressInformation();
+                    if (areAllFilesUploaded()) {
+                        clearTimeout(timeOutID);
+                        $("#hdnStartTimer").val('false');
+                    }
+                    $("#error").css("display", "none");
+                },
+                fileUploadAborted: function (e, args) {
+                    refreshProgressInformation();
+                    clearTimeout(timeOutID);
+                    $("#hdnStartTimer").val('false');
+                },
+                cancelAllClicked: function (e, args) {
+                    refreshProgressInformation();
+                    clearTimeout(timeOutID);
+                    $("#hdnStartTimer").val('false');
+                },
+                onError: function (e, args) {
+                    refreshProgressInformation();
+                    clearTimeout(timeOutID);
+                    $("#hdnStartTimer").val('false');
+
+                    if (args.errorType === 'serverside' && args.errorCode === 2) {
+                        $("#error").stop(true, true).fadeIn(500).delay(3000).fadeOut(500);
+                    }
+                }
+            });
+        });
+    </script>
+    <style type="text/css">
+        .container-info, .error-info { margin: 10px 0 ; font-weight: bold; }
+        .error-info { color: #FF0000; }
+    </style>
+</head>
+<body class="samplePage">
+    <h1>igUpload Progress Information</h1>
+    <div class="sampleContents">
+		<div class="sample-container">
+	        <p></p>
+	        <div id="igUpload1"></div>
+            <div class="container-info">
+                <label>
+                    Average Speed: 
+                    <span id="speed">0</span>
+                    KB/S
+                </label>
+            </div>
+            <div class="container-info">
+                <label>
+                    Uploaded files:  
+                    <span id="uploadedFiles">0</span>
+                </label>
+            </div>
+            <div class="container-info">
+                <label>
+                    Uploaded: 
+                    <span id="uploaded">0</span>
+                    KB
+                </label>
+            </div>
+            <div class="container-info">
+                <label>
+                    To be uploaded:
+                    <span id="toUpload">0</span>
+                    KB
+                </label>
+            </div>
+            <div class="container-info">
+                <label>
+                    Time Elapsed:
+                    <span id="timeElapsed">0</span>
+                    Sec
+                </label>
+            </div>
+            <div class="container-info">
+                <label>
+                    Time Left:
+                    <span id="timeLeft">0</span>
+                    Sec
+                </label>
+            </div>
+            <div id="error" class="error-info">
+                You cannot upload files larger than 1 MB
+            </div>
+            <input type="hidden" id="hdnStartTimer" value="false"/>
+        </div>
+    </div>
+</body>
+</html>

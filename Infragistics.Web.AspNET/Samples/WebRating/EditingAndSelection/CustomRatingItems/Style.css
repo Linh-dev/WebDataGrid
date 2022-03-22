@@ -1,0 +1,65 @@
+﻿       .badRating
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/CustomRatingItems/Slow.png');
+        }
+        .mediumRating
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/CustomRatingItems/Fast.png');
+              }
+        .goodRating 
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/CustomRatingItems/Fastest.png');
+        }
+        .badRatingEmpty
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/CustomRatingItems/SlowEmpty.png');
+        }
+        .mediumRatingEmpty
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/CustomRatingItems/FastEmpty.png');
+        }
+        .goodRatingEmpty 
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/CustomRatingItems/FastestEmpty.png');
+        }
+        .thumbsUpEmpty
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/CustomRatingItems/GoodEmpty.png') no-repeat;
+        }
+        .thumbsDownEmpty
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/CustomRatingItems/BadEmpty.png') no-repeat;
+        }
+         .thumbsNeutralEmpty
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/CustomRatingItems/NeutralEmpty.png') no-repeat;
+        }
+        .thumbsUp 
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/CustomRatingItems/Good.png') no-repeat;
+        }
+        .thumbsDown 
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/CustomRatingItems/Bad.png') no-repeat;
+        }
+        .thumbsNeutral 
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/CustomRatingItems/Neutral.png') no-repeat;
+        }
+        .bars
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/CustomRatingItems/bars.png') no-repeat;
+        }
+        .barsSelected 
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/CustomRatingItems/bars_selected.png') no-repeat;
+        }
+        .titles
+        {
+          font-size:16px;
+          font-weight:bold;
+          text-align:left; 
+          margin-top:40px;
+          margin-bottom:10px; 
+        }
+        

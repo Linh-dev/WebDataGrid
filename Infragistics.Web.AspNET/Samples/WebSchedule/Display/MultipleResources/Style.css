@@ -1,0 +1,24 @@
+﻿        .td
+        {
+            padding-left: 13px;
+        }
+        .btnNormal
+        {
+            display: block;
+            background: url(/samplesbrowser/samplescommon/aspnet/WebSchedule/Display/MultipleResources/GrayButton.png);
+            background-repeat: repeat;
+            border-style: none;
+            height: 28px;
+            width: 124px;
+			font-size: 13px;
+        }
+        .btnHover
+        {
+            display: block;
+            background: url(/samplesbrowser/samplescommon/aspnet/WebSchedule/Display/MultipleResources/OrangeButton.png);
+            background-repeat: repeat;
+            border-style: none;
+            height: 28px;
+            width: 124px;
+			font-size: 13px;
+        }

@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BatchUpdatingEnable" xml:space="preserve">
+    <value>Enable Batch Updaing for Parent Band</value>
+  </data>
+  <data name="BatchUpdatingEnableChild" xml:space="preserve">
+    <value>Enable Batch Updaing for Child Band</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ButtonOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="CellValueChanged" xml:space="preserve">
+    <value>Cell value changed</value>
+  </data>
+  <data name="CellValueChanging" xml:space="preserve">
+    <value>Cell value changing. New value:</value>
+  </data>
+  <data name="ColumnMoving_ClientEventsHeaderTitle" xml:space="preserve">
+    <value>Column Moving Client Events</value>
+  </data>
+  <data name="ColumnMoving_Disable" xml:space="preserve">
+    <value>Column to Disable:</value>
+  </data>
+  <data name="ColumnMoving_DragStyleFollow" xml:space="preserve">
+    <value>Follow</value>
+  </data>
+  <data name="ColumnMoving_DragStyleSlide" xml:space="preserve">
+    <value>Slide</value>
+  </data>
+  <data name="ColumnMoving_MovingType" xml:space="preserve">
+    <value>Column Moving Type:</value>
+  </data>
+  <data name="ControlName" xml:space="preserve">
+    <value>WebHierarchicalDataGrid</value>
+  </data>
+  <data name="DataEditing_UnboundCheckboxColumn_HeaderTitle" xml:space="preserve">
+    <value>Client-side Unbound Checkbox Column Events</value>
+  </data>
+  <data name="HeaderCheckBoxClicked" xml:space="preserve">
+    <value>Header checkbox clicked</value>
+  </data>
+  <data name="HeaderCheckBoxClicking" xml:space="preserve">
+    <value>Header checkbox clicking</value>
+  </data>
+  <data name="lbl_BatchUpdateSaveData" xml:space="preserve">
+    <value>Save Data</value>
+  </data>
+  <data name="lbl_DefaultBatchData" xml:space="preserve">
+    <value>Reset Data</value>
+  </data>
+  <data name="PersistentSelection_PostBack" xml:space="preserve">
+    <value>Post Back</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="UnboundColumn_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="WebHierarchicalDataGridExcelExporter_Description" xml:space="preserve">
+    <value>Exporting data to Microsoft Excel(tm) has never been easier. The power of WebHierarchicalDataGrid is extended by adding this great feature. You can either export only visible (grid loaded) data, or select to export all data in data source. Everything with a single click and many method overloads. Check out the source code for details.</value>
+  </data>
+  <data name="WebHierarchicalDataGridExcelExporter_Enable_Paging" xml:space="preserve">
+    <value>Enable Paging</value>
+  </data>
+  <data name="WebHierarchicalDataGridExcelExporter_Enable_Sorting" xml:space="preserve">
+    <value>Enable Sorting</value>
+  </data>
+  <data name="WebHierarchicalDataGridExcelExporter_Enter_File_Name" xml:space="preserve">
+    <value>Enter file name (w/o extension): </value>
+  </data>
+  <data name="WebHierarchicalDataGridExcelExporter_Excel_2003_Format" xml:space="preserve">
+    <value>Excel 2003 Format</value>
+  </data>
+  <data name="WebHierarchicalDataGridExcelExporter_Excel_2007_Format" xml:space="preserve">
+    <value>Excel 2007 Format</value>
+  </data>
+  <data name="WebHierarchicalDataGridExcelExporter_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="WebHierarchicalDataGridExcelExporter_ExportOptions" xml:space="preserve">
+    <value>Export Options</value>
+  </data>
+  <data name="WebHierarchicalDataGridExcelExporter_Export_All_Data" xml:space="preserve">
+    <value>Export All Data</value>
+  </data>
+  <data name="WebHierarchicalDataGridExcelExporter_Export_Visible_Data" xml:space="preserve">
+    <value>Export Visible Data</value>
+  </data>
+  <data name="WebHierarchicalDataGridExcelExporter_Export__in_Separate_Sheet" xml:space="preserve">
+    <value>Export in Separate Sheets</value>
+  </data>
+  <data name="WebHierarchicalDataGridExcelExporter_Export__in_Single_Sheet" xml:space="preserve">
+    <value>Export in Single Sheet</value>
+  </data>
+  <data name="WebHierarchicalDataGridExcelExporter_GridArea" xml:space="preserve">
+    <value>WebHierarchicalDataGrids</value>
+  </data>
+  <data name="WebHierarchicalDataGridExcelExporter_Title" xml:space="preserve">
+    <value>Exporting hierarchical data to Excel(tm) using Excel Exporter for WebHierarchicalDataGrid</value>
+  </data>
+  <data name="WebHierarchicalDataGridExportDefaultFileName" xml:space="preserve">
+    <value>WebHierarchicalDataGridExport</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Activation_Description" xml:space="preserve">
+    <value>The WebHierarchicalDataGrid includes an activation behavior that allows you configure how the grid behaves when a cell is active. This sample shows how to use a custom CSS style to customize the appearance of the active cell, column, or row.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Activation_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Activation</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_AddNewRowOnParentLevel_Description" xml:space="preserve">
+    <value>The WebHierarchicalDataGrid includes an add new row behavior that allows an end user to add one or more rows of data to the bound data source. This sample shows how to interact with the client side events of the behavior and notifies the user when the events are fired.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_AddNewRowOnParentLevel_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid -Add New Row On Parent Band</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_AjaxIndicator_CheckBoxLabel" xml:space="preserve">
+    <value>Enable Ajax Indicator:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_AjaxIndicator_Description" xml:space="preserve">
+    <value>This sample shows how to Enable/Disable the Ajax Indicator of the WebHierarchicalDataGrid.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_AjaxIndicator_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Enable/Disable AJAX indicator</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_BandStyling_Desc" xml:space="preserve">
+    <value>This sample demonstrates how you can style the different levels of the WebHierarchicalDataGrid.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_BandStyling_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Band Styling</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_BindingSelfReferencing_Description" xml:space="preserve">
+    <value>This sample shows how to bind a self referencing table to the WebHierarchicalDataGrid using the WebHierarchicalDataSource control.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_BindingSelfReferencing_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Binding to self referencing table.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ClientEvents_Description" xml:space="preserve">
+    <value>This sample shows how to subscribe to the client (JavaScript) events of the WebHierarchicalDataGrid. When an event fires, a message is displayed for the menu item that triggered the event.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ClientEvents_Populated" xml:space="preserve">
+    <value>Rows Populated</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ClientEvents_Populating" xml:space="preserve">
+    <value>Rows Populating</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ClientEvents_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Client Side Events</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Configuration_Panel_Title" xml:space="preserve">
+    <value>Control Panel</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ContextMenu_Collapse" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ContextMenu_Description" xml:space="preserve">
+    <value>This sample demonstrates how you can use Context Menu together with WebHierarchicalDataGrid to perform some actions against the selected row.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ContextMenu_EditRow" xml:space="preserve">
+    <value>Edit Row</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ContextMenu_Expand" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ContextMenu_SelectRow" xml:space="preserve">
+    <value>Select Current Row</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ContextMenu_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - with Context Menu</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ContextMenu_UnSelectRow" xml:space="preserve">
+    <value>Unselect Current Row</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupByDate_Description" xml:space="preserve">
+    <value>The sample groups the values in the OrderDate column according to date ranges.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupByDate_LastMonth" xml:space="preserve">
+    <value>Last Month</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupByDate_LastWeek" xml:space="preserve">
+    <value>Last Week</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupByDate_Older" xml:space="preserve">
+    <value>Older</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupByDate_ThreeWeeksAgo" xml:space="preserve">
+    <value>Three Weeks Ago</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupByDate_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Custom GroupBy Date</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupByDate_Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupByDate_TwoWeeksAgo" xml:space="preserve">
+    <value>Two Weeks Ago</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupByDate_Yesterday" xml:space="preserve">
+    <value>Yesterday</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupByText_Description" xml:space="preserve">
+    <value>The sample is grouped by the ReportsTo column with customized text for the group row describing who the employees reports to.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupByText_ReportsTo" xml:space="preserve">
+    <value>Reports to</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupByText_ReportsToNoOne" xml:space="preserve">
+    <value>Reports to no one</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupByText_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Custom Group By Text</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupBy_Description" xml:space="preserve">
+    <value>The sample groups the values in the LastName column by the first letter</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_CustomGroupBy_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Custom GroupBy Name</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_DataBinding_Description" xml:space="preserve">
+    <value>Select an item in the drop down to change the data source used by the WebHierarchicalDataGrid.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_DataBinding_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Bind to different data sources.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_DataBinding_WebDialogWindowCaptionText" xml:space="preserve">
+    <value>Suppliers &amp; Orders</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_DeleteButton" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_DeleteRowImagePath" xml:space="preserve">
+    <value>/SamplesBrowser/SamplesCommon/aspnet/WebHierarchicalDataGrid/EditingAndSelection/DeleteParentRow/eng/DeleteIcon.PNG</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_DeletingParentRow_Description" xml:space="preserve">
+    <value>This sample shows how to delete the parent row of the WebHierarchicalDataGrid control.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_DeletingParentRow_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Deleting on parent level</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_DocumentExporter_Description" xml:space="preserve">
+    <value>Exporting data to XPS or PDF documents has never been easier. The power of WebHierarchicalDataGrid is extended by adding this great feature. You can either export only visible (grid loaded) data, or select to export all data in data source. Everything with a single click and many method overloads. Check out the source code for details.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_DocumentExporter_Title" xml:space="preserve">
+    <value>Exporting hierarchical data to XPS or PDF documents using Document Exporter for WebHierarchicalDataGrid</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_DomainDataSource_Description" xml:space="preserve">
+    <value>This sample shows how to bind  the WebHierarchicalDataGrid to DomainDataSource control</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_DomainDataSource_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid -  Binding to a DomainDataSource</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_EditingChildBands_Description" xml:space="preserve">
+    <value>This sample shows how to edit the child bands of the WebHierarchicalDataGrid control.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_EditingChildBands_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Editing Child Bands</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_EditingParentRow_Description" xml:space="preserve">
+    <value>This sample shows how to configure the WebHierarchicalDataGrid to use the following editor providers: Text Editor and DropDown Editor.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_EditingParentRow_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Using Editor Providers on Parent Row</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_EnableFiltering_Description" xml:space="preserve">
+    <value>This sample shows you how to enable filtering on WebHierarchicalDataGrid as well as filters the data in the ContactTitle column by Sales Representative on-load. The data in the child grid is also filtered by the OrderDate column initially.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_EnableFiltering_FilterDate" xml:space="preserve">
+    <value>12/31/1996</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_EnableFiltering_SalesRepresentative" xml:space="preserve">
+    <value>Sales Representative</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_EnableFiltering_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Enable Filtering</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_EnableGroupBy_Description" xml:space="preserve">
+    <value>Check the checkboxes to enable/disable grouping for Orders and Order Details data. Drag a column into GroupBy area to group by that column.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_EnableGroupBy_EnableDetails" xml:space="preserve">
+    <value>Enable GroupBy Order Details</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_EnableGroupBy_EnableOrders" xml:space="preserve">
+    <value>Enable GroupBy Orders</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_EnableGroupBy_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Enable GroupBy Feature</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_EventsDescription" xml:space="preserve">
+    <value>Interact with the grid to see the events that are raised</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ExpandAnimations_AnimationTypeFade" xml:space="preserve">
+    <value>Fade:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ExpandAnimations_AnimationTypeLabel" xml:space="preserve">
+    <value>Animation Type:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ExpandAnimations_AnimationTypeSlide" xml:space="preserve">
+    <value>Slide:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ExpandAnimations_Description" xml:space="preserve">
+    <value>This sample shows how to enable Expand/Collapse Animation on WebHierarchicalDataGrid.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ExpandAnimations_EnableCBoxText" xml:space="preserve">
+    <value>Enable Expand/Collapse Animation:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ExpandAnimations_PanelHeaderTitle" xml:space="preserve">
+    <value>Animation Control Panel</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ExpandAnimations_SlideDirectionAuto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ExpandAnimations_SlideDirectionBoth" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ExpandAnimations_SlideDirectionHorizontal" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ExpandAnimations_SlideDirectionLabel" xml:space="preserve">
+    <value>Slide Direction:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ExpandAnimations_SlideDirectionVertical" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ExpandAnimations_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid -Expand/Collapse Animation</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ExpansionIndicators_Description" xml:space="preserve">
+    <value>This sample shows how you can hide expansion indicator on rows based on some data conditions</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ExpansionIndicators_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Show/hide expansion indicators</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Exporters_Summaries" xml:space="preserve">
+    <value>Enable Summaries</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Exporters_Summaries_Tooltip" xml:space="preserve">
+    <value>Enables summary row behavior on first grid</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_FilteringwithEditorProviders_Description" xml:space="preserve">
+    <value>This sample shows you how to use custom editor providers in the filtering fields for WebHierarchicalDataGrid. The ContactTitle column uses a DropDownProvider whereas the OrderDate column in the child data uses a DatePickerProvider for custom selection of filtering values. Click into the filtering field for these columns to filter with the custom editor providers.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_FilteringwithEditorProviders_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Filtering with Editor Providers</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_GroupByFromCodeBehind_Columns" xml:space="preserve">
+    <value>Columns:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_GroupByFromCodeBehind_Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_GroupByFromCodeBehind_UnGroup" xml:space="preserve">
+    <value>UnGroup</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_GroupBy_FromCodeBehind_Description" xml:space="preserve">
+    <value>Select a column from the dropdown list and click the button to group by that column.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_GroupBy_FromCodeBehind_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Performing GroupBy from Code Behind</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_Company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_CompanyName" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_CustomerID" xml:space="preserve">
+    <value>Customer ID</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_Discontinued" xml:space="preserve">
+    <value>Discontinued</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_Discount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_EmployeeID" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_OrderDate" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_OrderID" xml:space="preserve">
+    <value>Order ID</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_PostalCode" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_Product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_ProductID" xml:space="preserve">
+    <value>Product ID</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_ProductName" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_QuantityPerUnit" xml:space="preserve">
+    <value>Qty/Unit</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_ReportsTo" xml:space="preserve">
+    <value>Reports To</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_RequiredDate" xml:space="preserve">
+    <value>Required Date</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_ShipAddress" xml:space="preserve">
+    <value>Ship Address</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_ShipCountry" xml:space="preserve">
+    <value>Ship Country</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_SupplierID" xml:space="preserve">
+    <value>Supplier ID</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_UnitPrice" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_LoadOnDemand_Description" xml:space="preserve">
+    <value>This sample shows how to bind a hierarchical data source to the WebHierarchicalDataGrid using the WebHierarchicalDataSource control. The load on demand behavior can be enabled to increase the performance of loading a large data set.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_LoadOnDemand_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Automatic Load on Demand</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ManLoadOnDemand_Description" xml:space="preserve">
+    <value>This sample will show how to create your own Load On Demand scenario using the WebHierarchicalDataGrid.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ManLoadOnDemand_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Manual Load on Demand</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ManualCrud_Description" xml:space="preserve">
+    <value>This sample shows how to set up the WebHierarchicalDataGrid to perform manual CRUD operations on both parent and child bands.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_ManualCrud_Title" xml:space="preserve">
+    <value>Manual Crud Operations</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_MultipleBandsHierarchy_Description" xml:space="preserve">
+    <value>This sample shows how to make Multiple Bands Hierarchy with WebHierarchicalDataGrid control.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_MultipleBandsHierarchy_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid -Multiple Bands Hierarchy</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_PagingOnChildBands_Description" xml:space="preserve">
+    <value>This sample shows how to add pager to the WebHierarchicalDataGrid  on child bands.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_PagingOnChildBands_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Paging on child bands</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_PagingOnParentLevel_Description" xml:space="preserve">
+    <value>This sample shows how to add pager to the WebHierarchicalDataGrid  on parent level.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_PagingOnParentLevel_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Paging on parent level.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Paging_NumberOfItemsText" xml:space="preserve">
+    <value>Number of items per page:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Paging_PagerPositionText" xml:space="preserve">
+    <value>Select Pager Position:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Paging_PagerPosition_Item1" xml:space="preserve">
+    <value>Pager on the bottom</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Paging_PagerPosition_Item2" xml:space="preserve">
+    <value>Pager on the top</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Paging_PagerPosition_Item3" xml:space="preserve">
+    <value>Pager on both top and bottom</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_RowSelectors_Description" xml:space="preserve">
+    <value>The WebHierarchicalDataGrid includes a row selector behavior that allows you to configure how row selection behaves. This sample shows how to setup the grid to display row selectors and row numbering on child and parent level. The behavior can be configured to show or hide row numbering.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_RowSelectors_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Row Selector Behavior</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Selection_BandSelectedCellsLabel" xml:space="preserve">
+    <value>Band Selected Cells Count:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Selection_BandSelectedColumnsLabel" xml:space="preserve">
+    <value>Band Selected Columns Count:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Selection_Description" xml:space="preserve">
+    <value>The WebHierarchicalDataGrid includes a selection behavior that allows you to configure how the grid behaves when one or more cells, columns, or rows are selected. This sample uses the client side events of the selection behavior to keep track of the number of selected cell and columns.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Selection_PanelDescription" xml:space="preserve">
+    <value>Click and drag to select multiple cells, or hold Control + Click on the Headers to select multiple columns.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Selection_PanelHeaderTitle" xml:space="preserve">
+    <value>Multiple Cell and Header Selection Status:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Selection_SelectedCellsLabel" xml:space="preserve">
+    <value>Selected Cells Count:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Selection_SelectedColumnsLabel" xml:space="preserve">
+    <value>Selected Columns Count:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Selection_SelectedRowLabel" xml:space="preserve">
+    <value>Selected Cell Value:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Selection_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Selection</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_SingleExpandHierarchy_Description" xml:space="preserve">
+    <value>The WebHierarchicalDataGrid derives from the WebDataGrid, so it shares many of those features.  The main difference is that the WebHierarchicalDataGrid can display hierarchical data.  In other words, it can show parent and child bands.  This allows a visual representation of different levels of data, where the child bands are only displayed if the parent bands are expanded.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_SingleExpandHierarchy_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid -Single Expand Hierarchy</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_SortingChildBandClient_Description" xml:space="preserve">
+    <value>This sample shows how to enable sorting on the child band level on WebHierarchicalDataGrid Control.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_SortingChildBandClient_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Sorting on child band level</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_SortingParentClient_ColumnSorted" xml:space="preserve">
+    <value>Column Sorted</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_SortingParentClient_ColumnSorting" xml:space="preserve">
+    <value>Column Sorting</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_SortingParentClient_Description" xml:space="preserve">
+    <value>This sample shows how to enable sorting on the parent level on WebHierarchicalDataGrid Control.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_SortingParentClient_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Sorting on parent level</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Styles_Description" xml:space="preserve">
+    <value>The WebHierarchicalDataGrid ships with a number of pre-built application styles. This sample allows you to quickly change the appearance of the grid by applying one of the pre-build styles.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Styles_Theme_SelectATheme" xml:space="preserve">
+    <value>Select a theme:</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Styles_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Using Application Styling</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_StylingGroupRowandChildRows_Description" xml:space="preserve">
+    <value>Select or expand a group row to highlight that row and its child rows for easier viewing.</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_StylingGroupRowandChildRows_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Styling Group Rows and Data Rows</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Summaries_Description" xml:space="preserve">
+    <value>This sample demonstrates how to enable WebHierarchicalDataGrid summary row behavior on the parent and child band level.  You can add/remove summaries using the summary buttons in each column. </value>
+  </data>
+  <data name="WebHierarchicalDataGrid_Summaries_Title" xml:space="preserve">
+    <value>WebHierarchicalDataGrid - Summary Row Behavior</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_CategoryDescription" xml:space="preserve">
+    <value>Category Description</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_CategoryID" xml:space="preserve">
+    <value>Category ID</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_CategoryName" xml:space="preserve">
+    <value>Category Name</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_SupplierName" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_SupplierPhone" xml:space="preserve">
+    <value>Supplier Phone</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_UnitPrice2" xml:space="preserve">
+    <value>Unit Price</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_ShipCity" xml:space="preserve">
+    <value>Ship City</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_ContactInfo" xml:space="preserve">
+    <value>Contact Information</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_GlobalAddress" xml:space="preserve">
+    <value>Global Address Information</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_HomePage" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_LocalAddress" xml:space="preserve">
+    <value>Local Address</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_PhoneNumbers" xml:space="preserve">
+    <value>Phone Numbers</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_ReorderLevel" xml:space="preserve">
+    <value>Reorder Level</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_StreetAddress" xml:space="preserve">
+    <value>Street Address</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_SupplierCompanyInfo" xml:space="preserve">
+    <value>Supplier Company Information</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_Units" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_UnitsInOrder" xml:space="preserve">
+    <value>Units In Order</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_UnitsInStock" xml:space="preserve">
+    <value>Units In Stock</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_MultiColumnFooters_And" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_MultiColumnFooters_Footer" xml:space="preserve">
+    <value>Footer</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_CompanyName1" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_ContactName" xml:space="preserve">
+    <value>Contact Name</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_ContactTitle" xml:space="preserve">
+    <value>Contact Title</value>
+  </data>
+  <data name="WebHierarchicalDataGrid_HeaderText_Selected" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+</root>

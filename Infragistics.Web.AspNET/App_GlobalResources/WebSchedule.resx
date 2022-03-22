@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add_Label1" xml:space="preserve">
+    <value>This is a recurring appointment.</value>
+  </data>
+  <data name="Add_Label10" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Add_Label11" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="Add_Label12" xml:space="preserve">
+    <value>Reminder</value>
+  </data>
+  <data name="Add_Label13" xml:space="preserve">
+    <value>Reminder Interval</value>
+  </data>
+  <data name="Add_Label14" xml:space="preserve">
+    <value>0 minutes</value>
+  </data>
+  <data name="Add_Label15" xml:space="preserve">
+    <value>5 minutes</value>
+  </data>
+  <data name="Add_Label16" xml:space="preserve">
+    <value>10 minutes</value>
+  </data>
+  <data name="Add_Label17" xml:space="preserve">
+    <value>15 minutes</value>
+  </data>
+  <data name="Add_Label18" xml:space="preserve">
+    <value>30 minutes</value>
+  </data>
+  <data name="Add_Label19" xml:space="preserve">
+    <value>1 hour</value>
+  </data>
+  <data name="Add_Label2" xml:space="preserve">
+    <value>Subject:</value>
+  </data>
+  <data name="Add_Label20" xml:space="preserve">
+    <value>2 hours</value>
+  </data>
+  <data name="Add_Label21" xml:space="preserve">
+    <value>4 hours</value>
+  </data>
+  <data name="Add_Label22" xml:space="preserve">
+    <value>8 hours</value>
+  </data>
+  <data name="Add_Label23" xml:space="preserve">
+    <value>0.5 days</value>
+  </data>
+  <data name="Add_Label24" xml:space="preserve">
+    <value>1 day</value>
+  </data>
+  <data name="Add_Label25" xml:space="preserve">
+    <value>2 days</value>
+  </data>
+  <data name="Add_Label26" xml:space="preserve">
+    <value>Show Time As</value>
+  </data>
+  <data name="Add_Label27" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="Add_Label28" xml:space="preserve">
+    <value>Tentative</value>
+  </data>
+  <data name="Add_Label29" xml:space="preserve">
+    <value>Out of Office</value>
+  </data>
+  <data name="Add_Label3" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="Add_Label30" xml:space="preserve">
+    <value>Busy</value>
+  </data>
+  <data name="Add_Label31" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Add_Label4" xml:space="preserve">
+    <value>Recurrence: This is a recurring appointment.</value>
+  </data>
+  <data name="Add_Label5" xml:space="preserve">
+    <value>Start Time:</value>
+  </data>
+  <data name="Add_Label6" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Add_Label7" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="Add_Label8" xml:space="preserve">
+    <value>All Day Event</value>
+  </data>
+  <data name="Add_Label9" xml:space="preserve">
+    <value>End Time:</value>
+  </data>
+  <data name="ClientEvents_Description1" xml:space="preserve">
+    <value>This sample demonstrates how to use client-side events in WebSchedule.</value>
+  </data>
+  <data name="ClientEvents_Description2" xml:space="preserve">
+    <value>Double-click on a time slot or day to add an appointment.</value>
+  </data>
+  <data name="ClientEvents_Description3" xml:space="preserve">
+    <value>Try to add an appointment on a weekend.</value>
+  </data>
+  <data name="ClientEvents_Description4" xml:space="preserve">
+    <value>The validation performed in the ActivityDialogEdit client-side event will prevent the appointment from being saved.</value>
+  </data>
+  <data name="ClientEvents_Description5" xml:space="preserve">
+    <value>Resize an existing appointment in the DayView by mouse dragging from the bottom. Resize the appointment to exceed two hours in length.</value>
+  </data>
+  <data name="ClientEvents_Description6" xml:space="preserve">
+    <value>The validation performed in the ActivityUpdating client-side event will prevent the action.</value>
+  </data>
+  <data name="ClientEvents_Header" xml:space="preserve">
+    <value>WebSchedule - Client Events Sample</value>
+  </data>
+  <data name="DayViewGeneral_Description1" xml:space="preserve">
+    <value>This sample demonstrates the basic properties of WebDayView.</value>
+  </data>
+  <data name="DayViewGeneral_Description2" xml:space="preserve">
+    <value>Select a StyleSheetFileName from the first dropdown list to change CSS styles.</value>
+  </data>
+  <data name="DayViewGeneral_Description3" xml:space="preserve">
+    <value>Change values in the editors to observe the affects of the corresponding properties.</value>
+  </data>
+  <data name="DayViewGeneral_Description4" xml:space="preserve">
+    <value>Double-click on a time slot to create an appointment.</value>
+  </data>
+  <data name="DayViewGeneral_Description5" xml:space="preserve">
+    <value>After creating an appointment, drag it into another time slot by clicking on the left side of the appointment.</value>
+  </data>
+  <data name="DayViewGeneral_Description6" xml:space="preserve">
+    <value>Change the length of the appointment by resizing it from the bottom.</value>
+  </data>
+  <data name="DayViewGeneral_Description7" xml:space="preserve">
+    <value>Alter appointments and navigate with a more fluid experience by enabling Smart Callbacks on WebScheduleInfo.</value>
+  </data>
+  <data name="DayViewGeneral_Header" xml:space="preserve">
+    <value>WebDayView - General Properties</value>
+  </data>
+  <data name="DayViewGeneral_Label1" xml:space="preserve">
+    <value>Change Active Day</value>
+  </data>
+  <data name="DayViewGeneral_Label2" xml:space="preserve">
+    <value>Set ActivityHeightMinimum</value>
+  </data>
+  <data name="DayViewGeneral_Label3" xml:space="preserve">
+    <value>Set ActivityWidthMinimum</value>
+  </data>
+  <data name="DayViewGeneral_Label4" xml:space="preserve">
+    <value>Set CaptionHeaderText</value>
+  </data>
+  <data name="DayViewGeneral_Label5" xml:space="preserve">
+    <value>Set DayHeaderFormatString</value>
+  </data>
+  <data name="DayViewGeneral_Label6" xml:space="preserve">
+    <value>Set VisibleDays</value>
+  </data>
+  <data name="DayViewGeneral_Label7" xml:space="preserve">
+    <value>Change Reminder Image</value>
+  </data>
+  <data name="DayViewGeneral_Label8" xml:space="preserve">
+    <value>Change NextButton Image</value>
+  </data>
+  <data name="DayViewGeneral_Label9" xml:space="preserve">
+    <value>Change PrevButton Image</value>
+  </data>
+  <data name="DayViewStyles_Description1" xml:space="preserve">
+    <value>This sample demonstrates the numerous Style properties of WebDayView.</value>
+  </data>
+  <data name="DayViewStyles_Description2" xml:space="preserve">
+    <value>Double-click on a time slot to create an appointment.</value>
+  </data>
+  <data name="DayViewStyles_Description3" xml:space="preserve">
+    <value>Select ActivityHoverStyle from the top dropdown list.</value>
+  </data>
+  <data name="DayViewStyles_Description4" xml:space="preserve">
+    <value>In the "Border" panel, select Color: Blue, Style: Double, and Width: 5, and click the "Apply Border" button.</value>
+  </data>
+  <data name="DayViewStyles_Description5" xml:space="preserve">
+    <value>Hover over the appointment to see the effects of your changes to the ActivityHoverStyle.</value>
+  </data>
+  <data name="DayViewStyles_Description6" xml:space="preserve">
+    <value>Experiment with other styles and settings on this form to see how the various styles are affected.</value>
+  </data>
+  <data name="DayViewStyles_Description7" xml:space="preserve">
+    <value>Appointments can be moved by dragging from the left side, or resized from the bottom.</value>
+  </data>
+  <data name="DayViewStyles_Description8" xml:space="preserve">
+    <value>Note some properties may not affect every Styles. For example, Style.Height will not affect ActivityHoverStyle, but it will affect DayHeaderStyle. BackColorwill not visibly affect areas with a background image.</value>
+  </data>
+  <data name="DayViewStyles_Header" xml:space="preserve">
+    <value>WebDayView - Styles</value>
+  </data>
+  <data name="DayViewStyles_Label1" xml:space="preserve">
+    <value>Select a Style</value>
+  </data>
+  <data name="DayViewStyles_Label10" xml:space="preserve">
+    <value>Apply Border</value>
+  </data>
+  <data name="DayViewStyles_Label2" xml:space="preserve">
+    <value>Change Active Day</value>
+  </data>
+  <data name="DayViewStyles_Label3" xml:space="preserve">
+    <value>Set BackColor</value>
+  </data>
+  <data name="DayViewStyles_Label4" xml:space="preserve">
+    <value>Set ForeColor</value>
+  </data>
+  <data name="DayViewStyles_Label5" xml:space="preserve">
+    <value>Set Height</value>
+  </data>
+  <data name="DayViewStyles_Label6" xml:space="preserve">
+    <value>Set Width</value>
+  </data>
+  <data name="DayViewStyles_Label7" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="DayViewStyles_Label8" xml:space="preserve">
+    <value>FontType</value>
+  </data>
+  <data name="DayViewStyles_Label9" xml:space="preserve">
+    <value>Apply Font</value>
+  </data>
+  <data name="FullPage_Description1" xml:space="preserve">
+    <value>This sample includes all the WebSchedule view controls on one page.</value>
+  </data>
+  <data name="FullPage_Description2" xml:space="preserve">
+    <value>Double-click on a day or time slot to create a new appointment.</value>
+  </data>
+  <data name="FullPage_Description3" xml:space="preserve">
+    <value>Mouse drag or resize an appointment in the WebDayView to reschedule or change its length.</value>
+  </data>
+  <data name="FullPage_Description4" xml:space="preserve">
+    <value>If you have added a Resource using the Admin sample, use the toolbar to change the active resource; otherwise, just use the "Unassigned" resource.</value>
+  </data>
+  <data name="FullPage_Description5" xml:space="preserve">
+    <value>Change the StyleSheetFileName by selecting it from the dropdown list or clicking the change color button in the toolbar.</value>
+  </data>
+  <data name="FullPage_Description6" xml:space="preserve">
+    <value>&lt;strong&gt;New in 2006.2:&lt;/strong&gt; AJAX Smart Callback functionality has been enabled, which eliminates postbacks while changing the selected day, as well as adding, updating, and removing appointments.</value>
+  </data>
+  <data name="FullPage_Description7" xml:space="preserve">
+    <value>&lt;strong&gt;New in 2006.2:&lt;/strong&gt; WebScheduleInfo supports activities recurring on a daily, weekly, monthly, or yearly basis. Add an appointment normally to any WebSchedule view control, and click the new "Recurrence" button on the Add/Edit Appointment dialog to set it's recurrence pattern.</value>
+  </data>
+  <data name="FullPage_Header" xml:space="preserve">
+    <value>WebSchedule - Full Page Sample</value>
+  </data>
+  <data name="FullPage_Label1" xml:space="preserve">
+    <value>New Appointment</value>
+  </data>
+  <data name="FullPage_Label10" xml:space="preserve">
+    <value>&lt;NOBR&gt;Logged On User:&lt;/NOBR&gt;</value>
+  </data>
+  <data name="FullPage_Label11" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="FullPage_Label12" xml:space="preserve">
+    <value>&lt;NOBR&gt;View Activities For:&lt;/NOBR&gt;</value>
+  </data>
+  <data name="FullPage_Label13" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="FullPage_Label2" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="FullPage_Label3" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="FullPage_Label4" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="FullPage_Label5" xml:space="preserve">
+    <value>Next Theme</value>
+  </data>
+  <data name="FullPage_Label6" xml:space="preserve">
+    <value>Go to Today</value>
+  </data>
+  <data name="FullPage_Label7" xml:space="preserve">
+    <value>&lt;NOBR&gt;Today&lt;/NOBR&gt;</value>
+  </data>
+  <data name="FullPage_Label8" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="FullPage_Label9" xml:space="preserve">
+    <value>&lt;NOBR&gt;Log Out&lt;/NOBR&gt;</value>
+  </data>
+  <data name="InfoProperties1_Description1" xml:space="preserve">
+    <value>This sample demonstrates WebScheduleInfo's collections, and shows synchronization of smart callback-enabled WebSchedule views with WebDateChooser on the client.</value>
+  </data>
+  <data name="InfoProperties1_Description2" xml:space="preserve">
+    <value>Select a resource from the dropdown list. If you have not yet added a resource using the ManageResources sample, use the "Unassigned" resource.</value>
+  </data>
+  <data name="InfoProperties1_Description3" xml:space="preserve">
+    <value>Set WebScheduleInfo's ActiveDay property to a day with appointments (these days appear in bold on the WebCalendarView.)</value>
+  </data>
+  <data name="InfoProperties1_Description4" xml:space="preserve">
+    <value>Select an active day using the WebDateChooser dropdown.</value>
+  </data>
+  <data name="InfoProperties1_Description5" xml:space="preserve">
+    <value>Select an active day on WebCalendarView.</value>
+  </data>
+  <data name="InfoProperties1_Description6" xml:space="preserve">
+    <value>Click the "Fetch Resources" button to populate the  listbox with WebScheduleInfo's VisibleResources collection.</value>
+  </data>
+  <data name="InfoProperties1_Description7" xml:space="preserve">
+    <value>Click the "Fetch Appointments" button to populate the listbox with the active resource's appointments on the active day.</value>
+  </data>
+  <data name="InfoProperties1_Description8" xml:space="preserve">
+    <value>Click the "Count Appointments" button to count the number of appointments on the active day.</value>
+  </data>
+  <data name="InfoProperties1_Header" xml:space="preserve">
+    <value>WebScheduleInfo - Properties 1</value>
+  </data>
+  <data name="InfoProperties1_Label1" xml:space="preserve">
+    <value>Fetch Resources</value>
+  </data>
+  <data name="InfoProperties1_Label2" xml:space="preserve">
+    <value>Fetch Appointments</value>
+  </data>
+  <data name="InfoProperties1_Label3" xml:space="preserve">
+    <value>Active Day</value>
+  </data>
+  <data name="InfoProperties1_Label4" xml:space="preserve">
+    <value>Active Resource Name</value>
+  </data>
+  <data name="InfoProperties1_Label5" xml:space="preserve">
+    <value>Count Appointments</value>
+  </data>
+  <data name="InfoProperties2_Description1" xml:space="preserve">
+    <value>This sample demonstrates using some of the properties of WebScheduleInfo in code.</value>
+  </data>
+  <data name="InfoProperties2_Description2" xml:space="preserve">
+    <value>Change the DefaultReminderInterval to 00:25:00 and then observe how that value is used when adding a new appointment.</value>
+  </data>
+  <data name="InfoProperties2_Description3" xml:space="preserve">
+    <value>Change the current CultureInfo and observe the changes in how dates and times are displayed in the MonthView.</value>
+  </data>
+  <data name="InfoProperties2_Description4" xml:space="preserve">
+    <value>Change the TimeDisplayFormat from default and observe how the CultureInfo settings are overridden by that setting.</value>
+  </data>
+  <data name="InfoProperties2_Description5" xml:space="preserve">
+    <value>Change the FirstDayOfWeek property and observe how it changes the display of rows and columns in the MonthView.</value>
+  </data>
+  <data name="InfoProperties2_Header" xml:space="preserve">
+    <value>WebScheduleInfo - Properties 2</value>
+  </data>
+  <data name="InfoProperties3_Description1" xml:space="preserve">
+    <value>This sample demonstrates using some time-of-day WebScheduleInfo properties pertaining to the WebDayView, and active day synchronization between multiple WebSchedule controls.</value>
+  </data>
+  <data name="InfoProperties3_Description4" xml:space="preserve">
+    <value>Enable smart callbacks so the active day can be synchronized in both views without a postback to the server.</value>
+  </data>
+  <data name="InfoProperties3_Description5" xml:space="preserve">
+    <value>Modify the TimeDisplayFormat to see how it affects the time-of-day labels in WebDayView.</value>
+  </data>
+  <data name="InfoProperties3_Description6" xml:space="preserve">
+    <value>Modify the WorkDayEndTime to 12:00 PM and click the "Change Workday Hours" button to see how it affects the highlighted timeslots in WebDayView.</value>
+  </data>
+  <data name="InfoProperties3_Header" xml:space="preserve">
+    <value>WebScheduleInfo - Properties 3</value>
+  </data>
+  <data name="InfoProperties3_Label1" xml:space="preserve">
+    <value>Change Workday Hours</value>
+  </data>
+  <data name="Login_Description1" xml:space="preserve">
+    <value>This is the login page for the WebSchedule Full Page Sample.</value>
+  </data>
+  <data name="Login_Description2" xml:space="preserve">
+    <value>Select a resource from the DropDownList. If you have not yet added a Resource using the Admin sample, just use the "Unassigned" resource.</value>
+  </data>
+  <data name="Login_Description3" xml:space="preserve">
+    <value>Click the "Log In" button to go to the WebSchedule Full Page Sample.</value>
+  </data>
+  <data name="Login_Header" xml:space="preserve">
+    <value>WebSchedule - Full Page Sample Login</value>
+  </data>
+  <data name="Login_Label1" xml:space="preserve">
+    <value>Choose a User</value>
+  </data>
+  <data name="MonthViewGeneral_Description1" xml:space="preserve">
+    <value>This sample demonstrates the basic properties of WebMonthView.</value>
+  </data>
+  <data name="MonthViewGeneral_Description2" xml:space="preserve">
+    <value>Select a StyleSheetFileName from the first dropdown list to change CSS styles.</value>
+  </data>
+  <data name="MonthViewGeneral_Description3" xml:space="preserve">
+    <value>Change values in the editors to observe the affects of the corresponding properties.</value>
+  </data>
+  <data name="MonthViewGeneral_Description4" xml:space="preserve">
+    <value>Double-click on a day to create an appointment.</value>
+  </data>
+  <data name="MonthViewGeneral_Description5" xml:space="preserve">
+    <value>Edit appointments and switch between months more smoothly by enabling Smart Callbacks on WebScheduleInfo.</value>
+  </data>
+  <data name="MonthViewGeneral_Header" xml:space="preserve">
+    <value>WebMonthView - General Properties</value>
+  </data>
+  <data name="MonthViewGeneral_Label1" xml:space="preserve">
+    <value>Change Active Day</value>
+  </data>
+  <data name="MonthViewGeneral_Label2" xml:space="preserve">
+    <value>Set PrevButton Image</value>
+  </data>
+  <data name="MonthViewGeneral_Label3" xml:space="preserve">
+    <value>Set NextButton Image</value>
+  </data>
+  <data name="MonthViewGeneral_Label4" xml:space="preserve">
+    <value>Set Reminder Image</value>
+  </data>
+  <data name="MonthViewStyles_Description1" xml:space="preserve">
+    <value>This sample demonstrates the numerous Style properties of WebMonthView.</value>
+  </data>
+  <data name="MonthViewStyles_Description2" xml:space="preserve">
+    <value>Double-click on a day to create an appointment.</value>
+  </data>
+  <data name="MonthViewStyles_Description3" xml:space="preserve">
+    <value>Select AppointmentStyle from the top dropdown list.</value>
+  </data>
+  <data name="MonthViewStyles_Description4" xml:space="preserve">
+    <value>In the "Border" panel, select Color: Blue, Style: Double, and Width: 5, and click the "Apply Border" button.</value>
+  </data>
+  <data name="MonthViewStyles_Description5" xml:space="preserve">
+    <value>Observe the changes to the border of appointments in the WebMonthView.</value>
+  </data>
+  <data name="MonthViewStyles_Description6" xml:space="preserve">
+    <value>Experiment with other styles and settings on this form to see how the various styles are affected.</value>
+  </data>
+  <data name="MonthViewStyles_Description7" xml:space="preserve">
+    <value>Note that some properties may not affect some Styles. For example, Style.Height will affect AppointmentStyle, but it will not affect ActiveDayStyle. BackColor will not visibly affect areas with a background image.</value>
+  </data>
+  <data name="MonthViewStyles_Header" xml:space="preserve">
+    <value>WebMonthView - Styles</value>
+  </data>
+  <data name="MultipleResources_Description1" xml:space="preserve">
+    <value>This sample demonstrates a tabbed view of appointments for different Resources.</value>
+  </data>
+  <data name="MultipleResources_Description2" xml:space="preserve">
+    <value>Click the "Add appointment at Now to all users" button to add an appointment at the present time to the Resource on each tab.</value>
+  </data>
+  <data name="MultipleResources_Description3" xml:space="preserve">
+    <value>Click the tabs below to view appointments for different Resources.</value>
+  </data>
+  <data name="MultipleResources_Description4" xml:space="preserve">
+    <value>Click the enable smart callbacks checkbox to improve the responsiveness of the DayView.</value>
+  </data>
+  <data name="MultipleResources_Description5" xml:space="preserve">
+    <value>Select the "Javier in WebUserControl" tab and change the display style of the DayView using the dropdown list below.</value>
+  </data>
+  <data name="MultipleResources_Header" xml:space="preserve">
+    <value>WebSchedule - Tabbed Page Sample (multiple Resources)</value>
+  </data>
+  <data name="MultipleResources_Label1" xml:space="preserve">
+    <value>Users:</value>
+  </data>
+  <data name="MultipleResources_Label2" xml:space="preserve">
+    <value>Javier Lamoreaux</value>
+  </data>
+  <data name="MultipleResources_Label3" xml:space="preserve">
+    <value>Development Team</value>
+  </data>
+  <data name="MultipleResources_Label4" xml:space="preserve">
+    <value>Unassigned</value>
+  </data>
+  <data name="MultipleResources_Label5" xml:space="preserve">
+    <value>Javier in WebUserControl</value>
+  </data>
+  <data name="MultipleResources_Label6" xml:space="preserve">
+    <value>Add appointment at Now to all users</value>
+  </data>
+  <data name="MultipleResources_Label7" xml:space="preserve">
+    <value>Enable smart callback and navigation animation</value>
+  </data>
+  <data name="MultipleResources_Label8" xml:space="preserve">
+    <value>WebDayView in WebUserControl:</value>
+  </data>
+  <data name="Recurrence_Label1" xml:space="preserve">
+    <value>Open this occurrence.</value>
+  </data>
+  <data name="Recurrence_Label2" xml:space="preserve">
+    <value>Open the series.</value>
+  </data>
+  <data name="ResourceAdmin_Description1" xml:space="preserve">
+    <value>This sample demonstrates administering the WebSchedule Database through the API.</value>
+  </data>
+  <data name="ResourceAdmin_Description2" xml:space="preserve">
+    <value>Use the empty row at the top of the Grid to add a new Resource.</value>
+  </data>
+  <data name="ResourceAdmin_Description3" xml:space="preserve">
+    <value>Select a row and press the delete key on the keyboard to delete a Resource.</value>
+  </data>
+  <data name="ResourceAdmin_Description4" xml:space="preserve">
+    <value>Click on a cell to edit a Resource.</value>
+  </data>
+  <data name="ResourceAdmin_Header" xml:space="preserve">
+    <value>WebSchedule - Admin</value>
+  </data>
+  <data name="SingleResources_Description1" xml:space="preserve">
+    <value>This sample demonstrates the use of multiple WebSchedule View controls in a tabbed view, displaying Activities for a single Resource.</value>
+  </data>
+  <data name="SingleResources_Description2" xml:space="preserve">
+    <value>Change the Active Resource using the DropDownList at the bottom of the page.</value>
+  </data>
+  <data name="SingleResources_Description3" xml:space="preserve">
+    <value>Click on the different tabs to change the current View.</value>
+  </data>
+  <data name="SingleResources_Header" xml:space="preserve">
+    <value>WebSchedule - Tabbed Page Sample (single Resource)</value>
+  </data>
+  <data name="SingleResources_Label1" xml:space="preserve">
+    <value>One Day</value>
+  </data>
+  <data name="SingleResources_Label2" xml:space="preserve">
+    <value>WebDayView with 1 day</value>
+  </data>
+  <data name="SingleResources_Label3" xml:space="preserve">
+    <value>WebDayView with 5 days</value>
+  </data>
+  <data name="SingleResources_Label4" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="SingleResources_Label5" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="SingleResources_Label6" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="SingleResources_Label7" xml:space="preserve">
+    <value>User Name:</value>
+  </data>
+  <data name="SingleResources_Label8" xml:space="preserve">
+    <value>Enable smart callback and navigation animation</value>
+  </data>
+  <data name="TimeZone_Header" xml:space="preserve">
+    <value>WebSchedule - Time Zones</value>
+  </data>
+  <data name="TimeZoneLanding_Description1" xml:space="preserve">
+    <value>This sample demonstrates WebSchedule's time zone functionality.</value>
+  </data>
+  <data name="TimeZoneLanding_Description2" xml:space="preserve">
+    <value>This is the "landing page," which allows the user to select which Resource and time zone to use.</value>
+  </data>
+  <data name="TimeZoneLanding_Description3" xml:space="preserve">
+    <value>WebSchedule allows for the user's time zone to be changed.</value>
+  </data>
+  <data name="TimeZoneLanding_Description4" xml:space="preserve">
+    <value>The WebSchedule API allows the application developer to write code relative to the user's time zone, or the time zone on the web server, or UTC (Coordinated Universal Time).</value>
+  </data>
+  <data name="TimeZoneLanding_Description5" xml:space="preserve">
+    <value>Select a Resource from the first dropdown. If you have not yet added a Resource, just select "Unassigned."</value>
+  </data>
+  <data name="TimeZoneLanding_Description6" xml:space="preserve">
+    <value>Select the time zone of your choice from the second dropdown. Observe the client-side functionality which switches back to the web client's current time zone.</value>
+  </data>
+  <data name="TimeZoneLanding_Description7" xml:space="preserve">
+    <value>Click the "Submit" button to log in using the selected Resource and time zone.</value>
+  </data>
+  <data name="TimeZoneLanding_Description8" xml:space="preserve">
+    <value>Observe the various times which are written to the next page; some of these times will vary by time zone, and others will not.</value>
+  </data>
+  <data name="TimeZoneLanding_Header" xml:space="preserve">
+    <value>WebSchedule - Time Zones Landing Page</value>
+  </data>
+  <data name="TimeZoneLanding_Label1" xml:space="preserve">
+    <value>Resources:</value>
+  </data>
+  <data name="TimeZoneLanding_Label2" xml:space="preserve">
+    <value>Time Zone Offset:</value>
+  </data>
+  <data name="TimeZoneLanding_Label3" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="TimeZoneLanding_Label4" xml:space="preserve">
+    <value>Use Local Time Zone Offset</value>
+  </data>
+  <data name="WeekViewGeneral_Description1" xml:space="preserve">
+    <value>This sample demonstrates the basic properties of WebWeekView.</value>
+  </data>
+  <data name="WeekViewGeneral_Description2" xml:space="preserve">
+    <value>Change the various FormatString properties by selecting frequently used formats from the dropdown lists.</value>
+  </data>
+  <data name="WeekViewGeneral_Description3" xml:space="preserve">
+    <value>Set the CaptionHeaderVisible property to False to see the WeekView without the caption header area.</value>
+  </data>
+  <data name="WeekViewGeneral_Description4" xml:space="preserve">
+    <value>Change the image files which are used by clicking the appropriate buttons.</value>
+  </data>
+  <data name="WeekViewGeneral_Description5" xml:space="preserve">
+    <value>Select a StyleSheetFileName from the first dropdown list to change CSS styles.</value>
+  </data>
+  <data name="WeekViewGeneral_Description6" xml:space="preserve">
+    <value>Enable smart callbacks on WebScheduleInfo to create and modify appointmentson the client-side without postbacks.</value>
+  </data>
+  <data name="WeekViewGeneral_Header" xml:space="preserve">
+    <value>WebWeekView - General Properties</value>
+  </data>
+  <data name="WeekViewGeneral_Label1" xml:space="preserve">
+    <value>Change Active Day</value>
+  </data>
+  <data name="WeekViewGeneral_Label2" xml:space="preserve">
+    <value>Set Reminder Image</value>
+  </data>
+  <data name="WeekViewGeneral_Label3" xml:space="preserve">
+    <value>Set NextButton Image</value>
+  </data>
+  <data name="WeekViewGeneral_Label4" xml:space="preserve">
+    <value>Set PrevButton Image</value>
+  </data>
+  <data name="WeekViewStyles_Description1" xml:space="preserve">
+    <value>This sample demonstrates the numerous Style properties of WebWeekView.</value>
+  </data>
+  <data name="WeekViewStyles_Description2" xml:space="preserve">
+    <value>Double-click on a day to create an appointment.</value>
+  </data>
+  <data name="WeekViewStyles_Description3" xml:space="preserve">
+    <value>Select AppointmentStyle from the top dropdown list.</value>
+  </data>
+  <data name="WeekViewStyles_Description4" xml:space="preserve">
+    <value>In the "Border" panel, select Color: Blue, Style: Double, and Width: 5, and click the "Apply Border" button.</value>
+  </data>
+  <data name="WeekViewStyles_Description5" xml:space="preserve">
+    <value>Observe the changes to the border of appointments in the WebWeekView.</value>
+  </data>
+  <data name="WeekViewStyles_Description6" xml:space="preserve">
+    <value>Experiment with the other styles and the other controls on this form to see how the various styles are affected.</value>
+  </data>
+  <data name="WeekViewStyles_Description7" xml:space="preserve">
+    <value>Note that some properties may not affect some Styles. For example, Style.Height will affect AppointmentStyle, but it will not affect ActiveDayStyle.  BackColor will not visibly affect areas with a background image.</value>
+  </data>
+  <data name="WeekViewStyles_Header" xml:space="preserve">
+    <value>WebWeekView - Styles</value>
+  </data>
+  <data name="InfoProperties1_ButtonCaption_1" xml:space="preserve">
+    <value>Fetch Resources</value>
+  </data>
+  <data name="InfoProperties1_ButtonCaption_2" xml:space="preserve">
+    <value>Fetch Appointments</value>
+  </data>
+  <data name="InfoProperties1_ButtonCaption_3" xml:space="preserve">
+    <value>Count Appointments</value>
+  </data>
+  <data name="TimeZoneLanding_Reload_Button" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="SingleResources_Label9" xml:space="preserve">
+    <value>Five Days</value>
+  </data>
+  <data name="SingleResources_Tooltip" xml:space="preserve">
+    <value>WebScheduleInfo and DataProvider are located in Page outside of UltraWebTab. Views are in tabs and they are connected to DataProvider in codes behind.</value>
+  </data>
+  <data name="MultipleResources_Tooltip" xml:space="preserve">
+    <value>Every tab besides WebDayView contains local instances of WebScheduleInfo and DataProvider. They are connected to each other on codes behind.</value>
+  </data>
+  <data name="WeekViewStyles_Label1" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="WeekViewStyles_Label2" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="MonthViewStyles_Font_1" xml:space="preserve">
+    <value>FontType</value>
+  </data>
+  <data name="MonthViewStyles_Font_2" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="MonthViewStyles_Font_3" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="MonthViewStyles_Font_4" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="MultipleResources_Label9" xml:space="preserve">
+    <value>WebDayView inside of WebUserControl</value>
+  </data>
+  <data name="SingleResources_DevelopmentTeam" xml:space="preserve">
+    <value>Development Team</value>
+  </data>
+  <data name="SingleResources_JavierLamoreaux" xml:space="preserve">
+    <value>Javier Lamoreaux</value>
+  </data>
+  <data name="SingleResources_Unassigned" xml:space="preserve">
+    <value>Unassigned</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Recurrence_Open" xml:space="preserve">
+    <value>This is a recurring appointment. Do you want to open this occurrence or the series?</value>
+  </data>
+  <data name="Add_ShowTimeAs" xml:space="preserve">
+    <value>Show time as:</value>
+  </data>
+  <data name="ControlName" xml:space="preserve">
+    <value>WebSchedule</value>
+  </data>
+  <data name="WebSchedule_CaptionHeaderText" xml:space="preserve">
+    <value>Development Team</value>
+  </data>
+  <data name="WebSchedule_MultipleResources_Description" xml:space="preserve">
+    <value>This sample demonstrates the new Multiple Resources View feature. This feature allows
+    you to easily display of schedule information related to more than one resource.</value>
+  </data>
+  <data name="WebSchedule_MultipleResources_EnableMultiResourceViewLabel" xml:space="preserve">
+    <value>Enable Multi Resource View.</value>
+  </data>
+  <data name="WebSchedule_MultipleResources_EnableSmartCallbacksLabel" xml:space="preserve">
+    <value>Enable smart callbacks.</value>
+  </data>
+  <data name="WebSchedule_MultipleResources_FiveDayLabel" xml:space="preserve">
+    <value>Five Day View</value>
+  </data>
+  <data name="WebSchedule_MultipleResources_MonthLabel" xml:space="preserve">
+    <value>Month View</value>
+  </data>
+  <data name="WebSchedule_MultipleResources_OneDayLabel" xml:space="preserve">
+    <value>One Day View</value>
+  </data>
+  <data name="WebSchedule_MultipleResources_Title" xml:space="preserve">
+    <value>WebSchedule - Multiple Resources Feature</value>
+  </data>
+  <data name="WebSchedule_GenericDataProvider_DataSet_Description" xml:space="preserve">
+    <value>This sample shows the new Generic Data Provider feature.
+    The purpose of this feature is to allow the customer to pull data from any supported data source (including simple list).</value>
+  </data>
+  <data name="WebSchedule_GenericDataProvider_DataSet_Title" xml:space="preserve">
+    <value>WebSchedule - Bind GenericDataProvider To DataSet</value>
+  </data>
+  <data name="WebSchedule_GenericDataProvider_DataSource_Description" xml:space="preserve">
+    <value>This sample shows the new Generic Data Provider feature.
+    The purpose of this feature is to allow the customer to pull data from any supported data source (including simple list). This Sample does not  support CRUD operations.</value>
+  </data>
+  <data name="WebSchedule_GenericDataProvider_DataSource_Title" xml:space="preserve">
+    <value>WebSchedule - Bind GenericDataProvider To Access Data Source</value>
+  </data>
+  <data name="WebSchedule_GenericDataProvider_ICollection_Description" xml:space="preserve">
+    <value>This sample shows the new Generic Data Provider feature.
+    The purpose of this feature is to allow the customer to pull data from any supported data source (including simple list).</value>
+  </data>
+  <data name="WebSchedule_GenericDataProvider_ICollection_Title" xml:space="preserve">
+    <value>WebSchedule - Bind GenericDataProvider To ICollection</value>
+  </data>
+  <data name="WebSchedule_MultiDayEvtBanner_Description" xml:space="preserve">
+    <value>This sample shows the new Web Schedule Multi Day Event Banner
+    feature.</value>
+  </data>
+  <data name="WebSchedule_MultiDayEvtBanner_EnableMultiDayEventBannerLabel" xml:space="preserve">
+    <value>Enable Multi Day Event Banner.</value>
+  </data>
+  <data name="WebSchedule_MultiDayEvtBanner_EnableSmartCallbacksLabel" xml:space="preserve">
+    <value>Enable smart callbacks.</value>
+  </data>
+  <data name="WebSchedule_MultiDayEvtBanner_FiveDayLabel" xml:space="preserve">
+    <value>Five Day View</value>
+  </data>
+  <data name="WebSchedule_MultiDayEvtBanner_MonthLabel" xml:space="preserve">
+    <value>Month View</value>
+  </data>
+  <data name="WebSchedule_MultiDayEvtBanner_OneDayLabel" xml:space="preserve">
+    <value>One Day View</value>
+  </data>
+  <data name="WebSchedule_MultiDayEvtBanner_Title" xml:space="preserve">
+    <value>WebSchedule - MultiDayEvtBanner Feature</value>
+  </data>
+  <data name="WebSchedule_SelectVisibleResources_Description" xml:space="preserve">
+    <value>This sample demonstrates how you can show or hide the visible resources</value>
+  </data>
+  <data name="WebSchedule_SelectVisibleResources_Lable" xml:space="preserve">
+    <value>Available Resources:</value>
+  </data>
+  <data name="WebSchedule_SelectVisibleResources_Title" xml:space="preserve">
+    <value>WebSchedule - Show/Hide visible resources</value>
+  </data>
+  <data name="DayViewStyles_Bold" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="DayViewStyles_Border" xml:space="preserve">
+    <value>Border</value>
+  </data>
+  <data name="DayViewStyles_BorderColor" xml:space="preserve">
+    <value>Border Color</value>
+  </data>
+  <data name="DayViewStyles_BorderStyle" xml:space="preserve">
+    <value>Border Style</value>
+  </data>
+  <data name="DayViewStyles_BorderWidth" xml:space="preserve">
+    <value>Border Width</value>
+  </data>
+  <data name="FullPage_LogIn" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="WebSchedule_SideBySide_Description" xml:space="preserve">
+    <value>This sample demonstrates how you can create your own custom User Control using WebSchedule controls. Side-by-Side user control positions separate Day and Month views for each selected resource side-by-side on another within the area of the control.  As more resources are displayed, other displayed resource calendars are made smaller in order to accommodate the new resources.</value>
+  </data>
+  <data name="WebSchedule_SideBySide_Title" xml:space="preserve">
+    <value>WebSchedule - SideBySide User Control</value>
+  </data>
+  <data name="WebSchedule_SideBySide_ApplayFilter" xml:space="preserve">
+    <value>Applay Resources Filter</value>
+  </data>
+  <data name="WebSchedule_SideBySide_Colors" xml:space="preserve">
+    <value>Add Colors</value>
+  </data>
+  <data name="WebSchedule_SideBySide_ControlPanel" xml:space="preserve">
+    <value>Side By Side Control Panel</value>
+  </data>
+  <data name="WebSchedule_SideBySide_HideScrollbarsCheckBox" xml:space="preserve">
+    <value>Hide Views Scrollbars</value>
+  </data>
+  <data name="WebSchedule_SideBySide_SideBySideMode" xml:space="preserve">
+    <value>Views Mode</value>
+  </data>
+  <data name="WebSchedule_SideBySide_SyncScrollBars" xml:space="preserve">
+    <value>ScrollBars Synchronizing</value>
+  </data>
+  <data name="WebSchedule_SideBySide_HideViewModesMenu" xml:space="preserve">
+    <value>Hide View Modes Menu</value>
+  </data>
+  <data name="ControlPanel" xml:space="preserve">
+    <value>Control Panel</value>
+  </data>
+</root>

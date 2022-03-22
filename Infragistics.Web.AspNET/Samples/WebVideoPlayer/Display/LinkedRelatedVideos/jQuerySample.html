@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Infragistics jQuery Video Player Linked Related Videos</title>
+	
+	 
+	 
+	<link href="/SamplesBrowser/SamplesCommon/aspnet/Common/Styles/jquery/css/themes/infragistics/infragistics.theme.css" rel="stylesheet" type="text/css" />
+	<link href="/SamplesBrowser/SamplesCommon/aspnet/Common/Styles/jquery/css/structure/infragistics.css" rel="stylesheet" type="text/css" />
+	
+	<script src="/SamplesBrowser/Scripts/jquery.min.js" type="text/javascript" ></script>
+	<script src="/SamplesBrowser/Scripts/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/SamplesBrowser/Scripts/modernizr.min.js" type="text/javascript" ></script>
+	<script src="/SamplesBrowser/SamplesCommon/aspnet/Common/Scripts/jquery/js/infragistics.js" type="text/javascript"></script>
+	
+    <style type="text/css">
+        #player1
+        {
+            z-index: 1000;
+        }
+        .relatedVideosBanner
+        {
+            width: 80px;
+            height: 80px;
+        }
+    </style>
+    <script type="text/javascript">
+        var videoPlayerSources1 = [ "http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/QuinceIntro_1.h264.mp4",
+				                    "http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/QuinceIntro_1.webmvp8.webm",
+				                    "http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/QuinceIntro_1.theora.ogv" ];
+        var videoPlayerSources2 = [ "http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/QuinceIntro_Part3_1.h264.mp4",
+                                    "http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/QuinceIntro_Part3_1.webmvp8.webm",
+                                    "http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/QuinceIntro_Part3_1.theora.ogv" ];
+
+        var poster1 = "../Content/images/QuinceIntro_1.png";
+        var poster2 = "../Content/images/QuinceIntro_Part3.png";
+        
+        $(window).load(function () {
+            var showReverted = window.location.href.match(/2$/);
+
+            $("#player1").igVideoPlayer({
+                sources: showReverted ? videoPlayerSources2 : videoPlayerSources1,
+                width: 720,
+                height: 560,
+                posterUrl: showReverted ? poster2 : poster1,
+                fullscreen: false,
+                browserControls: false,
+                autohide: true,
+                autoplay: false,
+                showSeekTime: true,
+                title: showReverted ? "Quince Presentation Part 3" : "Quince Presentation Part 1",
+                relatedVideos: [
+                    {
+                        imageUrl: showReverted ? poster1 : poster2,
+                        title: showReverted ? "Quince Presentation Part 1" : "Quince Presentation Part 3",
+                        css: "relatedVideosBanner",
+                        link: showReverted ? window.location.href.replace("?param=2", "") : window.location.href + "?param=2"
+                    }
+                ]
+            });
+        });		
+    </script>
+</head>
+<body>
+    <div id="player1">
+    </div>
+</body>
+</html>

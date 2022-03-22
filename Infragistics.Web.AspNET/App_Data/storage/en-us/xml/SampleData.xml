@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Categories>
+    <Category Name="Category One">
+      <Item Name="Item One" />
+      <Item Name="Item Two" />
+      <Item Name="Item Three" />
+      <Item Name="Item Four" />
+      <Item Name="Item Five" />
+    </Category>
+    <Category Name="Category Two">
+      <Item Name="Item Six" />
+      <Item Name="Item Seven" />
+      <Item Name="Item Eight" />
+      <Item Name="Item Nine" />
+      <Item Name="Item Ten" />
+    </Category>
+  </Categories>
+  <ProductList Text="Infragistics Products" Description="Products" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/InfragisticsProductIcons/NALarge.jpg" NavigateUrl="http://www.infragistics.com/products/default.aspx" Target="_view">
+    <Product Text="Infragistics .NET" Description="Get the Complete Toolset for Win, Web, and App Styling" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/InfragisticsProductIcons/NANETLarge.jpg" NavigateUrl="http://www.infragistics.com/products/dotnet/#Overview" Target="_view">
+      <Product Text="Infragistics ASP.NET" Description="Build Web 2.0 Applications with AJAX and More" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/InfragisticsProductIcons/NAWebLarge.jpg" NavigateUrl="http://www.infragistics.com/products/aspnet/#Overview" Target="_view" />
+      <Product Text="Infragistics Windows Form" Description="Create Modern Smart Client and CAB User Interfaces." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/InfragisticsProductIcons/NAWinLarge.jpg" NavigateUrl="http://www.infragistics.com/products/windows-forms/#Overview" Target="_view"/>
+      <Product Text="Infragistics WPF" Description="Craft Tomorrow's User Interface Today." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/InfragisticsProductIcons/NAWpfLarge.jpg" NavigateUrl="http://www.infragistics.com/products/wpf/#Overview" Target="_view"/>
+      <Product Text="Infragistics Silverlight" Description="Deliver RIA Relevant to Your Line of Business" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/InfragisticsProductIcons/NASilLarge.jpg" NavigateUrl="http://www.infragistics.com/products/silverlight/#Overview" Target="_view"/>
+      <Product Text="Infragistics AppStylist" Description="Go to Market with the Confidence You Deserve" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/InfragisticsProductIcons/NAAsLarge.jpg" NavigateUrl="http://www.infragistics.com/products/dotnet/" Target="_view"/>
+    </Product>
+    <Product Text="Infragistics Silverlight Data Visualization" Description="Inspiring Experiences for Empowering Users" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/InfragisticsProductIcons/NASilDvLarge.jpg" NavigateUrl="http://www.infragistics.com/products/silverlight/#Overview" Target="_view"/>
+    <Product Text="Infragistics ICONS" Description="Easy Plug-and-Play Icons" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/InfragisticsProductIcons/NAIcoLarge.jpg" NavigateUrl="http://www.infragistics.com/products/icons/#Overview" Target="_view"/>
+    <Product Text="Infragistics Test Windows Forms" Description="Gain better coverage and a higher quality product through test automation" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/InfragisticsProductIcons/TAWinLarge.jpg" NavigateUrl="http://www.infragistics.com/products/#Overview" Target="_view"/>
+  </ProductList>
+  <SampleList>
+    <Product Name="Infragistics DataVisualization Samples" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/InfragisticsProductIcons/NASilDv.gif">
+      <Control Text="xamWebChart" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/iconChart.png">
+        <Sample Text="Chart Types Gallery" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Multiple Series" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Financial Data (LINQ)" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Chart Tooltip Drilldown" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Datapoint Transistions" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Scatter Trendline" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Chart Zooming" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Chart Events" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      </Control>
+      <Control Text="xamWebGauge" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/iconGauge.png">
+        <Sample Text="Gauge Gallery" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Display Live Data" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="World Time" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Needle Dragging" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Dadial CLick Mapping" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Gauge Range" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Gauge Events" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      </Control>
+      <Control Text="xamWebMap" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/iconMap.png">
+        <Sample Text="US States" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="World Map" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Europe - Multiple Layer" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="World Data - Gross Domestic Product" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="World Data - Data Filtering" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Value Templates" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Value Scales" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Layer Palettes" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Seat Chooser" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Map Events" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      </Control>
+      <Control Text="xamWebTimeline" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/iconTimeline.png">
+        <Sample Text="Simple Timeline" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Custom Event Templates" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="DataTime Timeline" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Numeric Time Timeline" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Data Binding" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+        <Sample Text="Monitoring Live Data" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      </Control>
+    </Product>
+  </SampleList>
+  <RssFeeds>
+    <Group Name="Programming" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/Programming.gif">
+      <!--<Feed Name="ScottGu's" URL="http://weblogs.asp.net/scottgu" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>-->
+      <Feed Name=".NET Developers Blog" URL="http://www.enderminh.com/minh/" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>
+      <Feed Name="Code Better" URL="http://codebetter.com/" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>
+      <!--<Feed Name="MSDN" URL="http://msdn.microsoft.com/" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>-->
+      <Feed Name="Infragistics Blog" URL="http://www.infragistics.com/community/blogs/" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>
+    </Group>
+    <Group Name="News" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/News.gif" >
+      <Feed Name="CNN" URL="http://whatshappeningatcnn.blogspot.com/" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>
+      <!--<Feed Name="Forbes" URL="http://www.forbes.com/home_usa/" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>-->
+      <Feed Name="Wikinews" URL="http://en.wikinews.org/wiki/Main_Page" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>
+      <Feed Name="ABC News" URL="http://abcnews.go.com/" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>
+      <Feed Name="Guardian" URL="http://www.guardian.co.uk/news/blog" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>
+    </Group>
+    <Group Name="Technology" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/Tech.gif" >
+      <Feed Name="Slashdot" URL="http://slashdot.org/" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>
+      <Feed Name="Apple" URL="http://www.apple.com/" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>
+      <Feed Name="Mashable" URL="http://www.mashable.com/" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>
+      <Feed Name="Major Nelson (XBOX)" URL="http://majornelson.com/" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>
+      <Feed Name="Technews" URL="http://technews.in/blogcategory/hardware/" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/RSSFeed.png" Target="_view" TargetBlank="_blank"/>
+    </Group>
+  </RssFeeds>
+  <books>
+    <book Title="The Elegant Universe" Author="Brian Greene" UnitPrice="15.95" Url="http://www.amazon.com/Elegant-Universe-Superstrings-Dimensions-Ultimate/dp/0393046885" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/Book.gif" ReleaseDate="02/01/1999" >
+      <chapter Title="Tied Up with String" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Space, Time, and the Eye of the Beholder" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Of Warps and Ripples" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Microscopic Weirdness" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="The Need for a New Theory: General Relativity vs. Quantum Mechanics"  ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="Nothing but Music: The Essentials of Superstring Theory" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="The &quot;Super&quot; in Superstrings" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="More Dimensions Than Meet the Eye" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="The Smoking Gun: Experimental Signatures" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Quantum Gravity" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Tearing the Fabric of Space" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Beyond Strings: In Search of M-Theory" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Black Holes: A String/M-Theory Perspective" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Reflections on Cosmology" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="Prospects" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+    </book>
+    <book Title="Dive Into Python" Author="Mark Pilgrim" UnitPrice="39.99" Url="http://www.amazon.com/Dive-Into-Python-Mark-Pilgrim/dp/1590593561" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/Book.gif" ReleaseDate="07/19/2004" >
+      <chapter Title="Installing Python" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="Your First Python Program" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="Native Datatypes" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="The Power of Introspection" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="Objects and Object-Orientation" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="Exceptions and File Handling" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="Regular Expressions" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="HTML Processing" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="XML Processing" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="Scripts and Streams" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="HTTP Web Services" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="SOAP Web Services" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="Unit Testing" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="Test-First Programming" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif"/>
+      <chapter Title="Refactoring" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Functional Programming" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Dynamic Functions" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Performance Tuning" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+    </book>
+    <book Title="The Selfish Gene (30th Anniversary Edition)" Author="Richard Dawkins" UnitPrice="15.95" Url="http://www.amazon.com/Selfish-Gene-Anniversary-Introduction/dp/0199291152" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/Book.gif" ReleaseDate="05/25/2006" >
+      <chapter Title="Why are people?" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="The replicators" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Immortal coils" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="The gene machine" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Aggression: stability and the selfish machine" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Genesmanship" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Family planning" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Battle of the generations" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Battle of the sexes" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="You scratch my back, I'll ride on yours" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Memes: the new replicators" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Nice guys finish first" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="The long reach of the gene" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+    </book>
+    <book Title="The Ideological Origins of the American Revolution (Enlarged Edition)" Author="Bernard Bailyn" UnitPrice="24.00" Url="http://www.amazon.com/Ideological-Origins-American-Revolution/dp/0674443020" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/Book.gif" ReleaseDate="03/01/1992" >
+      <chapter Title="The Literature of Revolution" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Sources and Traditions" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Power and Liberty: A Theory of Politics" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="The Logic of Rebellion" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Transformation" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="The Contagions of Liberty" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Fulfillment: A Commentary on the Constitution" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+    </book>
+    <book Title="Gödel, Escher, Bach: an Eternal Golden Braid" Author="Douglas R. Hofstadter" UnitPrice="20.00" Url="http://www.amazon.com/Godel-Escher-Bach-Douglas-Hofstadter/dp/B001IAM392" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/Book.gif" ReleaseDate="01/01/1999" >
+      <chapter Title="The MU-puzzle." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Meaning and Form in Mathematics." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Figure and Ground." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Consistency, Completeness, and Geometry." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Recursive Structures and Processes." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="The Location of Meaning." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="The Propositional Calculus." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Typographical Number Theory." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Mumon and Gödel." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Levels of Description, and Computer Systems." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Brains and Thoughts." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Minds and Thoughts." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="BlooP and FlooP and GlooP." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="On Formally Undecidable Propositions of TNT and Related Systems." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Jumping out of the System." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Self-Ref and Self-Rep." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Church, Turing, Tarski, and Others." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Artificial Intelligence: Retrospects." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Artificial Intelligence: Prospects." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Strange Loops, Or Tangled Hierarchies." ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+    </book>
+    <book Title="Silverlight 1.0" Author="Devin Rader, Jason Beres, J. Ambrose Little, Grant Hinkson" UnitPrice="23.37" Url="http://www.amazon.com/Silverlight-1-0-Devin-Rader/dp/0470228407" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/OfficeBasicsIcons/Book.gif" ReleaseDate="10/29/2007" >
+      <chapter Title="Introduction to Silverlight" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Building Silverlight Applications Using XAML" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Designing Silverlight Applications Using Expression Blend 2"  ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Coding Silverlight Applications with JavaScript and XAML"  ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Using Silverlight with ASP.NET"  ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Silverlight 1.1 and the CLR"  ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+      <chapter Title="Video Player: Silverlight 1.0 Case Example"  ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/SilDVSampleIcons/Generic.gif" />
+    </book>
+  </books>
+  <HelpTopics>
+    <Item Text="WebDataTree">
+      <Item Text="Understanding The WebDataTree">
+        <Item Text="About WebDataTree" />
+        <Item Text="WebDataTree Smart Tag" />
+      </Item>
+      <Item Text="Getting Started with WebDataTree">
+        <Item Text="Adding Nodes using the Designer" />
+      </Item>
+      <Item Text="Using WebDataTree">
+        <Item Text="Binding to Data">
+          <Item Text="Binding an XML Data Source" />
+        </Item>
+      </Item>
+      <Item Text="Accessibility Compliance" />
+      <Item Text="API Overview" />
+    </Item>
+  </HelpTopics>
+  <FinancialRisks>
+    <Group Text="Hedge Fund Risk" ImageUrl="">
+      <Fund Text="Leverage" ImageUrl="" />
+      <Fund Text="Short selling" ImageUrl="" />
+      <Fund Text="Appetite for risk" ImageUrl="" />
+      <Fund Text="Lack of transparency" ImageUrl="" />
+      <Fund Text="Lack of regulation" ImageUrl="" />
+    </Group>
+    <Group Text="Strategies" ImageUrl="">
+      <Fund Text="Style" ImageUrl="" />
+      <Fund Text="Market" ImageUrl="" />
+      <Fund Text="Instrument" ImageUrl="" />
+      <Fund Text="Exposure" ImageUrl="" />
+      <Fund Text="Sector" ImageUrl="" />
+      <Fund Text="Method" ImageUrl="" />
+      <Fund Text="Diversification" ImageUrl="" />
+    </Group>
+  </FinancialRisks>
+  <HelpTopicsExplorerBar>
+    <Item Text="WebTab">
+      <Item Text="Understanding The WebTab" >
+        <Item Text="About WebDataTree"/>
+        <Item Text="WebTab Smart Tag"/>
+      </Item>
+      <Item Text="Getting Started with WebTab">
+        <Item Text="Adding Tabs to the WebTab"/>
+      </Item>
+      <Item Text="Using WebTab">
+        <Item Text="Display Modes"/>
+        <Item Text="Animations"/>
+        <Item Text="Scrolling"/>
+      </Item>
+      <Item Text="Accessibility Compliance"/>
+      <Item Text="API Overview" />
+    </Item>
+
+    <Item Text="WebExplorerBar" >
+      <Item Text="Understanding The WebExplorerBar">
+        <Item Text="About WebExplorerBar" />
+        <Item Text="WebExplorerBar Smart Tag" />
+      </Item>
+      <Item Text="Getting Started with WebExplorerBar">
+        <Item Text="Adding Groups and Items using the Designer" />
+      </Item>
+      <Item Text="Using WebExplorerBar">
+        <Item Text="Binding to Data" />
+        <Item Text="Using Templates" />
+      </Item>
+      <Item Text="Accessibility Compliance" />
+      <Item Text="API Overview" />
+    </Item>
+
+    <Item Text="WebFishEyeBar" >
+      <Item Text="Understanding The WebFishEyeBar">
+        <Item Text="About WebFishEyeBar" />
+        <Item Text="WebFishEyeBar Smart Tag" />
+      </Item>
+      <Item Text="Using WebFishEyeBar">
+        <Item Text="Adding FishEyeItems to WebFishEyeBar" />
+        <Item Text="Animations" />
+      </Item>
+      <Item Text="Accessibility Compliance" />
+      <Item Text="API Overview" />
+    </Item>
+  </HelpTopicsExplorerBar>
+
+  <ControlListASP>
+    <Control Text="Display Controls">
+      <Control Text="WebProgressBar" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/webProgressbar.png" />
+    </Control>
+    <Control Text="Data Source Controls">
+      <Control Text="WebHierarchicalDataSource" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebHierarchicalDataSource.png" />
+    </Control>
+    <Control Text="Editor Controls">
+      <Control Text="WebMonthCalendar" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebDateChooser.png" />
+      <Control Text="WebSlider" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebSlider.png" />
+      <Control Text="WebTextEditor" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebTextEdit.png">
+        <Control Text="WebCurrencyEditor" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebCurrencyEdit.png" />
+        <Control Text="WebDatePicker" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebDateChooser.png" />
+        <Control Text="WebDateTimeEditor" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebDateTimeEdit.png" />
+        <Control Text="WebMaskEditor" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebMaskEdit.png" />
+        <Control Text="WebNumericEditor" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebNumericEdit.png" />
+        <Control Text="WebPercentEditor" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebPercentEdit.png" />
+      </Control>
+    </Control>
+    <Control Text="Grid Controls">
+      <Control Text="WebDataGrid" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/UltraWebGrid.png" />
+      <Control Text="WebHierarchicalDataGrid" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebHierarchicalDataGrid.png" />
+    </Control>
+    <Control Text="Layout Controls">
+      <Control Text="WebDialogWindow" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebDialogWindow.png" />
+      <Control Text="WebSplitter" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebSplitter.png" />
+      <Control Text="WebTab" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/UltraWebTab.png" />
+    </Control>
+    <Control Text="List Controls">
+      <Control Text="WebDropDown" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/webDropdown.png" />
+      <Control Text="WebImageViewer" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebImageViewer.png" />
+      <Control Text="WebFishEyeBar" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebFishEyeBar.png" />
+    </Control>
+    <Control Text="Navigation Controls">
+      <Control Text="WebDataMenu" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/webDataMenu.png" />
+      <Control Text="WebDataTree" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebDataTree.png" />
+      <Control Text="WebExplorerBar" ImageUrl="/samplesbrowser/samplescommon/aspnet/Common/ControlIcons/sm/WebExplorerBar.png" />
+    </Control>
+  </ControlListASP>
+
+</Data>

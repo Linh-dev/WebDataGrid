@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="GlowGauge" PresetDescription="Custom Preset Created 5/9/2007 4:48:58 PM" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" Width="400" Height="400">
+   <Gauges>
+    <igGaugeProp:RadialGauge>
+      <Scales>
+        <igGaugeProp:RadialGaugeScale EndAngle="405" StartAngle="135">
+          <MinorTickmarks EndExtent="85" Frequency="2" StartExtent="80">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="18, 40, 152" />
+            </BrushElements>
+          </MinorTickmarks>
+          <Ranges>
+            <igGaugeProp:RadialGaugeRange InnerExtentStart="45" InnerExtentEnd="45" EndValue="160" OuterExtent="75" StartValue="0">
+              <BrushElements>
+                <igGaugeProp:MultiStopRadialGradientBrushElement FocusScalesString="0, 0" RelativeClipBoundsMeasure="Percent" CenterPointString="50, 50">
+                  <ColorStops>
+                    <igGaugeProp:ColorStop Color="10, 11, 29" />
+                    <igGaugeProp:ColorStop Color="3, 33, 144" Stop="0.4793103" />
+                    <igGaugeProp:ColorStop Color="3, 33, 144" Stop="1" />
+                  </ColorStops>
+                </igGaugeProp:MultiStopRadialGradientBrushElement>
+              </BrushElements>
+            </igGaugeProp:RadialGaugeRange>
+          </Ranges>
+          <Axes>
+            <igGaugeProp:NumericAxis EndValue="160" />
+          </Axes>
+          <MajorTickmarks EndWidth="5" EndExtent="85" Frequency="20" StartExtent="75" StartWidth="5">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="201, 237, 255" />
+            </BrushElements>
+            <StrokeElement>
+              <BrushElements>
+                <igGaugeProp:SolidFillBrushElement Color="135, 235, 255" />
+              </BrushElements>
+            </StrokeElement>
+          </MajorTickmarks>
+          <Labels Orientation="Horizontal" Frequency="20" SpanMaximum="20" Extent="63" Font="Impact, 24px, style=Italic">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="201, 237, 255" />
+            </BrushElements>
+          </Labels>
+        </igGaugeProp:RadialGaugeScale>
+        <igGaugeProp:RadialGaugeScale EndAngle="405" StartAngle="135">
+          <Axes>
+            <igGaugeProp:NumericAxis EndValue="160" />
+          </Axes>
+          <MajorTickmarks EndWidth="3" EndExtent="85" Frequency="10" StartExtent="77" StartWidth="3">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="135, 235, 255" />
+            </BrushElements>
+          </MajorTickmarks>
+        </igGaugeProp:RadialGaugeScale>
+        <igGaugeProp:RadialGaugeScale EndAngle="405" StartAngle="135">
+          <Axes>
+            <igGaugeProp:NumericAxis EndValue="260" />
+          </Axes>
+          <MajorTickmarks EndExtent="41" Frequency="20" StartExtent="40" StartWidth="2">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="3, 98, 249" />
+            </BrushElements>
+          </MajorTickmarks>
+          <Labels Orientation="Horizontal" Frequency="20" SpanMaximum="10" Extent="33" Font="Arial Black, 10px, style=Italic">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="3, 98, 249" />
+            </BrushElements>
+          </Labels>
+        </igGaugeProp:RadialGaugeScale>
+        <igGaugeProp:RadialGaugeScale EndAngle="405" StartAngle="135">
+          <Markers>
+            <igGaugeProp:RadialGaugeNeedle MidWidth="2" Value="26" MidExtent="76" AllowDrag="True" EndExtent="80" Precision="0" StartExtent="20" StartWidth="2" WidthMeasure="Percent">
+              <Anchor Radius="7" />
+              <BrushElements>
+                <igGaugeProp:SimpleGradientBrushElement EndColor="255, 53, 5" StartColor="255, 252, 132" GradientStyle="HorizontalBump" />
+              </BrushElements>
+              <Response />
+            </igGaugeProp:RadialGaugeNeedle>
+          </Markers>
+          <Axes>
+            <igGaugeProp:NumericAxis EndValue="160" />
+          </Axes>
+        </igGaugeProp:RadialGaugeScale>
+      </Scales>
+      <Dial>
+        <BrushElements>
+          <igGaugeProp:BrushElementGroup>
+            <BrushElements>
+              <igGaugeProp:MultiStopRadialGradientBrushElement FocusScalesString="0, 0" CenterPointString="50, 50">
+                <ColorStops>
+                  <igGaugeProp:ColorStop Color="90, 90, 90" />
+                  <igGaugeProp:ColorStop Color="240, 240, 240" Stop="0.05517241" />
+                  <igGaugeProp:ColorStop Color="165, 165, 165" Stop="0.07241379" />
+                  <igGaugeProp:ColorStop Color="DimGray" Stop="0.07931034" />
+                  <igGaugeProp:ColorStop Color="64, 64, 64" Stop="0.09999999" />
+                  <igGaugeProp:ColorStop Color="Black" Stop="0.1137931" />
+                  <igGaugeProp:ColorStop Color="Black" Stop="1" />
+                </ColorStops>
+              </igGaugeProp:MultiStopRadialGradientBrushElement>
+            </BrushElements>
+          </igGaugeProp:BrushElementGroup>
+        </BrushElements>
+        <StrokeElement>
+          <BrushElements>
+            <igGaugeProp:SolidFillBrushElement Color="45, 45, 45" />
+          </BrushElements>
+        </StrokeElement>
+      </Dial>
+      <Annotations>
+        <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="0, -25, 100, 100">
+          <Label FormatString="mph" Font="Arial Black, 14px, style=Italic">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="LightBlue" />
+            </BrushElements>
+          </Label>
+        </igGaugeProp:BoxAnnotation>
+        <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="0, -12, 100, 100">
+          <Label FormatString="km/h" Font="Arial Black, 12px, style=Italic">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="3, 98, 249" />
+            </BrushElements>
+          </Label>
+        </igGaugeProp:BoxAnnotation>
+        <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="0, 31, 100, 100">
+          <Label FormatString="Infragistics" Font="Impact, 24px">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="LightBlue" />
+            </BrushElements>
+          </Label>
+        </igGaugeProp:BoxAnnotation>
+      </Annotations>
+    </igGaugeProp:RadialGauge>
+  </Gauges>
+</igGauge:UltraGauge>

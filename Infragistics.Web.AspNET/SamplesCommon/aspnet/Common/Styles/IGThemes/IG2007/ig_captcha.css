@@ -1,0 +1,110 @@
+﻿.igc_IG2007Control
+{
+	border:solid 1px #BBBBBB;
+	background-color:#ffffff;
+	padding:10px;
+	margin:0px;
+	font-family:Segoe UI,Verdana,Arial,Sans-Serif;
+    font-size:12px;
+}
+
+.igc_IG2007ControlActive
+{
+	
+}
+
+.igc_IG2007CaptchaInput
+{
+    border:1px solid #BBBBBB;
+    display:block;
+    padding:5px 0;
+    
+    margin-bottom:10px;
+    /*IE6 and IE7 specific hack*/
+    *margin-bottom:0;
+    
+}
+
+.igc_IG2007RefreshAndAudioButtonsArea
+{
+    margin-left:10px;
+	border-width:0;
+	text-decoration:none;
+    display:block;
+}
+
+    .igc_IG2007RefreshAndAudioButtonsArea img
+    {
+	    border-width:0px;
+	    text-decoration:none;
+	    margin-bottom:3px;
+    }
+
+.igc_IG2007SubmitButton {
+    background:#78BAE5 url(./images/igc_submitButtonBg.png) repeat-x 0 0;
+    border:1px solid #6A9CC9;
+    clear:left;
+    display:block;
+    height:30px;
+    width:177px;
+    cursor:pointer;
+    color:#ffffff;
+    margin-top:10px;
+    font-family:Segoe UI,Verdana,Arial,Sans-Serif;
+    font-size:12px;
+    font-weight:bold;
+    padding:0px;
+}
+
+.igc_IG2007ErrorLabel
+{
+    background-color:#FF6666;
+    color:white;
+    padding:3px;
+}
+
+.igc_IG2007CaptchaImageLabel
+{
+	border:1px solid #bbbbbb;
+}
+
+.igc_IG2007CaptchaInputLabel{
+}
+
+.igc_IG2007CaptchaInfoTextLabel
+{
+    display:block;
+    margin:10px 0 5px 0;
+}
+
+.igc_IG2007CaptchaImage
+{
+    display:block;
+    margin-bottom:10px;
+} 
+
+.igc_IG2007CaptchaImageArea
+{
+    display:block;
+    float:left;
+    padding:0;
+    margin:0;
+}
+    .igc_IG2007CaptchaImageArea label 
+    {
+        display:block
+    }
+	    
+.igc_IG2007RefreshAndAudioButtonsArea 
+{
+    float:left;
+}
+    .igc_IG2007RefreshAndAudioButtonsArea a 
+    {
+        display:block
+    }
+    .igc_IG2007RefreshAndAudioButtonsArea a,
+    .igc_IG2007RefreshAndAudioButtonsArea img 
+    {
+        cursor:pointer
+    }

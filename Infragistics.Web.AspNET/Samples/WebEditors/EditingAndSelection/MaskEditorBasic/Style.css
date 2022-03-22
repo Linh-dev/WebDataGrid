@@ -1,0 +1,12 @@
+﻿/* Customize the WebDialogWindow Background */
+.igdw_IGBodyContent
+{
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/Common/TreeBg.jpg);
+    background-repeat: no-repeat;
+}
+/* undo global styles applied by application to INPUT */
+input
+{
+	overflow: visible !important;
+	font-size: 12px !important;
+}

@@ -1,0 +1,94 @@
+﻿.outer-box
+{
+    height: 500px;    
+}
+
+.BackgroundImage
+{
+    background-repeat: no-repeat;
+}
+.Template_group
+{
+}
+.Y_Logo
+{
+    text-align: left;
+    margin-bottom: 10px;
+}
+#center_div
+{
+    width: 70%;
+    position: relative;
+    top: 30px;
+    left: 410px;
+}
+#exporerBar
+{
+    position: absolute;
+    margin: 30px;
+    margin-left: 0px;
+}
+.igeb_FeatureBrowserHolder
+{
+    text-align: left;
+}
+.igeb_FeatureBrowserItemHover
+{
+    background-image: none;
+    background-color: White;
+    color: Black;
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/Common/TreeBg.jpg);
+    background-position: 0px 0px;
+}
+.igeb_FeatureBrowserItemSelected
+{
+    color: Black;
+}
+.EBContent
+{
+    font-size: 11px;
+    padding: 20px;
+    line-height: 18px;
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/Common/TreeBg.jpg);
+}
+.EBContent a:link
+{
+    color: #F60;
+    font-weight: bold;
+    text-decoration: none;
+}
+.EBContent a:hover
+{
+    text-decoration: underline;
+}
+p
+{
+    font: 12px Segoe UI;
+    line-height: 22px;
+}
+p img
+{
+    border: 1px solid #CCC;
+    margin-right: 20px;
+}
+.URLLinks
+{
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+}
+.SportURLLinks
+{
+    font-size: 12px;
+    line-height: 25px;
+    color: black;
+    line-height: 22px;
+    text-align: left;
+}
+.Article
+{
+    border-bottom: 1px solid #CCC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

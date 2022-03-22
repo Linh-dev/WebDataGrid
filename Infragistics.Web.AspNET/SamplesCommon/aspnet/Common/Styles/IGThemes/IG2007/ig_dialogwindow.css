@@ -1,0 +1,181 @@
+.igdw_IG2007Control
+{
+	background-color:Transparent;
+	border-width:0px;
+}
+
+
+.igdw_IG2007HeaderArea
+{
+	background-color:Transparent;
+	font-weight:bold;
+	border-width:0px;
+	height: 24px;
+	cursor:default;
+	color:White;
+}
+
+
+.igdw_IG2007BodyContent
+{
+	border:solid 0px #999999;
+}
+
+
+.igdw_IG2007HeaderButton
+{
+	margin:4px 3px 3px 3px;
+	cursor:pointer;
+}
+
+
+.igdw_IG2007HeaderCaption
+{
+	margin-top:16px;
+	margin-left:6px;
+	padding-top:10px;
+	color:White;
+}
+
+
+.igdw_IG2007HeaderButtonArea
+{
+	width: 120px;
+	vertical-align:middle;
+}
+
+
+.igdw_IG2007HeaderImage
+{
+	cursor:default;
+}
+
+
+.igdw_IG2007ModalBackground
+{
+	background-color:White;
+	filter: alpha(opacity : 50);
+	opacity: 0.5;
+	z-index: 99999;
+}
+
+
+.igdw_IG2007ResizingHandle
+{
+	cursor:se-resize;
+}
+
+
+/* used only when header visible */
+.igdw_IG2007HeaderCornerLeft
+{
+	background-color:Transparent;
+	background-position:top left ;
+	background-image: url(images/igdw_HeaderCornerLeft.gif);
+	width: 9px;
+}
+
+
+/* used only when header visible */
+.igdw_IG2007HeaderContent
+{
+	background-image: url(images/igdw_HeaderContent.gif);
+}
+
+
+/* used only when header visible */
+.igdw_IG2007HeaderCornerRight
+{
+	background-position:top right ;
+	background-image: url(images/igdw_HeaderCornerRight.gif);
+	width: 9px;
+}
+
+
+/* used only when header hidden */
+.igdw_IG2007BodyCornerTopLeft
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igdw_BodyCornerTopLeft.gif);
+	width: 6px;
+}
+
+
+/* used only when header hidden */
+.igdw_IG2007BodyEdgeTop
+{
+	background-repeat:repeat-x;
+	background-image: url(images/igdw_BodyEdgeTop.gif);
+}
+
+
+/* used only when header hidden */
+.igdw_IG2007BodyCornerTopRight
+{
+	background-repeat:no-repeat;
+	background-position:right ;
+	background-image: url(images/igdw_BodyCornerTopRight.gif);
+	width: 6px;
+}
+
+
+.igdw_IG2007BodyEdgeLeft
+{
+	background-color:WhiteSmoke;
+	background-repeat:repeat-y;
+	border-right:solid 1px #BBBBBB;
+	border-left:solid 1px #666666;
+	width: 6px;
+}
+
+
+.igdw_IG2007BodyEdgeRight
+{
+	background-color:WhiteSmoke;
+	border-right:solid 1px #666666;
+	border-left:solid 1px #BBBBBB;
+	width: 6px;
+}
+
+
+.igdw_IG2007BodyCornerBottomLeft
+{
+	background-color:WhiteSmoke;
+	background-repeat:no-repeat;
+	background-image: url(images/igdw_BodyCornerBottomLeft.gif);
+	font-size:1px;
+	height: 14px;
+	width: 9px;
+}
+
+
+.igdw_IG2007BodyContentArea
+{
+	background-color:White;
+	vertical-align:top;
+}
+
+
+.igdw_IG2007BodyCornerBottomRight
+{
+	background-color:Gainsboro;
+	background-repeat:no-repeat;
+	background-image: url(images/igdw_BodyCornerBottomRight.gif);
+	background-position:right top;	
+	font-size:1px;
+	height: 14px;
+	width: 9px;
+}
+
+
+.igdw_IG2007BodyEdgeBottom
+{
+	background-color:WhiteSmoke;
+	background-repeat:repeat-x;
+	background-image: url(images/igdw_BodyEdgeBottom.gif);
+	font-size:1px;
+	border-top:solid 1px #BBBBBB;
+	height: 15px;
+}
+
+

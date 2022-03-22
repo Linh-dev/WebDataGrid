@@ -1,0 +1,13 @@
+﻿        .OptionPanel
+        {
+            width: 770px;
+            padding: 15px;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        Label
+        {
+            font-weight: bold;
+            line-height: 20px;
+            color: #3C3C3C;
+        }

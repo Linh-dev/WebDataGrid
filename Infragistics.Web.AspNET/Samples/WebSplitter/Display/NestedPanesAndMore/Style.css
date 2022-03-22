@@ -1,0 +1,38 @@
+﻿
+#splitter_header
+{
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.splitterMenuList
+{
+    padding-left: 20px;
+}
+
+.splitterMenuList li
+{
+	color: #666666;
+	font-size: 12px;
+	margin-bottom: 8px;
+	padding-left: 2px;
+}
+
+.splitterMenuList a
+{
+    text-decoration: none;
+}
+
+.nestedSplitterClass .Locked
+{
+	cursor: default;
+}
+
+.nestedSplitterClass h4 
+{
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}

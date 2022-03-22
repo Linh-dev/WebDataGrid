@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<books>
+  <book Title="The Elegant Universe" Author="Brian Greene" UnitPrice="15.95" Url="http://www.amazon.com/Elegant-Universe-Superstrings-Dimensions-Ultimate/dp/0393046885" ImageUrl="~/SamplesCommon/Common/OfficeBasicsIcons/Book.gif" ReleaseDate="02/01/1999" >
+    <chapter Title="Tied Up with String" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Space, Time, and the Eye of the Beholder" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Of Warps and Ripples" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Microscopic Weirdness" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="The Need for a New Theory: General Relativity vs. Quantum Mechanics"  ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif"/>
+    <chapter Title="Nothing but Music: The Essentials of Superstring Theory" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="The &quot;Super&quot; in Superstrings" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif"/>
+    <chapter Title="More Dimensions Than Meet the Eye" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="The Smoking Gun: Experimental Signatures" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Quantum Gravity" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Tearing the Fabric of Space" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Beyond Strings: In Search of M-Theory" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Black Holes: A String/M-Theory Perspective" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Reflections on Cosmology" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif"/>
+    <chapter Title="Prospects" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif"/>
+  </book>
+  <book Title="The Selfish Gene (30th Anniversary Edition)" Author="Richard Dawkins" UnitPrice="15.95" Url="http://www.amazon.com/Selfish-Gene-Anniversary-Introduction/dp/0199291152" ImageUrl="~/SamplesCommon/Common/OfficeBasicsIcons/Book.gif" ReleaseDate="05/25/2006" >
+    <chapter Title="Why are people?" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="The replicators" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Immortal coils" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="The gene machine" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Aggression: stability and the selfish machine" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Genesmanship" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Family planning" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Battle of the generations" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Battle of the sexes" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="You scratch my back, I'll ride on yours" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Memes: the new replicators" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Nice guys finish first" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="The long reach of the gene" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+  </book>
+  <book Title="The Ideological Origins of the American Revolution (Enlarged Edition)" Author="Bernard Bailyn" UnitPrice="24.00" Url="http://www.amazon.com/Ideological-Origins-American-Revolution/dp/0674443020" ImageUrl="~/SamplesCommon/Common/OfficeBasicsIcons/Book.gif" ReleaseDate="03/01/1992" >
+    <chapter Title="The Literature of Revolution" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Sources and Traditions" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Power and Liberty: A Theory of Politics" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="The Logic of Rebellion" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Transformation" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="The Contagions of Liberty" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Fulfillment: A Commentary on the Constitution" ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+  </book>
+  <book Title="Gödel, Escher, Bach: an Eternal Golden Braid" Author="Douglas R. Hofstadter" UnitPrice="20.00" Url="http://www.amazon.com/Godel-Escher-Bach-Douglas-Hofstadter/dp/B001IAM392" ImageUrl="~/SamplesCommon/Common/OfficeBasicsIcons/Book.gif" ReleaseDate="01/01/1999" >
+    <chapter Title="The MU-puzzle." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Meaning and Form in Mathematics." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Figure and Ground." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Consistency, Completeness, and Geometry." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Recursive Structures and Processes." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="The Location of Meaning." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="The Propositional Calculus." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Typographical Number Theory." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Mumon and Gödel." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Levels of Description, and Computer Systems." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Brains and Thoughts." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Minds and Thoughts." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="BlooP and FlooP and GlooP." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="On Formally Undecidable Propositions of TNT and Related Systems." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Jumping out of the System." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Self-Ref and Self-Rep." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Church, Turing, Tarski, and Others." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Artificial Intelligence: Retrospects." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Artificial Intelligence: Prospects." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+    <chapter Title="Strange Loops, Or Tangled Hierarchies." ImageUrl="~/SamplesCommon/Common/SilDVSampleIcons/Generic.gif" />
+  </book>
+</books>

@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CellEditors_Description1" xml:space="preserve">
+    <value>This sample&amp;nbsp;demonstrates the use of WebDataInput controls within the cells of&amp;nbsp;the UltraWebGrid.&amp;nbsp; Each control has various ways to implement allowing more flexibility.&amp;nbsp; Notice the same controls used in very different ways below.</value>
+  </data>
+  <data name="CellEditors_Description2" xml:space="preserve">
+    <value>DataInput Components used in the cells of the Grid:</value>
+  </data>
+  <data name="CellEditors_Description3" xml:space="preserve">
+    <value>&lt;EM&gt;Mask&lt;/EM&gt; - &lt;STRONG&gt;WebMaskEdit&lt;/STRONG&gt; (Notice how the format is maintained when typing a phone number into the cell.&amp;nbsp; This control will not allow unwanted or extraneous characters in the cell.)</value>
+  </data>
+  <data name="CellEditors_Description4" xml:space="preserve">
+    <value>&lt;EM&gt;Double &lt;/EM&gt;- &lt;STRONG&gt;WebNumericEdit &lt;/STRONG&gt;(This control maintains the decimal point value.&amp;nbsp; Notice the up and downbuttons&amp;nbsp;when clicked&amp;nbsp;the number will&amp;nbsp;increment/decrement to the next whole number)</value>
+  </data>
+  <data name="CellEditors_Description5" xml:space="preserve">
+    <value>&lt;EM&gt;Range: -9.90000&lt;/EM&gt; - &lt;STRONG&gt;WebCurrencyEdit&lt;/STRONG&gt; (This control maintains the decimal the dollar value.&amp;nbsp; Rounding numbers up to the nearest 10th.&amp;nbsp; Notice the buttons, when clicked, will increment/decrement the number to the next whole dollar.)</value>
+  </data>
+  <data name="CellEditors_Description6" xml:space="preserve">
+    <value>&lt;EM&gt;Short&lt;/EM&gt; - &lt;STRONG&gt;WebNumericEdit&lt;/STRONG&gt; (Notice when a number above 32,767 is entered in the cell, this control automatically puts it back to its maximum allowed in short format)</value>
+  </data>
+  <data name="CellEditors_Description7" xml:space="preserve">
+    <value>Date&lt;/EM&gt; - &lt;STRONG&gt;WebDateTimeEdit&lt;/STRONG&gt; (This control is being used to maintain the short date format.  Notice the up/down buttons. Depending on the section of the date the cursor is in, will determine which part of the date is incremented/decremented.  Try to increment the day of the month by 2, and then try decrementing the year by 2)</value>
+  </data>
+  <data name="CellEditors_Description8" xml:space="preserve">
+    <value>&lt;EM&gt;Range: 1/1/1920-12/31/2090&lt;/EM&gt; - &lt;STRONG&gt;WebDateTimeEdit&lt;/STRONG&gt; (Notice how this control is being used to specify a specific date range.&amp;nbsp; The formatting is also shown in mask edit format, making sure the user maintains the format desired by the developer.)</value>
+  </data>
+  <data name="CellEditors_Header" xml:space="preserve">
+    <value>Cell Editors</value>
+  </data>
+  <data name="CellEditors_MaxDate" xml:space="preserve">
+    <value>12-31-2090</value>
+  </data>
+  <data name="CellEditors_MinDate" xml:space="preserve">
+    <value>01-01-1920</value>
+  </data>
+  <data name="CellEditors_Row0Date0" xml:space="preserve">
+    <value>1/2/2004</value>
+  </data>
+  <data name="CellEditors_Row0Date1" xml:space="preserve">
+    <value>1/3/2001</value>
+  </data>
+  <data name="CellEditors_Row1Date0" xml:space="preserve">
+    <value>1/3/2004</value>
+  </data>
+  <data name="CellEditors_Row1Date1" xml:space="preserve">
+    <value>1/4/2001</value>
+  </data>
+  <data name="CellEditors_Row2Date0" xml:space="preserve">
+    <value>2/11/2004</value>
+  </data>
+  <data name="CellEditors_Row2Date1" xml:space="preserve">
+    <value>11/3/2001</value>
+  </data>
+  <data name="CellEditors_Row3Date0" xml:space="preserve">
+    <value>2/4/2003</value>
+  </data>
+  <data name="CellEditors_Row3Date1" xml:space="preserve">
+    <value>3/11/2001</value>
+  </data>
+  <data name="CellEditors_Row4Date0" xml:space="preserve">
+    <value>7/3/2004</value>
+  </data>
+  <data name="CellEditors_Row4Date1" xml:space="preserve">
+    <value>8/8/2001</value>
+  </data>
+  <data name="CellEditors_Row5Date0" xml:space="preserve">
+    <value>4/8/2004</value>
+  </data>
+  <data name="CellEditors_Row5Date1" xml:space="preserve">
+    <value>3/9/2001</value>
+  </data>
+  <data name="ClientSide_Description1" xml:space="preserve">
+    <value>This sample demonstrates the use of client side events within a webdatainput control.</value>
+  </data>
+  <data name="ClientSide_Description2" xml:space="preserve">
+    <value>&lt;EM&gt;Current Date&lt;/EM&gt; - &lt;STRONG&gt;WebDateTimeEdit&lt;/STRONG&gt;&amp;nbsp;(on page load the Current date and time are displayed within the control.&amp;nbsp; it will keep track of time while on the page.&amp;nbsp; Resets each time you refresh the page)</value>
+  </data>
+  <data name="ClientSide_Description3" xml:space="preserve">
+    <value>&lt;EM&gt;Chronometer&lt;/EM&gt; - &lt;STRONG&gt;WebDateTimeEdit&lt;/STRONG&gt; (the spinners control the speed in which the timer increments)</value>
+  </data>
+  <data name="ClientSide_Description4" xml:space="preserve">
+    <value>&lt;EM&gt;Hex Filter -&lt;/EM&gt;&amp;nbsp;&lt;STRONG&gt;WebTextEdit&lt;/STRONG&gt; (this input will only accept Hexadecimal characters)</value>
+  </data>
+  <data name="ClientSide_Description5" xml:space="preserve">
+    <value>&lt;EM&gt;Show output events&lt;/EM&gt; -&amp;nbsp;&amp;nbsp;&lt;STRONG&gt;WebDateTimeEdit&lt;/STRONG&gt; (this example displays the events of the webDateTimeEdit control&amp;nbsp;the control is&amp;nbsp;moused over/out and clicked)</value>
+  </data>
+  <data name="ClientSide_Header" xml:space="preserve">
+    <value>WebDataInput Controls</value>
+  </data>
+  <data name="ClientSide_Label1" xml:space="preserve">
+    <value>Current Date/Time</value>
+  </data>
+  <data name="ClientSide_Label2" xml:space="preserve">
+    <value>Chronometer (stop/start, speed-up, slow-down)</value>
+  </data>
+  <data name="ClientSide_Label3" xml:space="preserve">
+    <value>WebTextEdit as HEX filter</value>
+  </data>
+  <data name="ClientSide_Label4" xml:space="preserve">
+    <value>Show invalid value and output events</value>
+  </data>
+  <data name="ClientSide_Label5" xml:space="preserve">
+    <value>[Output events]</value>
+  </data>
+  <data name="ControlName" xml:space="preserve">
+    <value>WebEditors</value>
+  </data>
+  <data name="CultureFormats_Description1" xml:space="preserve">
+    <value>This sample demonstrates setting webdatainput controls dynamically by setting an option in a drop down menu.</value>
+  </data>
+  <data name="CultureFormats_Description2" xml:space="preserve">
+    <value>Select a country in the drop down list.</value>
+  </data>
+  <data name="CultureFormats_Description3" xml:space="preserve">
+    <value>Check the "Apply to 1st date..." check box.</value>
+  </data>
+  <data name="CultureFormats_Description4" xml:space="preserve">
+    <value>Use the spin button in the editors to see how the content is changed.</value>
+  </data>
+  <data name="CultureFormats_Description5" xml:space="preserve">
+    <value>Highlight the content of an editor to change a value.&amp;nbsp; Notice how the mask editing is based on the selected culture.</value>
+  </data>
+  <data name="CultureFormats_Header" xml:space="preserve">
+    <value>Dynamic Web Data Inputs  based on Country</value>
+  </data>
+  <data name="CultureFormats_Label1" xml:space="preserve">
+    <value>Select&amp;nbsp;a&amp;nbsp;country&amp;nbsp;from the drop down list.</value>
+  </data>
+  <data name="CultureFormats_Label2" xml:space="preserve">
+    <value>Country: </value>
+  </data>
+  <data name="CultureFormats_Label3" xml:space="preserve">
+    <value>Apply to 1st date-editor control only</value>
+  </data>
+  <data name="CultureFormats_Label4" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="CultureFormats_Tooltip_1" xml:space="preserve">
+    <value>Long-date, long-time format.  Null is not allowed</value>
+  </data>
+  <data name="CultureFormats_Tooltip_2" xml:space="preserve">
+    <value>Short-date, short-time format.  Null is not allowed</value>
+  </data>
+  <data name="CultureFormats_Tooltip_3" xml:space="preserve">
+    <value>Currency editor</value>
+  </data>
+  <data name="CultureFormats_Tooltip_4" xml:space="preserve">
+    <value>Numeric editor</value>
+  </data>
+  <data name="CultureFormats_Tooltip_5" xml:space="preserve">
+    <value>Percent editor</value>
+  </data>
+  <data name="CustomFormats_BaseCulture" xml:space="preserve">
+    <value>Base Culture:&amp;nbsp;</value>
+  </data>
+  <data name="CustomFormats_CustomCurrencyFormat" xml:space="preserve">
+    <value>Custom Currency Format</value>
+  </data>
+  <data name="CustomFormats_CustomDTFormat" xml:space="preserve">
+    <value>Custom Date/Time Format</value>
+  </data>
+  <data name="CustomFormats_DateSeparator" xml:space="preserve">
+    <value>Date Seperator:&amp;nbsp;</value>
+  </data>
+  <data name="CustomFormats_DecimalPlaces" xml:space="preserve">
+    <value>Decimal Places:&amp;nbsp;</value>
+  </data>
+  <data name="CustomFormats_DecimalSeparator" xml:space="preserve">
+    <value>Decimal Seperator:&amp;nbsp;</value>
+  </data>
+  <data name="CustomFormats_Description_1" xml:space="preserve">
+    <value>This sample&amp;nbsp;demonstrates custom fomatting for DateTime and Currency Formats&amp;nbsp;</value>
+  </data>
+  <data name="CustomFormats_Description_2" xml:space="preserve">
+    <value>Try the following in the&amp;nbsp;Date/Time Format Example:</value>
+  </data>
+  <data name="CustomFormats_Description_3" xml:space="preserve">
+    <value>Select different options from the Culture list, Edit format (for masking), Display Format, Date Seperator.&amp;nbsp; Results are show in the target input control.</value>
+  </data>
+  <data name="CustomFormats_Description_4" xml:space="preserve">
+    <value>Change the spelling of a month, abbreviate a month.&amp;nbsp; Notice how it changes in the target input control.</value>
+  </data>
+  <data name="CustomFormats_Description_5" xml:space="preserve">
+    <value>Edit the target Input control to see how the different options effect masking.</value>
+  </data>
+  <data name="CustomFormats_Description_6" xml:space="preserve">
+    <value>Try the following in the&amp;nbsp;Currency Format Example:</value>
+  </data>
+  <data name="CustomFormats_Description_7" xml:space="preserve">
+    <value>Change&amp;nbsp;some of the text input fields, select different options from the drop down menus.&amp;nbsp; Results are show in the target input control.</value>
+  </data>
+  <data name="CustomFormats_Description_8" xml:space="preserve">
+    <value>Edit the target Input control to see how the different options effect masking.</value>
+  </data>
+  <data name="CustomFormats_DisplayFormat" xml:space="preserve">
+    <value>Display Format:&amp;nbsp;</value>
+  </data>
+  <data name="CustomFormats_EditFormat" xml:space="preserve">
+    <value>Edit Format:&amp;nbsp;</value>
+  </data>
+  <data name="CustomFormats_Header" xml:space="preserve">
+    <value>Web Data Inputs - Custom Formatting</value>
+  </data>
+  <data name="CustomFormats_MinDecimals" xml:space="preserve">
+    <value>Minium Decimals:&amp;nbsp;</value>
+  </data>
+  <data name="CustomFormats_MinusSign" xml:space="preserve">
+    <value>Minus Sign:&amp;nbsp;</value>
+  </data>
+  <data name="CustomFormats_Months" xml:space="preserve">
+    <value>Months</value>
+  </data>
+  <data name="CustomFormats_NegativePatterns" xml:space="preserve">
+    <value>Negative Patterns:&amp;nbsp;</value>
+  </data>
+  <data name="CustomFormats_PositivePatterns" xml:space="preserve">
+    <value>Positive Paterns:&amp;nbsp;</value>
+  </data>
+  <data name="CustomFormats_Symbol" xml:space="preserve">
+    <value>Symbol:&amp;nbsp;</value>
+  </data>
+  <data name="CustomFormats_Target" xml:space="preserve">
+    <value>TARGET:&amp;nbsp;</value>
+  </data>
+  <data name="CustomFormats_ThousandSeparator" xml:space="preserve">
+    <value>Thousand Seperator:&amp;nbsp;</value>
+  </data>
+  <data name="CustomFormats_ThousandSizes" xml:space="preserve">
+    <value>Thousand Sizes:&amp;nbsp;</value>
+  </data>
+  <data name="DateEditors_Description1" xml:space="preserve">
+    <value>This sample demonstrates the versatility of the WebDateTimeEdit Control.</value>
+  </data>
+  <data name="DateEditors_Description2" xml:space="preserve">
+    <value>Click the spin buttons to view how each control increments.</value>
+  </data>
+  <data name="DateEditors_Description3" xml:space="preserve">
+    <value>Edit the contents of each control to see how each control depending on it's display setting has different mask editing.</value>
+  </data>
+  <data name="DateEditors_Description4" xml:space="preserve">
+    <value>Highlight specific sections (day, hour, minutes, seconds, etc.) then click the spin buttons up or down.&amp;nbsp; Notice how each part of the date/time can be incremented individually.</value>
+  </data>
+  <data name="DateEditors_ExactTimeTooltip" xml:space="preserve">
+    <value>dd/MM/yyyy H:mm:ss fff format</value>
+  </data>
+  <data name="DateEditors_Header" xml:space="preserve">
+    <value>WebDateTimeEdit Versatility</value>
+  </data>
+  <data name="DateEditors_Label1" xml:space="preserve">
+    <value>Date Time Editors</value>
+  </data>
+  <data name="DateEditors_Label2" xml:space="preserve">
+    <value>Default: </value>
+  </data>
+  <data name="DateEditors_Label3" xml:space="preserve">
+    <value>Long DateTime: </value>
+  </data>
+  <data name="DateEditors_Label4" xml:space="preserve">
+    <value>Time Stamp: </value>
+  </data>
+  <data name="DateEditors_Label5" xml:space="preserve">
+    <value>Exact Time: </value>
+  </data>
+  <data name="DateEditors_NullDate" xml:space="preserve">
+    <value>Null Date</value>
+  </data>
+  <data name="DateEditors_ShortDateTooltip" xml:space="preserve">
+    <value>Short-date format.  Range: 1980..2035</value>
+  </data>
+  <data name="DateEditors_SortableDateTooltip" xml:space="preserve">
+    <value>Sortable ISO 8601 format</value>
+  </data>
+  <data name="DropDownCalendars_Description1" xml:space="preserve">
+    <value>This sample shows how client side events of WebTextEdit and WebCalendar can be used to establish drop-down functionality.&amp;nbsp; &lt;I&gt;Note:&lt;/I&gt; The drop-down calendar appears as child control of document rather than as a top-window frame.</value>
+  </data>
+  <data name="DropDownCalendars_Description2" xml:space="preserve">
+    <value>Notice the versatility of the controls such as the location of the spin buttons, the dropdown arrows, text color, and backgrounds.  The Calendar is using the MS Colorful 1 and MS Colorful 2 presets.</value>
+  </data>
+  <data name="DropDownCalendars_Description3" xml:space="preserve">
+    <value>Guidelines for implementation:</value>
+  </data>
+  <data name="DropDownCalendars_Description4" xml:space="preserve">
+    <value>Add to YourPage a WebCalendar which will be shared by all WebDateTimeEditors</value>
+  </data>
+  <data name="DropDownCalendars_Description5" xml:space="preserve">
+    <value>&lt;B&gt;Copy "ig_dropCalendar.js"&lt;/B&gt; file to the location of YourPage.aspx</value>
+  </data>
+  <data name="DropDownCalendars_Description6" xml:space="preserve">
+    <value>Set &lt;B&gt;&amp;lt;SCRIPT src="ig_dropCalendar.js" ...&amp;gt;&lt;/B&gt; (or use RegisterClientScriptBlock)</value>
+  </data>
+  <data name="DropDownCalendars_Description7" xml:space="preserve">
+    <value>At the end of YourPage.aspx &lt;B&gt;add &amp;lt;SCRIPT&amp;gt;&lt;/B&gt; block (or use 
+														RegisterStartupScript) with following&lt;/LI&gt;&lt;br /&gt;
+													* Call to the &lt;B&gt;function ig_initDropCalendar&lt;/B&gt; and pass String param&lt;br /&gt;
+													* Param: &lt;B&gt;ID of calendar and IDs of all editors&lt;/B&gt; separated by Space&lt;br /&gt;
+													* If controls are within NamingContainers, then use UniqueIDs instead of IDs&lt;br /&gt;
+													* &lt;B&gt;Example:&lt;/B&gt;&lt;br /&gt;
+													ig_initDropCalendar("WebCalendar1 WebDateTimeEdit1 WebDateTimeEdit2")</value>
+  </data>
+  <data name="DropDownCalendars_Description8" xml:space="preserve">
+    <value>Note: this application also has an example with another custom stand-alone date-editor and another drop-down calendar. That example explicitly adds ClientSideEvents to those controls and relies on functions located in the "ig_editDrop1.js" file</value>
+  </data>
+  <data name="DropDownCalendars_Header" xml:space="preserve">
+    <value>DateTimeEdit Drop Down</value>
+  </data>
+  <data name="DropDownCalendars_Label1" xml:space="preserve">
+    <value>Example of Date Editor with Drop-Down Calendar</value>
+  </data>
+  <data name="DropDownCalendars_Label2" xml:space="preserve">
+    <value>Access Keys = Underline Letters (like: L in Left Top), Press Alt + L to highlight the Drop Down Calendar Control in the Top Left.</value>
+  </data>
+  <data name="DropDownCalendars_Label3" xml:space="preserve">
+    <value>&lt;u&gt;L&lt;/u&gt;eft Top</value>
+  </data>
+  <data name="DropDownCalendars_Label4" xml:space="preserve">
+    <value>Right &lt;u&gt;T&lt;/u&gt;op</value>
+  </data>
+  <data name="DropDownCalendars_Label5" xml:space="preserve">
+    <value>&lt;u&gt;C&lt;/u&gt;ustom</value>
+  </data>
+  <data name="DropDownCalendars_Label6" xml:space="preserve">
+    <value>&lt;u&gt;E&lt;/u&gt;ditable by Buttons</value>
+  </data>
+  <data name="DropDownCalendars_Label7" xml:space="preserve">
+    <value>Left &lt;u&gt;B&lt;/u&gt;ottom</value>
+  </data>
+  <data name="DropDownCalendars_Label8" xml:space="preserve">
+    <value>Right Botto&lt;u&gt;m&lt;/u&gt;</value>
+  </data>
+  <data name="DropDownGrid_Description1" xml:space="preserve">
+    <value>This sample shows how client side events of WebTextEdit and UltraWebGrid can be used to establish drop-down functionality.&lt;br /&gt;&lt;I&gt;Note:&lt;/I&gt; The drop-down grid appears as child control of document rather than as a top-window frame.</value>
+  </data>
+  <data name="DropDownGrid_Description2" xml:space="preserve">
+    <value>&lt;I&gt;Guidelines for implementation:&lt;/I&gt;</value>
+  </data>
+  <data name="DropDownGrid_Description3" xml:space="preserve">
+    <value>Set &amp;lt;SCRIPT src="ig_editDrop2.js" ...&amp;gt; or use RegisterClientScriptBlock&lt;UL&gt;&lt;LI&gt;All function names and content of ig_editDrop2.js can be customized&lt;/LI&gt;&lt;LI&gt;All functionality from ig_editDrop2.js can be moved under aspx&lt;/LI&gt;&lt;LI&gt;To hide UltraWebGrid in designer use: style="DISPLAY:none; ..."&lt;/LI&gt;&lt;/UL&gt;</value>
+  </data>
+  <data name="DropDownGrid_Description4" xml:space="preserve">
+    <value>ClientSideEvents property of drop-down UltraWebGrid:&lt;/LI&gt;&lt;UL&gt;&lt;LI&gt;Set InitializeLayoutHandler to "initGridEvent"&lt;/LI&gt;&lt;LI&gt;Set CellClickHandler to "cellClickEvent"&lt;/LI&gt;&lt;/UL&gt;</value>
+  </data>
+  <data name="DropDownGrid_Description5" xml:space="preserve">
+    <value>ClientSideEvents property of WebTextEdit(s):&lt;/LI&gt;&lt;UL&gt;&lt;LI&gt;Set CustomButtonPress to "openDropDownEvent"&lt;/LI&gt;&lt;LI&gt;Set KeyDown to "closeDropDownEvent" (optional)&lt;/LI&gt;&lt;LI&gt;Set Focus to "closeDropDownEvent" (optional)&lt;/LI&gt;&lt;/UL&gt;</value>
+  </data>
+  <data name="DropDownGrid_Header" xml:space="preserve">
+    <value>Text Editors - Drop Down Web Grid</value>
+  </data>
+  <data name="DropDownGrid_Label1" xml:space="preserve">
+    <value>Example of Text Editor with Drop-Down WebGrid</value>
+  </data>
+  <data name="DropDownGrid_Label2" xml:space="preserve">
+    <value>Access Keys = Underline Letters (like: L in Left Top), Press Alt + L to highlight the Drop Down Calendar Control in the Top Left. Firefox users, press Shift + ALT + L</value>
+  </data>
+  <data name="DropDownGrid_Label3" xml:space="preserve">
+    <value>&lt;u&gt;L&lt;/u&gt;eft Top</value>
+  </data>
+  <data name="DropDownGrid_Label4" xml:space="preserve">
+    <value>Right &lt;u&gt;T&lt;/u&gt;op</value>
+  </data>
+  <data name="DropDownGrid_Label5" xml:space="preserve">
+    <value>Left Botto&lt;u&gt;m&lt;/u&gt;</value>
+  </data>
+  <data name="DropDownGrid_Label6" xml:space="preserve">
+    <value>&lt;u&gt;R&lt;/u&gt;ight Bottom</value>
+  </data>
+  <data name="MaskedEditors_Description1" xml:space="preserve">
+    <value>This sample demonstrates the functionality of the &amp;nbsp;WebMaskEdit Input controls</value>
+  </data>
+  <data name="MaskedEditors_Description2" xml:space="preserve">
+    <value>Enter a first name and last name.&amp;nbsp; Notice when the control is clicked the user is shown the length of characters this field will allow.</value>
+  </data>
+  <data name="MaskedEditors_Description3" xml:space="preserve">
+    <value>Enter a telephone number.&amp;nbsp; Notice this field also accepts the extension for office numbers.</value>
+  </data>
+  <data name="MaskedEditors_Description4" xml:space="preserve">
+    <value>Enter a social security number.&amp;nbsp; Notice that this field will only allow numbers, no alpha characters are accepted.</value>
+  </data>
+  <data name="MaskedEditors_Description5" xml:space="preserve">
+    <value>Enter a state.&amp;nbsp; Notice that this field will only allow alpha characters, no numbers are accepted.&amp;nbsp; This field also limits the amount of characters to 2.</value>
+  </data>
+  <data name="MaskedEditors_Description6" xml:space="preserve">
+    <value>Enter notes.&amp;nbsp;&amp;nbsp; Notice this field is limited to a few characters</value>
+  </data>
+  <data name="MaskedEditors_Header" xml:space="preserve">
+    <value>WebMaskEdit Control Functionality</value>
+  </data>
+  <data name="MaskedEditors_Label1" xml:space="preserve">
+    <value>Mask Editors</value>
+  </data>
+  <data name="MaskedEditors_Label2" xml:space="preserve">
+    <value>First Name:</value>
+  </data>
+  <data name="MaskedEditors_Label3" xml:space="preserve">
+    <value>Last Name:</value>
+  </data>
+  <data name="MaskedEditors_Label4" xml:space="preserve">
+    <value>Telephone:</value>
+  </data>
+  <data name="MaskedEditors_Label5" xml:space="preserve">
+    <value>Social Security:</value>
+  </data>
+  <data name="MaskedEditors_Label6" xml:space="preserve">
+    <value>State:</value>
+  </data>
+  <data name="MaskedEditors_Label7" xml:space="preserve">
+    <value>Notes:</value>
+  </data>
+  <data name="MaskedEditors_Label8" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="NumericEdit_Description1" xml:space="preserve">
+    <value>This sample demonstrates the WebNumericEdit control. This control can be used in many ways. In this sample notice the nullable vs. not nullable controls.</value>
+  </data>
+  <data name="NumericEdit_Description2" xml:space="preserve">
+    <value>Delete the content in the "Not Nullable" controls.&amp;nbsp; Notice the control is reset to the default value.</value>
+  </data>
+  <data name="NumericEdit_Header" xml:space="preserve">
+    <value>WebNumericEdit Controls</value>
+  </data>
+  <data name="NumericEdit_Label1" xml:space="preserve">
+    <value>Numeric, Currency and Percent Editors</value>
+  </data>
+  <data name="NumericEdit_Label2" xml:space="preserve">
+    <value>Not Nullable:</value>
+  </data>
+  <data name="NumericEdit_Label3" xml:space="preserve">
+    <value>Nullable:</value>
+  </data>
+  <data name="NumericEdit_Ranges-100to10000" xml:space="preserve">
+    <value>Ranges of values: from -100 to 10,000</value>
+  </data>
+  <data name="NumericEdit_Ranges-10to30" xml:space="preserve">
+    <value>Range of values: from -10 to 30, SpinWrap is enabled</value>
+  </data>
+  <data name="NumericEdit_Ranges20to10000" xml:space="preserve">
+    <value>Ranges of values: from 20 to 10,000</value>
+  </data>
+  <data name="Styles_Description1" xml:space="preserve">
+    <value>This sample demontrates the versatility to the WebDataInput Controls.</value>
+  </data>
+  <data name="Styles_Description2" xml:space="preserve">
+    <value>Make changes to each control.&amp;nbsp; Notice the differences and the wide range of functionality for each control.</value>
+  </data>
+  <data name="Styles_Description3" xml:space="preserve">
+    <value>Compare the differences between the asp controls&amp;nbsp;vs. Infragistic controls.</value>
+  </data>
+  <data name="Styles_Description4" xml:space="preserve">
+    <value>*helpful hints when using controls, select a preset, then make the minor changes to make it your own.</value>
+  </data>
+  <data name="Styles_Header" xml:space="preserve">
+    <value>WebDataInput - Styles</value>
+  </data>
+  <data name="Styles_Label1" xml:space="preserve">
+    <value>Default WebTextEdit</value>
+  </data>
+  <data name="Styles_Label2" xml:space="preserve">
+    <value>WebTextEdit with button</value>
+  </data>
+  <data name="Styles_Label3" xml:space="preserve">
+    <value>Built-in Style Presets</value>
+  </data>
+  <data name="Styles_Label4" xml:space="preserve">
+    <value>Preset Name</value>
+  </data>
+  <data name="Styles_Label5" xml:space="preserve">
+    <value>Thin 3D Borders</value>
+  </data>
+  <data name="Styles_Label6" xml:space="preserve">
+    <value>PopUp&amp;nbsp;Flat Borders</value>
+  </data>
+  <data name="Styles_Label7" xml:space="preserve">
+    <value>Pop-Up&amp;nbsp;3D Borders</value>
+  </data>
+  <data name="Styles_Label8" xml:space="preserve">
+    <value>Custom Styles</value>
+  </data>
+  <data name="Styles_PostbackPopup1" xml:space="preserve">
+    <value>Custom button in the</value>
+  </data>
+  <data name="Styles_PostbackPopup2" xml:space="preserve">
+    <value>was clicked.\nIt has text:</value>
+  </data>
+  <data name="Styles_PostbackPopup3" xml:space="preserve">
+    <value>\n\nDo you want to postback page to server?</value>
+  </data>
+  <data name="Validators_Description1" xml:space="preserve">
+    <value>This sample demonstrates the use of ASP.NET validation controls with WebDataInput Controls.</value>
+  </data>
+  <data name="Validators_Description2" xml:space="preserve">
+    <value>Add valid and invalid content into the fields</value>
+  </data>
+  <data name="Validators_Error1" xml:space="preserve">
+    <value>Value can not be empty</value>
+  </data>
+  <data name="Validators_Error2" xml:space="preserve">
+    <value>Value should be in range of 20-10000</value>
+  </data>
+  <data name="Validators_Error3" xml:space="preserve">
+    <value>Value should be in format: ###-##-####</value>
+  </data>
+  <data name="Validators_Header" xml:space="preserve">
+    <value>WebDataInput Controls - Using ASP.NET Validation</value>
+  </data>
+  <data name="Validators_Label1" xml:space="preserve">
+    <value>WebDataInput Controls with Standard .NET Validators</value>
+  </data>
+  <data name="Validators_Label2" xml:space="preserve">
+    <value>Required Field:</value>
+  </data>
+  <data name="Validators_Label3" xml:space="preserve">
+    <value>Range:</value>
+  </data>
+  <data name="Validators_Label4" xml:space="preserve">
+    <value>Expression:</value>
+  </data>
+  <data name="Validators_Tooltip1" xml:space="preserve">
+    <value>DateTimeEdit.  Range: 1980..2035</value>
+  </data>
+  <data name="Validators_Tooltip2" xml:space="preserve">
+    <value>Currency edit (value range 20-10000)</value>
+  </data>
+  <data name="WebCurrencyEditorBasicLabel" xml:space="preserve">
+    <value>Basic Editor:</value>
+  </data>
+  <data name="WebCurrencyEditorDescription" xml:space="preserve">
+    <value>This sample demonstrates basic using of WebCurrencyEditor control. By default the control makes round to two signs after decimal point. After you enter value and click outside of the control it adds currency sign. WebCurrecyEditor doesn't accept typing letters - only numbers.</value>
+  </data>
+  <data name="WebCurrencyEditorLocalizationCulture" xml:space="preserve">
+    <value>Select Culture:</value>
+  </data>
+  <data name="WebCurrencyEditorLocalizationDescription" xml:space="preserve">
+    <value>This sample demonstrates how to change the culture used by the WebCurrencyEditor control.</value>
+  </data>
+  <data name="WebCurrencyEditorLocalizationName" xml:space="preserve">
+    <value>WebCurrencyEditor</value>
+  </data>
+  <data name="WebCurrencyEditorLocalizationTitle" xml:space="preserve">
+    <value>Setting The Culture Used by the WebCurrencyEditor Control</value>
+  </data>
+  <data name="WebCurrencyEditorLocalizationValue" xml:space="preserve">
+    <value>Setting the Editor's Culture:</value>
+  </data>
+  <data name="WebCurrencyEditorName" xml:space="preserve">
+    <value>WebCurrencyEditor</value>
+  </data>
+  <data name="WebCurrencyEditorNullableLabel" xml:space="preserve">
+    <value>Nullable Text:</value>
+  </data>
+  <data name="WebCurrencyEditorRangeLabel" xml:space="preserve">
+    <value>Min/Max Values (0 - 1000):</value>
+  </data>
+  <data name="WebCurrencyEditorSpinBtnLabel" xml:space="preserve">
+    <value>Using Spin Buttons:</value>
+  </data>
+  <data name="WebDataEdit_ChangeOld" xml:space="preserve">
+    <value>Change: old</value>
+  </data>
+  <data name="WebDataEdit_CustomButtonClick" xml:space="preserve">
+    <value>Custom Button Click</value>
+  </data>
+  <data name="WebDataEdit_Day" xml:space="preserve">
+    <value>day</value>
+  </data>
+  <data name="WebDataEdit_InstantText" xml:space="preserve">
+    <value>instant text</value>
+  </data>
+  <data name="WebDataEdit_MissingRequiredPositions" xml:space="preserve">
+    <value>Missing required positions:</value>
+  </data>
+  <data name="WebDataEdit_Month" xml:space="preserve">
+    <value>month</value>
+  </data>
+  <data name="WebDataEdit_New" xml:space="preserve">
+    <value>new</value>
+  </data>
+  <data name="WebDataEdit_SuggestedValue" xml:space="preserve">
+    <value>suggested value</value>
+  </data>
+  <data name="WebDataEdit_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="WebDataEdit_Year" xml:space="preserve">
+    <value>year</value>
+  </data>
+  <data name="WebDataInput_WCE1Tooltip" xml:space="preserve">
+    <value>Range of values: from 20 to 10000</value>
+  </data>
+  <data name="WebDataInput_WDTE1Tooltip" xml:space="preserve">
+    <value>Range: 1950..2035</value>
+  </data>
+  <data name="WebDataInput_WME1Tooltip" xml:space="preserve">
+    <value>(###) ###-#### Ext. 99999</value>
+  </data>
+  <data name="WebDateInput_Description1" xml:space="preserve">
+    <value>This sample demonstrates the WebDataInput controls Server Side Event Functionality.</value>
+  </data>
+  <data name="WebDateInput_Description2" xml:space="preserve">
+    <value>Change the Date/Time field.&amp;nbsp; Try valid and invalid information.</value>
+  </data>
+  <data name="WebDateInput_Description3" xml:space="preserve">
+    <value>Change the Currency field. Try valid and invalid information.</value>
+  </data>
+  <data name="WebDateInput_Description4" xml:space="preserve">
+    <value>Change Mask Edit field.&amp;nbsp; Try valid and invalid information.</value>
+  </data>
+  <data name="WebDateInput_Header" xml:space="preserve">
+    <value>WebDataInput - Server Side Events</value>
+  </data>
+  <data name="WebDateInput_Label1" xml:space="preserve">
+    <value>Server Side Events in DataInput Editors</value>
+  </data>
+  <data name="WebDateInput_Label10" xml:space="preserve">
+    <value>Invalid in 2nd:</value>
+  </data>
+  <data name="WebDateInput_Label11" xml:space="preserve">
+    <value>Invalid in 3rd:</value>
+  </data>
+  <data name="WebDateInput_Label2" xml:space="preserve">
+    <value>Date Time:</value>
+  </data>
+  <data name="WebDateInput_Label3" xml:space="preserve">
+    <value>Currency:</value>
+  </data>
+  <data name="WebDateInput_Label4" xml:space="preserve">
+    <value>Mask:</value>
+  </data>
+  <data name="WebDateInput_Label5" xml:space="preserve">
+    <value>Output of Server Events</value>
+  </data>
+  <data name="WebDateInput_Label6" xml:space="preserve">
+    <value>Events of 1st: </value>
+  </data>
+  <data name="WebDateInput_Label7" xml:space="preserve">
+    <value>Events of 2nd:</value>
+  </data>
+  <data name="WebDateInput_Label8" xml:space="preserve">
+    <value>Events of 3rd:</value>
+  </data>
+  <data name="WebDateInput_Label9" xml:space="preserve">
+    <value>Invalid in 1st:</value>
+  </data>
+  <data name="WebDatePickerEditorDescription" xml:space="preserve">
+    <value>This sample demonstrates how to setup the WebDatePicker control to use the WebMonth Calendar in a drop down.</value>
+  </data>
+  <data name="WebDatePickerEditorLabel" xml:space="preserve">
+    <value>Using the Date Picker:</value>
+  </data>
+  <data name="WebDatePickerEditorName" xml:space="preserve">
+    <value>WebDatePickerEditor</value>
+  </data>
+  <data name="WebDatePickerEditorTitle" xml:space="preserve">
+    <value>Using the WebDatePicker Control</value>
+  </data>
+  <data name="WebDateTimeEditorBasicLabel" xml:space="preserve">
+    <value>Basic Editor:</value>
+  </data>
+  <data name="WebDateTimeEditorDescription" xml:space="preserve">
+    <value>This sample demonstrates the date/time editing, range, nullable, and prompts features of the WebDateTimeEditor control.</value>
+  </data>
+  <data name="WebDateTimeEditorLocalizationCulture" xml:space="preserve">
+    <value>Select Culture:</value>
+  </data>
+  <data name="WebDateTimeEditorLocalizationDescription" xml:space="preserve">
+    <value>This sample demonstrates how to change the culture used by the WebDateTimeEditor control.</value>
+  </data>
+  <data name="WebDateTimeEditorLocalizationTitle" xml:space="preserve">
+    <value>Setting The Culture Used by the WebDateTimeEditor Control</value>
+  </data>
+  <data name="WebDateTimeEditorLocalizationValue" xml:space="preserve">
+    <value>Setting the Editor's Culture:</value>
+  </data>
+  <data name="WebDateTimeEditorName" xml:space="preserve">
+    <value>WebDateTimeEditor</value>
+  </data>
+  <data name="WebDateTimeEditorNullableLabel" xml:space="preserve">
+    <value>Nullable Text:</value>
+  </data>
+  <data name="WebDateTimeEditorPromptsLabel" xml:space="preserve">
+    <value>Using Prompts:</value>
+  </data>
+  <data name="WebDateTimeEditorRangeLabel" xml:space="preserve">
+    <value>Min/Max Values (1/1/1970 - 1/1/2100):</value>
+  </data>
+  <data name="WebDateTimeEditorRestrictingByRange_Description" xml:space="preserve">
+    <value>This sample demonstrates how you can specify a date range for the WebDateTimeEditor control , the control will not accept dates beyond the specified range.</value>
+  </data>
+  <data name="WebDateTimeEditorRestrictingByRange_Label" xml:space="preserve">
+    <value>Editor limited By Range:</value>
+  </data>
+  <data name="WebDateTimeEditorRestrictingByRange_MaxDate" xml:space="preserve">
+    <value>Max Date:</value>
+  </data>
+  <data name="WebDateTimeEditorRestrictingByRange_MinDate" xml:space="preserve">
+    <value>Min Date:</value>
+  </data>
+  <data name="WebDateTimeEditorTitle" xml:space="preserve">
+    <value>Using the WebDateTimeEditor Control</value>
+  </data>
+  <data name="WebEditorMaskBasicAlphaNumNoReq" xml:space="preserve">
+    <value>Alphhanumeric text - all characters optional:</value>
+  </data>
+  <data name="WebEditorMaskBasicAlphaNumNoReqMask" xml:space="preserve">
+    <value>aaaaa</value>
+  </data>
+  <data name="WebEditorMaskBasicAlphaNumReq" xml:space="preserve">
+    <value>Alphhanumeric text - all characters required:</value>
+  </data>
+  <data name="WebEditorMaskBasicAlphaNumReqMask" xml:space="preserve">
+    <value>AAAAAA</value>
+  </data>
+  <data name="WebEditorMaskBasicDesc" xml:space="preserve">
+    <value>This sample demonstrates the mask editing features of the WebMaskEditor control.</value>
+  </data>
+  <data name="WebEditorMaskBasicLower" xml:space="preserve">
+    <value>All characters autoconverted to lowercase:</value>
+  </data>
+  <data name="WebEditorMaskBasicLowerMask" xml:space="preserve">
+    <value>&amp;lt; aaaaa</value>
+  </data>
+  <data name="WebEditorMaskBasicPhone" xml:space="preserve">
+    <value>Phone Number:</value>
+  </data>
+  <data name="WebEditorMaskBasicPhoneExt" xml:space="preserve">
+    <value>Phone Number:</value>
+  </data>
+  <data name="WebEditorMaskBasicPhoneExtMask" xml:space="preserve">
+    <value>(###) ###-#### Ext. 99999</value>
+  </data>
+  <data name="WebEditorMaskBasicPhoneMask" xml:space="preserve">
+    <value>(###) ###-####</value>
+  </data>
+  <data name="WebEditorMaskBasicPostal" xml:space="preserve">
+    <value>Postal Code:</value>
+  </data>
+  <data name="WebEditorMaskBasicPostalMask" xml:space="preserve">
+    <value>#####-####</value>
+  </data>
+  <data name="WebEditorMaskBasicSSN" xml:space="preserve">
+    <value>Social Security Number:</value>
+  </data>
+  <data name="WebEditorMaskBasicSSNMask" xml:space="preserve">
+    <value>###-##-####</value>
+  </data>
+  <data name="WebEditorMaskBasicTitle" xml:space="preserve">
+    <value>Using the WebMaskEditor Control</value>
+  </data>
+  <data name="WebEditorMaskBasicUpper" xml:space="preserve">
+    <value>All characters autoconverted to uppercase:</value>
+  </data>
+  <data name="WebEditorMaskBasicUpperMask" xml:space="preserve">
+    <value>&amp;gt; aaaaa</value>
+  </data>
+  <data name="WebEditorMaskBuildAction" xml:space="preserve">
+    <value>The Input Mask in Action:</value>
+  </data>
+  <data name="WebEditorMaskBuildDesc" xml:space="preserve">
+    <value>This sample demonstrates how to build your own mask input and use it with the WebMaskEditor control.</value>
+  </data>
+  <data name="WebEditorMaskBuildDesc2" xml:space="preserve">
+    <value>&lt;b&gt;Default value is set to "&lt;tt&gt;CCCCCCCCCCCC&lt;/tt&gt;".&lt;/b&gt;&lt;br /&gt;
+            The mask may contain literal characters and input-mask-flags such as
+            &lt;ul&gt;
+	            &lt;li&gt;&lt;tt&gt;&amp;amp;&lt;/tt&gt; - any keyboard character (entry is required)&lt;/li&gt;
+	            &lt;li&gt;&lt;tt&gt;L&lt;/tt&gt; - letter (entry is required)&lt;/li&gt;
+	            &lt;li&gt;&lt;tt&gt;0, #&lt;/tt&gt; - digit (entry is required)&lt;/li&gt;
+	            &lt;li&gt;&lt;tt&gt;A&lt;/tt&gt; - letter or digit (entry is required)&lt;/li&gt;
+	            &lt;li&gt;&lt;tt&gt;C&lt;/tt&gt; - any keyboard character (entry is optional)&lt;/li&gt;
+	            &lt;li&gt;&lt;tt&gt;?&lt;/tt&gt; - letter (entry is optional)&lt;/li&gt;
+	            &lt;li&gt;&lt;tt&gt;9&lt;/tt&gt; - digit (entry is optional)&lt;/li&gt;
+	            &lt;li&gt;&lt;tt&gt;a&lt;/tt&gt; - letter or digit (entry is optional)&lt;/li&gt;
+	            &lt;li&gt;&lt;tt&gt;&amp;gt;&lt;/tt&gt; - all letters to the right are converted to the upper case&lt;/li&gt;
+	            &lt;li&gt;&lt;tt&gt;&amp;lt;&lt;/tt&gt; - all letters to the right are converted to the lower case&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;div&gt;
+                &lt;b&gt;Notes:&lt;/b&gt;&lt;br /&gt;
+                &lt;ul&gt;
+	    	        &lt;li&gt;
+	    	            If in front of any flag-character appears the &lt;tt&gt;"\"&lt;/tt&gt; (escape) character, then that character becomes the literal part of mask.
+                        For example, if mask is set to the &lt;tt&gt;"A\A\BB\\##\99"&lt;/tt&gt; and control has no data, then text in edit mode will appear
+                        as &lt;tt&gt;"_A\BB\#_9_"&lt;/tt&gt;. Where the &lt;tt&gt;"_"&lt;/tt&gt; are available positions for entry.
+                    &lt;/li&gt;
+		            &lt;li&gt;
+		                To cancel upper/lower case convertion which was set by the &lt;tt&gt;&amp;gt;&lt;/tt&gt; or &lt;tt&gt;&amp;lt;&lt;/tt&gt; flag, that flag should be used one more time.
+                        For example, if mask is set to the &lt;tt&gt;"&amp;gt;CC-&amp;gt;CC-&amp;gt;CC"&lt;/tt&gt; and user entered the &lt;tt&gt;"XxXxXx"&lt;/tt&gt;, then resulting text should appear
+                        as &lt;tt&gt;"XX-Xx-XX"&lt;/tt&gt;.
+                    &lt;/li&gt;
+	            &lt;/ul&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="WebEditorMaskBuildInput" xml:space="preserve">
+    <value>Enter in Input Mask:</value>
+  </data>
+  <data name="WebEditorMaskBuildTitle" xml:space="preserve">
+    <value>Building Mask Input Values</value>
+  </data>
+  <data name="WebEditorMaskList" xml:space="preserve">
+    <value>Selecting from a List:</value>
+  </data>
+  <data name="WebEditorMaskListMask" xml:space="preserve">
+    <value>St\ate: &gt;LL</value>
+  </data>
+  <data name="WebEditorStylesDescription" xml:space="preserve">
+    <value>This sample demonstrates how to apply different styles\themes to the WebEditor Controls.</value>
+  </data>
+  <data name="WebEditorStylesLabelCurrency" xml:space="preserve">
+    <value>Currency Editor:</value>
+  </data>
+  <data name="WebEditorStylesLabelDateTime" xml:space="preserve">
+    <value>DateTime Editor:</value>
+  </data>
+  <data name="WebEditorStylesLabelMulti" xml:space="preserve">
+    <value>Multiline Text Editing:</value>
+  </data>
+  <data name="WebEditorStylesLabelNumeric" xml:space="preserve">
+    <value>Numeric Editor:</value>
+  </data>
+  <data name="WebEditorStylesLabelPercent" xml:space="preserve">
+    <value>Percent Editor:</value>
+  </data>
+  <data name="WebEditorStylesLabelPhone" xml:space="preserve">
+    <value>Phone Number:</value>
+  </data>
+  <data name="WebEditorStylesLabelSingle" xml:space="preserve">
+    <value>Single-line text:</value>
+  </data>
+  <data name="WebEditorStylesLabelTheme" xml:space="preserve">
+    <value>Select Theme:</value>
+  </data>
+  <data name="WebEditorStylesTitle" xml:space="preserve">
+    <value>Apply Styles\Themes</value>
+  </data>
+  <data name="WebEditors_ClientInteraction_BasicCurrencyEditor" xml:space="preserve">
+    <value>Currency Editor:</value>
+  </data>
+  <data name="WebEditors_ClientInteraction_BasicDateTimeEditor" xml:space="preserve">
+    <value>DateTime Editor:</value>
+  </data>
+  <data name="WebEditors_ClientInteraction_BasicNumericEditor" xml:space="preserve">
+    <value>Numeric Editor:</value>
+  </data>
+  <data name="WebEditors_ClientInteraction_BasicPercentEditor" xml:space="preserve">
+    <value>Percent Editor:</value>
+  </data>
+  <data name="WebEditors_ClientInteraction_BasicSingleEditor" xml:space="preserve">
+    <value>Single-line Text Editor:</value>
+  </data>
+  <data name="WebEditors_ClientInteraction_Description" xml:space="preserve">
+    <value>This sample demonstrates how to use the Client API to get the selected text from all Controls.</value>
+  </data>
+  <data name="WebEditors_ClientInteraction_MaskedEditor" xml:space="preserve">
+    <value>Masked Editor:</value>
+  </data>
+  <data name="WebEditors_ClientInteraction_PasswordEditor" xml:space="preserve">
+    <value>Password Editor:</value>
+  </data>
+  <data name="WebEditors_ClientInteraction_SpinButtonEditor" xml:space="preserve">
+    <value>SpinButton Editor:</value>
+  </data>
+  <data name="WebEditors_ClientInteraction_Title" xml:space="preserve">
+    <value>Client Interaction - All Controls</value>
+  </data>
+  <data name="WebEditorValidationDescription" xml:space="preserve">
+    <value>This sample demonstrates how to use the WebEditor controls in conjuction with the ASP.NET Validator controls.</value>
+  </data>
+  <data name="WebEditorValidationEmailErrMsg" xml:space="preserve">
+    <value>Email Address Must Match</value>
+  </data>
+  <data name="WebEditorValidationEmailErrMsg2" xml:space="preserve">
+    <value>Invalid E-Mail</value>
+  </data>
+  <data name="WebEditorValidationFormTitle" xml:space="preserve">
+    <value>Registration Form</value>
+  </data>
+  <data name="WebEditorValidationLabelEmail" xml:space="preserve">
+    <value>Email Address:</value>
+  </data>
+  <data name="WebEditorValidationLabelEmail2" xml:space="preserve">
+    <value>Confirm Email:</value>
+  </data>
+  <data name="WebEditorValidationLabelPassword" xml:space="preserve">
+    <value>Enter in Password:</value>
+  </data>
+  <data name="WebEditorValidationLabelPassword2" xml:space="preserve">
+    <value>Confirm Password:</value>
+  </data>
+  <data name="WebEditorValidationLabelStatus" xml:space="preserve">
+    <value>Your request was submited</value>
+  </data>
+  <data name="WebEditorValidationLabelUserName" xml:space="preserve">
+    <value>User Name:</value>
+  </data>
+  <data name="WebEditorValidationPasswordErrMsg" xml:space="preserve">
+    <value>Passwords Must Match</value>
+  </data>
+  <data name="WebEditorValidationPasswordErrMsg2" xml:space="preserve">
+    <value>Password is not Valid</value>
+  </data>
+  <data name="WebEditorValidationSubmitButton" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="WebEditorValidationTitle" xml:space="preserve">
+    <value>Using ASP.NET Validators</value>
+  </data>
+  <data name="WebNumericEditorBasicLabel" xml:space="preserve">
+    <value>Basic Editor:</value>
+  </data>
+  <data name="WebNumericEditorDesc" xml:space="preserve">
+    <value>This sample demonstrates basic using of WebNumericEditor control. By default the control makes round to two signs after decimal point. WebNumericEditor doesn't accept typing letters - only numbers.</value>
+  </data>
+  <data name="WebNumericEditorMinMaxLabel" xml:space="preserve">
+    <value>Min/Max Values (0 - 10):</value>
+  </data>
+  <data name="WebNumericEditorNullableLabel" xml:space="preserve">
+    <value>Nullable Text:</value>
+  </data>
+  <data name="WebNumericEditorNullableShortDesc" xml:space="preserve">
+    <value>Please Enter in a Value.</value>
+  </data>
+  <data name="WebNumericEditorRangeDesc" xml:space="preserve">
+    <value>This sample demonstrates how  to use JavaScript to restrict the range of values.</value>
+  </data>
+  <data name="WebNumericEditorRangeLabel" xml:space="preserve">
+    <value>Editor limited By Range:</value>
+  </data>
+  <data name="WebNumericEditorRangeMaxValue" xml:space="preserve">
+    <value>Max Value:</value>
+  </data>
+  <data name="WebNumericEditorRangeMinValue" xml:space="preserve">
+    <value>Min Value:</value>
+  </data>
+  <data name="WebNumericEditorRangeTitle" xml:space="preserve">
+    <value>Using the WebNumericEditor Control Restricting By Range</value>
+  </data>
+  <data name="WebNumericEditorSpinBtnLabel" xml:space="preserve">
+    <value>Using Spin Buttons:</value>
+  </data>
+  <data name="WebNumericEditorTitle" xml:space="preserve">
+    <value>Using the WebNumericEditor Control</value>
+  </data>
+  <data name="WebPercentEditorDesc" xml:space="preserve">
+    <value>This sample demonstrates basic using of WebPercentEditor control. By default the control makes round to two signs after decimal point. After you enter value and click outside of the control it adds percent sign after the value. WebPercentEditor doesn't accept typing letters - only numbers.</value>
+  </data>
+  <data name="WebPercentEditorTitle" xml:space="preserve">
+    <value>Using the WebPercentEditor Control</value>
+  </data>
+  <data name="WebTextEditorPasswordDesc" xml:space="preserve">
+    <value>This sample demonstrates how to use the password mode of the WebPercentEditor control to build a login screen.</value>
+  </data>
+  <data name="WebTextEditorPasswordLoginBtn" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="WebTextEditorPasswordPasswordLabel" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="WebTextEditorPasswordTitle" xml:space="preserve">
+    <value>Building a Login Screen</value>
+  </data>
+  <data name="WebTextEditorPasswordUserLabel" xml:space="preserve">
+    <value>User Name:</value>
+  </data>
+  <data name="WebTextEditorUsingBasicCPEnd" xml:space="preserve">
+    <value>Selection End:</value>
+  </data>
+  <data name="WebTextEditorUsingBasicCPSelected" xml:space="preserve">
+    <value>Selected Text:</value>
+  </data>
+  <data name="WebTextEditorUsingBasicCPStart" xml:space="preserve">
+    <value>Selection Start:</value>
+  </data>
+  <data name="WebTextEditorUsingBasicCPStartText" xml:space="preserve">
+    <value>Text:</value>
+  </data>
+  <data name="WebTextEditorUsingBasicCPTitle" xml:space="preserve">
+    <value>Control Panel</value>
+  </data>
+  <data name="WebTextEditorUsingBasicDesc" xml:space="preserve">
+    <value>This sample demonstrates the text editing, range, nullable, and spin button features of the WebTextEditor control. JavaScript is used to retrieve the text and current starting/ending selected text postions from the control.</value>
+  </data>
+  <data name="WebTextEditorUsingBasicSingleLabel" xml:space="preserve">
+    <value>Single-line Text:</value>
+  </data>
+  <data name="WebTextEditorUsingBasicSpinLabel" xml:space="preserve">
+    <value>Using Spin Buttons:</value>
+  </data>
+  <data name="WebTextEditorUsingBasicTitle" xml:space="preserve">
+    <value>Using the WebTextEditor Control</value>
+  </data>
+  <data name="WebTextEditorUsingMultiDesc" xml:space="preserve">
+    <value>This sample demonstrates the multi line text editing features of the WebTextEditor control. JavaScript is used to retrieve the text and current starting/ending selected text postions from the control.</value>
+  </data>
+  <data name="WebTextEditorUsingMultiLabel" xml:space="preserve">
+    <value>Multiline Text Editing:</value>
+  </data>
+  <data name="WebTextEditorUsingMultiTitle" xml:space="preserve">
+    <value>Multiline Text Editing</value>
+  </data>
+  <data name="WebPercentEditorMinMaxLabel" xml:space="preserve">
+    <value>Min/Max Values (0 - 100):</value>
+  </data>
+  <data name="WebEditorMaskListEnumeration" xml:space="preserve">
+    <value>CA|DE|NC|NJ|NJ|RI|WA</value>
+  </data>
+  <data name="DateEditors_ExactTimeMask" xml:space="preserve">
+    <value>dd/MM/yyyy H:mm:ss fff</value>
+  </data>
+  <data name="ClientSide_Cancel1" xml:space="preserve">
+    <value>[server-side invalid-event can be canceled]</value>
+  </data>
+  <data name="ClientSide_Cancel2" xml:space="preserve">
+    <value> [can be canceled]</value>
+  </data>
+  <data name="ClientSide_Cancel3" xml:space="preserve">
+    <value> [can be canceled or keyCode can be changed]</value>
+  </data>
+  <data name="ClientSide_InvalidDate1" xml:space="preserve">
+    <value>WebDateTimeEdit4 has invalid date\n\nInstant values of fields:\nyear=</value>
+  </data>
+  <data name="ClientSide_InvalidDate2" xml:space="preserve">
+    <value>Invalid value of field(s)</value>
+  </data>
+  <data name="ClientSide_InvalidDate3" xml:space="preserve">
+    <value>month=</value>
+  </data>
+  <data name="ClientSide_InvalidDate4" xml:space="preserve">
+    <value>day=</value>
+  </data>
+  <data name="ClientSide_InvalidDate5" xml:space="preserve">
+    <value>Min/max date limit</value>
+  </data>
+  <data name="ClientSide_InvalidDate6" xml:space="preserve">
+    <value>String can not be converted to a date. Last good date is used.</value>
+  </data>
+  <data name="ClientSide_InvalidDate7" xml:space="preserve">
+    <value>Type of invalid date:</value>
+  </data>
+  <data name="ClientSide_InvalidDate8" xml:space="preserve">
+    <value>Suggested date:</value>
+  </data>
+  <data name="ClientSide_Source" xml:space="preserve">
+    <value>source:</value>
+  </data>
+  <data name="ClientSide_SpinDelta" xml:space="preserve">
+    <value>Spin, delta:</value>
+  </data>
+  <data name="ClientSide_Text" xml:space="preserve">
+    <value>text:</value>
+  </data>
+  <data name="ClientSide_StartStop" xml:space="preserve">
+    <value>Click to Start and Stop</value>
+  </data>
+  <data name="WebMaskEditorEditorFormat" xml:space="preserve">
+    <value>Editor's Format</value>
+  </data>
+  <data name="WebMaskEditorEGN" xml:space="preserve">
+    <value>EGN</value>
+  </data>
+  <data name="WebMaskEditorMobilePhoneNumber" xml:space="preserve">
+    <value>Mobile Phone Number</value>
+  </data>
+  <data name="WebMaskEditorName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="WebMaskEditorPostCode" xml:space="preserve">
+    <value>Post Code</value>
+  </data>
+  <data name="WebMaskEditorSSN" xml:space="preserve">
+    <value>SSN</value>
+  </data>
+  <data name="WebMaskEditorClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="WebMaskEditorBulgarian" xml:space="preserve">
+    <value>Bulgarian</value>
+  </data>
+  <data name="WebMaskEditorUS" xml:space="preserve">
+    <value>US</value>
+  </data>
+</root>

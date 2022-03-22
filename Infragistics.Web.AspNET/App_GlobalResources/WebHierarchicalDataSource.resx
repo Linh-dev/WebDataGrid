@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Navigation_Title" xml:space="preserve">
+    <value>WebHierarchicalDataSource</value>
+  </data>
+  <data name="Navigation_Header" xml:space="preserve">
+    <value>Binding asp:Menu and asp:TreeView Controls to a WebHierarchicalDataSource</value>
+  </data>
+  <data name="Navigation_Description_1" xml:space="preserve">
+    <value>
+This sample shows how to bind asp:Menu and asp:TreeView controls to WebHierarchicalDataSource.</value>
+  </data>
+  <data name="Navigation_TreeHeader_1" xml:space="preserve">
+    <value>asp:TreeView</value>
+  </data>
+  <data name="Navigation_TreeHeader_2" xml:space="preserve">
+    <value>asp:Menu</value>
+  </data>
+  <data name="Updating_Header" xml:space="preserve">
+    <value>Updating Data using the WebHierarchicalDataSource</value>
+  </data>
+  <data name="Updating_Description_1" xml:space="preserve">
+    <value>The WebHierarchicalDataSource includes full support for Create, Update and Delete functionality (CRUD). This sample demonstrates how to take advantage of that functionality using the UltraWebGrid.</value>
+  </data>
+  <data name="Updating_Description_2" xml:space="preserve">
+    <value>The following properties need to be set on the UltraWebGrid to enable CRUD:</value>
+  </data>
+  <data name="Updating_Description_3" xml:space="preserve">
+    <value>DisplayLayout.AllowUpdateDefault set to "Yes"</value>
+  </data>
+  <data name="Updating_Description_4" xml:space="preserve">
+    <value>Bands[i].UltraGridBand.BaseTableName must be specified</value>
+  </data>
+  <data name="Updating_Description_5" xml:space="preserve">
+    <value>Bands[i].UltraGridBand.DataKeyField must be specified</value>
+  </data>
+  <data name="Updating_SaveButton" xml:space="preserve">
+    <value>Save Grid</value>
+  </data>
+  <data name="Menu_Header" xml:space="preserve">
+    <value>Binding an UltraWebMenu to a WebHierarchicalDataSource</value>
+  </data>
+  <data name="Menu_Description_1" xml:space="preserve">
+    <value>In this sample, just like the UltraWebTree WebHierarchicalDataSource binding sample, a WebHierarchicalDataSource control is used to create a hiearchy of Categories and Products.</value>
+  </data>
+  <data name="Menu_Description_2" xml:space="preserve">
+    <value>The DataSourceID property of the UltraWebMenu is set to the ID of the WebHierarchicalDataSource. The DataBinding collection of the UltraWebMenu is used to further specify how the data is mapped to the menu.</value>
+  </data>
+  <data name="Menu_TreeHeader_1" xml:space="preserve">
+    <value>ignav:UltraWebMenu</value>
+  </data>
+  <data name="Tree_Header" xml:space="preserve">
+    <value>Binding an UltraWebTree to a WebHierarchicalDataSource</value>
+  </data>
+  <data name="Tree_Description_1" xml:space="preserve">
+    <value>The WebHierarchicalDataSource control supports a variety of ways in which the user can create a hierarchy based on any number of flat datasource controls. In this example we create a two level hierarchy based on Categories and Products, linked by their respective CategoryID fields.</value>
+  </data>
+  <data name="Tree_Description_2" xml:space="preserve">
+    <value>To display the data in the UltraWebTree, the DataSourceID property of the UltraWebTree is set to the ID of the WebHierarchicalDataSource. 
+    The DataBinding collection of the UltraWebTree is used to further specify how the data is mapped to the tree.</value>
+  </data>
+  <data name="Tree_TreeHeader_1" xml:space="preserve">
+    <value>ignav:menu</value>
+  </data>
+  <data name="Self_Header" xml:space="preserve">
+    <value>Self-Referencing a DataSource to Create Hierarchy</value>
+  </data>
+  <data name="Self_Description_1" xml:space="preserve">
+    <value>In this sample, a single DataSource is used by the WebHierarchicalDataSource to create a hierarchy that displays a parent/child employee reporting structure. Both the ChildDataViewID and ParentDataViewID point to AccessDataSource1, with ParentColumns specified as EmployeeID and ChildColumns set to ReportsTo.</value>
+  </data>
+  <data name="Self_TreeHeader_1" xml:space="preserve">
+    <value>ignav:treeview</value>
+  </data>
+  <data name="Self_TreeHeader_2" xml:space="preserve">
+    <value>ignav:menu</value>
+  </data>
+  <data name="HeaderText_CategoryID" xml:space="preserve">
+    <value>Category ID</value>
+  </data>
+  <data name="HeaderText_CategoryName" xml:space="preserve">
+    <value>Category Name</value>
+  </data>
+  <data name="HeaderText_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="HeaderText_ProductID" xml:space="preserve">
+    <value>Product ID</value>
+  </data>
+  <data name="HeaderText_ProductName" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="WebDataMenuHeader" xml:space="preserve">
+    <value>ASP.NET Data Menu</value>
+  </data>
+  <data name="WebDataTreeHeader" xml:space="preserve">
+    <value>ASP.NET Data Tree</value>
+  </data>
+  <data name="HeaderText_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="HeaderText_CompanyName" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="HeaderText_ContactName" xml:space="preserve">
+    <value>Contact Name</value>
+  </data>
+  <data name="HeaderText_Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="HeaderText_CustomerAddress" xml:space="preserve">
+    <value>Customer Address</value>
+  </data>
+  <data name="HeaderText_CustomerID" xml:space="preserve">
+    <value>Customer ID</value>
+  </data>
+  <data name="HeaderText_OrderDate" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <data name="HeaderText_OrderID" xml:space="preserve">
+    <value>Order ID</value>
+  </data>
+  <data name="HeaderText_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="HeaderText_ShipAddress" xml:space="preserve">
+    <value>Ship Address</value>
+  </data>
+  <data name="HeaderText_ShipCity" xml:space="preserve">
+    <value>Ship City</value>
+  </data>
+  <data name="HeaderText_ShipCountry" xml:space="preserve">
+    <value>Ship Country</value>
+  </data>
+  <data name="HeaderText_ShipName" xml:space="preserve">
+    <value>Ship Name</value>
+  </data>
+</root>

@@ -1,0 +1,32 @@
+﻿        .OrdersHeaderCaption
+        {
+            background-position: 0px 0px;
+            background-repeat: repeat-x;
+            background-color: black;
+            color: White;
+            background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebHierarchicalDataGrid/Style/ChildBandStyling/backgroundsTds.png);
+        }
+        TBODY.OrdersItem > TR > TD
+        {
+            background: #F3EEFF;
+        }
+        TBODY > TR.OrdersAltItem > TD
+        {
+            background: #FCFBFF;
+        }
+        .DetailsHeaderCaption
+        {
+             background-position: 0px -40px;
+            background-repeat: repeat-x;
+            background-color: black;
+            color: White;
+            background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebHierarchicalDataGrid/Style/ChildBandStyling/backgroundsTds.png);
+        }
+        TBODY.DetailsItem > TR > TD
+        {
+            background: #DCFFF9;
+        }
+        TBODY > TR.DetailsAltItem > TD
+        {
+            background: #F7FFFE;
+        }

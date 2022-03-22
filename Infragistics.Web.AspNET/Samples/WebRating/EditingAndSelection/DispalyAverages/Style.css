@@ -1,0 +1,27 @@
+﻿        .Label 
+        {
+        	font-size:12px; 
+        	font-weight:bold;
+        }
+
+        .alternatingRowBg{background-color:#EBF6FF; }
+        tbody.igg_FeatureBrowserItem > tr > td
+        {
+                background-color:transparent
+        }
+    
+        .cupRating
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/DisplayAverages/cup.png');      
+        }
+      
+        .cupRatingEmpty
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/DisplayAverages/cupEmpty.png');
+        }
+             
+       .cupRatingEmpty2
+        {
+        	background: url('/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/DisplayAverages/cupEmpty2.png');
+        }
+        table img{width:16px;height:11px}

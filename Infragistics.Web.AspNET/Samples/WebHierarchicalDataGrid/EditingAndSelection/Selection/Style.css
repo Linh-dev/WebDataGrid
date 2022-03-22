@@ -1,0 +1,16 @@
+﻿        #selectedCellCountLabel
+        {
+            color: #4679A6;
+            font-weight: bold;
+        }
+        #selectedColumnCountLabel
+        {
+            color: #4679A6;
+            font-weight: bold;
+        }
+        #bandSelectedRowLabel
+        {
+            color: #CD6969;
+            font-weight: bold;
+        }
+

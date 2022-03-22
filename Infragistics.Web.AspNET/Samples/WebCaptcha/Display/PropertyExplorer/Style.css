@@ -1,0 +1,73 @@
+﻿input, select {border: 1px solid #CCCCCC; outline: none;}        
+        
+/* Property List Rows */
+.textAlignR {text-align: right; width:25%;}
+.itemRow {background-color: #F4F9F2;}
+.altRow {background-color: #E7F5D2;}
+
+#SampleContainer
+{
+    height: 380px;
+}   
+
+.PropModePanel
+{
+    position: absolute; 
+    width: 100%; 
+    top: 240px;
+}
+.PropDropDown
+{
+    width: 150px;
+}
+#PropPanel
+{
+   position : absolute;
+   top: -1px
+}
+.FirstRow
+{
+    text-align: right;
+    width:50%;
+}
+.SubmitBtn
+{
+    margin-top:15px;
+    margin-left:130px;
+}
+#<%=UpdateProgress1.ClientID%> 
+{
+  position:relative;
+  left:145px;
+  top:110px;
+}
+.ProtectionModesInfo
+{
+    position: relative; 
+    width: 320px;
+    line-height:13px;
+    float: right;
+    margin-right: 35px;
+   
+}
+ .ProtectionModesInfo UL
+{
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 0px;
+     color: #666666;
+     list-style-type:none;
+
+}
+.ProtectionModesInfo LI
+{
+    margin-bottom: 10px;
+    font-size:13px !important;    
+} 
+ul > li
+{
+	color: #656565;
+	font-size: 0.875em;
+	line-height: 1.0em !important;
+}    

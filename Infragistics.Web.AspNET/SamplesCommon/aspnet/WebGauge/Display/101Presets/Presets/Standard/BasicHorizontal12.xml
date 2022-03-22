@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="BasicHorizontal12" PresetDescription="Custom Preset Created 5/3/2007 5:49:22 PM" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" Width="475" Height="125">
+  <Gauges>
+    <igGaugeProp:LinearGauge CornerExtent="50" Margin="2, 10, 2, 10, Pixels">
+      <Scales>
+        <igGaugeProp:LinearGaugeScale EndExtent="90" StartExtent="10">
+          <Markers>
+            <igGaugeProp:LinearGaugeBarMarker BulbSpan="20" SegmentSpan="99" Value="50" Precision="0" StartExtent="-8" OuterExtent="50" InnerExtent="40">
+              <BrushElements>
+                <igGaugeProp:SimpleGradientBrushElement EndColor="Red" StartColor="192, 64, 0" />
+              </BrushElements>
+              <Response />
+              <StrokeElement Color="140, 255, 255, 255" />
+              <Background>
+                <StrokeElement Color="Transparent" />
+              </Background>
+            </igGaugeProp:LinearGaugeBarMarker>
+          </Markers>
+          <MajorTickmarks EndExtent="35" StartExtent="22">
+            <StrokeElement Color="Transparent" />
+          </MajorTickmarks>
+          <Axes>
+            <igGaugeProp:NumericAxis EndValue="100" TickmarkInterval="12" />
+          </Axes>
+          <StrokeElement Color="Transparent" />
+        </igGaugeProp:LinearGaugeScale>
+        <igGaugeProp:LinearGaugeScale EndExtent="90" StartExtent="10">
+          <MajorTickmarks EndExtent="50" StartExtent="40">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="255, 61, 22" />
+            </BrushElements>
+            <StrokeElement Color="80, 255, 255, 255" />
+          </MajorTickmarks>
+          <Axes>
+            <igGaugeProp:NumericAxis StartValue="-20" EndValue="40" TickmarkInterval="10" />
+          </Axes>
+          <Labels Extent="17" Font="Trebuchet MS, 9pt, style=Bold">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="White" />
+            </BrushElements>
+          </Labels>
+        </igGaugeProp:LinearGaugeScale>
+        <igGaugeProp:LinearGaugeScale EndExtent="90" StartExtent="10">
+          <MinorTickmarks EndExtent="75" Frequency="0.2" StartExtent="65">
+            <StrokeElement Color="Transparent" />
+          </MinorTickmarks>
+          <MajorTickmarks EndWidth="2" EndExtent="55" StartExtent="35" StartWidth="2">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="White" />
+            </BrushElements>
+            <StrokeElement Color="DimGray" />
+          </MajorTickmarks>
+          <Axes>
+            <igGaugeProp:NumericAxis EndValue="100" TickmarkInterval="10" />
+          </Axes>
+          <Labels Extent="72" Font="Trebuchet MS, 9pt, style=Bold" ZPosition="AboveMarkers">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="White" RelativeBoundsMeasure="Percent" RelativeBounds="0, 0, 80, 0" />
+            </BrushElements>
+            <Shadow Depth="2">
+              <BrushElements>
+                <igGaugeProp:SolidFillBrushElement />
+              </BrushElements>
+            </Shadow>
+          </Labels>
+        </igGaugeProp:LinearGaugeScale>
+      </Scales>
+      <BrushElements>
+        <igGaugeProp:BrushElementGroup>
+          <BrushElements>
+            <igGaugeProp:SimpleGradientBrushElement EndColor="DimGray" StartColor="Black" />
+            <igGaugeProp:SimpleGradientBrushElement EndColor="10, 255, 255, 255" RelativeClipBoundsMeasure="Percent" StartColor="120, 255, 255, 255" RelativeBoundsMeasure="Percent" RelativeBounds="2, 10, 96, 50" />
+          </BrushElements>
+        </igGaugeProp:BrushElementGroup>
+      </BrushElements>
+    </igGaugeProp:LinearGauge>
+  </Gauges>
+  <Annotations>
+    <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="92, 22, 0, 0">
+      <BrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="Transparent" />
+      </BrushElements>
+      <Label FormatString="F" Font="Trebuchet MS, 10pt, style=Bold">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="White" RelativeBoundsMeasure="Percent" />
+        </BrushElements>
+      </Label>
+    </igGaugeProp:BoxAnnotation>
+    <igGaugeProp:BoxAnnotation BoundsMeasure="Percent" Bounds="92, 65, 0, 0">
+      <BrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="Transparent" />
+      </BrushElements>
+      <Label FormatString="C" Font="Trebuchet MS, 10pt, style=Bold">
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="White" />
+        </BrushElements>
+      </Label>
+    </igGaugeProp:BoxAnnotation>
+  </Annotations>
+  <Effects />
+</igGauge:UltraGauge>

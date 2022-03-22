@@ -1,0 +1,22 @@
+﻿	    input, select, option {border: 1px solid #CCCCCC; outline: none;}    	
+    	
+	    /* Property List Rows */
+	    .textAlignR {text-align: right; padding-right:10px;}
+	    .itemRow {background-color: #F4F9F2; }
+	    .altRow {background-color: #E7F5D2; }
+    	
+	    /* ContainerPanels */
+	    .parentContainerPanel {background-image: url(../images/propexp_Border.png); background-repeat: repeat-x; background-color: #68A80C; padding: 0px 5px 5px 5px; margin: 0px;}
+	    .controlPanel {width: 50%; }
+	    .propertyPanel {background-color: #F4F9F2; width: 50%;}
+    	
+	    #<%=UpdateProgress1.ClientID%> {
+          width: 200px; 
+          text-align: center;
+          height:16px;
+        }
+        .PositionRelative
+        {
+            position:static !important;    
+        }
+        

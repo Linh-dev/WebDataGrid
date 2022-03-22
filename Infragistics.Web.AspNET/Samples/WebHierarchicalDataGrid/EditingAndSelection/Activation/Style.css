@@ -1,0 +1,13 @@
+﻿        .igg_ActiveCell
+        {
+            background-color: Green;
+            font-weight: bold;
+        }
+        TABLE TBODY TR.igg_ActiveRow TD
+        {
+            color: Green;
+        }
+        .igg_ActiveColumn
+        {
+            background-color: #B2FFC7;
+        }

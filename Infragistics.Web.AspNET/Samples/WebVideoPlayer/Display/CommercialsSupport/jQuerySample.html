@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Infragistics jQuery Video Player Commercials Support</title>
+
+     
+     
+    <link href="/SamplesBrowser/SamplesCommon/aspnet/Common/Styles/jquery/css/themes/infragistics/infragistics.theme.css" rel="stylesheet" type="text/css" />
+    <link href="/SamplesBrowser/SamplesCommon/aspnet/Common/Styles/jquery/css/structure/infragistics.css" rel="stylesheet" type="text/css" />
+
+	<script src="/SamplesBrowser/Scripts/jquery.min.js" type="text/javascript" ></script>
+	<script src="/SamplesBrowser/Scripts/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/SamplesBrowser/Scripts/modernizr.min.js" type="text/javascript" ></script>
+    <script src="/SamplesBrowser/SamplesCommon/aspnet/Common/Scripts/jquery/js/infragistics.js" type="text/javascript"></script>
+
+    <style type="text/css">
+        #player1
+        {
+            z-index: 1000;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(window).load(function () {
+            $("#player1").igVideoPlayer({
+                sources: ['http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/Infragistics_Presentation_lowRes_1.h264.mp4',
+						'http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/Infragistics_Presentation_lowRes_1.webmvp8.webm',
+						'http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/Infragistics_Presentation_lowRes_1.theora.ogv'
+				],
+                width: 720,
+                height: 272,
+                posterUrl: '../Content/images/Infragistics_Presentation_lowRes_1.png',
+                fullscreen: false,
+                browserControls: false,
+                autohide: false,
+                autoplay: false,
+                autohideDelay: 2000,
+                title: 'Infragistics Presentation',
+                commercials: {
+                    linkedCommercials: [
+					{
+					    sources: ["http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/QuinceIntro_1.h264.mp4",
+				                    "http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/QuinceIntro_1.webmvp8.webm",
+				                    "http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/QuinceIntro_1.theora.ogv"],
+					    startTime: 20,
+					    title: 'Quince Presentation p1',
+					    link: 'http://quince.infragistics.com/'
+					},
+					{
+					    sources: ["http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/QuinceIntro_Part3_1.h264.mp4",
+				                    "http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/QuinceIntro_Part3_1.webmvp8.webm",
+				                    "http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/QuinceIntro_Part3_1.theora.ogv"],
+					    startTime: 100,
+					    title: 'Quince Presentation p3',
+					    link: 'http://quince.infragistics.com/'
+					}]
+                }
+            });
+
+        });
+
+        function showCommercials() {
+            var alwaysPlay = $("#showCommercials").val() === "False" ? false : true;
+            var commercials = $("#player1").igVideoPlayer("option", "commercials");
+            commercials.alwaysPlayCommercials = alwaysPlay;
+        }
+		
+    </script>
+</head>
+<body>
+    <div style="margin-bottom: 10px;">
+        <div style="float: left;">
+            Always Play Commercials
+        </div>
+        <div style="float: left; padding-left: 20px;">
+            <select id="showCommercials" onchange="showCommercials();">
+                <option>True</option>
+                <option selected="selected">False</option>
+            </select>
+        </div>
+        <div style="clear: both;">
+        </div>
+    </div>
+    <div id="player1">
+    </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+﻿#container
+{
+    height: 100%;
+    padding: 0 0 0 6px;
+    position: relative;
+    width: 90%;
+}
+.mainTable
+{
+    border: 0px;
+    height: 100%;
+    width: 100%;
+}
+.MainContent
+{
+    float: left;
+    margin: 5px 0px 3px 0;
+    height: 100%;
+}
+.ig_FeatureBrowserControl
+{
+    background-color: transparent !important;
+}
+#ctl00_OverviewPanel
+{
+    margin-top: 25px;
+}
+.PE_RightContent
+{
+    margin: 0;
+    height: 100%;
+    padding-top: 5px;
+}
+.PE_RightContent table
+{
+    border: 0;
+    width: 100%;
+}
+.PE_RightContent td, .PE_RightContent th
+{
+    height: 22px;
+    padding: 3px;
+}
+.tableLeftTd
+{
+    text-align: right;
+}
+
+th.tableFeaturesRow
+{
+    text-align: left;
+    font-size: 12px;
+}
+
+.bgTdLight
+{
+    background-color: #E2F6FE;
+}
+.bgTdDark
+{
+    background-color: #3EC2F9;
+}
+.ClientTabs
+{
+    padding: 0 5px 0 0;
+    background-color: Transparent;
+}
+.borderGreen
+{
+    vertical-align: top;
+    background-color: #F4F9F2;
+}
+.mainTdLeft
+{
+    vertical-align: top;
+    background-repeat: no-repeat;
+}
+.igtab_FeatureBrowserTHContentHolder
+{
+    width: 298px;
+}
+.igtab_FeatureBrowserTHContent
+{
+    padding: 3px 5px 5px 5px;
+}
+.igtab_FeatureBrowserTHHolder
+{
+    width: 300px;
+}
+.igtab_PositionRelative
+{
+    position: relative !important;
+}
+
+.PE_RightContent table
+{
+    border: 1px solid #3EC2F9;
+}

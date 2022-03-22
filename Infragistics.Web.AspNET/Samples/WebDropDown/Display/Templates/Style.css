@@ -1,0 +1,17 @@
+﻿.igdd_FeatureBrowserListItem
+{
+    list-style-type: none;
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+.igdd_FeatureBrowserDropDownList
+{
+    padding: 0px;
+    margin: 0px;
+}
+.ig_FeatureBrowserControl
+{
+    border: none;
+}

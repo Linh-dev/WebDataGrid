@@ -1,0 +1,30 @@
+﻿.igg_CustomPager
+{
+	font-size: 11px;
+	margin-right: 30px;
+	background-color: transparent;
+	text-align: center !important;
+	vertical-align: middle !important;
+	background-image: url(/samplesbrowser/samplescommon/aspnet/webdatagrid/style/pagingcustomcss/pagerbg.gif);
+    background-position: 0 0px;
+}
+.DropDownClass
+{
+	font-size: 11px;
+}
+.igg_PageLink
+{
+	border: 0px solid #ff0000;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.igg_CurrentPageLink
+{
+	color: white;
+	background-image: url(/samplesbrowser/samplescommon/aspnet/webdatagrid/style/pagingcustomcss/custompager.png);
+	background-repeat: no-repeat;
+	padding-top: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+}

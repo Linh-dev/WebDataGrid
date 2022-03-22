@@ -1,0 +1,39 @@
+﻿input, select
+        {
+            border: 1px solid #CCCCCC;
+            outline: none;
+        }
+        /* Property List Rows */.textAlignR
+        {
+            text-align: right;
+        }
+        .itemRow
+        {
+            background-color: #F4F9F2;
+        }
+        .altRow
+        {
+            background-color: #E7F5D2;
+        }
+        /* ContainerPanels */.parentContainerPanel
+        {
+            background-image: url(../images/propexp_Border.png);
+            background-repeat: repeat-x;
+            background-color: #68A80C;
+            padding: 0px 5px 5px 5px;
+            margin: 0px;
+            width: 675px;
+        }
+        .controlPanel
+        {
+            width: 50%;
+        }
+        .propertyPanel
+        {
+            background-color: #F4F9F2;
+            width: 50%;
+        }
+        .igcalendar_PositionRelative
+        {
+            position:static !important;
+         }

@@ -1,0 +1,10 @@
+﻿/* Customize the WebDialogWindow Background */
+.igdw_IGBodyContentArea
+{
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/Common/TreeBg.jpg);
+    background-repeat: no-repeat;
+}
+.Treepadding
+{
+    padding-left: 10px;
+}

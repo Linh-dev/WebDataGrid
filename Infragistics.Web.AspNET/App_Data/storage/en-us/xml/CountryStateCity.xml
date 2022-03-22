@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<countries>
+	<country name="United States">
+		<state name="Alabama">
+			<city name="Montgomery"/>
+			<city name="Birmingham"/>
+			<city name="Tuscaloosa"/>
+			<city name="Huntsville"/>
+		</state>
+		<state name="Alaska">
+			<city name="Juneau"/>
+			<city name="Anchorage"/>
+		</state>
+		<state name="Arizona">
+			<city name="Phoenix"/>
+			<city name="Flagstaff"/>
+			<city name="Tuscon"/>
+		</state>
+		<state name="Arkansas">
+			<city name="Little Rock"/>
+			<city name="Pine Bluff"/>
+		</state>
+		<state name="California">
+			<city name="Sacramento"/>
+			<city name="Los Angeles"/>
+			<city name="San Diego"/>
+			<city name="San Francisco"/>
+			<city name="San Luis Obispo"/>
+			<city name="San Mateo"/>
+			<city name="San Jose"/>
+			<city name="Santa Monica"/>
+			<city name="Hollywood"/>
+			<city name="Oakland"/>
+			<city name="Stockton"/>
+			<city name="Long Beach"/>
+			<city name="Palm Springs"/>
+		</state>
+		<state name="Colorado">
+			<city name="Denver"/>
+			<city name="Colorado Springs"/>
+			<city name="Pueblo"/>
+			<city name="Aurora"/>
+		</state>
+		<state name="Connecticut">
+			<city name="Hartford"/>
+			<city name="Bridgeport"/>
+			<city name="Waterbury"/>
+			<city name="Stamford"/>
+		</state>
+		<state name="Delaware">
+			<city name="Dover"/>
+			<city name="Wilmington"/>
+			<city name="Newark"/>
+		</state>
+		<state name="Florida">
+			<city name="Tallahassee"/>
+			<city name="Jacksonville"/>
+			<city name="Orlando"/>
+			<city name="Tampa"/>
+			<city name="Miami"/>
+			<city name="Daytona Beach"/>
+		</state>
+		<state name="Georgia">
+			<city name="Atlanta"/>
+			<city name="Macon"/>
+			<city name="Savannah"/>
+			<city name="Jessup"/>
+		</state>
+		<state name="Hawaii">
+			<city name="Honolulu"/>
+			<city name="Hilo"/>
+			<city name="Kahului"/>
+		</state>
+		<state name="Idaho">
+			<city name="Boise"/>
+			<city name="Pocatello"/>
+			<city name="Idaho Falls"/>
+		</state>
+		<state name="Illinois">
+			<city name="Springfield"/>
+			<city name="Chicago"/>
+			<city name="Peoria"/>
+		</state>
+		<state name="Indiana">
+			<city name="Indianapolis"/>
+			<city name="South Bend"/>
+			<city name="Fort Wayne"/>
+		</state>
+		<state name="Iowa">
+			<city name="Des Moines"/>
+			<city name="Iowa City"/>
+		</state>
+		<state name="Kansas">
+			<city name="Topeka"/>
+			<city name="Wichita"/>
+			<city name="Overland Park"/>
+		</state>
+		<state name="Kentucky">
+			<city name="Frankfort"/>
+			<city name="Lexington"/>
+			<city name="Bowling Green"/>
+		</state>
+		<state name="Louisiana">
+			<city name="Baton Rouge"/>
+			<city name="New Orleans"/>
+		</state>
+		<state name="Maine">
+			<city name="Augusta"/>
+			<city name="Portland"/>
+			<city name="Kennebunkport"/>
+		</state>
+		<state name="Maryland">
+			<city name="Annapolis"/>
+			<city name="Baltimore"/>
+			<city name="Silver Springs"/>
+			<city name="Columbia"/>
+			<city name="Hagerstown"/>
+		</state>
+		<state name="Massachusetts">
+			<city name="Boston"/>
+			<city name="Concord"/>
+			<city name="Waltham"/>
+			<city name="Quincy"/>
+		</state>
+		<state name="Michigan">
+			<city name="Lansing"/>
+			<city name="Detroit"/>
+			<city name="Kalamazoo"/>
+			<city name="Grand Rapids"/>
+			<city name="Saginaw"/>
+		</state>
+		<state name="Minnesota">
+			<city name="St. Paul"/>
+			<city name="Minneapolis"/>
+			<city name="Duluth"/>
+		</state>
+		<state name="Mississippi">
+			<city name="Jackson"/>
+			<city name="Gulfport"/>
+			<city name="Hattiesburg"/>
+		</state>
+		<state name="Missouri">
+			<city name="Jefferson City"/>
+			<city name="Kansas City"/>
+			<city name="St. Louis"/>
+			<city name="Independence"/>
+			<city name="Springfield"/>
+		</state>
+		<state name="Montana">
+			<city name="Helena"/>
+			<city name="Billings"/>
+			<city name="Great Falls"/>
+		</state>
+		<state name="Nebraska">
+			<city name="Lincoln"/>
+			<city name="Omaha"/>
+		</state>
+		<state name="Nevada">
+			<city name="Carson City"/>
+			<city name="Las Vegas"/>
+			<city name="Tahoe"/>
+			<city name="Reno"/>
+		</state>
+		<state name="New Hampshire">
+			<city name="Concord"/>
+			<city name="Manchester"/>
+			<city name="Nashua"/>
+		</state>
+		<state name="New Jersey">
+			<city name="Trenton"/>
+			<city name="Newark"/>
+			<city name="Princeton"/>
+			<city name="Asbury Park"/>
+			<city name="Morristown"/>
+			<city name="Cherry Hill"/>
+			<city name="Atlantic City"/>
+		</state>
+		<state name="New Mexico">
+			<city name="Santa Fe"/>
+			<city name="Albuquerque"/>
+		</state>
+		<state name="New York">
+			<city name="Albany"/>
+			<city name="New York City"/>
+			<city name="Rochester"/>
+			<city name="Buffalo"/>
+			<city name="Ithaca"/>
+			<city name="Yonkers"/>
+			<city name="Syracuse"/>
+		</state>
+		<state name="North Carolina">
+			<city name="Raleigh"/>
+			<city name="Charlotte"/>
+			<city name="Greensboro"/>
+			<city name="Rocky Mount"/>
+		</state>
+		<state name="North Dakota">
+			<city name="Bismarck"/>
+			<city name="Fargo"/>
+			<city name="Grand Forks"/>
+			<city name="Minot"/>
+		</state>
+		<state name="Ohio">
+			<city name="Columbus"/>
+			<city name="Cincinnati"/>
+			<city name="Cleveland"/>
+			<city name="Dayton"/>
+		</state>
+		<state name="Oklahoma">
+			<city name="Oklahoma City"/>
+			<city name="Tulsa"/>
+		</state>
+		<state name="Oregon">
+			<city name="Salem"/>
+			<city name="Portland"/>
+			<city name="Eugene"/>
+			<city name="Corvalis"/>
+			<city name="Astoria"/>
+		</state>
+		<state name="Pennsylvania">
+			<city name="Harrisburg"/>
+			<city name="Philadelphia"/>
+			<city name="Pittsburgh"/>
+			<city name="Erie"/>
+			<city name="Scranton"/>
+			<city name="Bethlehem"/>
+		</state>
+		<state name="Rhode Island">
+			<city name="Providence"/>
+			<city name="Warwick"/>
+		</state>
+		<state name="South Carolina">
+			<city name="Columbia"/>
+			<city name="Charleston"/>
+			<city name="Hilton Head"/>
+		</state>
+		<state name="South Dakota">
+			<city name="Pierre"/>
+			<city name="Sioux Falls"/>
+			<city name="Rapid City"/>
+		</state>
+		<state name="Tennessee">
+			<city name="Nashville"/>
+			<city name="Memphis"/>
+			<city name="Knoxville"/>
+			<city name="Chattanooga"/>
+		</state>
+		<state name="Texas">
+			<city name="Austin"/>
+			<city name="Houston"/>
+			<city name="Dallas"/>
+			<city name="San Antonio"/>
+			<city name="El Paso"/>
+		</state>
+		<state name="Utah">
+			<city name="Salt Lake City"/>
+			<city name="Provo"/>
+			<city name="Ogden"/>
+		</state>
+		<state name="Vermont">
+			<city name="Montpelier"/>
+			<city name="Burlington"/>
+		</state>
+		<state name="Virginia">
+			<city name="Richmond"/>
+			<city name="Virginia Beach"/>
+			<city name="Reston"/>
+			<city name="Roanoke"/>
+		</state>
+		<state name="Washington">
+			<city name="Olympia"/>
+			<city name="Seattle"/>
+			<city name="Spokane"/>
+			<city name="Yakima"/>
+			<city name="Tacoma"/>
+		</state>
+		<state name="West Virginia">
+			<city name="Charleston "/>
+			<city name="Martinsburg"/>
+		</state>
+		<state name="Wisconsin">
+			<city name="Madison "/>
+			<city name="Milwaukee"/>
+			<city name="Eau Claire"/>
+		</state>
+		<state name="Wyoming">
+			<city name="Cheyenne"/>
+			<city name="Jackson Hole"/>
+			<city name="Casper"/>
+		</state>
+	</country>
+	<country name="Canada">
+		<state name="Ontario">
+			<city name="Ottawa"/>
+			<city name="Toronto"/>
+			<city name="Hamilton"/>
+			<city name="Whitby"/>
+			<city name="Sudbury"/>
+			<city name="Timmons"/>
+		</state>
+		<state name="British Columbia">
+			<city name="Vancouver"/>
+			<city name="Victoria"/>
+			<city name="Prince George"/>
+		</state>
+		<state name="Quebec">
+			<city name="Quebec City"/>
+			<city name="Montreal"/>
+		</state>
+		<state name="Alberta">
+			<city name="Edmonton"/>
+			<city name="Calgary"/>
+			<city name="Lethbridge"/>
+		</state>
+		<state name="Saskatchewan">
+			<city name="Saskatoon"/>
+			<city name="Regina"/>
+		</state>
+		<state name="Manitoba">
+			<city name="Winnipeg"/>
+			<city name="Brandon"/>
+		</state>
+		<state name="New Brunswick">
+			<city name="Moncton"/>
+			<city name="Saint John"/>
+		</state>
+		<state name="Nova Scotia">
+			<city name="Halifax"/>
+			<city name="Sydney"/>
+			<city name="Digby"/>
+		</state>
+		<state name="Yukon">
+			<city name="Whitehorse"/>
+			<city name="Mayo"/>
+		</state>
+	</country>
+	<country name="Mexico">
+		<state name="Chihuahua">
+			<city name="Chihuahua"/>
+			<city name="Juarez"/>
+			<city name="Jimenez"/>
+			<city name="Madera"/>
+			<city name="Palomas"/>
+		</state>
+		<state name="Coahuila">
+			<city name="Saltillo"/>
+			<city name="Torreon"/>
+		</state>
+		<state name="Sonora">
+			<city name="Hermosillo"/>
+			<city name="Nogales"/>
+		</state>
+		<state name="Nuevo Leon">
+			<city name="Monterrey"/>
+			<city name="Guadalupe"/>
+		</state>
+		<state name="Tamaulipas">
+			<city name="Victoria"/>
+			<city name="Tampico"/>
+			<city name="Reynosa"/>
+			<city name="Matamoros"/>
+		</state>
+		<state name="Baja California">
+			<city name="Tijuana"/>
+			<city name="Ensenada"/>
+			<city name="Tecate"/>
+			<city name="Mexicali"/>
+			<city name="San Felipe"/>
+		</state>
+		<state name="Baja California Sur">
+			<city name="La Paz"/>
+			<city name="Cabo San Lucas"/>
+			<city name="Mulege"/>
+		</state>
+	</country>
+</countries>

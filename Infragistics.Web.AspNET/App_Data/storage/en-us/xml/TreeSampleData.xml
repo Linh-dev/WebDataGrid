@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Folders>
+  <Folder Text="Computer" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/computer.png" Value="Folder">
+      <Folder Text="Music" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/book.png" Value="Folder">
+        <Folder Text="Y.Malmsteen" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/book.png" Value="Folder">
+          <Folder Text="Y.Malmsteen - Making Love" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/music.png" Value="File"></Folder>
+          <Folder Text="Y.Malmsteen - Rising Force" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/music.png" Value="File"></Folder>
+          <Folder Text="Y.Malmsteen - Fire and Ice" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/music.png" Value="File"></Folder>
+        </Folder>
+        <Folder Text="WhiteSnake" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/book.png" Value="Folder">
+          <Folder Text="WhiteSnake - Trouble" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/music.png" Value="File"></Folder>
+          <Folder Text="WhiteSnake - Bad Boys" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/music.png" Value="File"></Folder>
+          <Folder Text="WhiteSnake - Is This Love" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/music.png" Value="File"></Folder>
+        </Folder>
+        <Folder Text="AC/DC" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/book.png" Value="Folder">
+          <Folder Text="AC/DC - ThunderStruck" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/music.png" Value="File"></Folder>
+          <Folder Text="AC/DC - T.N.T." ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/music.png" Value="File"></Folder>
+          <Folder Text="AC/DC - The Jack" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/music.png" Value="File"></Folder>
+        </Folder>
+        <Folder Text="Rock" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/book.png" Value="Folder">
+          <Folder Text="Bon Jovi - It's My Life" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/music.png" Value="File"></Folder>
+        </Folder>
+       </Folder>
+    <Folder Text="My Documents" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/DocumentsFolder.png" Value="Folder">
+      <Folder Text="2009" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/DocumentsFolder.png" Value="Folder">
+        <Folder Text="Month Report" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/Documents.png" Value="File"></Folder>
+        <Folder Text="Year Report" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/Documents.png" Value="File"></Folder>
+      </Folder>
+      <Folder Text="2010" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/DocumentsFolder.png" Value="Folder">
+        <Folder Text="Month Report" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/Documents.png" Value="File"></Folder>
+        <Folder Text="Year Report" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/Documents.png" Value="File"></Folder>
+      </Folder>
+    </Folder>
+    <Folder Text="Pictures" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/coins.png" Value="Folder">
+      <Folder Text="BirthDay2009" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/coins.png" Value="Folder">
+        <Folder Text="Picture1" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/coins_add.png" Value="File"></Folder>
+        <Folder Text="Picture2" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/coins_add.png" Value="File"></Folder>
+        <Folder Text="Picture3" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/coins_add.png" Value="File"></Folder>
+        <Folder Text="Picture4" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/coins_add.png" Value="File"></Folder>
+      </Folder>
+      <Folder Text="BirthDay2010" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/coins.png" Value="Folder">
+        <Folder Text="Picture1" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/coins_add.png" Value="File"></Folder>
+        <Folder Text="Picture2" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/coins_add.png" Value="File"></Folder>
+        <Folder Text="Picture3" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/coins_add.png" Value="File"></Folder>
+      </Folder>
+      </Folder>
+    <Folder Text="Network" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/door.png" Value="Folder">     
+          <Folder Text="Archive" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/door_in.png" Value="Folder"></Folder>
+          <Folder Text="BackUp" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/door_in.png" Value="Folder"></Folder>
+          <Folder Text="FTP" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/door_in.png" Value="Folder"></Folder>
+     </Folder>
+    <Folder Text="Deleted" ImageUrl="~/SamplesCommon/aspnet/WebDataTree/Common/bin_empty.png" Value="Folder"></Folder>
+  </Folder>
+</Folders>

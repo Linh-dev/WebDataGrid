@@ -1,0 +1,35 @@
+﻿.igsli_ValueLabelFloatLShowAll
+            {
+                position: absolute;
+                overflow: visible;
+                background-color: White;
+                border: 1px solid #A9A9A9;
+                filter: alpha(opacity:75);
+                opacity: .75;
+                height: 13px;
+                text-align: right;
+                margin-top: 7px;
+                margin-left: -52px;
+                width: auto;
+                min-width: 28px;
+                color: #808080;
+                padding-left: 1px;
+                padding-right: 1px;
+            }
+            
+            .igsli_ValueLabelFloatLClipped
+            {
+                position: absolute;
+                overflow: Hidden;
+                background-color: White;
+                border: 1px solid #A9A9A9;
+                filter: alpha(opacity:75);
+                opacity: .75;
+                height: 13px;
+                text-align: right;
+                margin-top: -7px;
+                margin-left: -65px;
+                width: 35px;
+                color: #808080;
+                padding-left: 1px;
+                padding-right: 1px;

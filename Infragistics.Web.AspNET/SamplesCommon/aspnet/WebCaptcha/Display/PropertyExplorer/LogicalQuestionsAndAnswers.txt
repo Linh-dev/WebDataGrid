@@ -1,0 +1,10 @@
+﻿How many months in a year?
+12
+How many days in a week?
+7
+How many hours in a day?
+24
+2 + 3 = ?
+5
+How many minutes in an hour?
+60

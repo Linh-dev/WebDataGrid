@@ -1,0 +1,34 @@
+﻿#resultDiv
+{
+    padding: 10px;
+    background: infoBackground;
+    font: menu;
+    border: 1px solid gray;
+    min-width: 145px;
+    margin-top: 15%; /*Shadow*/
+    -moz-box-shadow: 0 4px 8px 0 #5A5A5A;
+    -webkit-box-shadow: 0 4px 8px 0 #5A5A5A;
+    box-shadow: 0 4px 8px 0 #5A5A5A; /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5A5A5A')"; /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5A5A5A');
+}
+        
+.bold
+{
+    font-weight: bold;
+}
+
+.fixedSamplesContainer p,
+.fixedSamplesContainer a,
+.fixedSamplesContainer label,
+.fixedSamplesContainer ol,
+.fixedSamplesContainer ol > li,
+.fixedSamplesContainer ul,
+.fixedSamplesContainer ul > li {
+    font-size: 12px;
+}
+
+
+#sb-Extended-Box-outer > div > div {
+    overflow: visible !important; 
+}

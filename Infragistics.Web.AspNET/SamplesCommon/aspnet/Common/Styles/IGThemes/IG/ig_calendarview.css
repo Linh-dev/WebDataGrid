@@ -1,0 +1,118 @@
+.igcv_IGControl
+{
+	font-weight:normal;
+	font-family: 'Segoe UI',verdana,sans-serif;
+	border:solid 1px #B1B1B1;
+	overflow: auto;
+	position: relative;
+
+	background-color:#4F4F4F;
+	background-repeat:repeat-x;
+	background-position:0px 0px;
+	background-image: url(images/gradient_1.png);
+}
+
+
+.igcv_IGCaptionHeader
+{	
+	font-weight:bold;
+	font-size:8pt;
+	padding:3px;
+	width: 100%;
+	white-space: nowrap;
+	color:White;
+	text-align:center;
+}
+
+
+.igcv_IGDayHeader
+{
+	background-color:#4F4F4F;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igws_dayheader.jpg);
+	font-size:8pt;
+	border-right-style:none;
+	border-bottom-style:none;
+	padding:3px;
+	height: 1%;
+	cursor:default;
+	color:#FFFFFF;
+}
+
+
+.igcv_IGDay
+{
+	border-right-width:0px;
+	border-bottom-width:0px;
+	overflow: hidden;
+	cursor:hand;
+	color:Black;
+	vertical-align:top;	
+	background-color:White;
+	text-align:center;
+}
+
+
+.igcv_IGFooter
+{
+	background-color:#EEEEEE;
+	font-size:8pt;
+	border-top:solid 1px #B1B1B1;
+	padding:3px;
+	white-space: nowrap;
+	cursor:pointer;
+	text-align:center;
+}
+
+
+.igcv_IGDropDown
+{
+	font-size:8pt;
+}
+
+
+.igcv_IGOtherMonthDay
+{
+	background-color:White;
+	color:#B1B1B1;
+}
+
+
+.igcv_IGWeekendDay
+{
+	background-color:#FAFAFA;
+}
+
+
+.igcv_IGNavigationButton
+{
+	background-color:Transparent;
+	padding-right:3px;
+	padding-left:3px;
+	cursor:pointer;
+}
+
+
+.igcv_IGTodayDay
+{
+	border:solid 1px #A4D7F8;
+}
+
+
+.igcv_IGActivityDay
+{
+	font-weight:bold;
+}
+
+
+.igcv_IGActiveDay
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-position:left bottom ;
+	background-image: url(images/igws_active_day.gif);
+	border:solid 1px #2788B1;
+}
+
+

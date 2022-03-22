@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="GlacierLinearVerticalThermometer" PresetDescription="Custom Preset Created 2/8/2007 3:47:38 PM" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" Width="100" Height="250">
+  <Gauges>
+    <igGaugeProp:LinearGauge Orientation="Vertical" CornerExtent="3">
+      <Scales>
+        <igGaugeProp:LinearGaugeScale EndExtent="90" StartExtent="25">
+          <MinorTickmarks EndExtent="55" Frequency="0.2" StartExtent="45">
+            <BrushElements />
+            <Shadow>
+              <BrushElements />
+              <StrokeElement>
+                <BrushElements />
+              </StrokeElement>
+            </Shadow>
+            <StrokeElement Color="Black">
+              <BrushElements />
+            </StrokeElement>
+          </MinorTickmarks>
+          <Ranges />
+          <BrushElements />
+          <Markers>
+            <igGaugeProp:LinearGaugeBarMarker BulbSpan="25" SegmentSpan="1" Value="58" Precision="" StartExtent="-20">
+              <BrushElements>
+                <igGaugeProp:SimpleGradientBrushElement EndColor="200, 178, 34, 34" StartColor="200, 255, 0, 0" GradientStyle="Horizontal" />
+              </BrushElements>
+              <Response />
+              <StrokeElement>
+                <BrushElements />
+              </StrokeElement>
+              <Background>
+                <BrushElements />
+                <StrokeElement>
+                  <BrushElements />
+                </StrokeElement>
+              </Background>
+            </igGaugeProp:LinearGaugeBarMarker>
+          </Markers>
+          <MajorTickmarks EndWidth="2" EndExtent="60" StartExtent="40" StartWidth="2">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="White" />
+            </BrushElements>
+            <Shadow>
+              <BrushElements />
+              <StrokeElement>
+                <BrushElements />
+              </StrokeElement>
+            </Shadow>
+            <StrokeElement Color="DimGray">
+              <BrushElements />
+            </StrokeElement>
+          </MajorTickmarks>
+          <Axes>
+            <igGaugeProp:NumericAxis EndValue="100" TickmarkInterval="20" />
+          </Axes>
+          <StrokeElement>
+            <BrushElements />
+          </StrokeElement>
+          <Labels Extent="25" Font="Trebuchet MS, 9pt" ZPosition="AboveMarkers">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="Black" />
+            </BrushElements>
+            <Shadow Depth="2">
+              <BrushElements>
+                <igGaugeProp:SolidFillBrushElement />
+              </BrushElements>
+              <StrokeElement>
+                <BrushElements />
+              </StrokeElement>
+            </Shadow>
+          </Labels>
+        </igGaugeProp:LinearGaugeScale>
+        <igGaugeProp:LinearGaugeScale EndExtent="98" StartExtent="60" OuterExtent="95" InnerExtent="5">
+          <MinorTickmarks>
+            <BrushElements />
+            <Shadow>
+              <BrushElements />
+              <StrokeElement>
+                <BrushElements />
+              </StrokeElement>
+            </Shadow>
+            <StrokeElement>
+              <BrushElements />
+            </StrokeElement>
+          </MinorTickmarks>
+          <Ranges />
+          <BrushElements>
+            <igGaugeProp:SimpleGradientBrushElement EndColor="50, 255, 255, 255" StartColor="150, 255, 255, 255" GradientStyle="Vertical" />
+          </BrushElements>
+          <Markers />
+          <MajorTickmarks>
+            <BrushElements />
+            <Shadow>
+              <BrushElements />
+              <StrokeElement>
+                <BrushElements />
+              </StrokeElement>
+            </Shadow>
+            <StrokeElement>
+              <BrushElements />
+            </StrokeElement>
+          </MajorTickmarks>
+          <Axes />
+          <StrokeElement>
+            <BrushElements />
+          </StrokeElement>
+          <Labels>
+            <BrushElements />
+            <Shadow>
+              <BrushElements />
+              <StrokeElement>
+                <BrushElements />
+              </StrokeElement>
+            </Shadow>
+          </Labels>
+        </igGaugeProp:LinearGaugeScale>
+      </Scales>
+      <BrushElements>
+        <igGaugeProp:SimpleGradientBrushElement EndColor="182, 215, 230" StartColor="239, 243, 246" GradientStyle="BackwardDiagonal" />
+      </BrushElements>
+      <StrokeElement Thickness="5">
+        <BrushElements>
+          <igGaugeProp:SimpleGradientBrushElement EndColor="147, 194, 217" StartColor="182, 215, 230" GradientStyle="Vertical" />
+        </BrushElements>
+      </StrokeElement>
+    </igGaugeProp:LinearGauge>
+  </Gauges>
+  <Annotations />
+  <Effects />
+</igGauge:UltraGauge>

@@ -1,0 +1,80 @@
+﻿.Gallery
+{
+    width:210px;
+    height:400px;
+    overflow:auto;
+    border:solid 1px #666666;
+    border-right:none;
+    border-bottom:none;
+}
+.Gallery .Item img
+{
+    vertical-align:middle;
+    border:none 0px;
+}
+
+.Gallery .Item
+{
+    font-family:Verdana;
+    font-size:10px;
+    background-image:url(/SamplesBrowser/SamplesCommon/aspnet/WebGauge/Display/101Presets/gaugegallerythumbback.jpg);
+    background-position:bottom;
+    background-repeat:repeat-x;
+    width:auto;
+    min-height:80px;
+    height:auto;
+    padding:10px 5px 5px 20px;
+    float:none;
+}
+
+.Gallery .Item a
+{
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size:xx-small;
+}
+.Gallery .Item a:hover
+{
+    text-decoration:underline;
+}
+#PreviewPane
+{
+    margin-right:10px;
+    border:none 0px;
+    width:500px;
+    height:400px;
+    overflow:hidden;
+    float:left;
+}
+#PreviewPane div
+{
+    margin:0px auto 0px auto;
+    vertical-align:middle;
+}
+.GalleryFrame
+{
+    width:725px;
+    margin:0px auto 0px auto;
+    background-image:url(/SamplesBrowser/SamplesCommon/aspnet/WebGauge/Display/101Presets/gaugegallerythumbback.jpg);
+    background-repeat:repeat-x;
+    background-position:bottom;
+
+}
+
+#mainSampleContainer a
+{
+    color:#666666;
+    font-family:Verdana;
+    font-size:10px;
+    text-decoration:none;
+}
+
+#mainSampleContainer a:hover
+{
+    text-decoration:underline;
+}
+#mainSampleContainer .ViewerBody
+{
+    margin:0px;
+    background-color:Transparent;
+}

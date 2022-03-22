@@ -1,0 +1,107 @@
+﻿.Captcha
+{
+    float: left;
+    padding-left: 50px;
+}
+.CommentWrapper
+{
+    border: 3px solid #D2D2D2;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 335px;
+    background: #EBEBEB;
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebCaptcha/Display/BgComment.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    word-wrap: break-word;
+}
+
+.CommentNumber
+{
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 15px 0 0;
+    width: 40px;
+    clear: both;
+    background: #999999;
+}
+.CommentImage
+{
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebCaptcha/Display/User.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 40px;
+    text-align: center;
+    margin-right: 10px;
+    float: left;
+    border: 3px solid #D2D2D2;
+}
+.CommentPosterName
+{
+    font: 14px Arial, Sans-Serif;
+    color: #17557F;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.CommentText
+{
+    color: #333333;
+    font: 12px Arial, Sans-Serif;
+    padding: 5px;
+}
+.CommentDate
+{
+    font: 11px arial,sans-serif;
+    color: #A09F9F;
+    font-size: 11px;
+}
+
+.SubmitButton
+{
+    background: #78BAE5 url(/SamplesBrowser/SamplesCommon/aspnet/WebCaptcha/Display/igc_submitButtonBg.png) repeat-x 0 0;
+    border: 1px solid #6A9CC9;
+    clear: left;
+    display: block;
+    height: 30px;
+    width: 177px;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 10px;
+    font-family: Segoe UI,Verdana,Arial,Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px;
+    width: 200px;
+}
+.titles
+{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.CommentArrow
+{
+    height: 36px;
+    width: 24px;
+    float: left;
+    background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebCaptcha/Display/Arrow.gif);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.Shadow
+{
+    -moz-box-shadow: 6px 6px 6px 1px #F0F0F0;
+    -webkit-box-shadow: 6px 6px 6px rgba(240, 240, 240, 0.5);
+    box-shadow: 6px 6px 20px 1px #F0F0F0; /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#F0F0F0')"; /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#F0F0F0');
+}

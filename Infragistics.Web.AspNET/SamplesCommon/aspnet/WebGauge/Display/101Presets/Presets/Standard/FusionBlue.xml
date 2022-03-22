@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="FusionBlue" PresetDescription="Custom Preset Created 5/9/2007 5:38:02 PM" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" Width="300" Height="62">
+  <Gauges>
+    <igGaugeProp:SegmentedDigitalGauge Mode="FourteenSegment" InnerMargin="20, 15, 60, 15, Pixels" CornerExtent="5" Digits="10" Text="520134734">
+      <FontBrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="200, 255, 255, 255" />
+      </FontBrushElements>
+      <BrushElements>
+        <igGaugeProp:BrushElementGroup>
+          <BrushElements>
+            <igGaugeProp:MultiStopLinearGradientBrushElement Angle="90">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="225, 225, 225" />
+                <igGaugeProp:ColorStop Color="Gainsboro" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopLinearGradientBrushElement>
+            <igGaugeProp:MultiStopLinearGradientBrushElement Angle="90" RelativeBoundsMeasure="Percent" RelativeBounds="3, 6, 80, 88">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="180, 180, 180" />
+                <igGaugeProp:ColorStop Color="White" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopLinearGradientBrushElement>
+            <igGaugeProp:MultiStopLinearGradientBrushElement Angle="90" RelativeBoundsMeasure="Percent" RelativeBounds="4, 11, 78, 78">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="0, 212, 254" />
+                <igGaugeProp:ColorStop Color="0, 109, 164" Stop="0.4678571" />
+                <igGaugeProp:ColorStop Color="0, 212, 254" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopLinearGradientBrushElement>
+            <igGaugeProp:MultiStopLinearGradientBrushElement Angle="90" RelativeBoundsMeasure="Percent" RelativeBounds="5, 13, 76, 42">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="50, 255, 255, 255" />
+                <igGaugeProp:ColorStop Color="50, 255, 255, 255" Stop="0.4678571" />
+                <igGaugeProp:ColorStop Color="30, 255, 255, 255" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopLinearGradientBrushElement>
+          </BrushElements>
+        </igGaugeProp:BrushElementGroup>
+      </BrushElements>
+      <StrokeElement>
+        <BrushElements>
+          <igGaugeProp:SolidFillBrushElement Color="Silver" />
+        </BrushElements>
+      </StrokeElement>
+      <UnlitBrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="20, 255, 255, 255" />
+      </UnlitBrushElements>
+    </igGaugeProp:SegmentedDigitalGauge>
+  </Gauges>
+  <Annotations>
+    <igGaugeProp:EllipseAnnotation BoundsMeasure="Percent" Bounds="78, 22, 11, 50">
+      <BrushElements>
+        <igGaugeProp:BrushElementGroup>
+          <BrushElements>
+            <igGaugeProp:SimpleGradientBrushElement EndColor="LightGray" StartColor="DarkGray" RelativeBoundsMeasure="Percent" RelativeBounds="73, 2, 100, 100" />
+            <igGaugeProp:MultiStopRadialGradientBrushElement FocusScalesString="0, 0" CenterPointString="50, 30" RelativeBoundsMeasure="Percent" RelativeBounds="78, 9, 90, 90">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="Transparent" />
+                <igGaugeProp:ColorStop Color="21, 189, 254" Stop="0.1034483" />
+                <igGaugeProp:ColorStop Color="84, 249, 255" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopRadialGradientBrushElement>
+            <igGaugeProp:MultiStopRadialGradientBrushElement FocusScalesString="0.2, 0" CenterPointString="50, 90" RelativeBoundsMeasure="Percent" RelativeBounds="78, 5, 90, 90">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="Transparent" />
+                <igGaugeProp:ColorStop Color="Transparent" Stop="0.6862069" />
+                <igGaugeProp:ColorStop Color="124, 255, 255, 255" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopRadialGradientBrushElement>
+            <igGaugeProp:MultiStopRadialGradientBrushElement FocusScalesString="0.3, 0" CenterPointString="50, 0" RelativeBoundsMeasure="Percent" RelativeBounds="78, 13, 90, 90">
+              <ColorStops>
+                <igGaugeProp:ColorStop Color="Transparent" />
+                <igGaugeProp:ColorStop Color="Transparent" Stop="0.1724138" />
+                <igGaugeProp:ColorStop Color="155, 255, 255, 255" Stop="1" />
+              </ColorStops>
+            </igGaugeProp:MultiStopRadialGradientBrushElement>
+          </BrushElements>
+        </igGaugeProp:BrushElementGroup>
+      </BrushElements>
+    </igGaugeProp:EllipseAnnotation>
+  </Annotations>
+</igGauge:UltraGauge>

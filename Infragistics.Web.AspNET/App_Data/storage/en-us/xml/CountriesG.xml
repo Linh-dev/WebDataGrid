@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Countries>
+  <Country CountryID="BR" CountryName="Brazil" Rating="0"  TimesRated="0" AverageRating="0" ></Country>
+  <Country CountryID="KP" CountryName="Korea DPR" Rating="0" TimesRated="0" AverageRating="0" ></Country>
+  <Country CountryID="CI" CountryName="Ivory Coast" Rating="0" TimesRated="0" AverageRating="0"></Country>
+  <Country CountryID="PT" CountryName="Portugal" Rating="0" TimesRated="0" AverageRating="0" ></Country>
+</Countries>

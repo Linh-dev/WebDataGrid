@@ -1,0 +1,35 @@
+﻿        .dataGridHeader TBODY TR
+        {
+            background: #F7F7ED;
+            height: 40px;
+        }
+        .gridHeaderCaption
+        {
+            color: #999;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        TBODY.item TR TD
+        {
+            color: #346AAD;
+            background: #FFF;
+            font-weight: normal;
+        }        
+        .emptyRating
+        {
+            background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/InfraFlix/nfrating.png);
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+        }        
+        .selectedRating
+        {
+            background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/InfraFlix/nfrating.png);
+            background-repeat: no-repeat;
+            background-position: -18px 0px;
+        }        
+        .hoveredRating
+        {
+            background-image: url(/SamplesBrowser/SamplesCommon/aspnet/WebRating/EditingAndSelection/InfraFlix/nfrating.png);
+            background-repeat: no-repeat;
+            background-position: -36px 0px;
+        }

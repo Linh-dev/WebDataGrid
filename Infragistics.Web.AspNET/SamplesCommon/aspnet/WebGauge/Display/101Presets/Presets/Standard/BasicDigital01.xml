@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="BasicDigital01" PresetDescription="Custom Preset Created 5/9/2007 2:05:25 PM" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" Width="400" Height="135">
+  <Gauges>
+    <igGaugeProp:LinearGauge CornerExtent="50" Margin="2, 10, 2, 10, Pixels">
+      <BrushElements>
+        <igGaugeProp:BrushElementGroup>
+          <BrushElements>
+            <igGaugeProp:SimpleGradientBrushElement EndColor="DimGray" StartColor="Black" />
+            <igGaugeProp:SimpleGradientBrushElement EndColor="10, 255, 255, 255" RelativeClipBoundsMeasure="Percent" StartColor="120, 255, 255, 255" RelativeBoundsMeasure="Percent" RelativeBounds="2, 10, 96, 50" />
+          </BrushElements>
+        </igGaugeProp:BrushElementGroup>
+      </BrushElements>
+    </igGaugeProp:LinearGauge>
+    <igGaugeProp:SegmentedDigitalGauge Mode="FourteenSegment" Margin="10, 30, 10, 30, Percent" Digits="10" Text="01/01/2008">
+      <FontBrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="232, 232, 0" />
+      </FontBrushElements>
+      <BrushElements>
+        <igGaugeProp:BrushElementGroup />
+      </BrushElements>
+      <UnlitBrushElements>
+        <igGaugeProp:SolidFillBrushElement Color="150, 90, 90, 90" />
+      </UnlitBrushElements>
+    </igGaugeProp:SegmentedDigitalGauge>
+  </Gauges>
+</igGauge:UltraGauge>

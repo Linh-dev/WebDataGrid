@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Title" xml:space="preserve">
+    <value>WebSlider</value>
+  </data>
+  <data name="Events_Description_Header" xml:space="preserve">
+    <value>Interacting with the WebSlider</value>
+  </data>
+  <data name="Events_Description_1" xml:space="preserve">
+    <value>This sample demonstrates how to handle Client and Server events raised by the WebSlider. View the aspx code to see how Client-side event handlers are specified.</value>
+  </data>
+  <data name="Events_TargetSlider" xml:space="preserve">
+    <value>Target slider:</value>
+  </data>
+  <data name="Events_Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Events_CheckBox_1" xml:space="preserve">
+    <value>Cancel if value not in range: 10..80</value>
+  </data>
+  <data name="Events_CheckBox_2" xml:space="preserve">
+    <value>AutoPostBack if value in range: 40..60</value>
+  </data>
+  <data name="Events_Set_Value" xml:space="preserve">
+    <value>Set Value of Target to 40</value>
+  </data>
+  <data name="Events_Postback" xml:space="preserve">
+    <value>Trigger Postback</value>
+  </data>
+  <data name="Events_ClientEvents" xml:space="preserve">
+    <value>ClientEvents:</value>
+  </data>
+  <data name="Events_ValueChanged" xml:space="preserve">
+    <value>Server ValueChanged events:</value>
+  </data>
+  <data name="Appearance_Description_1" xml:space="preserve">
+    <value>The two WebSliders below demonstrate two ways that the ValueLabel may be presented when the ValueLabel's Location property is set to "FloatTopOrLeft". In the WebSlider on the left,
+    the width of the ValueLabel is determined by the length of the text. In the sample on the right, the width is set to a fixed size and the text is clipped.</value>
+  </data>
+  <data name="Appearance_Description_2" xml:space="preserve">
+    <value>In the default themes that ship with the WebSlider, the behavior demonstrated on the left is applied. To achieve the behavior demonstrated on the right, a custom class needs to be applied to the ValueLabel. In the custom class, the &lt;b&gt;width&lt;/b&gt; property needs to be specified and the &lt;b&gt;overflow&lt;/b&gt; property needs to be set to "Hidden".</value>
+  </data>
+  <data name="Appearance_Description_3" xml:space="preserve">
+    <value>View the source of this page to see the custom classes applied to each WebSlider and how to specify a custom class on the ValueLabel using the CssClass property.</value>
+  </data>
+  <data name="Appearance_Header" xml:space="preserve">
+    <value>Fine-Tuning the Clipping Behavior of the Left ValueLabel.</value>
+  </data>
+  <data name="Appearance_Slider_1" xml:space="preserve">
+    <value>ValueLabel Show All and extend.</value>
+  </data>
+  <data name="Appearance_Slider_2" xml:space="preserve">
+    <value>ValueLabel Clipped with a fixed size container.</value>
+  </data>
+  <data name="Font_Description_1" xml:space="preserve">
+    <value>In this sample, the ValueChanging event of the WebSlider is handled by a client-side function that changes the fontSize property of all &amp;lt;p /&amp;gt; tags based on the value of the slider.</value>
+  </data>
+  <data name="Font_Header" xml:space="preserve">
+    <value>Using the WebSlider to Set Font Size</value>
+  </data>
+  <data name="Font_SliderLabel" xml:space="preserve">
+    <value>Text Resize:</value>
+  </data>
+  <data name="Gauge_Description_1" xml:space="preserve">
+    <value>In this sample, the value of the WebGauge is updated based on the value of the WebSlider.</value>
+  </data>
+  <data name="Gauge_GaugeValue" xml:space="preserve">
+    <value>Gauge Value:</value>
+  </data>
+  <data name="Gauge_Header" xml:space="preserve">
+    <value>Interaction with the WebGauge</value>
+  </data>
+  <data name="Image_Description_1" xml:space="preserve">
+    <value>In this sample, the ValueChanging event of the WebSlider is handled by a client-side function that changes the width of each image displayed below. Wrapping behavior is achieved by applying a div whose float property is set to left.</value>
+  </data>
+  <data name="Image_Header" xml:space="preserve">
+    <value>Using the WebSlider to Resize Images</value>
+  </data>
+  <data name="Image_ImageResize" xml:space="preserve">
+    <value>Image Resize:</value>
+  </data>
+  <data name="Map_Description_1" xml:space="preserve">
+    <value>This sample demonstrates how the WebSlider can be used to interact with a third-party mapping solution. Here, we're changing the ZoomLevel of a Virtual Earth control.</value>
+  </data>
+  <data name="Map_Header" xml:space="preserve">
+    <value>Interacting with Virtual Earth</value>
+  </data>
+  <data name="Map_ZoomControl" xml:space="preserve">
+    <value>Zoom Control:</value>
+  </data>
+  <data name="Range_Description_1" xml:space="preserve">
+    <value>The range of the two WebSliders below is configured using the MaxValueAsString, MinValueAsString and ValueAsString properties.</value>
+  </data>
+  <data name="Range_Header" xml:space="preserve">
+    <value>Specifying the Range of the WebSlider.</value>
+  </data>
+  <data name="Scrolling_Description_1" xml:space="preserve">
+    <value>This sample demonstrates how to handle the ValueChanging event of the WebSlider to dynamically scroll images contained in a WebImageViewer into view.</value>
+  </data>
+  <data name="Scrolling_Header" xml:space="preserve">
+    <value>WebSlider: Interacting with the WebImageViewer</value>
+  </data>
+  <data name="Scrolling_ImageScroll" xml:space="preserve">
+    <value>Image Scroll:</value>
+  </data>
+  <data name="Styles_Description_1" xml:space="preserve">
+    <value>This sample demonstrates the variety of themes that ship with the WebSlider control. These themes are included for all of the Infragistics ASP.NET controls. Here, each WebSlider has a unique theme applied, specified by the StyleSetName property.</value>
+  </data>
+  <data name="Styles_Header" xml:space="preserve">
+    <value>Application Styling Themes for WebSlider</value>
+  </data>
+  <data name="Styles_Style_1" xml:space="preserve">
+    <value>Appletini</value>
+  </data>
+  <data name="Styles_Style_10" xml:space="preserve">
+    <value>Office2007Silver</value>
+  </data>
+  <data name="Styles_Style_11" xml:space="preserve">
+    <value>Pear</value>
+  </data>
+  <data name="Styles_Style_12" xml:space="preserve">
+    <value>RedPlanet</value>
+  </data>
+  <data name="Styles_Style_13" xml:space="preserve">
+    <value>RubberBlack</value>
+  </data>
+  <data name="Styles_Style_14" xml:space="preserve">
+    <value>Trendy</value>
+  </data>
+  <data name="Styles_Style_2" xml:space="preserve">
+    <value>Caribbean</value>
+  </data>
+  <data name="Styles_Style_3" xml:space="preserve">
+    <value>Claymation</value>
+  </data>
+  <data name="Styles_Style_4" xml:space="preserve">
+    <value>ElectricBlue</value>
+  </data>
+  <data name="Styles_Style_5" xml:space="preserve">
+    <value>Harvest</value>
+  </data>
+  <data name="Styles_Style_6" xml:space="preserve">
+    <value>LucidDream</value>
+  </data>
+  <data name="Styles_Style_7" xml:space="preserve">
+    <value>Nautilus</value>
+  </data>
+  <data name="Styles_Style_8" xml:space="preserve">
+    <value>Office2007Black</value>
+  </data>
+  <data name="Styles_Style_9" xml:space="preserve">
+    <value>Office2007Blue</value>
+  </data>
+  <data name="Thumbs_Description_1" xml:space="preserve">
+    <value>To display a second thumb on the WebSlider, set the EnableSecondaryValue property to "true". The value of the second thumb is set and accessed via the SecondaryValueAsString property. This sample demonstrates the three ThumbsInteractionMode values: Lock, Push and Free. Experiment with each of the tracks to see how these modes affect the two thumbs.</value>
+  </data>
+  <data name="Thumbs_Header" xml:space="preserve">
+    <value>Configuring a WebSlider with Two Thumbs</value>
+  </data>
+  <data name="Thumbs_Slider_1" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="Thumbs_Slider_2" xml:space="preserve">
+    <value>Push</value>
+  </data>
+  <data name="Thumbs_Slider_3" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="Tick_Description_1" xml:space="preserve">
+    <value>The WebSlider tickmarks and labels are highly flexible and can be configured to meet a wide variety of needs. Experiment with the properties exposed below to change the location and frequency of tickmarks, location and formation of the ValueLabels and alignment of the track.</value>
+  </data>
+  <data name="Tick_Group_1_Item_1" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="Tick_Group_1_Item_2" xml:space="preserve">
+    <value>Major/Minor:</value>
+  </data>
+  <data name="Tick_Group_1_Item_3" xml:space="preserve">
+    <value>Labels:</value>
+  </data>
+  <data name="Tick_Group_1_Item_4" xml:space="preserve">
+    <value>Labels Format:</value>
+  </data>
+  <data name="Tick_Group_2_Item_1" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="Tick_Group_2_Item_2" xml:space="preserve">
+    <value>Server Format:</value>
+  </data>
+  <data name="Tick_Group_2_Item_3" xml:space="preserve">
+    <value>Client Format:</value>
+  </data>
+  <data name="Tick_Group_2_Item_4" xml:space="preserve">
+    <value>Dynamic Format Top Or Left Labels</value>
+  </data>
+  <data name="Tick_Group_3_Item_1" xml:space="preserve">
+    <value>Alignment:</value>
+  </data>
+  <data name="Tick_Group_3_Item_2" xml:space="preserve">
+    <value>Track Fill:</value>
+  </data>
+  <data name="Tick_Group_Header_1" xml:space="preserve">
+    <value>Tickmarks</value>
+  </data>
+  <data name="Tick_Group_Header_2" xml:space="preserve">
+    <value>Value Label</value>
+  </data>
+  <data name="Tick_Group_Header_3" xml:space="preserve">
+    <value>Track</value>
+  </data>
+  <data name="Tick_Header" xml:space="preserve">
+    <value>Configuring WebSlider Tickmarks and Labels</value>
+  </data>
+  <data name="Button_SetValueTo40" xml:space="preserve">
+    <value>Set Value of Target to 40</value>
+  </data>
+  <data name="Tick_First" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="Tick_Last" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="Tick_Second" xml:space="preserve">
+    <value>2nd</value>
+  </data>
+  <data name="Tick_th" xml:space="preserve">
+    <value>th</value>
+  </data>
+  <data name="Tick_Third" xml:space="preserve">
+    <value>3rd</value>
+  </data>
+  <data name="Map_Latitude" xml:space="preserve">
+    <value>32.16858570601834</value>
+  </data>
+  <data name="Map_Longitude" xml:space="preserve">
+    <value>-110.85442721843721</value>
+  </data>
+  <data name="Map_Zoom" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Styles_Style_15" xml:space="preserve">
+    <value>Windows7</value>
+  </data>
+  <data name="Styles_Style_16" xml:space="preserve">
+    <value>Office2010Blue</value>
+  </data>
+  <data name="ColumnHeaderCompany" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="ColumnHeaderFreight" xml:space="preserve">
+    <value>Freight</value>
+  </data>
+  <data name="ColumnHeaderID" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="ColumnHeaderOrderDate" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <data name="ColumnHeaderQuantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="ColumnHeaderShippingDate" xml:space="preserve">
+    <value>Shipping Date</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+</root>

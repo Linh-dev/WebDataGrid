@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="BasicHorizontal03" PresetDescription="Custom Preset Created 5/3/2007 5:48:37 PM" PresetType="All" />-->
+<igGauge:UltraGauge BackColor="Transparent" Width="250" Height="80">
+  <Gauges>
+    <igGaugeProp:LinearGauge CornerExtent="10" Margin="0, 0, 0, 0, Pixels">
+      <Scales>
+        <igGaugeProp:LinearGaugeScale EndExtent="80" StartExtent="20">
+          <Markers>
+            <igGaugeProp:LinearGaugeBarMarker SegmentSpan="99" Value="50" StartExtent="0" OuterExtent="40" InnerExtent="18">
+ <BrushElements>
+                <igGaugeProp:MultiStopLinearGradientBrushElement Angle="90">
+                  <ColorStops>
+                    <igGaugeProp:ColorStop Color="253, 119, 119" />
+                    <igGaugeProp:ColorStop Color="239, 87, 87" Stop="0.417241365" />
+                    <igGaugeProp:ColorStop Color="224, 0, 0" Stop="0.42889908" />
+                    <igGaugeProp:ColorStop Color="199, 0, 0" Stop="1" />
+                  </ColorStops>
+                </igGaugeProp:MultiStopLinearGradientBrushElement>
+              </BrushElements>
+              <Response />
+              <Background>
+                <BrushElements>
+                 <igGaugeProp:SimpleGradientBrushElement EndColor="DimGray" StartColor="64, 64, 64" />
+                </BrushElements>
+              </Background>
+            </igGaugeProp:LinearGaugeBarMarker>
+          </Markers>
+          <MajorTickmarks EndExtent="35" StartExtent="22">
+            <StrokeElement Color="Transparent" />
+          </MajorTickmarks>
+          <Axes>
+            <igGaugeProp:NumericAxis EndValue="100" TickmarkInterval="12.5" />
+          </Axes>
+          <StrokeElement Color="Transparent" />
+        </igGaugeProp:LinearGaugeScale>
+        <igGaugeProp:LinearGaugeScale EndExtent="80" StartExtent="20">
+          <MinorTickmarks EndExtent="75" Frequency="0.2" StartExtent="65">
+            <StrokeElement Color="Transparent" />
+          </MinorTickmarks>
+          <MajorTickmarks EndWidth="2" EndExtent="50" StartExtent="10" StartWidth="2">
+            <StrokeElement Color="Transparent" />
+          </MajorTickmarks>
+          <Axes>
+            <igGaugeProp:NumericAxis EndValue="100" TickmarkInterval="100" />
+          </Axes>
+          <Labels Extent="70" Font="Trebuchet MS, 12pt, style=Bold" ZPosition="AboveMarkers">
+            <BrushElements>
+              <igGaugeProp:SolidFillBrushElement Color="White" RelativeBoundsMeasure="Percent" RelativeBounds="0, 0, 80, 0" />
+            </BrushElements>
+            <Shadow Depth="2">
+              <BrushElements>
+                <igGaugeProp:SolidFillBrushElement />
+              </BrushElements>
+            </Shadow>
+          </Labels>
+        </igGaugeProp:LinearGaugeScale>
+      </Scales>
+      <BrushElements>
+        <igGaugeProp:BrushElementGroup>
+          <BrushElements>
+            <igGaugeProp:SimpleGradientBrushElement EndColor="Gray" StartColor="Black" />
+            <igGaugeProp:SimpleGradientBrushElement EndColor="20, 255, 255, 255" StartColor="140, 255, 255, 255" RelativeBoundsMeasure="Percent" RelativeBounds="2, 3, 96, 50" />
+          </BrushElements>
+        </igGaugeProp:BrushElementGroup>
+      </BrushElements>
+    </igGaugeProp:LinearGauge>
+  </Gauges>
+  <Annotations />
+  <Effects />
+</igGauge:UltraGauge>

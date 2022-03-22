@@ -1,0 +1,28 @@
+﻿        .controlPanelEvent
+        {
+            height: 100px;
+        }
+        .td
+        {
+            padding-left: 13px;
+        }
+        .btnNormal
+        {
+            display: block;
+            background: url(/samplesbrowser/samplescommon/aspnet/WebSchedule/Style/ShowHideResources/images/GrayButton.png);
+            background-repeat: repeat;
+            border-style: none;
+            height: 28px;
+            width: 124px;
+			font-size: 13px;
+        }
+        .btnHover
+        {
+            display: block;
+            background: url(/samplesbrowser/samplescommon/aspnet/WebSchedule/Style/ShowHideResources/images/OrangeButton.png);
+            background-repeat: repeat;
+            border-style: none;
+            height: 28px;
+            width: 124px;
+			font-size: 13px;
+        }

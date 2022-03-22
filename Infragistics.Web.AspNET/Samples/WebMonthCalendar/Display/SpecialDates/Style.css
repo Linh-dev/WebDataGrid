@@ -1,0 +1,25 @@
+﻿        .special_day
+        {
+            color: #216E99;
+            background-color: #CCF1FF!important;
+            font-weight: bold;
+        }
+        .igmc_SelectedDay
+        {
+            background-color: #DDDDDD;
+            font-weight: bold;
+        }
+        .igmc_FocusDay
+        {
+            background-color: #B1D9F3;
+            color: #FFFFFF;
+            border-color: #6691B8;
+        }
+        .igmc_HoverDay
+        {
+            background-color: #ff9933;
+            background-image: url(images/igmc_dayselected.gif);
+            background-repeat: repeat-x;
+            color: #FFFFFF;
+            font-weight: bold;
+        }

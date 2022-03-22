@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Infragistics jQuery Video Player Display Options</title>
+
+     
+     
+    <link href="/SamplesBrowser/SamplesCommon/aspnet/Common/Styles/jquery/css/themes/infragistics/infragistics.theme.css" rel="stylesheet" type="text/css" />
+    <link href="/SamplesBrowser/SamplesCommon/aspnet/Common/Styles/jquery/css/structure/infragistics.css" rel="stylesheet" type="text/css" />
+
+	<script src="/SamplesBrowser/Scripts/jquery.min.js" type="text/javascript" ></script>
+	<script src="/SamplesBrowser/Scripts/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/SamplesBrowser/Scripts/modernizr.min.js" type="text/javascript" ></script>
+    <script src="/SamplesBrowser/SamplesCommon/aspnet/Common/Scripts/jquery/js/infragistics.js" type="text/javascript"></script>
+
+    <style type="text/css">
+        .controlsContainer
+        {
+            width: 450px;
+            height: 140px;
+            background: none repeat scroll 0 0 #CFCFCF;
+            border: 1px solid #B1B1B1;
+            border-radius: 4px;
+            moz-border-radius: 4px;
+            webkit-border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .twoColumnControlsPane
+        {
+            float: left;
+            width: 225px;
+            height: 100%;
+        }
+        
+        .control
+        {
+            width: 135px;
+            float: left;
+        }
+        
+        .inputControl
+        {
+            width: 85px;
+            float: left;
+            text-align: right;
+        }
+        
+        .lineContainer
+        {
+            height: 28px;
+        }
+        
+        .buttons
+        {
+            width: 100%;
+            font-size: 0.8em;
+            margin-top: 1px;
+        }
+        
+        .videoPlayerContainer
+        {
+            float: left;
+            width: 720px;
+        }
+        
+        .textContainer
+        {
+            font-family: "Segoe UI" , Arial, sans-serif;
+            font-size: 0.8em;
+            padding-top: 4px;
+        }
+        
+        #videoPlayer1
+        {
+            z-index: 1000;
+        }
+        
+        input[type="text"]
+        {
+            width: 40px !important;
+        }
+    </style>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#videoPlayer1').igVideoPlayer({
+                sources: ['http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/Infragistics_Presentation_lowRes_1.h264.mp4',
+						'http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/Infragistics_Presentation_lowRes_1.webmvp8.webm',
+						'http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/Infragistics_Presentation_lowRes_1.theora.ogv'
+				],
+                width: 720,
+                height: 270,
+                posterUrl: '../Content/images/Infragistics_Presentation_lowRes_1.png',
+                fullscreen: false,
+                browserControls: false,
+                autohide: true,
+                autoplay: false,
+                centerButtonHideDelay: 1500,
+                title: 'Infragistics Presentation',
+                muted: false,
+                volume: 0.8,
+                volumeAutohideDelay: 1500,
+                currentTime: 0,
+                showSeekTime: true
+            });
+
+            $("#browserControlsButton").igButton().click(function () {
+                switchBooleanOption('browserControls', $('#browserControlsButton span'));
+            });
+
+            $("#autoHideButton").igButton().click(function () {
+                switchBooleanOption('autohide', $('#autoHideButton span'));
+            });
+
+            $("#showSeekTimeButton").igButton().click(function () {
+                switchBooleanOption('showSeekTime', $('#showSeekTimeButton span'));
+            });
+
+            $("#loopButton").igButton().click(function () {
+                switchBooleanOption('loop', $('#loopButton span'));
+            });
+
+            $("#submitChangesButton").igButton().click(function () {
+                $('#videoPlayer1').igVideoPlayer('option', 'width', parseInt($('#widthTextField').val(), 10));
+                $('#videoPlayer1').igVideoPlayer('option', 'height', parseInt($('#heightTextField').val()), 10);
+                $('#videoPlayer1').igVideoPlayer('option', 'volumeAutohideDelay', parseInt($('#volumeAutoHideDelayTextField').val(), 10));
+                $('#videoPlayer1').igVideoPlayer('option', 'centerButtonHideDelay', parseInt($('#centralButtonAutoHideDelayTextField').val(), 10));
+            });
+
+            if ($("#videoPlayer1").igVideoPlayer("supports_video") === false) {
+                $("#controls").hide();
+            }
+        });
+
+        function switchBooleanOption(optionName, button) {
+            var optionValue = $('#videoPlayer1').igVideoPlayer('option', optionName);
+            $('#videoPlayer1').igVideoPlayer('option', optionName, !optionValue);
+
+            if (optionValue === true)
+                button.html('Off');
+            else
+                button.html('On');
+        }
+    </script>
+</head>
+<body>
+    <div id="controls" class="controlsContainer">
+        <div class="twoColumnControlsPane">
+            <div class="lineContainer">
+                <div class="control textContainer">
+                    Width
+                </div>
+                <div class="inputControl">
+                    <input id="widthTextField" type="text" size="4" value="720" />
+                </div>
+            </div>
+            <div class="lineContainer">
+                <div class="control textContainer">
+                    Height
+                </div>
+                <div class="inputControl">
+                    <input id="heightTextField" type="text" size="4" value="270" />
+                </div>
+            </div>
+            <div class="lineContainer">
+                <div class="control textContainer">
+                    Volume Autohide Delay
+                </div>
+                <div class="inputControl">
+                    <input id="volumeAutoHideDelayTextField" type="text" size="4" value="1500" />
+                </div>
+            </div>
+            <div class="lineContainer">
+                <div class="control textContainer">
+                    Central Button Autohide Delay
+                </div>
+                <div class="inputControl">
+                    <input id="centralButtonAutoHideDelayTextField" type="text" size="4" value="1500" />
+                </div>
+            </div>
+            <div class="lineContainer">
+                <div class="control" style="width: 220px; text-align: right; padding-right: 10px;">
+                    <button id="submitChangesButton" class="buttons" type="button" style="width: 160px;">
+                        Submit Changes
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="twoColumnControlsPane">
+            <div class="lineContainer">
+                <div class="control textContainer">
+                    Browser Controls
+                </div>
+                <div class="inputControl">
+                    <button id="browserControlsButton" class="buttons" type="button">
+                        Off
+                    </button>
+                </div>
+            </div>
+            <div class="lineContainer">
+                <div class="control textContainer">
+                    Autohide Controls
+                </div>
+                <div class="inputControl">
+                    <button id="autoHideButton" class="buttons" type="button">
+                        On
+                    </button>
+                </div>
+            </div>
+            <div class="lineContainer">
+                <div class="control textContainer">
+                    Show Seek Time
+                </div>
+                <div class="inputControl">
+                    <button id="showSeekTimeButton" class="buttons" type="button">
+                        On
+                    </button>
+                </div>
+            </div>
+            <div class="lineContainer">
+                <div class="control textContainer">
+                    Loop Video
+                </div>
+                <div class="inputControl">
+                    <button id="loopButton" class="buttons" type="button">
+                        Off
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="width: 720px; height: 290px; overflow: auto;">
+        <div id="videoPlayer1">
+        </div>
+    </div>
+</body>
+</html>

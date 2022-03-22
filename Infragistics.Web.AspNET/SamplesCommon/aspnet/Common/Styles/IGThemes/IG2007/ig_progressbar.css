@@ -1,0 +1,54 @@
+﻿body
+{
+}
+.igpb_IG2007BaseLabel
+{
+	text-align:left;
+	white-space:nowrap;
+	position:absolute;
+	padding:2px;
+}
+.igpb_IG2007BackgroundLabel
+{
+	color:Black;
+}
+.igpb_IG2007ForegroundLabel
+{
+	color:white;
+}
+.igpb_IG2007InnerDiv
+{
+	height:100%;
+	width:100%;
+	position:absolute;
+	overflow:hidden;
+	
+}
+.igpb_IG2007Fill_Horiz
+{
+	background-image: url(./images/igpb_horizontalFill.gif);
+	background-repeat: repeat-x;
+	background-color:#75BAE5;
+}
+.igpb_IG2007Fill_Vert
+{
+	background-image: url(./images/igpb_VerticalFill.gif);
+	background-repeat: repeat-y;
+	background-color:#75BAE5;
+}
+.igpb_IG2007Background_Horiz
+{
+
+}
+.igpb_IG2007Background_Vert
+{
+
+}
+.igpb_IG2007Container
+{
+	height:100%;
+	width:100%;
+	position:relative;
+	border:solid 1px #ABC1DE;
+	overflow: hidden;
+}

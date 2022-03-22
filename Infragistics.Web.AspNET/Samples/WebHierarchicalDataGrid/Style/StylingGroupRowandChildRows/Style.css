@@ -1,0 +1,17 @@
+﻿TBODY TR.GroupRowDefault TD
+{
+ border-bottom: #a5a4bd 2px solid;
+ background: #e5e5eb;
+}
+
+TBODY.igg_Item TR.ChildRow TD
+{
+ color: #3EC2F9;
+}
+
+TBODY.igg_Item TR.GroupRow TD,
+TBODY.igg_Item TR.GroupRow:hover TD
+{
+    color: #FFF;
+    background-color: #3EC2F9;
+}

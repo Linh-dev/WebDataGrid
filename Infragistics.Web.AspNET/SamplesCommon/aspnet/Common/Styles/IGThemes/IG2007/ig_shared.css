@@ -1,0 +1,170 @@
+.ig_IG2007Control
+{
+	background-color:White;
+	font-size:xx-small;
+	font-family: verdana;
+	color:Black;
+}
+
+
+.ig_IG2007Item
+{
+	background-color:White;
+	font-size:10px;
+	font-family: verdana;
+	padding-left:1px;
+}
+
+
+.ig_IG2007Button
+{
+	cursor:hand;
+}
+
+
+.ig_IG2007ButtonHover
+{
+}
+
+
+.ig_IG2007ButtonPressed
+{
+}
+
+
+.ig_IG2007ButtonDisabled
+{
+}
+
+
+.ig_IG2007Hover
+{
+}
+
+
+.ig_IG2007Selected
+{
+}
+
+
+.ig_IG2007Disabled
+{
+}
+
+
+.ig_IG2007Header
+{
+}
+
+
+.ig_IG2007Footer
+{
+}
+
+
+.ig_IG2007EditWithButtons
+{
+}
+
+
+.ig_IG2007Edit
+{
+}
+
+
+.ig_IG2007EditInContainer
+{
+}
+
+
+.ig_IG2007Alt
+{
+	border-top:solid 1px #E3EFFF;
+	border-right:solid 0px #FFFFFF;
+	border-bottom:solid 1px #E3EFFF;
+	border-left:solid 0px #FFFFFF;
+}
+
+
+.ig_IG2007DropDown
+{
+}
+
+
+.ig_IG2007EditSelected
+{
+}
+
+
+Body
+{
+}
+
+
+.ig_IG2007AjaxIndicatorBlock
+{
+	background-color:#909090;
+	filter: alpha(opacity : 30);
+	opacity: 0.3;
+}
+
+
+.ms-WPBody .igdw_Control TD
+{
+	background-color:White;
+}
+
+
+.ms-WPBody .igmc_Control TD
+{
+	background-color: inherit;
+	font-style:inherit;
+	font-size:xx-small;
+	border-style:inherit;
+}
+
+
+.ms-WPBody .igte_EditWithButtons TD
+{
+	background-color:Transparent;
+	font-size:1px;
+	border-bottom-style:none;
+}
+
+
+.ms-wpbody .ig_IG2007Control table
+{
+	font-style:inherit;
+	font-size:xx-small;
+	border-collapse:Separate;
+}
+
+
+.ms-wpbody .ig_IG2007Control td
+{
+	background-color: inherit;
+	font-style:inherit;
+	font-size:xx-small;
+	border-bottom-style:none;
+}
+
+
+.ms-WPBody .igte_EditWithButtons TABLE
+{
+	font-size:1px;
+}
+
+
+.ig_IG2007AjaxIndicator
+{
+}
+
+
+.ms-WPBody .igmc_Control TABLE
+{
+	font-style:inherit;
+	font-size:xx-small;
+}
+
+.ie7_DisplayInlineFix { display: inline-block; }
+.ie7_DisplayInlineFix { display: inline; }

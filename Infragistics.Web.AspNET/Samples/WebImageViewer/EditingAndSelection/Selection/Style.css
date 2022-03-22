@@ -1,0 +1,21 @@
+﻿.myImageItem { border: solid 1px transparent; margin-top: 5px; }
+.mySelectedImageItem { border: solid 1px gray; }
+.igiv_NautilusImageAreaContainer   { height: 120px!important; }
+
+
+.masterContainer {
+    height: 525px;
+    width: 720px;
+    overflow: hidden;
+    border: none;
+}
+
+.carSelection {
+    position: relative;
+    width: 470px;
+}
+
+.carInfo, .carSelection {
+    display: inline-block;
+    float: left;
+}

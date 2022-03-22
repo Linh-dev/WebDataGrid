@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BalanceSheet_CurrBalance" xml:space="preserve">
+    <value>&amp;lt;CurrentBalance&amp;gt;</value>
+  </data>
+  <data name="BalanceSheet_CurrentBalance" xml:space="preserve">
+    <value>Current Balance:&amp;nbsp;</value>
+  </data>
+  <data name="BalanceSheet_Decription1" xml:space="preserve">
+    <value>Try the following:</value>
+  </data>
+  <data name="BalanceSheet_Description" xml:space="preserve">
+    <value>In the Infragistics 2004 Volume 3 release, the WebCalcManager was introduced to 
+									allow for execution of calculations between controls.&amp;nbsp; The WebCalcManager 
+									is a server based control, so any recalculated value changes must be sent via postback to be applied.</value>
+  </data>
+  <data name="BalanceSheet_Description2" xml:space="preserve">
+    <value>Change the starting balance, click "recalculate".</value>
+  </data>
+  <data name="BalanceSheet_Description3" xml:space="preserve">
+    <value>Edit the values in "Received" and/or "Payments" columns.</value>
+  </data>
+  <data name="BalanceSheet_Payable" xml:space="preserve">
+    <value>&amp;lt;Payable&amp;gt;</value>
+  </data>
+  <data name="BalanceSheet_Payables" xml:space="preserve">
+    <value>Payables:</value>
+  </data>
+  <data name="BalanceSheet_Recalculate" xml:space="preserve">
+    <value>Recalculate</value>
+  </data>
+  <data name="BalanceSheet_Receivable" xml:space="preserve">
+    <value>&amp;lt;Receivable&amp;gt;</value>
+  </data>
+  <data name="BalanceSheet_Receivables" xml:space="preserve">
+    <value>Receivable</value>
+  </data>
+  <data name="BalanceSheet_StartingBalance" xml:space="preserve">
+    <value>Starting Balance:</value>
+  </data>
+  <data name="BalanceSheet_Title" xml:space="preserve">
+    <value>UltraWebCalcManager - Balance Sheet</value>
+  </data>
+  <data name="BasicMath_Calculate" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="BasicMath_Description1" xml:space="preserve">
+    <value>Try the following:</value>
+  </data>
+  <data name="BasicMath_Description2" xml:space="preserve">
+    <value>Change the values in the textboxes and postback to see the value update.</value>
+  </data>
+  <data name="BasicMath_DesignTime" xml:space="preserve">
+    <value>Formula created at Design-Time</value>
+  </data>
+  <data name="BasicMath_GrandTotal" xml:space="preserve">
+    <value>Grand Total</value>
+  </data>
+  <data name="BasicMath_Header" xml:space="preserve">
+    <value>UltraWebCalcManager - Basic Math</value>
+  </data>
+  <data name="BasicMath_RunTime" xml:space="preserve">
+    <value>Formula created at run time</value>
+  </data>
+  <data name="BasicMath_Title" xml:space="preserve">
+    <value>This sample demonstrates basic math calculations using the WebCalcManager</value>
+  </data>
+  <data name="DentalProducts_Button" xml:space="preserve">
+    <value>Calculate Values</value>
+  </data>
+  <data name="DentalProducts_Description1" xml:space="preserve">
+    <value>This sample demonstrates the use of WebCalcManager in a DataGrid.</value>
+  </data>
+  <data name="DentalProducts_Description2" xml:space="preserve">
+    <value>Try the following:</value>
+  </data>
+  <data name="DentalProducts_Description3" xml:space="preserve">
+    <value>Click "Calculate Values"</value>
+  </data>
+  <data name="DentalProducts_Header" xml:space="preserve">
+    <value>UltraWebCalcManager - Dental Supply</value>
+  </data>
+  <data name="GridSummaries_AveragePrice" xml:space="preserve">
+    <value>Average Price = </value>
+  </data>
+  <data name="GridSummaries_Description" xml:space="preserve">
+    <value>Introduced in Infragistics 2004 Volume 3, the UltraCalc engine allows for 
+equations to be integrated into the WebGrid. In this sample allows the user to 
+modify the Unit Price or Number of Sales for an item and with a click of the 
+button, recalculate the values on the page. &lt;br /&gt;&lt;br /&gt;Please see the documentation 
+for the complete list of functions that can be executed by the UltraCalc engine.</value>
+  </data>
+  <data name="GridSummaries_Header" xml:space="preserve">
+    <value>UltraWebCalcManager - Summaries</value>
+  </data>
+  <data name="GridSummaries_ItemsSold" xml:space="preserve">
+    <value>Total Items Sold = </value>
+  </data>
+  <data name="GridSummaries_Recalculate" xml:space="preserve">
+    <value>Recalculate</value>
+  </data>
+  <data name="GridSummaries_Total" xml:space="preserve">
+    <value>Total = </value>
+  </data>
+  <data name="Mortgage_BeginMessage" xml:space="preserve">
+    <value>Please click the "Calculate Monthly Payments" button to begin calculations.</value>
+  </data>
+  <data name="Mortgage_BeginMessage2" xml:space="preserve">
+    <value>Please press "Calculate Payment Schedule" to show payment schedule.</value>
+  </data>
+  <data name="Mortgage_Button1Text" xml:space="preserve">
+    <value>Calculate Monthly Payments</value>
+  </data>
+  <data name="Mortgage_Button2Text" xml:space="preserve">
+    <value>Calculate Payment Schedule</value>
+  </data>
+  <data name="Mortgage_Calculating" xml:space="preserve">
+    <value>Calculating...</value>
+  </data>
+  <data name="Mortgage_Description1" xml:space="preserve">
+    <value>This sample demonstrates the use of the &amp;nbsp;UltraWebCalcManager.&amp;nbsp;</value>
+  </data>
+  <data name="Mortgage_Description2" xml:space="preserve">
+    <value>Add values to principal, interest rate, term, etc., then click "Calculate Monthly Payments".</value>
+  </data>
+  <data name="Mortgage_Description3" xml:space="preserve">
+    <value>Click "Calculate Payment Schedule".</value>
+  </data>
+  <data name="Mortgage_Header" xml:space="preserve">
+    <value>UltraWebCalcManager - Mortgage Calculator</value>
+  </data>
+  <data name="Mortgage_Interest" xml:space="preserve">
+    <value>Interest Amount</value>
+  </data>
+  <data name="Mortgage_Label1Text" xml:space="preserve">
+    <value>Principal ($):</value>
+  </data>
+  <data name="Mortgage_Label2Text" xml:space="preserve">
+    <value>Interest Rate (%):</value>
+  </data>
+  <data name="Mortgage_Label3Text" xml:space="preserve">
+    <value>Term (years):</value>
+  </data>
+  <data name="Mortgage_Label4Text" xml:space="preserve">
+    <value>Payments (per year):</value>
+  </data>
+  <data name="Mortgage_Label5Text" xml:space="preserve">
+    <value>Calculated Payment ($):</value>
+  </data>
+  <data name="Mortgage_PaymentDate" xml:space="preserve">
+    <value>Payment Date</value>
+  </data>
+  <data name="Mortgage_PrincipalPayment" xml:space="preserve">
+    <value>Principal Amount</value>
+  </data>
+  <data name="Mortgage_PrincipalRemaining" xml:space="preserve">
+    <value>Principal Remaining</value>
+  </data>
+  <data name="Mortgage_ZeroError" xml:space="preserve">
+    <value>The principal, term, or payment value was zero. These terms must be non-negative.</value>
+  </data>
+</root>

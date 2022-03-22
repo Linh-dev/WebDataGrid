@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<configuration>
+    <configSections>
+        <section name="infragistics.web" type="System.Configuration.SingleTagSectionHandler,System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+    </configSections>
+    <!--Enable Persistence gloabally for every page. In this way all the data is automatically persisted. The other option is to enable persistence manually in each of the pages. -->
+    <infragistics.web enablePersistence="true" persistenceIgnoreLoadingOnPostBack="true" persistenceIgnorePasswords="true" />
+</configuration>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MenuData>
+  <Menu ID="File" Value="File">
+    <Menu ID="New" Value="New" />
+    <Menu ID="Open" Value="Open">
+      <Menu ID="FileOne" Value="File 1" />
+      <Menu ID="FileTwo" Value="File 2" />
+      <Menu ID="FileThree" Value="File 3" />
+    </Menu>
+  </Menu>
+  <Menu ID="Edit" Value="Edit">
+    <Menu ID="Cut" Value="Cut" />
+    <Menu ID="Copy" Value="Copy" />
+    <Menu ID="Paste" Value="Paste" />
+  </Menu>
+  <Menu ID="Help" Value="Help">
+    <Menu ID="Search" Value="Search" />
+    <Menu ID="Index" Value="Index" />
+    <Menu ID="About" Value="About" />
+  </Menu>
+  <CommunitySiteMenu>
+    <Menu Text="Home" Value="10" URL="" ImageUrl="">
+      <Menu Text="Latest News" Value="11" URL="http://community.infragistics.com/default.aspx" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/home.png" />
+      <Menu Text="Upcoming Events" Value="12" URL="http://community.infragistics.com/events.aspx" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/events.png" />
+      <Menu Text="Forums" Value="13" URL="http://community.infragistics.com/forums/default.aspx" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/forum.png" />
+      <Menu Text="Blogs" Value="14" URL="http://community.infragistics.com/blogs/default.aspx" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/blog.png" />
+    </Menu>
+    <Menu Text="ASP.NET" Value="20" URL="" ImageUrl="">
+      <Menu Text="ASP.NET Home" Value="21" URL="http://www.infragistics.com/products/aspnet/" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/home.png" />
+      <Menu Text="Forums" Value="22" URL="http://www.infragistics.com/community/forums/default.aspx?GroupID=34" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/forum.png" />
+      <Menu Text="Blogs" Value="23" URL="http://www.infragistics.com/community/blogs/aspnet/" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/article.png" />
+      <Menu Text="Media" Value="24" URL="https://www.youtube.com/playlist?list=PLDAFFE8C757FED32E" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/media.png" />
+      <Menu Text="Code Samples" Value="25" URL="http://www.infragistics.com/products/aspnet/samples" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/codeSample.png" />
+    </Menu>
+    <Menu Text="Windows Forms" Value="30" URL="" ImageUrl="">
+      <Menu Text="Windows Forms Home" Value="31" URL="http://www.infragistics.com/products/windows-forms/" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/home.png" />
+      <Menu Text="Forums" Value="32" URL="http://www.infragistics.com/community/forums/default.aspx?GroupID=37" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/forum.png" />
+      <Menu Text="Blogs" Value="33" URL="http://www.infragistics.com/community/blogs/windows-forms/" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/article.png" />
+      <Menu Text="Media" Value="34" URL="https://www.youtube.com/user/infragistics" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/media.png" />
+      <Menu Text="Code Samples" Value="35" URL="http://www.infragistics.com/products/windows-forms/samples" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/codeSample.png" />
+    </Menu>
+    <Menu Text="WPF" Value="40" URL="" ImageUrl="">
+      <Menu Text="WPF Home" Value="41" URL="http://www.infragistics.com/products/wpf/" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/home.png" />
+      <Menu Text="Forums" Value="42" URL="http://www.infragistics.com/community/forums/default.aspx?GroupID=38" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/forum.png" />
+      <Menu Text="Blogs" Value="43" URL="http://www.infragistics.com/community/blogs/wpf/" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/article.png" />
+      <Menu Text="Media" Value="44" URL="https://www.youtube.com/playlist?list=PL70D9EF2166B6B667" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/media.png" />
+      <Menu Text="Code Samples" Value="45" URL="http://www.infragistics.com/products/wpf/samples" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/codeSample.png" />
+    </Menu>
+    <Menu Text="Silverlight" Value="50" URL="" ImageUrl="">
+      <Menu Text="Silverlight Home" Value="51" URL="http://www.infragistics.com/products/silverlight/" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/home.png" />
+      <Menu Text="Forums" Value="52" URL="http://www.infragistics.com/community/forums/default.aspx?GroupID=67" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/forum.png" />
+      <Menu Text="Blogs" Value="53" URL="http://www.infragistics.com/community/blogs/silverlight/" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/article.png" />
+      <Menu Text="Media" Value="54" URL="https://www.youtube.com/user/infragistics" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/media.png" />
+      <Menu Text="Code Samples" Value="55" URL="http://www.infragistics.com/products/silverlight/samples" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/codeSample.png" />
+    </Menu>
+    <Menu Text="UX" Value="60" URL="" ImageUrl="">
+      <Menu Text="User Experience Home" Value="61" URL="http://d3.infragistics.com/" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/home.png" />
+      <Menu Text="Services" Value="62" URL="http://d3.infragistics.com/services/" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/forum.png" />
+      <Menu Text="Our work" Value="63" URL="http://d3.infragistics.com/ourwork/" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/article.png" />
+      <Menu Text="Process" Value="64" URL="http://d3.infragistics.com/process/" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/media.png" />
+    </Menu>
+  </CommunitySiteMenu>
+  <RetailSales>
+
+    <Menu Text="State Sales Tax" Value="72" URL="" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/calucurator.png"/>
+    <Menu Text="Point Of Sale" Value="66" URL="" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/cashregister.png">
+      <Menu Text="New Order" Value="67" URL="" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/shoppingcart.png"/>
+      <Menu Text="Review Order" Value="68" URL="" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/Reciept.png"/>
+      <Menu Text="Cheque Purchase" Value="69" URL="" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/Check.png"/>
+      <Menu Text="Credit Purchase" Value="70" URL="" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/creditcard.png"/>
+      <Menu Text="Merchandise Returned" Value="71" URL="" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/Rubber.png"/>
+    </Menu>
+
+    <Menu Text="Sales Reports" Value="72" URL="" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/report.png">
+      <Menu Text="Weekly" Value="73" URL="" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/calendar7.png"/>
+      <Menu Text="Monthly" Value="74" URL="" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/calender.png"/>
+      <Menu Text="Yearly" Value="75" URL="" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/calender52.png"/>
+    </Menu>
+    <Menu Text="Inventory" Value="76" URL="" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/barcode.png"/>
+    <Menu Text="Replenish Stock" Value="77" URL="" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/cabinet.png"/>
+
+    <Menu Text="Close" Value="78" URL="" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/close.png"/>
+  </RetailSales>
+</MenuData>

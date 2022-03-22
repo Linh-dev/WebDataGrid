@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Countries>
+  <Country CountryID="DE" CountryName="Germany" Rating="0"  TimesRated="0" AverageRating="0" ></Country>
+  <Country CountryID="AU" CountryName="Australia" Rating="0" TimesRated="0" AverageRating="0" ></Country>
+  <Country CountryID="RS" CountryName="Serbia" Rating="0" TimesRated="0" AverageRating="0"></Country>
+  <Country CountryID="GH" CountryName="Ghana" Rating="0" TimesRated="0" AverageRating="0" ></Country>
+</Countries>

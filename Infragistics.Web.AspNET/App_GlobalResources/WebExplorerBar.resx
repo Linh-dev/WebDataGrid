@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Change_Text" xml:space="preserve">
+    <value>Change Text</value>
+  </data>
+  <data name="ControlInitialized" xml:space="preserve">
+    <value>Control initialized:</value>
+  </data>
+  <data name="ControlName" xml:space="preserve">
+    <value>WebExplorerBar</value>
+  </data>
+  <data name="Enabele_Disable" xml:space="preserve">
+    <value>Enable/Disable</value>
+  </data>
+  <data name="ItemClicked" xml:space="preserve">
+    <value>ItemClicked:</value>
+  </data>
+  <data name="ItemCollapsed" xml:space="preserve">
+    <value>ItemCollapsed:</value>
+  </data>
+  <data name="ItemCollapsing" xml:space="preserve">
+    <value>ItemCollapsing:</value>
+  </data>
+  <data name="ItemExpanded" xml:space="preserve">
+    <value>ItemExpanded:</value>
+  </data>
+  <data name="ItemExpanding" xml:space="preserve">
+    <value>ItemExpanding:</value>
+  </data>
+  <data name="ItemHovered" xml:space="preserve">
+    <value>ItemHovered:</value>
+  </data>
+  <data name="ItemPopulated" xml:space="preserve">
+    <value>ItemPopulated:</value>
+  </data>
+  <data name="ItemPopulating" xml:space="preserve">
+    <value>ItemPopulating:</value>
+  </data>
+  <data name="ItemSelected" xml:space="preserve">
+    <value>ItemSelected:</value>
+  </data>
+  <data name="ItemSelecting" xml:space="preserve">
+    <value>ItemSelecting:</value>
+  </data>
+  <data name="ItemUnhovered" xml:space="preserve">
+    <value>ItemUnhovered:</value>
+  </data>
+  <data name="PropertyExplorerDuration0" xml:space="preserve">
+    <value>0.5 Seconds</value>
+  </data>
+  <data name="PropertyExplorerDuration1" xml:space="preserve">
+    <value>1 Seconds</value>
+  </data>
+  <data name="PropertyExplorerDuration2" xml:space="preserve">
+    <value>2 Seconds</value>
+  </data>
+  <data name="PropertyExplorerDuration3" xml:space="preserve">
+    <value>3 Seconds</value>
+  </data>
+  <data name="PropertyExplorerDuration4" xml:space="preserve">
+    <value>4 Seconds</value>
+  </data>
+  <data name="PropertyExplorerDuration5" xml:space="preserve">
+    <value>5 Seconds</value>
+  </data>
+  <data name="PropertyExplorerEnable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Toggle" xml:space="preserve">
+    <value>Toggle</value>
+  </data>
+  <data name="WebExplorerBar_ClientEvents_Description" xml:space="preserve">
+    <value>This sample shows how to subscribe to the client (JavaScript) events of the WebExplorerBar. When an event fires, a message is displayed for the menu item that triggered the event.</value>
+  </data>
+  <data name="WebExplorerBar_ClientEvents_List" xml:space="preserve">
+    <value>List of Client Events</value>
+  </data>
+  <data name="WebExplorerBar_ClientEvents_Title" xml:space="preserve">
+    <value>Client Side Events for the WebExplorerBar</value>
+  </data>
+  <data name="WebExplorerBar_ClientSide_ChooseGroup" xml:space="preserve">
+    <value>Choose Group:</value>
+  </data>
+  <data name="WebExplorerBar_ClientSide_ChooseItems" xml:space="preserve">
+    <value>Choose Item:</value>
+  </data>
+  <data name="WebExplorerBar_ClientSide_ChooseSubItems" xml:space="preserve">
+    <value>Choose SubItem:</value>
+  </data>
+  <data name="WebExplorerBar_ClientSide_Description" xml:space="preserve">
+    <value>This sample shows how to use WebExplorerBar Client-Side objects.</value>
+  </data>
+  <data name="WebExplorerBar_ClientSide_InputText" xml:space="preserve">
+    <value>Input Text:</value>
+  </data>
+  <data name="WebExplorerBar_ClientSide_SampleText" xml:space="preserve">
+    <value>Sample Text</value>
+  </data>
+  <data name="WebExplorerBar_ClientSide_Title" xml:space="preserve">
+    <value>Using ClientSide API</value>
+  </data>
+  <data name="WebExplorerBar_ClientSide_Toggle" xml:space="preserve">
+    <value>Toggle Item</value>
+  </data>
+  <data name="WebExplorerBar_DataBinding_Description" xml:space="preserve">
+    <value>Select an item in the drop down to change the data source used by the WebExplorerBar.</value>
+  </data>
+  <data name="WebExplorerBar_DataBinding_Title" xml:space="preserve">
+    <value>Data Binding</value>
+  </data>
+  <data name="WebExplorerBar_Hierarchical_Description" xml:space="preserve">
+    <value>This sample shows how to configure WebExplorerBar to show hierarchical data.</value>
+  </data>
+  <data name="WebExplorerBar_Hierarchical_Title" xml:space="preserve">
+    <value>Hierarchical Explorer Bar</value>
+  </data>
+  <data name="WebExplorerBar_KeyboardNavigation_Description" xml:space="preserve">
+    <value>This sample demonstates how to navigate through WebExplorerBar Items and Groups via Keyboard.</value>
+  </data>
+  <data name="WebExplorerBar_KeyboardNavigation_KeyEnter" xml:space="preserve">
+    <value>Press Enter to navigate.</value>
+  </data>
+  <data name="WebExplorerBar_KeyboardNavigation_KeyLeftRight" xml:space="preserve">
+    <value>Press Left/Right arrow keys to collapse/expand Group ot Item.</value>
+  </data>
+  <data name="WebExplorerBar_KeyboardNavigation_KeyUpDown" xml:space="preserve">
+    <value>Press Up/Down arrow keys to move through WebExplorerBar Groups and Items.</value>
+  </data>
+  <data name="WebExplorerBar_KeyboardNavigation_Title" xml:space="preserve">
+    <value>Keyboard Navigation</value>
+  </data>
+  <data name="WebExplorerBar_LoadOnDemand_Description" xml:space="preserve">
+    <value>This sample shows how to build a hierarchical data source to the WebExplorerBar using the WebHierarchicalDataSource control. The load on demand behavior can be enabled to increase the performance of loading a large data set.</value>
+  </data>
+  <data name="WebExplorerBar_LoadOnDemand_Title" xml:space="preserve">
+    <value>Load On Demand</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_ActiveTasks" xml:space="preserve">
+    <value>Active Tasks</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_AddressCards" xml:space="preserve">
+    <value>Address Cards</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_BusinessCards" xml:space="preserve">
+    <value>Business Cards</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_Calendar" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_CompletedTasks" xml:space="preserve">
+    <value>Completed Tasks</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_Contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_DeletedItems" xml:space="preserve">
+    <value>Deleted Items</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_Description" xml:space="preserve">
+    <value>This sample shows how the WebExplorerBar can be modified to take on a familiar look and feel such as Outlook 2007.</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_DetailedList" xml:space="preserve">
+    <value>Detailed List</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_Drafts" xml:space="preserve">
+    <value>Drafts</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_Inbox" xml:space="preserve">
+    <value>Inbox</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_JunkEmail" xml:space="preserve">
+    <value>Junk E-Mail</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_Mail" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_MyContacts" xml:space="preserve">
+    <value>My Contacts</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_Outbox" xml:space="preserve">
+    <value>Outbox</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_OverdueTasks" xml:space="preserve">
+    <value>Overdue Tasks</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_PhoneList" xml:space="preserve">
+    <value>Phone List</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_RssFeeds" xml:space="preserve">
+    <value>RSS Feeds</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_SearchFolders" xml:space="preserve">
+    <value>Search Folders</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_SentItems" xml:space="preserve">
+    <value>Sent Items</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_Tasks" xml:space="preserve">
+    <value>Tasks</value>
+  </data>
+  <data name="WebExplorerBar_Outlook_Title" xml:space="preserve">
+    <value>Outlook 2007</value>
+  </data>
+  <data name="WebExplorerBar_PropertyExplorer_AnimationDuration" xml:space="preserve">
+    <value>Animation Duration</value>
+  </data>
+  <data name="WebExplorerBar_PropertyExplorer_AnimationEquation" xml:space="preserve">
+    <value>Animation Equation</value>
+  </data>
+  <data name="WebExplorerBar_PropertyExplorer_BehaveModeLabel" xml:space="preserve">
+    <value>Group Expand Behavior</value>
+  </data>
+  <data name="WebExplorerBar_PropertyExplorer_ChooseAction" xml:space="preserve">
+    <value>Choose Action:</value>
+  </data>
+  <data name="WebExplorerBar_PropertyExplorer_ContainerHeightLabel" xml:space="preserve">
+    <value>Control Height</value>
+  </data>
+  <data name="WebExplorerBar_PropertyExplorer_ContainerWidthLabel" xml:space="preserve">
+    <value>Control Width</value>
+  </data>
+  <data name="WebExplorerBar_PropertyExplorer_Description" xml:space="preserve">
+    <value>This sample shows how to configure WebExplorerBar to meet your needs. You can select any of the properties below to adjust the control.</value>
+  </data>
+  <data name="WebExplorerBar_PropertyExplorer_EnableExpandImages" xml:space="preserve">
+    <value>Enable Expand Images</value>
+  </data>
+  <data name="WebExplorerBar_PropertyExplorer_ExpandModeLabel" xml:space="preserve">
+    <value>Group Expand Action</value>
+  </data>
+  <data name="WebExplorerBar_PropertyExplorer_GroupContentsHeightLabel" xml:space="preserve">
+    <value>Group Contents Height</value>
+  </data>
+  <data name="WebExplorerBar_PropertyExplorer_ItemIndent" xml:space="preserve">
+    <value>Item Indent</value>
+  </data>
+  <data name="WebExplorerBar_PropertyExplorer_MaxGroupHeightLabel" xml:space="preserve">
+    <value>Max Group Height</value>
+  </data>
+  <data name="WebExplorerBar_PropertyExplorer_Title" xml:space="preserve">
+    <value>How to Configure the WebExplorerBar</value>
+  </data>
+  <data name="WebExplorerBar_RssFeed_Mlb" xml:space="preserve">
+    <value>http://sports.yahoo.com/mlb/rss.xml</value>
+  </data>
+  <data name="WebExplorerBar_RssFeed_Nba" xml:space="preserve">
+    <value>http://sports.yahoo.com/nba/rss.xml</value>
+  </data>
+  <data name="WebExplorerBar_RssFeed_Nfl" xml:space="preserve">
+    <value>http://sports.yahoo.com/nfl/rss.xml</value>
+  </data>
+  <data name="WebExplorerBar_RssFeed_Nhl" xml:space="preserve">
+    <value>http://sports.yahoo.com/nhl/rss.xml</value>
+  </data>
+  <data name="WebExplorerBar_RssFeed_Sports" xml:space="preserve">
+    <value>http://www.yahoo.com/news/rss/sports</value>
+  </data>
+  <data name="WebExplorerBar_RssFeed_Topstories" xml:space="preserve">
+    <value>http://www.yahoo.com/news/rss/</value>
+  </data>
+  <data name="WebExplorerBar_RssFeed_Weather" xml:space="preserve">
+    <value>http://weather.yahooapis.com/forecastrss?w=2459115</value>
+  </data>
+  <data name="WebExplorerBar_Scenario_Description" xml:space="preserve">
+    <value>This sample shows how to use WebExplorerBar as a Navigation Control.</value>
+  </data>
+  <data name="WebExplorerBar_Scenario_Title" xml:space="preserve">
+    <value>Navigating with WebExplorerBar</value>
+  </data>
+  <data name="WebExplorerBar_ServerEvents_Description" xml:space="preserve">
+    <value>This sample shows how to subscribe to the server events of the WebExplorerBar. When an event fires, a postback will occur and a message will be displayed for the item that triggered the event.</value>
+  </data>
+  <data name="WebExplorerBar_ServerEvents_GroupBound" xml:space="preserve">
+    <value>Group Bound:</value>
+  </data>
+  <data name="WebExplorerBar_ServerEvents_ItemBound" xml:space="preserve">
+    <value>Item Bound:</value>
+  </data>
+  <data name="WebExplorerBar_ServerEvents_ItemClick" xml:space="preserve">
+    <value>Item Click:</value>
+  </data>
+  <data name="WebExplorerBar_ServerEvents_ItemSelected" xml:space="preserve">
+    <value>Item Selected:</value>
+  </data>
+  <data name="WebExplorerBar_ServerEvents_List" xml:space="preserve">
+    <value>List of Server Events</value>
+  </data>
+  <data name="WebExplorerBar_ServerEvents_ListGroupBound" xml:space="preserve">
+    <value>Group Bound</value>
+  </data>
+  <data name="WebExplorerBar_ServerEvents_ListItemBound" xml:space="preserve">
+    <value>Item Bound</value>
+  </data>
+  <data name="WebExplorerBar_ServerEvents_ListItemClick" xml:space="preserve">
+    <value>Item Click</value>
+  </data>
+  <data name="WebExplorerBar_ServerEvents_ListItemSelected" xml:space="preserve">
+    <value>Item Selected</value>
+  </data>
+  <data name="WebExplorerBar_ServerEvents_NewSelectedItem" xml:space="preserve">
+    <value>New Selected Item:</value>
+  </data>
+  <data name="WebExplorerBar_ServerEvents_OldSelectedItem" xml:space="preserve">
+    <value>Old Selected Item:</value>
+  </data>
+  <data name="WebExplorerBar_ServerEvents_Title" xml:space="preserve">
+    <value>Server Side Events for the WebExplorerBar</value>
+  </data>
+  <data name="WebExplorerBar_Styles_Description" xml:space="preserve">
+    <value>This sample demonstrates how to use a WebExplorerBar with the built-in style sets.</value>
+  </data>
+  <data name="WebExplorerBar_Styles_SelectTheme" xml:space="preserve">
+    <value>Select a theme:</value>
+  </data>
+  <data name="WebExplorerBar_Styles_Title" xml:space="preserve">
+    <value>AppStyling</value>
+  </data>
+  <data name="WebExplorerBar_Templates_DataBind_Description" xml:space="preserve">
+    <value>Select an item in the drop down to change the data source used by the explorer bar.</value>
+  </data>
+  <data name="WebExplorerBar_Templates_DataBind_Title" xml:space="preserve">
+    <value>Data Binding</value>
+  </data>
+  <data name="WebExplorerBar_Templates_Description" xml:space="preserve">
+    <value>This sample shows how to use templates to customize the look of WebExplorerBar items.</value>
+  </data>
+  <data name="WebExplorerBar_Templates_News" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="WebExplorerBar_Templates_Sport" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="WebExplorerBar_Templates_Title" xml:space="preserve">
+    <value>Using Templates to customize the WebExplorerBar</value>
+  </data>
+  <data name="WebExplorerBar_Templates_NBA" xml:space="preserve">
+    <value>NBA</value>
+  </data>
+</root>

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Basic Functionality</title>
+    <link type="text/css" href="/SamplesCommon/jQuery/igRating/Common/style.css" rel="stylesheet" />
+
+    <link type="text/css" href="/SamplesBrowser/SamplesCommon/aspnet/Common/Styles/jquery/css/themes/infragistics/infragistics.theme.css" rel="stylesheet" />
+    <link type="text/css" href="/SamplesBrowser/SamplesCommon/aspnet/Common/Styles/jquery/css/structure/infragistics.css" rel="stylesheet" />
+
+	<script type="text/javascript" src="/SamplesBrowser/Scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="/SamplesBrowser/Scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/SamplesBrowser/SamplesCommon/aspnet/Common/Scripts/jquery/js/infragistics.js"></script>
+
+    <script type="text/javascript" language="javascript">
+    $(window).load(function () {
+        $("#igUpload1").igUpload({
+            mode: 'single',
+            autostartupload: true,
+            progressUrl: "/samplesbrowser/IGUploadStatusHandler.ashx",
+            onError: function (e, args) {
+                showAlert(args);
+            }
+	    });
+    });
+
+    function showAlert(args) {
+        $("#error-message").html(args.errorMessage).stop(true, true).fadeIn(500).delay(3000).fadeOut(500);
+    }
+    </script>
+</head>
+<body class="samplePage">
+    <div class="sampleContents">
+		<div class="sample-container">
+	        <p>Single Upload</p>
+	        <div id="igUpload1"></div>
+            <div id="error-message" style="color: #FF0000; font-weight: bold;"></div>
+        </div>
+    </div>
+</body>
+</html>

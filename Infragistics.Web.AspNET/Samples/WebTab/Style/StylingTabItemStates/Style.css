@@ -1,0 +1,102 @@
+﻿#ctl00_OverviewPanel
+{
+    margin-top: 25px;
+}
+span.Tab
+{
+    background: #e9e9e9;
+    height: 40px !important;
+    
+}
+.Tab .igtab_IGTHText
+{
+    color: Black;
+}
+.Tab span
+{
+    line-height: 22px;
+}
+.TabBorder
+{
+    background-image: none;
+    height: 40px !important;
+    padding-left: 0px !important;
+}
+.TabSelectedInt
+{
+    background-image: none;
+    height: 40px !important;
+    padding-right: 0px !important;
+    border-left: 1px solid #a3a3a3 !important;
+    border-right: 1px solid #a3a3a3 !important;
+    border-bottom: none !important;
+}
+.TabSelected
+{
+    background: #fafafa;
+    /*height: 22px !important;*/
+}
+.TabSelectedText, .igtab_FeatureBrowserTHText, TabSelectedText igtab_FeatureBrowserTHTextSel
+{
+    color: #000 !important;
+    padding: 0 15px 0 5px !important;
+    /*position: relative;*/
+    top: 7px;
+}
+.TabHover .igtab_IGTHText
+{
+    color: #000 !important;
+    cursor:pointer;
+
+}
+.TabDisabled
+{
+    background: #cfcdcd;
+    color: #7d7d7d !important;
+    padding: 0 3px 0 4px !important;
+}
+.TabContainer
+{
+    border: none;
+    width: 601px;
+    height: 200px;
+    padding: 7px;
+    background: #b0b0b0;
+}
+.ClientTabs
+{
+    padding: 0 5px 0 10px;
+    background-color: Transparent;
+}
+.TabActive
+{
+    border: none !important;
+}
+.EndTab
+{
+    padding-right: 0px !important;
+}
+.TabSelected .TabSelectedInt img
+{
+    padding: 0 3px 0 3px !important;
+}
+.TabSelected .TabSelectedInt span
+{
+    padding: 0 10px 0 8px !important;
+}
+.TabContentContainer
+{
+    background-color: transparent;
+}
+.HeaderContainer
+{
+    height: 40px;
+    position: relative;
+    top: 1px;
+    z-index: 1000;
+    background: none;
+}
+.TabItemsContainer
+{
+    border: 1px solid #a3a3a3;
+}

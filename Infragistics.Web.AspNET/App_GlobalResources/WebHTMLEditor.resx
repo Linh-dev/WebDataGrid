@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="Action_Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="ClientEvents_Clicked1" xml:space="preserve">
+    <value>. The \"OK\" was clicked on Dialog \"</value>
+  </data>
+  <data name="ClientEvents_Clicked2" xml:space="preserve">
+    <value>\".</value>
+  </data>
+  <data name="ClientEvents_Clicked3" xml:space="preserve">
+    <value>. The \"Cancel\" was clicked on Dialog opened by \"</value>
+  </data>
+  <data name="ClientEvents_Clicked4" xml:space="preserve">
+    <value>\".</value>
+  </data>
+  <data name="ClientEvents_Closed1" xml:space="preserve">
+    <value>. The \"FindReplace\" Dialog was closed after \"find/replace\" action.</value>
+  </data>
+  <data name="ClientEvents_Closed2" xml:space="preserve">
+    <value>. Dialog \"</value>
+  </data>
+  <data name="ClientEvents_Closed3" xml:space="preserve">
+    <value>\" was closed</value>
+  </data>
+  <data name="ClientEvents_Closed4" xml:space="preserve">
+    <value>. Closed after \"</value>
+  </data>
+  <data name="ClientEvents_Closed5" xml:space="preserve">
+    <value>\" action.</value>
+  </data>
+  <data name="ClientEvents_Description1" xml:space="preserve">
+    <value>Use the List of Custom Actions to modify the contents of the WebHTMLEditor. These custom actions will use the WebHTMLEditor's Client Side Object Model (CSOM) to manipulate the text.</value>
+  </data>
+  <data name="ClientEvents_Description2" xml:space="preserve">
+    <value>Click Insert Table, notice a Table is inserted into the WebHTMLEditor pane.</value>
+  </data>
+  <data name="ClientEvents_Description3" xml:space="preserve">
+    <value>Click Insert Image, notice an Image is inserted into the WebHTMLEditor pane.</value>
+  </data>
+  <data name="ClientEvents_Description4" xml:space="preserve">
+    <value>Click Get Editor Text. An alert window will appear showing the exact markup currently displayed inside of the WebHTMLEditor.</value>
+  </data>
+  <data name="ClientEvents_Description5" xml:space="preserve">
+    <value>Check or uncheck items in the "Event Logging" section below, to include/exclude the events in the log window.</value>
+  </data>
+  <data name="ClientEvents_Description6" xml:space="preserve">
+    <value>Check or uncheck items in the "Event Options" section below, to modify the clientside behavior of the WebHTMLEditor. For Example, check "Modify KeyPress", and then type "a" into the Editor. Notice that "b" appears. This can be extremely useful if you want to provide special behavior for a specific key on the Key Board.</value>
+  </data>
+  <data name="ClientEvents_Focus1" xml:space="preserve">
+    <value>has focus</value>
+  </data>
+  <data name="ClientEvents_Focus2" xml:space="preserve">
+    <value>does not have focus</value>
+  </data>
+  <data name="ClientEvents_Header" xml:space="preserve">
+    <value>WebHTMLEditor - Client Side Events</value>
+  </data>
+  <data name="ClientEvents_Header_2" xml:space="preserve">
+    <value>Event Log</value>
+  </data>
+  <data name="ClientEvents_Initialize1" xml:space="preserve">
+    <value>Initialize </value>
+  </data>
+  <data name="ClientEvents_Initialize2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ClientEvents_ItemWasSelected1" xml:space="preserve">
+    <value>. Item \"</value>
+  </data>
+  <data name="ClientEvents_ItemWasSelected2" xml:space="preserve">
+    <value>\" was selected.</value>
+  </data>
+  <data name="ClientEvents_Label1" xml:space="preserve">
+    <value>Client-Side Actions</value>
+  </data>
+  <data name="ClientEvents_Label10" xml:space="preserve">
+    <value>KeyDown/KeyPress</value>
+  </data>
+  <data name="ClientEvents_Label11" xml:space="preserve">
+    <value>Focus/Blur</value>
+  </data>
+  <data name="ClientEvents_Label12" xml:space="preserve">
+    <value>Event Options</value>
+  </data>
+  <data name="ClientEvents_Label13" xml:space="preserve">
+    <value>Cancel All Events</value>
+  </data>
+  <data name="ClientEvents_Label14" xml:space="preserve">
+    <value>Cancel Font Event</value>
+  </data>
+  <data name="ClientEvents_Label15" xml:space="preserve">
+    <value>Cancel PostBack</value>
+  </data>
+  <data name="ClientEvents_Label16" xml:space="preserve">
+    <value>Modify KeyPress</value>
+  </data>
+  <data name="ClientEvents_Label17" xml:space="preserve">
+    <value>Modify KeyDown</value>
+  </data>
+  <data name="ClientEvents_Label2" xml:space="preserve">
+    <value>Clear Event Log</value>
+  </data>
+  <data name="ClientEvents_Label3" xml:space="preserve">
+    <value>Clear Editor Text</value>
+  </data>
+  <data name="ClientEvents_Label4" xml:space="preserve">
+    <value>Get Editor Text</value>
+  </data>
+  <data name="ClientEvents_Label5" xml:space="preserve">
+    <value>Insert Image</value>
+  </data>
+  <data name="ClientEvents_Label6" xml:space="preserve">
+    <value>Insert Table</value>
+  </data>
+  <data name="ClientEvents_Label7" xml:space="preserve">
+    <value>Event Logging</value>
+  </data>
+  <data name="ClientEvents_Label8" xml:space="preserve">
+    <value>Before Action</value>
+  </data>
+  <data name="ClientEvents_Label9" xml:space="preserve">
+    <value>After Action</value>
+  </data>
+  <data name="ClientEvents_TitleOnDialog1" xml:space="preserve">
+    <value>. Title on Dialog: \"</value>
+  </data>
+  <data name="ClientEvents_TitleOnDialog2" xml:space="preserve">
+    <value>\".</value>
+  </data>
+  <data name="General_BasicProperties" xml:space="preserve">
+    <value>Basic Properties</value>
+  </data>
+  <data name="General_Description1" xml:space="preserve">
+    <value>This sample demonstrates the basic properties of WebHtmlEditor.</value>
+  </data>
+  <data name="General_Description2" xml:space="preserve">
+    <value>Change the size of your Font/Highlight Color Palette via the ColorPalette Size property.</value>
+  </data>
+  <data name="General_Description3" xml:space="preserve">
+    <value>Change the Language of your WebHtmlEditor by changing the LocalizationType.</value>
+  </data>
+  <data name="General_Description4" xml:space="preserve">
+    <value>Turn the WebHtmlEditors Menu on or off with the RightClickBehavior property.</value>
+  </data>
+  <data name="General_Description5" xml:space="preserve">
+    <value>Change the default mode of the WebHtmlEditor from Design to Html using the StartupMode property.</value>
+  </data>
+  <data name="General_Description6" xml:space="preserve">
+    <value>Hide the mode toolbar via the TabStripDisplay property.</value>
+  </data>
+  <data name="General_Description7" xml:space="preserve">
+    <value>Have the WebHtmlEditor automatically have focus when it loads by turning on the Focus property.</value>
+  </data>
+  <data name="General_Description8" xml:space="preserve">
+    <value>Only allow users to Read text by making the WebHtmlEditor ReadOnly.</value>
+  </data>
+  <data name="General_Header" xml:space="preserve">
+    <value>WebHtmlEditor - General Properties</value>
+  </data>
+  <data name="General_Label1" xml:space="preserve">
+    <value>ColorPaletteSize</value>
+  </data>
+  <data name="General_Label2" xml:space="preserve">
+    <value>LocalizationType</value>
+  </data>
+  <data name="General_Label3" xml:space="preserve">
+    <value>RightClickBehavior</value>
+  </data>
+  <data name="General_Label4" xml:space="preserve">
+    <value>StartupMode</value>
+  </data>
+  <data name="General_Label5" xml:space="preserve">
+    <value>TabStripDisplay</value>
+  </data>
+  <data name="General_Label6" xml:space="preserve">
+    <value>Focus</value>
+  </data>
+  <data name="General_Label7" xml:space="preserve">
+    <value>ReadOnly</value>
+  </data>
+  <data name="General_Label8" xml:space="preserve">
+    <value>Menu Effects</value>
+  </data>
+  <data name="LocalizationFilePath" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RichContent_ExploreQuince" xml:space="preserve">
+    <value>Explore Quince Pro</value>
+  </data>
+  <data name="RichContent_Feature1" xml:space="preserve">
+    <value>Secure Sharing</value>
+  </data>
+  <data name="RichContent_Feature10" xml:space="preserve">
+    <value>Hosted in the Cloud</value>
+  </data>
+  <data name="RichContent_Feature11" xml:space="preserve">
+    <value>Homepage Messages</value>
+  </data>
+  <data name="RichContent_Feature12" xml:space="preserve">
+    <value>Quick Links</value>
+  </data>
+  <data name="RichContent_Feature13" xml:space="preserve">
+    <value>Share Patterns</value>
+  </data>
+  <data name="RichContent_Feature14" xml:space="preserve">
+    <value>SharePoint Integration</value>
+  </data>
+  <data name="RichContent_Feature2" xml:space="preserve">
+    <value>Multiple Private Design Libraries</value>
+  </data>
+  <data name="RichContent_Feature3" xml:space="preserve">
+    <value>Discover Patterns and Examples</value>
+  </data>
+  <data name="RichContent_Feature4" xml:space="preserve">
+    <value>My Corkboard</value>
+  </data>
+  <data name="RichContent_Feature5" xml:space="preserve">
+    <value>Create Callouts with Drawing Tools</value>
+  </data>
+  <data name="RichContent_Feature6" xml:space="preserve">
+    <value>Design Boards</value>
+  </data>
+  <data name="RichContent_Feature7" xml:space="preserve">
+    <value>Attach Files and URLs</value>
+  </data>
+  <data name="RichContent_Feature8" xml:space="preserve">
+    <value>Guide the Design Conversation</value>
+  </data>
+  <data name="RichContent_Feature9" xml:space="preserve">
+    <value>Print and Export to PDF</value>
+  </data>
+  <data name="RichContent_Features" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="RichContent_QuinceInfo" xml:space="preserve">
+    <value>Quince Pro is a design review tool which helps multi-disciplined teams review, understand and collaborate before writing code. 
+                                Your team can focus around the activities, artifacts and capabilities of the design to streamline their understanding of the design intent.
+                            &lt;br/&gt;
+                            &lt;br/&gt;
+                            Designed for availability and scalability in the cloud, Quince Pro relieves you of the costly burden of constantly updating Web sites, 
+                                wikis, and printed style guides that rapidly go stale and obsolete.</value>
+  </data>
+  <data name="RirchContent_WhatIsIt" xml:space="preserve">
+    <value>What is it?</value>
+  </data>
+  <data name="SpellChecker_Description1" xml:space="preserve">
+    <value>The WebSpellChecker can easily be attached to the WebHtmlEditor in three simple steps.</value>
+  </data>
+  <data name="SpellChecker_Description2" xml:space="preserve">
+    <value>Add a WebSpellChecker and a WebHtmlEditor to your WebForm.</value>
+  </data>
+  <data name="SpellChecker_Description3" xml:space="preserve">
+    <value>Set the SpellCheckerId property on the WebHtmlEditor to the ClientId of your WebSpellChecker.</value>
+  </data>
+  <data name="SpellChecker_Description4" xml:space="preserve">
+    <value>On the WebHtmlEditor, go to the ToolBar/Items property. Then select AddButton and select the SpellCheck Button.</value>
+  </data>
+  <data name="SpellChecker_Description5" xml:space="preserve">
+    <value>Thats it! Now you are ready to go, run your application. Type some text, and click the SpellCheck button (The Last Button, on the Last Row).</value>
+  </data>
+  <data name="SpellChecker_Header" xml:space="preserve">
+    <value>Using the WebSpellChecker with the WebHtmlEditor</value>
+  </data>
+  <data name="TryTheFollowing" xml:space="preserve">
+    <value>Try the following:</value>
+  </data>
+  <data name="Undo_Redo_Client_Events" xml:space="preserve">
+    <value>Undo/Redo Client Events</value>
+  </data>
+  <data name="Undo_Redo_EventsDescription" xml:space="preserve">
+    <value>Click the Undo/Redo buttons or use their shortcuts Ctrl+Z and Ctrl+Y/Ctrl+Shift+Z.</value>
+  </data>
+</root>

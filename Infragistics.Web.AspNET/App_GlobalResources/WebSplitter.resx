@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Client_Events_Description_1" xml:space="preserve">
+    <value>Client-Side Events</value>
+  </data>
+  <data name="Client_Events_Description_2" xml:space="preserve">
+    <value>This example shows the client-side event model available for the WebSplitter. Additionally, it shows how a client-side event can be used to cancel an action.</value>
+  </data>
+  <data name="Dynamic_Orientation_Description_1" xml:space="preserve">
+    <value>Dynamic Orientation</value>
+  </data>
+  <data name="Dynamic_Orientation_Description_2" xml:space="preserve">
+    <value>This example demonstrates how to change the orientation of the WebSplitter dynamically.</value>
+  </data>
+  <data name="Fill_Parent_Description_1" xml:space="preserve">
+    <value>How to configure the WebSplitter to completely fill its parent.</value>
+  </data>
+  <data name="Fill_Parent_Description_2" xml:space="preserve">
+    <value>The Splitter will stretch to fill the width of its parent.  This sample demonstrates setting the Height property to 100% to also stretch to the height of its container.</value>
+  </data>
+  <data name="Fill_Parent_Description_3" xml:space="preserve">
+    <value>The following div has a height of </value>
+  </data>
+  <data name="Nested_Panes_Description_1" xml:space="preserve">
+    <value>Common Layouts</value>
+  </data>
+  <data name="Nested_Panes_Description_2" xml:space="preserve">
+    <value>This example demonstrates how to create common layouts by nesting Splitters.</value>
+  </data>
+  <data name="Nested_Panes_Description_3" xml:space="preserve">
+    <value>2 Pane Vertical Resizable</value>
+  </data>
+  <data name="Nested_Panes_Description_4" xml:space="preserve">
+    <value>2 Pane Vertical Collapsible Locked</value>
+  </data>
+  <data name="Nested_Panes_Description_5" xml:space="preserve">
+    <value>3 Pane Vertical With Center Content</value>
+  </data>
+  <data name="Nested_Panes_Description_6" xml:space="preserve">
+    <value>3 Pane Nested Vertical With Center Content</value>
+  </data>
+  <data name="Nested_Panes_Description_7" xml:space="preserve">
+    <value>2 Pane Horizontal With Center Content</value>
+  </data>
+  <data name="UpdatePanel_Description_1" xml:space="preserve">
+    <value>Each Splitter Pane's content template acts as a container for arbitrary content and controls.  To achieve asynchronous updates an UpdatePanel may be used inside of a pane.  This example uses a trigger from one pane to cause an asynchronous postback on another pane's contents.</value>
+  </data>
+  <data name="UpdatePanel_Description_2" xml:space="preserve">
+    <value>The current server time is displayed in the right pane.</value>
+  </data>
+  <data name="UpdatePanel_Description_3" xml:space="preserve">
+    <value>How to asynchronously update WebSplitter panel contents</value>
+  </data>
+  <data name="UpdatePanel_Button_1" xml:space="preserve">
+    <value>Update Server Time</value>
+  </data>
+  <data name="WebSplitter_ClientSide_EventConsole" xml:space="preserve">
+    <value>Client-Side Event Console</value>
+  </data>
+  <data name="WebSplitter_ClientSide_LogPositionChange" xml:space="preserve">
+    <value>Log PositionChange event</value>
+  </data>
+  <data name="WebSplitter_ClientSide_LogCollapse" xml:space="preserve">
+    <value>Log Collapse event</value>
+  </data>
+  <data name="WebSplitter_ClientSide_LogMoving" xml:space="preserve">
+    <value>Log Moving event</value>
+  </data>
+  <data name="WebSplitter_ClientSide_CancelCollapse" xml:space="preserve">
+    <value>Cancel Collapse event</value>
+  </data>
+  <data name="DynOrientation_Vertical" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="DynOrientation_Horizontal" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="Fill_Parent_Description_4" xml:space="preserve">
+    <value>Change the height of the DIV by entering in a number in the text block below, then hit the TAB button.</value>
+  </data>
+  <data name="Nested_Panes_Content_Pane" xml:space="preserve">
+    <value>Content Pane</value>
+  </data>
+  <data name="Nested_Panes_Header_Image" xml:space="preserve">
+    <value>header image</value>
+  </data>
+  <data name="Nested_Panes_Left_Pane" xml:space="preserve">
+    <value>Left Pane</value>
+  </data>
+  <data name="Nested_Panes_Navigation_Pane" xml:space="preserve">
+    <value>Navigation Pane</value>
+  </data>
+  <data name="Nested_Panes_Right_Pane" xml:space="preserve">
+    <value>Right Pane</value>
+  </data>
+  <data name="ClientEvents_Collapsed" xml:space="preserve">
+    <value>Collapsed</value>
+  </data>
+  <data name="ClientEvents_Collapsing" xml:space="preserve">
+    <value>Collapsing</value>
+  </data>
+  <data name="ClientEvents_EventCancelled" xml:space="preserve">
+    <value>Event Cancelled</value>
+  </data>
+  <data name="ClientEvents_Expanded" xml:space="preserve">
+    <value>Expanded</value>
+  </data>
+  <data name="ClientEvents_Expanding" xml:space="preserve">
+    <value>Expanding</value>
+  </data>
+  <data name="ClientEvents_NewSize" xml:space="preserve">
+    <value>New Size:</value>
+  </data>
+  <data name="ClientEvents_OldSize" xml:space="preserve">
+    <value>Old Size:</value>
+  </data>
+  <data name="ClientEvents_Pane" xml:space="preserve">
+    <value>Pane</value>
+  </data>
+  <data name="ControlName" xml:space="preserve">
+    <value>WebSplitter</value>
+  </data>
+  <data name="URL_AOL" xml:space="preserve">
+    <value>//www.aol.com</value>
+  </data>
+  <data name="URL_Ask" xml:space="preserve">
+    <value>//www.ask.com</value>
+  </data>
+  <data name="URL_Bing" xml:space="preserve">
+    <value>//www.bing.com</value>
+  </data>
+  <data name="URL_DogPile" xml:space="preserve">
+    <value>//www.dogpile.com</value>
+  </data>
+  <data name="URL_Google" xml:space="preserve">
+    <value>//www.google.com</value>
+  </data>
+  <data name="URL_Hotbot" xml:space="preserve">
+    <value>//www.hotbot.com</value>
+  </data>
+  <data name="URL_Yahoo" xml:space="preserve">
+    <value>//www.yahoo.com</value>
+  </data>
+  <data name="Eliminating_Bottom_Pane" xml:space="preserve">
+    <value>Bottom Pane</value>
+  </data>
+  <data name="Eliminating_Template_Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Eliminating_Top_Pane" xml:space="preserve">
+    <value>Top Pane</value>
+  </data>
+  <data name="FrameSet_FrameSet_Message" xml:space="preserve">
+    <value>Legacy Frameset element</value>
+  </data>
+  <data name="FrameSet_NoFrames_Message" xml:space="preserve">
+    <value>Your browser does not support legacy HTML frames.</value>
+  </data>
+</root>

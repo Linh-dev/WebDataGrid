@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MenuData>
+  <Scrolling>
+    <Menu ID="File" Value="File">
+      <Menu ID="New" Value="New"></Menu>
+      <Menu ID="Open" Value="Open"></Menu>
+      <Menu ID="Close" Value="Close"></Menu>
+      <Menu ID="Close Solution" Value="Close Solution"></Menu>
+      <Menu ID="Save" Value="Save"></Menu>
+      <Menu ID="Save All" Value="Save All"></Menu>
+      <Menu ID="Source Control" Value="Source Control"></Menu>
+      <Menu ID="Exit" Value="Exit"></Menu>
+     </Menu>
+    <Menu ID="Edit" Value="Edit">
+        <Menu ID="Undo" Value="Undo"></Menu>
+        <Menu ID="Redo" Value="Redo"> </Menu>
+        <Menu ID="Cut" Value="Cut"></Menu>
+        <Menu ID="Copy" Value="Copy"></Menu>
+        <Menu ID="Paste" Value="Paste"></Menu>
+        <Menu ID="Delete" Value="Delete"></Menu>
+        <Menu ID="Select All" Value="Select All"></Menu>    
+    </Menu>
+    <Menu ID="View" Value="View">
+      <Menu ID="Open" Value="Open"></Menu>
+      <Menu ID="Open With" Value="Open With"> </Menu>
+      <Menu ID="Quick Access" Value="Quick Access"></Menu>
+      <Menu ID="Solution Explorer" Value="Solution Exporer"></Menu>
+      <Menu ID="Toolbox" Value="Toolbox"></Menu>
+      <Menu ID="Toolbars" Value="Toolbars"></Menu>
+      <Menu ID="Full Screen" Value="Full Screen"></Menu>    
+    </Menu>
+    <Menu ID="Website" Value="Website">
+        <Menu ID="Add New Item" Value="Add New Item"></Menu>
+        <Menu ID="Add Existing Item" Value="Add Existing Item"></Menu>
+        <Menu ID="Copy Web Site" Value="Copy Web Site"></Menu>
+        <Menu ID="Add Reference" Value="Add Reference"></Menu>
+        <Menu ID="Add Web Reference" Value="Add Web Reference"></Menu>
+        <Menu ID="Start Options" Value="Start Options"></Menu>     
+    </Menu>
+    <Menu ID="Build" Value="Build">
+        <Menu ID="Build Solution" Value="Build Solution"></Menu>
+        <Menu ID="Rebuild Solution" Value="Rebuild Solution"></Menu>
+        <Menu ID="Build Web Site" Value="Build Web Site"></Menu>
+        <Menu ID="Publish Web Site" Value="Publish Web Site"></Menu>
+        <Menu ID="Rebuild Web Site" Value="Rebuild Web Site"></Menu>
+    </Menu>
+    <Menu ID="Debug" Value="Debug">
+        <Menu ID="Windows" Value="Widnows"></Menu>
+        <Menu ID="Start Debugging" Value="Start Debugging"></Menu>
+        <Menu ID="Attach to Process" Value="Attach to Process"></Menu>
+        <Menu ID="Step into" Value="Step Into"></Menu>
+        <Menu ID="Step Over" Value="Step Over"></Menu>
+     </Menu>
+  </Scrolling>
+  <MyComputer>
+    <Menu ID="Computer" Value="Computer" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/Computer.png">
+      <Menu ID="Local Disk (C:)" Value="Local Disk (C:)" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/hddc.png">
+        <Menu ID="Backup Files" Value="Backup Files" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/folder.png"></Menu>
+        <Menu ID="Builds" Value="Builds" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/folder.png"></Menu>
+        <Menu ID="Downloads" Value="Downloads" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/folder.png"></Menu>
+        <Menu ID="inetpub" Value="inetpub" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/folder.png"></Menu>
+        <Menu ID="Program Files" Value="Program Files" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/folder.png"></Menu>
+        <Menu ID="Windows" Value="Windows" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/folder.png"></Menu>
+       </Menu>
+      <Menu ID="Local Disk (D:)" Value="Local Disk (D:)" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/hddd.png">
+        <Menu ID="E-Books" Value="E-Books" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/folder.png"></Menu>
+        <Menu ID="Movies" Value="Movies" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/folder.png"></Menu>
+        <Menu ID="Games" Value="Games" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/folder.png"></Menu>
+        <Menu ID="Install" Value="Install" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/folder.png"></Menu>
+        <Menu ID="Music" Value="Music" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/folder.png"></Menu>
+        <Menu ID="Personal" Value="Personal" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/folder.png"></Menu>
+      </Menu>
+    </Menu>
+  </MyComputer>
+  <ContextMenu>
+    <Menu ID="Undo" Value="Undo" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/undo.png"></Menu>
+    <Menu ID="Redo" Value="Redo" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/redo.png"> </Menu>
+    <Menu ID="Cut" Value="Cut" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/cut.png"></Menu>
+    <Menu ID="Move" Value="Move" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/move.png"></Menu>
+    <Menu ID="Copy" Value="Copy" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/copy.png"></Menu>
+    <Menu ID="Paste" Value="Paste" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/paste.png"></Menu>
+    <Menu ID="Delete" Value="Delete" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/delete.png"></Menu>
+    <Menu ID="Rename" Value="Rename" ImageUrl="/samplesbrowser/samplescommon/aspnet/WebDataMenu/ScrollingImages/rename.png"></Menu>
+  </ContextMenu>
+</MenuData>

@@ -1,0 +1,53 @@
+﻿ .halfTransparent
+        {
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            color: Black;
+        }
+        .opaque
+        {
+            opacity: 1.0;
+            filter: alpha(opacity=100);
+        }
+        .blackColor
+        {
+            color: Black;
+        }
+        .width0
+        {
+            width: 0px;
+        }
+        .thumb1
+        {
+            margin-top: -25px;
+            margin-left: -4px;
+        }
+        .thumbUp
+        {
+            margin-top: 2px;
+        }
+        .width200
+        {
+            width: 200px;
+        }
+        .trackR
+        {
+            height: 16px;
+            width: 200px;
+            border: 0px;
+            background: url(/SamplesBrowser/SamplesCommon/aspnet/WebSlider/Navigation/TextResize/imageResizerTrack_Base.jpg) no-repeat;
+        }
+        .trackRValue1
+        {
+            height: 100%;
+            background: url(/SamplesBrowser/SamplesCommon/aspnet/WebSlider/Navigation/TextResize/imageResizerTrack_NewVal.jpg) no-repeat;
+        }
+        .imageDivClass
+        {
+            float: left;
+        }
+        .imageClass
+        {
+            border: 0;
+            padding: 10px;
+        }
